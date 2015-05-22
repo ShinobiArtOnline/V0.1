@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Sasuke" nameDescription="a sasuke" race="blood" saga="27" experience="5000" speed="295" manacost="0">
+    <health now="200000" max="200000"/>
+    <look type="6" head="0" body="0" legs="0" feet="0" corpse="2806"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-600" max="-1500"/>
+<attack name="Katon Gokakyu no Jutsu" interval="5000" min="-1500" max="-2020"/>
+<attack name="Katon Hosenka no Jutsu" interval="7000" min="-650" max="-760"/>
+<attack name="Katon Ryuka no Jutsu" interval="9000" min="-1450" max="-4460"/>
+<attack name="Chidori" interval="11000" min="-5450" max="-6460"/>
+<attack name="Corrupt Chidori" interval="15000" min="-7450" max="-9460"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+<item id="8878" chance="100000"/>
+
+    </loot>
+<script><event name="sasuke"/></script>
+  </monster>

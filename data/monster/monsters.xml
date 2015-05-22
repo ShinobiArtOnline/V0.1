@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+	<!-- White -->
+	
+	<monster name="Ninja" file="SAO/Ninja.xml"/>
+	<monster name="Strong Ninja" file="SAO/Strong Ninja.xml"/>
+	<monster name="Elite Ninja" file="SAO/Elite Ninja.xml"/>
+	<monster name="Oinin" file="SAO/Oinin.xml"/>
+	<monster name="Star Ninja" file="SAO/Star Ninja.xml"/>
+	<monster name="Strong Star Ninja" file="SAO/Strong Star Ninja.xml"/>
+	<monster name="Wolf" file="SAO/Wolf.xml"/>
+	
+	
+	
+	
+	
+	
+</monsters>

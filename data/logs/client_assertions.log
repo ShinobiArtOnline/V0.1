@@ -1,0 +1,928 @@
+----- 02/09/2014 14:55:39 - [ADM] White (25.168.179.206) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows Vista Family in BRA
+Processor: AMD Athlon II X3 455
+Video Card: NVIDIA GeForce GT 610
+Last Packet Types: 100 120 180 132 132 132 132 160 160 140
+Last Packet: 180 018 016 000 047 105 032 112 114 101 109 105 117 109 032 112
+Player Position: [1053,847,7]
+Player Name: [ADM] White (White)
+Player Action: 050 053 046 049 054 056 046 049 055 057 046 050 048 054 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 2587392), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 42144) (PlayerY = 42040), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 16960) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 16960) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 16960) (ObjectProperties->high() = 10478), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue Sep 02 14:47:09 2014
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 17/09/2014 12:21:04 - [ADM] Leko (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: AMD Athlon II X3 455
+Video Card: NVIDIA GeForce GT 610
+Last Packet Types: 142 180 104 109 101 109 104 109 030 101
+Last Packet: 180 018 012 000 047 110 101 119 116 121 112 101 032 056 051 055
+Player Position: [1019,941,7]
+Player Name: [ADM] Leko (Sennin)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: F57AF0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 837) (Creature->CreatureID = 268438302), reason:
+Objects.cpp 494: exception occurred (Number = 837) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 837, i: 836, min: 1, d: 836)
+Wed Sep 17 12:02:37 2014
+Debug Assertion 8.54 Container.h 226
+
+----- 21/09/2014 18:51:10 - Balzer (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows Vista Family in BRA
+Processor: AMD Athlon II X3 455
+Video Card: NVIDIA GeForce GT 610
+Last Packet Types: 109 131 131 140 140 140 140 140 140 131
+Last Packet: 109 143 003 063 003 007 002 143 003 064 003 007 107 145 003 066
+Player Position: [905,832,7]
+Player Name: [ADM] Leko (Sennin)
+Player Action: 054 057 046 049 054 050 046 057 052 046 050 051 052 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 109) (MainWindow = 14464584), reason:
+Communication.cpp 2110: exception occurred, reason:
+Communication.cpp 2101: MoveCreature has been received for a coordinate where there is no creature anymore [bug0000017] (1288, 0), reason:
+ sx: 14 sy: 5 sz: 0
+ Position: 2
+ zx: 14 zy: 6 zz: 0
+ dx: 0 dy: 1 dz: 0
+ abs_sx: 911 abs_sy: 831 abs_sz: 7
+ abs_zx: 911 abs_zy: 832 abs_zz: 7
+ Start Cylinder (1):  (410,0) (5771,0) (1288,0) (99,268511051)
+ Start Cylinder (2):  (410,0) (5771,0) (1288,0) (99,268511051)(-)(-)(-)(-)(-)(-)
+ Destination Cylinder (1):  (459,0)
+ Destination Cylinder (2):  (459,0)(-)(-)(-)(-)(-)(-)(-)(-)(-)
+Sun Sep 21 18:12:05 2014
+Debug Assertion 8.54 Communication.cpp 2101
+
+----- 04/10/2014 19:27:31 - [GoD] b33ny (192.168.1.101) -----
+Comment: 
+Graphic Engine: OpenGL (1)
+Operating System: Windows 7 Ultimate Edition 64 Bit in BRA
+Processor: AMD Phenom II X4 965
+Video Card: NVIDIA GeForce 8600 GTS
+Last Packet Types: 110 109 180 132 132 132 132 132 132 132
+Last Packet: 110 000 037 011 003 000 098 097 103 008 000 020 169 025 100 169
+Player Position: [1024,909,7]
+Player Name: [GoD] b33ny (White)
+Player Action: 049 057 050 046 049 054 056 046 049 046 049 048 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 40238592), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 24587) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 24587) (ObjectProperties->high() = 10478), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sat Oct 04 19:26:57 2014
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 18/04/2015 16:03:57 - [GoD] b33ny (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 011 010 031 100 020 000 000 000 000
+Last Packet: 010 027 011 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Name: [GoD] b33ny (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 28478728), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1003) (PlayerY = 928), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 459), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073743357), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 176) (GetOutfitPatternWidth(Creature->OutfitType) = 1)
+Sat Apr 18 16:03:20 2015
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 18/04/2015 16:39:33 - [GoD] b33ny (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 011 010 031 100 020 132 132 132 132
+Last Packet: 010 031 011 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [1003,913,7]
+Player Name: [GoD] b33ny (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 29916936), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1003) (PlayerY = 913), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 459), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073742859), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 176) (GetOutfitPatternWidth(Creature->OutfitType) = 1)
+Sat Apr 18 16:39:12 2015
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 20/04/2015 18:42:18 - [GoD] b33ny (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 120 120 121 121 100 011 010 031 100 020
+Last Packet: 010 028 011 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [1205,1245,7]
+Player Name: [GoD] b33ny (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 120) (MainWindow = 29756216), reason:
+Communication.cpp 2216: exception occurred (Position = 4) (Type = 11822), reason:
+Objects.cpp 280: exception occurred (Type = 11822) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 11822) (ObjectProperties->high() = 10710), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Mon Apr 20 18:41:23 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 20/04/2015 18:47:02 - Aburume (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 011 010 031 100 020 000 000 000 000
+Last Packet: 010 027 011 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Name: [GoD] b33ny (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 30834440), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1190) (PlayerY = 1212), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 982), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073744013), reason:
+Objects.cpp 604: exception occurred (Number = 702), reason:
+Container.h 226: index out of range (original i: 702, i: 701, min: 1, d: 688)
+Mon Apr 20 18:44:15 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 20/04/2015 19:02:19 - Dadada (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 200 162 141 130 161 160 121 121 121 121
+Last Packet: 010 027 011 000 016 050 000 000 100 004 004 141 003 006 163 017
+Player Position: [1028,909,6]
+Player Name: Dadada (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 200) (MainWindow = 2129672), reason:
+Communication.cpp 3069: exception occurred, reason:
+Network.cpp 538: exception occurred (MaxLength = 30), reason:
+Utils.cpp 531: assertion failed (Position = 4206) (Size-Length = -25473), reason:
+Position<=Size-Length
+Mon Apr 20 19:01:58 2015
+Debug Assertion 8.54 Utils.cpp 531
+
+----- 20/04/2015 19:05:45 - Dzialajfiucie (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 200 162 141 130 161 160 121 121 121 121
+Last Packet: 010 027 011 000 016 050 000 000 100 004 004 141 003 006 170 017
+Player Position: [1028,909,6]
+Player Name: Dzialajfiucie (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 200) (MainWindow = 29363000), reason:
+Communication.cpp 3069: exception occurred, reason:
+Network.cpp 538: exception occurred (MaxLength = 30), reason:
+Utils.cpp 531: assertion failed (Position = 4213) (Size-Length = -25466), reason:
+Position<=Size-Length
+Mon Apr 20 19:05:24 2015
+Debug Assertion 8.54 Utils.cpp 531
+
+----- 21/04/2015 09:19:33 - Kinus (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 200 142 162 142 162 141 130 161 160 121
+Last Packet: 010 028 011 000 016 050 000 000 100 004 004 141 003 006 170 017
+Player Position: [1028,909,6]
+Player Name: Kinus (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 200) (MainWindow = 29523736), reason:
+Communication.cpp 3069: exception occurred, reason:
+Network.cpp 538: exception occurred (MaxLength = 30), reason:
+Utils.cpp 531: assertion failed (Position = 4232) (Size-Length = -25494), reason:
+Position<=Size-Length
+Tue Apr 21 09:19:15 2015
+Debug Assertion 8.54 Utils.cpp 531
+
+----- 21/04/2015 09:21:52 - Leeee (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 200 142 162 142 162 141 130 161 160 121
+Last Packet: 010 039 011 000 016 050 000 000 100 004 004 141 003 006 170 017
+Player Position: [1028,909,6]
+Player Name: Leeee (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 200) (MainWindow = 28707640), reason:
+Communication.cpp 3069: exception occurred, reason:
+Network.cpp 538: exception occurred (MaxLength = 30), reason:
+Utils.cpp 531: assertion failed (Position = 4232) (Size-Length = -25494), reason:
+Position<=Size-Length
+Tue Apr 21 09:21:36 2015
+Debug Assertion 8.54 Utils.cpp 531
+
+----- 26/04/2015 13:23:33 - Kiba (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 010 031 100 020 000 000 000 000 000
+Last Packet: 010 005 009 000 016 050 000 000 100 002 004 142 003 007 163 017
+Player Position: [0,0,0]
+Player Name: Kiba (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 2145464), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1026) (PlayerY = 910), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 408), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 268437765), reason:
+Objects.cpp 604: exception occurred (Number = 854), reason:
+Container.h 226: index out of range (original i: 854, i: 853, min: 1, d: 688)
+Sun Apr 26 13:23:04 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 27/04/2015 11:53:20 - Maito (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 010 031 100 020 000 000 000 000 000
+Last Packet: 010 027 011 000 016 050 000 000 100 251 003 150 003 007 163 017
+Player Name: [GoD] b33ny (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 28032184), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1019) (PlayerY = 918), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 409), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073743361), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 176) (GetOutfitPatternWidth(Creature->OutfitType) = 1)
+Mon Apr 27 11:43:56 2015
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 27/04/2015 11:55:12 - Maito (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 162 142 170 132 180 160 160 160 162 142
+Last Packet: 142 233 003 000 016 191 000 000 000 000 000 000 162 128 000 000
+Player Position: [96,246,7]
+Player Name: Maito (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1A1BCB8 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1146: exception occurred (posx = 224) (posy = 160), reason:
+MapWindow.cpp 1049: exception occurred (i = 0) (Creatures[i]->OutfitType = 191), reason:
+MapWindow.cpp 1028: exception occurred, reason:
+MapWindow.cpp 1257: outfit has not all four directions (Creature->OutfitType = 191) (GetOutfitPatternWidth(Creature->OutfitType) = 1)
+Mon Apr 27 11:54:06 2015
+Debug Assertion 8.54 MapWindow.cpp 1257
+
+----- 27/04/2015 12:12:32 - Maito (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 010 031 100 020 000 000 000 000 000
+Last Packet: 010 233 003 000 016 050 000 000 100 132 000 244 000 007 163 017
+Player Position: [0,0,0]
+Player Name: Kiba (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 30063800), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 132) (PlayerY = 244), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 1771), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 268436457), reason:
+Objects.cpp 604: exception occurred (Number = 854), reason:
+Container.h 226: index out of range (original i: 854, i: 853, min: 1, d: 688)
+Mon Apr 27 12:11:36 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 27/04/2015 12:48:04 - Maito (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 162 142 170 132 180 160 160 030 103 109
+Last Packet: 142 233 003 000 016 191 000 000 000 000 000 000 162 128 000 000
+Player Position: [122,301,7]
+Player Name: Maito (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1F3BCB8 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1146: exception occurred (posx = 224) (posy = 160), reason:
+MapWindow.cpp 1049: exception occurred (i = 0) (Creatures[i]->OutfitType = 191), reason:
+MapWindow.cpp 1028: exception occurred, reason:
+MapWindow.cpp 1257: outfit has not all four directions (Creature->OutfitType = 191) (GetOutfitPatternWidth(Creature->OutfitType) = 1)
+Mon Apr 27 12:37:37 2015
+Debug Assertion 8.54 MapWindow.cpp 1257
+
+----- 28/04/2015 19:29:48 - Maito (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 104 109 104 109 104 109 162 104 109 109
+Last Packet: 109 252 003 154 003 007 001 251 003 154 003 007 104 024 001 037
+Player Position: [1019,922,7]
+Player Name: [GoD] b33ny (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 104) (MainWindow = 31489880), reason:
+Communication.cpp 1692: exception occurred, reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 409), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 1073743361), reason:
+Communication.cpp 1478: outfit has not all four directions (Creature->OutfitType = 176) (GetOutfitPatternWidth(Creature->OutfitType) = 1)
+Tue Apr 28 18:23:14 2015
+Debug Assertion 8.54 Communication.cpp 1478
+
+----- 29/04/2015 15:27:13 - Maito (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 010 031 100 020 010 000 000 000 000
+Last Packet: 010 246 003 000 016 050 000 000 100 132 000 244 000 007 164 017
+Player Position: [0,0,0]
+Player Name: Kiba (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 3047200), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 132) (PlayerY = 244), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 97) (OldType = 1771), reason:
+Communication.cpp 1550: exception occurred (Type = 97) (CreatureID = 268436470), reason:
+Objects.cpp 604: exception occurred (Number = 854), reason:
+Container.h 226: index out of range (original i: 854, i: 853, min: 1, d: 689)
+Wed Apr 29 15:26:48 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 15/05/2015 14:48:08 - Kamil (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 103 109 180 103 109 103 109 132 160 132
+Last Packet: 109 032 010 176 006 007 001 032 010 177 006 007 103 235 006 013
+Player Position: [2592,1713,7]
+Player Name: Kibaa (Alliance)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1CE89D0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 122: exception occurred (Surface = 1), reason:
+DialogWindow.cpp 707: exception occurred (Surface = 1) ((int) Child = 143189856), reason:
+ContentWindows.cpp 2668: exception occurred (Surface = 1), reason:
+Graphics.cpp 1244: exception occurred (Surface = 1) (OutfitType = 661), reason:
+NWin32Exception.cpp 75: win32 exception occurred, reason:
+integer divide by zero
+Fri May 15 11:23:30 2015
+Debug Assertion 8.54 NWin32Exception.cpp 75
+
+----- 15/05/2015 14:52:52 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 150 160 160 160 160 160 160 160 160 160
+Last Packet: 150 001 000 000 000 136 002 032 032 000 000 000 000 160 138 016
+Player Position: [114,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 150) (MainWindow = 4177080), reason:
+Communication.cpp 2578: exception occurred, reason:
+Network.cpp 550: exception occurred, reason:
+Utils.cpp 550: assertion failed (Position = 23) (Size-Length = -35442), reason:
+Position<=Size-Length
+Fri May 15 14:52:41 2015
+Debug Assertion 8.54 Utils.cpp 550
+
+----- 15/05/2015 14:55:07 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 150 109 109 132 160 132 160 140 109 109
+Last Packet: 109 133 000 246 000 007 001 132 000 246 000 007 109 128 000 246
+Player Position: [124,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 150) (MainWindow = 30850232), reason:
+Communication.cpp 2578: exception occurred, reason:
+Network.cpp 550: exception occurred, reason:
+Utils.cpp 501: assertion failed (Position = 45) (Size = 45), reason:
+Position<=Size-2
+Fri May 15 14:53:51 2015
+Debug Assertion 8.54 Utils.cpp 501
+
+----- 20/05/2015 11:25:41 - Akamichi (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 120 121 121 100 010 031 100 020 000 000
+Last Packet: 010 064 006 000 016 050 000 000 100 132 000 244 000 007 017 002
+Player Position: [132,244,7]
+Player Name: Akamichi (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 120) (MainWindow = 29407312), reason:
+Communication.cpp 2216: exception occurred (Position = 3) (Type = 12090), reason:
+Objects.cpp 280: exception occurred (Type = 12090) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 12090) (ObjectProperties->high() = 10477), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Wed May 20 11:25:26 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 20/05/2015 12:13:31 - Aburame (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 010 031 180 221 132 160 132 160 140
+Last Packet: 010 244 003 000 016 050 000 000 100 132 000 244 000 007 171 017
+Player Name: Akamichi (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 29603920), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 132) (PlayerY = 244), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 12401) (OldType = 4533), reason:
+Objects.cpp 280: exception occurred (Type = 12401) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 12401) (ObjectProperties->high() = 10477), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Wed May 20 12:10:28 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 20/05/2015 12:20:39 - Aburame (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 160 162 142 160 160 170 160 160 162 170
+Last Packet: 142 250 003 000 016 177 002 000 000 000 000 000 162 128 000 160
+Player Position: [128,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1C7B8A0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 689) (Creature->CreatureID = 268436474), reason:
+Objects.cpp 494: exception occurred (Number = 689) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 689, i: 688, min: 1, d: 400)
+Wed May 20 12:18:28 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 20/05/2015 12:22:14 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 162 142 170 160 160 162 170 132 180 160
+Last Packet: 142 251 003 000 016 144 001 000 000 000 000 000 162 128 000 000
+Player Position: [132,245,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1C0B8A0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 106), reason:
+MapWindow.cpp 1146: exception occurred (posx = 224) (posy = 160), reason:
+MapWindow.cpp 1049: exception occurred (i = 0) (Creatures[i]->OutfitType = 400), reason:
+MapWindow.cpp 1028: exception occurred, reason:
+MapWindow.cpp 1290: exception occurred (posx = 224) (posy = 160), reason:
+MapWindow.cpp 1341: exception occurred (SpriteNumber = 40898), reason:
+Graphics.cpp 959: assertion failed (SpriteNumber = 40898) (NumberOfSprites = 40895), reason:
+In(SpriteNumber,1,NumberOfSprites)
+Wed May 20 12:20:47 2015
+Debug Assertion 8.54 Graphics.cpp 959
+
+----- 20/05/2015 12:23:03 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 162 142 109 170 160 160 162 170 132 180
+Last Packet: 142 251 003 000 016 144 001 000 000 000 000 000 162 128 000 000
+Player Position: [129,245,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1B8B8A0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4527), reason:
+MapWindow.cpp 1146: exception occurred (posx = 224) (posy = 160), reason:
+MapWindow.cpp 1049: exception occurred (i = 0) (Creatures[i]->OutfitType = 400), reason:
+MapWindow.cpp 1028: exception occurred, reason:
+MapWindow.cpp 1290: exception occurred (posx = 224) (posy = 160), reason:
+MapWindow.cpp 1341: exception occurred (SpriteNumber = 40896), reason:
+Graphics.cpp 959: assertion failed (SpriteNumber = 40896) (NumberOfSprites = 40895), reason:
+In(SpriteNumber,1,NumberOfSprites)
+Wed May 20 12:22:15 2015
+Debug Assertion 8.54 Graphics.cpp 959
+
+----- 21/05/2015 09:49:18 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 142 030 170 132 180 160 160 143 143 132
+Last Packet: 142 250 003 000 016 174 001 000 000 000 000 000 000 000 000 000
+Player Position: [133,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1BC04F0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 1128), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 430) (Creature->CreatureID = 268436474), reason:
+Objects.cpp 494: exception occurred (Number = 430) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 430, i: 429, min: 1, d: 400)
+Thu May 21 09:48:05 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 21/05/2015 16:40:47 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 170 160 162 170 132 180 160 160 142 160
+Last Packet: 160 116 023 191 039 226 254 000 000 107 090 004 000 027 000 069
+Player Position: [132,245,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1BBF2B0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 106), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 401) (Creature->CreatureID = 268436474), reason:
+Objects.cpp 494: exception occurred (Number = 401) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 401, i: 400, min: 1, d: 400)
+Thu May 21 16:36:19 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 21/05/2015 16:57:22 - Kamil (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 170 131 162 142 102 109 030 132 160 132
+Last Packet: 142 250 003 000 016 145 001 000 000 000 000 000 162 000 000 131
+Player Position: [117,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1BCF2B0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 401) (Creature->CreatureID = 268436474), reason:
+Objects.cpp 494: exception occurred (Number = 401) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 401, i: 400, min: 1, d: 400)
+Thu May 21 16:56:40 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 21/05/2015 16:59:14 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 005 106 106 106 106 106 106 106 106 106
+Last Packet: 106 120 000 245 000 007 003 093 013 106 120 000 244 000 007 002
+Player Position: [120,245,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 5) (MainWindow = 27571568), reason:
+Control.cpp 1324: unknown packet type during game (Type = 5)
+Thu May 21 16:58:43 2015
+Debug Assertion 8.54 Control.cpp 1324
+
+----- 21/05/2015 16:59:44 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 002 106 106 106 106 106 106 106 106 106
+Last Packet: 106 120 000 245 000 007 002 093 013 106 120 000 244 000 007 002
+Player Position: [120,245,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 2) (MainWindow = 28902640), reason:
+Control.cpp 1324: unknown packet type during game (Type = 2)
+Thu May 21 16:59:24 2015
+Debug Assertion 8.54 Control.cpp 1324
+
+----- 21/05/2015 17:01:32 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 106 106 106 106 106 106 106 106 106 106
+Last Packet: 133 124 000 244 000 007 123 000 244 000 007 008 131 123 000 244
+Player Position: [124,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 106) (MainWindow = 28312816), reason:
+Communication.cpp 1743: exception occurred (rx = 6) (ry = 5), reason:
+Network.cpp 502: exception occurred, reason:
+Utils.cpp 490: assertion failed (Position = 216) (Size = 216), reason:
+Position<=Size-1
+Thu May 21 17:01:08 2015
+Debug Assertion 8.54 Utils.cpp 490
+
+----- 21/05/2015 17:44:41 - Kamil (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 001 106 106 106 106 106 106 106 106 106
+Last Packet: 106 120 000 244 000 007 003 093 013 106 120 000 243 000 007 001
+Player Position: [120,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 1) (MainWindow = 31898808), reason:
+Control.cpp 1324: unknown packet type during game (Type = 1)
+Thu May 21 17:14:38 2015
+Debug Assertion 8.54 Control.cpp 1324
+
+----- 22/05/2015 09:21:31 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 030 170 160 106 170 131 162 142 132 160
+Last Packet: 142 250 003 000 016 145 001 000 000 000 000 000 162 000 000 131
+Player Position: [123,245,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1CFF3B0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4517), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 401) (Creature->CreatureID = 268436474), reason:
+Objects.cpp 494: exception occurred (Number = 401) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 401, i: 400, min: 1, d: 400)
+Fri May 22 09:12:45 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 22/05/2015 09:25:44 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 030 170 160 106 170 131 162 142 132 160
+Last Packet: 142 250 003 000 016 145 001 000 000 000 000 000 162 000 000 131
+Player Position: [106,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1BD05F8 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4809), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 401) (Creature->CreatureID = 268436474), reason:
+Objects.cpp 494: exception occurred (Number = 401) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 401, i: 400, min: 1, d: 400)
+Fri May 22 09:23:01 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 22/05/2015 09:37:45 - Kamil (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 120 121 121 100 010 031 100 020 000 000
+Last Packet: 010 251 003 000 016 050 000 000 100 099 000 185 000 007 176 017
+Player Position: [99,185,7]
+Player Name: Aburame (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 120) (MainWindow = 28701616), reason:
+Communication.cpp 2216: exception occurred (Position = 3) (Type = 12090), reason:
+Objects.cpp 280: exception occurred (Type = 12090) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 12090) (ObjectProperties->high() = 11736), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Fri May 22 09:26:58 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 22/05/2015 10:01:09 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 131 131 162 142 170 108 108 108 108 180
+Last Packet: 170 041 000 000 000 005 000 075 097 109 105 108 000 000 019 117
+Player Position: [117,245,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1CB2500 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4528), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 401) (Creature->CreatureID = 268436474), reason:
+Objects.cpp 494: exception occurred (Number = 401) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 401, i: 400, min: 1, d: 400)
+Fri May 22 09:59:20 2015
+Debug Assertion 8.54 Container.h 226
+
+----- 22/05/2015 16:28:38 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 160 160 140 131 143 143 161 161 162 142
+Last Packet: 131 114 000 245 000 007 003 142 251 003 000 016 208 001 000 000
+Player Position: [114,245,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1B4F3B0 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1146: exception occurred (posx = 192) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 464) (Creature->CreatureID = 268436475), reason:
+Objects.cpp 494: exception occurred (Number = 464) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 464, i: 463, min: 1, d: 400)
+Fri May 22 16:28:08 2015
+Debug Assertion 8.54 Container.h 226
+

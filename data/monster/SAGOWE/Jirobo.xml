@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Jirobo" nameDescription="a jirobo" race="blood" saga="22" experience="2000" speed="295" manacost="0">
+    <health now="70000" max="70000"/>
+    <look type="26" head="0" body="0" legs="0" feet="0" corpse="2860"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-300" max="-700"/>
+<attack name="Oukashou" interval="3000" min="-500" max="-1420"/>
+<attack name="mokton" interval="5000" min="-550" max="-3160"/>
+<attack name="shuriken" interval="8000" min="-450" max="-1460"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+
+    </loot>
+<script><event name="jirobo"/></script>
+  </monster>

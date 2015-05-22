@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Hachibi" nameDescription="a hachibi" race="blood" saga="51" experience="20000" speed="295" manacost="0">
+    <health now="5000000" max="5000000"/>
+    <look type="211" head="0" body="0" legs="0" feet="0" corpse="2898"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-4500" max="-5500"/>
+<attack name="barrier" interval="5000" min="-4000" max="-5000"/>
+<attack name="wybuch" interval="8000" min="-3000" max="-5500"/>
+<attack name="miecz" interval="12000" min="-18000" max="-19000"/>
+<attack name="maly shuriken" interval="15000" min="-2000" max="-5000"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+
+    </loot>
+<script><event name="hachibi"/></script>
+  </monster>
