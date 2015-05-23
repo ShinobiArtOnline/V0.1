@@ -5,7 +5,6 @@
     <monster name="Star Ninja" x="2" y="-2" z="7" spawntime="60"/>
     <monster name="Star Ninja" x="5" y="-2" z="7" spawntime="60"/>
     <monster name="Star Ninja" x="4" y="0" z="7" spawntime="60"/>
-	<monster name="Star Ninja" x="2" y="3" z="7" spawntime="60"/>
+    <monster name="Star Ninja" x="2" y="3" z="7" spawntime="60"/>
   </spawn>
-  
 </spawns>

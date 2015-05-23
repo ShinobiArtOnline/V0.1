@@ -926,3 +926,89 @@ Container.h 226: index out of range (original i: 464, i: 463, min: 1, d: 400)
 Fri May 22 16:28:08 2015
 Debug Assertion 8.54 Container.h 226
 
+----- 23/05/2015 15:59:18 - Aburame (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 104 109 103 109 160 160 140 104 109 030
+Last Packet: 109 008 000 136 001 007 001 007 000 136 001 007 104 104 004 000
+Player Position: [7,392,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1D147B8 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 103), reason:
+MapWindow.cpp 1146: exception occurred (posx = -59) (posy = -32), reason:
+MapWindow.cpp 913: exception occurred (Obj = 1128), reason:
+MapWindow.cpp 1233: exception occurred (Debug: 10 Type: 1128 Coord: -1/386/7 PX: 0 PY: 3 PZ: 1 Ph: 1 DX: 0 DY: 0 W: 2 H: 2 L: 1 X: 1 Y: 1 L: 1 S: -1), reason:
+Objects.cpp 478: exception occurred (Type = 1128), reason:
+Objects.cpp 251: assertion failed (PatternX = 0) (Entry.PatternWidth = 4), reason:
+In(PatternX,1,Entry.PatternWidth)
+Sat May 23 15:45:30 2015
+Debug Assertion 8.54 Objects.cpp 251
+
+----- 23/05/2015 16:02:52 - Akamichi (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 180 221 132 160 132 160 140 180 142 131
+Last Packet: 010 239 003 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [7,392,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1497: exception occurred (MaW: 1AB6908 MoW: 0 ), reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 103), reason:
+MapWindow.cpp 1146: exception occurred (posx = -32) (posy = -32), reason:
+MapWindow.cpp 913: exception occurred (Obj = 1128), reason:
+MapWindow.cpp 1233: exception occurred (Debug: 10 Type: 1128 Coord: -1/386/7 PX: 0 PY: 3 PZ: 1 Ph: 1 DX: 0 DY: 0 W: 2 H: 2 L: 1 X: 1 Y: 1 L: 1 S: -1), reason:
+Objects.cpp 478: exception occurred (Type = 1128), reason:
+Objects.cpp 251: assertion failed (PatternX = 0) (Entry.PatternWidth = 4), reason:
+In(PatternX,1,Entry.PatternWidth)
+Sat May 23 15:59:21 2015
+Debug Assertion 8.54 Objects.cpp 251
+
+----- 23/05/2015 20:08:37 - Akamichi (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 104 109 104 109 104 109 104 109 104 109
+Last Packet: 109 008 000 224 000 007 001 007 000 224 000 007 104 164 017 000
+Player Position: [7,224,7]
+Player Name: Aburame (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1BB5448 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 1128), reason:
+MapWindow.cpp 1146: exception occurred (posx = -57) (posy = 96), reason:
+MapWindow.cpp 913: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1233: exception occurred (Debug: 10 Type: 4515 Coord: -1/222/7 PX: 0 PY: 3 PZ: 1 Ph: 1 DX: 0 DY: 0 W: 1 H: 1 L: 1 X: 1 Y: 1 L: 1 S: -1), reason:
+Objects.cpp 478: exception occurred (Type = 4515), reason:
+Objects.cpp 251: assertion failed (PatternX = 0) (Entry.PatternWidth = 5), reason:
+In(PatternX,1,Entry.PatternWidth)
+Sat May 23 16:04:02 2015
+Debug Assertion 8.54 Objects.cpp 251
+
