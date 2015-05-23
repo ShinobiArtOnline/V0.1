@@ -5,36 +5,7 @@
     <monster name="Star Ninja" x="2" y="-2" z="7" spawntime="60"/>
     <monster name="Star Ninja" x="5" y="-2" z="7" spawntime="60"/>
     <monster name="Star Ninja" x="4" y="0" z="7" spawntime="60"/>
+	<monster name="Star Ninja" x="2" y="3" z="7" spawntime="60"/>
   </spawn>
-  <spawn centerx="122" centery="245" centerz="7" radius="5">
-    <monster name="Elite Ninja" x="-1" y="-2" z="7" spawntime="60"/>
-    <monster name="Bandit" x="1" y="-1" z="7" spawntime="60"/>
-    <monster name="Strong Star Ninja" x="-1" y="0" z="7" spawntime="60"/>
-    <monster name="Bandit" x="2" y="0" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="95" centery="246" centerz="7" radius="5"/>
-  <spawn centerx="48" centery="265" centerz="7" radius="5">
-    <monster name="Trainer" x="-2" y="-1" z="7" spawntime="60"/>
-    <monster name="Trainer" x="4" y="-1" z="7" spawntime="60"/>
-    <monster name="Trainer" x="4" y="3" z="7" spawntime="60"/>
-    <monster name="Trainer" x="-2" y="4" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="93" centery="360" centerz="7" radius="1">
-    <monster name="Wolf" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Wolf" x="0" y="-1" z="7" spawntime="60"/>
-    <monster name="Wolf" x="1" y="-1" z="7" spawntime="60"/>
-    <monster name="Strong Shinobi" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="96" centery="360" centerz="7" radius="1">
-    <monster name="Wolf" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Wolf" x="0" y="-1" z="7" spawntime="60"/>
-    <monster name="Wolf" x="1" y="-1" z="7" spawntime="60"/>
-    <monster name="Strong Swordsman" x="0" y="0" z="7" spawntime="60"/>
-    <monster name="Sasori" x="-1" y="1" z="7" spawntime="60"/>
-    <monster name="Sasori" x="1" y="1" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="98" centery="360" centerz="7" radius="1">
-    <monster name="Wolf" x="0" y="-1" z="7" spawntime="60"/>
-    <monster name="Strong Fire Shinobi" x="0" y="0" z="7" spawntime="60"/>
-  </spawn>
+  
 </spawns>
