@@ -1,37 +1,50 @@
 function iniNikudan(cid)
              mayNotMove(cid, true)
-             addEvent(changeMove, 0, cid, 427, 500)
-             addEvent(changeMove, 200, cid, 428, 500)
-             addEvent(changeMove, 400, cid, 429, 500)
-             addEvent(changeMove, 600, cid, 422, -1)
-			 addEvent(doCreatureSay, 200, cid, "Baika no Jutsu!", TALKTYPE_MONSTER)
-             addEvent(doCreatureSay, 400, cid, "NIKUDAN SENSHAAA!!!!", TALKTYPE_MONSTER)
+             addEvent(changeMove, 300, cid, 203, -1)--kula
+			 addEvent(doCreatureSay, 100, cid, "Baika no Jutsu!", TALKTYPE_MONSTER)
+             addEvent(doCreatureSay, 200, cid, "NIKUDAN SENSHAAA!!!!", TALKTYPE_MONSTER)
 end
 
 function endNikudan(cid)
              mayNotMove(cid, false)
-             addEvent(changeMove, 0, cid, 429, 500)
-             addEvent(changeMove, 200, cid, 428, 500)
-             addEvent(changeMove, 400, cid, 427, 500)
-             addEvent(changeMove, 600, cid, 418, -1)
+            if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+             addEvent(changeMove, 300, cid, 21, -1)
+			 mayNotMove(cid, false)
+			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+			 addEvent(changeMove, 300, cid, 19, -1)
+			 mayNotMove(cid, false)
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+			  addEvent(changeMove, 300, cid, 20, -1)
+			  mayNotMove(cid, false)
+			   elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+			  addEvent(changeMove, 300, cid, 22, -1)
+			  mayNotMove(cid, false)
+			  end
 end
 
 function iniMizudan(cid)
              mayNotMove(cid, true)
-             addEvent(changeMove, 0, cid, 427, 500)
-             addEvent(changeMove, 200, cid, 428, 500)
-             addEvent(changeMove, 400, cid, 429, 500)
-             addEvent(changeMove, 600, cid, 422, -1)
-			 addEvent(doCreatureSay, 200, cid, "Baika no Jutsu!", TALKTYPE_MONSTER)
-             addEvent(doCreatureSay, 400, cid, "MIZUDAN SUISHAAA!!!!", TALKTYPE_MONSTER)
+             addEvent(changeMove, 300, cid, 203, -1)
+			 addEvent(doCreatureSay, 100, cid, "Baika no Jutsu!", TALKTYPE_MONSTER)
+             addEvent(doCreatureSay, 200, cid, "MIZUDAN SUISHAAA!!!!", TALKTYPE_MONSTER)
 end
 
 function endMizudan(cid)
-             mayNotMove(cid, false)
-             addEvent(changeMove, 0, cid, 429, 500)
-             addEvent(changeMove, 200, cid, 428, 500)
-             addEvent(changeMove, 400, cid, 427, 500)
-             addEvent(changeMove, 600, cid, 418, -1)
+             
+              if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+             addEvent(changeMove, 0, cid, 21, -1)
+			 mayNotMove(cid, false)
+			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+			 addEvent(changeMove, 0, cid, 19, -1)
+			 mayNotMove(cid, false)
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+			  addEvent(changeMove, 0, cid, 20, -1)
+			  mayNotMove(cid, false)
+			   elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+			  addEvent(changeMove, 0, cid, 22, -1)
+			  mayNotMove(cid, false)
+			  end
+          
 end
 
 
@@ -51,7 +64,7 @@ function nikudanSensha(cid, chakra, oldLook)
       if (oldLook == 0 and newLook == 2) or (oldLook == 2 and newLook == 0) or
          (oldLook == 1 and newLook == 3) or (oldLook == 3 and newLook == 1) then
 		 doSendMagicEffect(getThingPos(cid), 107)
-         addEvent(nikudanSensha, 800, cid, chakra, newLook)
+         addEvent(nikudanSensha, 700, cid, chakra, newLook)
          return true
       end
       if not isCreature(getThingfromPos(poslook).uid) then
@@ -61,14 +74,34 @@ function nikudanSensha(cid, chakra, oldLook)
          doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, getCreaturePosition(cid), area, minDmg, maxDmg, efeito)
       end
    else
-      mayNotMove(cid, false)
-      addEvent(changeMove, 0, cid, 429, 500)
-      addEvent(changeMove, 200, cid, 428, 500)
-      addEvent(changeMove, 400, cid, 427, 500)
-      addEvent(changeMove, 600, cid, 418, -1)
-      addEvent(doCreatureSay, 200, cid, "OUCH!", TALKTYPE_MONSTER)
-      doCreatureAddHealth(cid, -5)
-      setPlayerStorageValue(cid, sto_sensha[1], 0)
+     mayNotMove(cid, false)
+       if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+				
+				addEvent(changeMove, 0, cid, 21, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[1], 0)
+			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+				
+				addEvent(changeMove, 0, cid, 19, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[1], 0)
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+				
+				addEvent(changeMove, 0, cid, 20, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[1], 0)
+			   elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+				
+				addEvent(changeMove, 0, cid, 22, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[1], 0)
+			  end
+     
+      
    end
    addEvent(nikudanSensha, 100, cid, chakra, newLook)
    return true
@@ -102,14 +135,33 @@ function mizudanSuisha(cid, chakra, oldLook)
           doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, getCreaturePosition(cid), area, minDmg, maxDmg, efeito)
 		  end
 else
-            mayNotMove(cid, false)
-            addEvent(changeMove, 0, cid, 429, 500)
-            addEvent(changeMove, 200, cid, 428, 500)
-            addEvent(changeMove, 400, cid, 427, 500)
-            addEvent(changeMove, 600, cid, 418, -1)
-			addEvent(doCreatureSay, 200, cid, "OUCH!", TALKTYPE_MONSTER)
-			doCreatureAddHealth(cid, -5)
-			setPlayerStorageValue(cid, sto_sensha[7], 0)
+         mayNotMove(cid, false)
+            if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+				 
+				addEvent(changeMove, 0, cid, 21, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[7], 0)
+			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+				
+				addEvent(changeMove, 0, cid, 19, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[7], 0)
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+				 
+				addEvent(changeMove, 0, cid, 20, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[7], 0)
+			   elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+				
+				addEvent(changeMove, 0, cid, 22, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[7], 0)
+			  end
+     
 			 end
 			addEvent(mizudanSuisha, 80, cid, chakra, newLook)
 		return true
@@ -117,31 +169,28 @@ end
 
 function iniHariNikudan(cid)
              mayNotMove(cid, true)
-  addEvent(changeMove, 0, cid, 456, 500)
-  addEvent(changeMove, 100, cid, 456, 500)
-  addEvent(changeMove, 200, cid, 457, 500)
-  addEvent(changeMove, 400, cid, 459, 500)
-  addEvent(changeMove, 600, cid, 460, 500)
-  addEvent(changeMove, 800, cid, 461, 500)
-  addEvent(changeMove, 1000, cid, 462, 500)
-  addEvent(changeMove, 1200, cid, 463, 500)
-  addEvent(changeMove, 1400, cid, 423, -1)
-			 addEvent(doCreatureSay, 200, cid, "Baika no Jutsu!", TALKTYPE_MONSTER)
-             addEvent(doCreatureSay, 300, cid, "NIKUDAN HARI SENSHAA!!!", TALKTYPE_MONSTER)
+			 
+			 addEvent(changeMove, 1400, cid, 201, -1)--kula koclzasta
+			 addEvent(doCreatureSay, 100, cid, "Baika no Jutsu!", TALKTYPE_MONSTER)
+             addEvent(doCreatureSay, 200, cid, "NIKUDAN HARI SENSHAA!!!", TALKTYPE_MONSTER)
 end
 
 function endHariNikudan(cid)
-  noMove(cid, 2000)
-  addEvent(changeMove, 0, cid, 463, 500)
-  addEvent(changeMove, 200, cid, 462, 500)
-  addEvent(changeMove, 400, cid, 461, 500)
-  addEvent(changeMove, 600, cid, 460, 500)
-  addEvent(changeMove, 800, cid, 459, 500)
-  addEvent(changeMove, 1000, cid, 458, 500)
-  addEvent(changeMove, 1200, cid, 457, 500)
-   addEvent(changeMove, 1400, cid, 456, 500)
-   addEvent(changeMove, 1600, cid, 455, 500)
-   addEvent(changeMove, 1800, cid, 418, -1)
+  
+            if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+             addEvent(changeMove, 0, cid, 21, -1)
+			 noMove(cid, 2000)
+			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+			 addEvent(changeMove, 0, cid, 19, -1)
+			 noMove(cid, 2000)
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+			  addEvent(changeMove, 0, cid, 20, -1)
+			  noMove(cid, 2000)
+			 elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+			  addEvent(changeMove, 0, cid, 22, -1)
+			  noMove(cid, 2000)
+			  end
+   
 end
 
 function harinikudanSensha(cid, chakra, oldLook)
@@ -172,13 +221,28 @@ function harinikudanSensha(cid, chakra, oldLook)
 		end
 		else
 	        mayNotMove(cid, false)
-			addEvent(changeMove, 0, cid, 429, 500)
-            addEvent(changeMove, 200, cid, 428, 500)
-            addEvent(changeMove, 400, cid, 427, 500)
-            addEvent(changeMove, 600, cid, 418, -1)
-			addEvent(doCreatureSay, 200, cid, "OUCH!", TALKTYPE_MONSTER)
-			doCreatureAddHealth(cid, -5)
-			setPlayerStorageValue(cid, sto_sensha[5], 0)
+			 if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+				addEvent(changeMove, 0, cid, 21, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[5], 0)
+			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+				addEvent(changeMove, 0, cid, 19, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[5], 0)
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+				addEvent(changeMove, 0, cid, 20, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[5], 0)
+			   elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+				addEvent(changeMove, 0, cid, 22, -1)
+				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
+				doCreatureAddHealth(cid, -5)
+				setPlayerStorageValue(cid, sto_sensha[5], 0)
+			  end
+           
 			 end
 			addEvent(harinikudanSensha, 130, cid, chakra,newLook)
 		return true
@@ -186,19 +250,27 @@ end
 
 function iniBaika(cid)
   mayNotMove(cid, true)
-  addEvent(actionMove, 0, cid, 427, 500)
-  addEvent(actionMove, 300, cid, 428, 500)
-  addEvent(actionMove, 600, cid, 429, 500)
-  addEvent(changeMove, 700, cid, 430, -1)
+  
+  addEvent(changeMove, 700, cid,236 , -1)--wielkolud
   addEvent(mayNotMove, 600, cid, false)
   addEvent(doCreatureSay, 300, cid, "Chou Baika no Jutsu!!!", TALKTYPE_MONSTER)
 end
 
 function endBaika(cid)
-  mayNotMove(cid, true)
-  addEvent(changeMove, 0, cid, 429, 100)
-  addEvent(changeMove, 200, cid, 428, 100)
-  addEvent(changeMove, 400, cid, 427, 100)
-  addEvent(changeMove, 600, cid, 418, -1)
-  addEvent(mayNotMove, 1000, cid, false)
+
+  
+			if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+             addEvent(changeMove, 0, cid, 21, -1)
+			 mayNotMove(cid, true)
+			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+			 addEvent(changeMove, 0, cid, 19, -1)
+			 mayNotMove(cid, true)
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+			  addEvent(changeMove, 0, cid, 20, -1)
+			  mayNotMove(cid, true)
+			 elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+			  addEvent(changeMove, 0, cid, 22, -1)
+			  mayNotMove(cid, true)
+			  end
+              addEvent(mayNotMove, 1000, cid, false)
 end

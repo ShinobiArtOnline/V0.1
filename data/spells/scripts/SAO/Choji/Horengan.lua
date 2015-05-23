@@ -1,3 +1,10 @@
+local buff = createConditionObject(CONDITION_ATTRIBUTES)
+setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
+setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 5)
+
+
+
+
 function onCastSpell(cid,var)
 	if(getPlayerStorageValue(cid, sto_jutsu[1]) > os.time() and getPlayerStorageValue(cid, sto_jutsu[1]) < 100+os.time()) then
 		doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
@@ -36,11 +43,11 @@ function onCastSpell(cid,var)
 	if getPlayerStorageValue(cid, sto_sensha[2]) == 1 then
         doCreatureSay(cid, "Horengan!", TALKTYPE_MONSTER)
 		setPlayerStorageValue(cid, sto_sensha[2], 0)
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)+5)
+		doAddCondition(cid, buff)
 		removeChakra(cid, 1, 2, sto_sensha[2], "sharingan")
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	else
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-5)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_sensha[2], 1)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 		
