@@ -30,7 +30,7 @@ local function iniciarGarouga(cid)
 		return true
 	end
          mayNotMove(cid, true)
-         addEvent(actionMove, 200, cid, 689, 600)
+         addEvent(actionMove, 200, cid, 400, 600)
          addEvent(mayNotMove, 310, cid, false)
 end
 
