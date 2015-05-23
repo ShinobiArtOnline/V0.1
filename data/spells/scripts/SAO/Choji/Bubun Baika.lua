@@ -35,7 +35,7 @@ addEvent(doAreaCombatHealth, 200, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)
 addEvent(doSendMagicEffect, 200, {x = pos.x+1, y = pos.y-1, z = pos.z}, 28)--Góra
 elseif getCreatureLookDir(cid) == 1 then
 addEvent(doAreaCombatHealth, 200, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)--Prawo
-addEvent(doSendMagicEffect, 200, {x = pos.x+3, y = pos.y+2, z = pos.z}, 90)
+addEvent(doSendMagicEffect, 200, {x = pos.x+3, y = pos.y+1, z = pos.z}, 90)
 elseif getCreatureLookDir(cid) == 2 then
 addEvent(doAreaCombatHealth, 200, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)--Dół
 addEvent(doSendMagicEffect, 200, {x = pos.x+1, y = pos.y+3, z = pos.z}, 89)

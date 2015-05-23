@@ -15,17 +15,17 @@ addEvent(doCreatureSay, 300, cid, "Chou!!!", TALKTYPE_MONSTER)
 local find_area = getFirstCreaturePosOnDirection(cid, 2)
 local pos = getCreaturePosition(cid)
 if getCreatureLookDir(cid) == 0 then
-addEvent(doAreaCombatHealth, 400, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)
-addEvent(doSendMagicEffect, 300, {x = pos.x, y = pos.y, z = pos.z},22)
+addEvent(doAreaCombatHealth, 400, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)--Góra
+addEvent(doSendMagicEffect, 300, {x = pos.x+1, y = pos.y-1, z = pos.z},22)
 elseif getCreatureLookDir(cid) == 1 then
-addEvent(doAreaCombatHealth, 400, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)
-addEvent(doSendMagicEffect, 300, {x = pos.x, y = pos.y, z = pos.z}, 92)
+addEvent(doAreaCombatHealth, 400, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)--PRawo
+addEvent(doSendMagicEffect, 300, {x = pos.x+3, y = pos.y+1, z = pos.z}, 92)
 elseif getCreatureLookDir(cid) == 2 then
-addEvent(doAreaCombatHealth, 400, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)
-addEvent(doSendMagicEffect, 300, {x = pos.x, y = pos.y, z = pos.z}, 91)
+addEvent(doAreaCombatHealth, 400, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)--Dół
+addEvent(doSendMagicEffect, 300, {x = pos.x+1, y = pos.y+3, z = pos.z}, 91)
 elseif getCreatureLookDir(cid) == 3 then
-addEvent(doAreaCombatHealth, 400, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)
-addEvent(doSendMagicEffect, 300, {x = pos.x, y = pos.y, z = pos.z}, 29)
+addEvent(doAreaCombatHealth, 400, cid, 1, find_area, AREA_HARITE, dmg, dmg, 255)--LEWo
+addEvent(doSendMagicEffect, 300, {x = pos.x-1, y = pos.y+1, z = pos.z}, 29)
 
 end
 end
