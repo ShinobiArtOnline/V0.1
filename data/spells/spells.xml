@@ -12,7 +12,7 @@
 	<instant name="Kikkaichuu Mushikame no jutsu" words="Kikkaichuu Mushikame" lvl="5" mana="2000" prem="0" needtarget= "1" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" event="script" value="SAO/Shino/Kikkaichuu Mushikame.lua">
 	</instant>
 	<instant name="Kikaichuu Arare " words="Kikaichuu Arare No Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Arare No Jutsu.lua">
-
+	</instant>
 	<instant name="Kikkaichuu Mushikame" words="Kikkaichuu Mushikame" lvl="5" mana="2000" prem="0" needtarget= "1" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" event="script" value="SAO/Shino/Kikkaichuu Mushikame.lua">
 	</instant>
 	<instant name="Kikaichuu Arare No Jutsu" words="Kikaichuu Arare No Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Arare No Jutsu.lua">
