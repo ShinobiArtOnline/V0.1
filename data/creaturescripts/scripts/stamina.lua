@@ -1,3 +1,10 @@
+local buff = createConditionObject(CONDITION_ATTRIBUTES)
+setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
+setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 6)
+setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 6)
+
+
+
 function onLogin(cid)
 ---[EXP VIP]--
 local rate = 1.1 -- 10%
@@ -108,50 +115,42 @@ end
 
 ---[HACHIMON TONKOU CONFIG]----
 	if getPlayerStorageValue(cid, sto_hachimon[1]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-2)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-2)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[1], 1)
 	end
 
 	if getPlayerStorageValue(cid, sto_hachimon[2]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-4)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-4)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[2], 1)
 	end
 	
 	if getPlayerStorageValue(cid, sto_hachimon[3]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-6)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-6)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[3], 1)
 	end	
 	
 	if getPlayerStorageValue(cid, sto_hachimon[4]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-8)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-8)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[4], 1)
 	end	
 	
 	if getPlayerStorageValue(cid, sto_hachimon[5]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-10)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-10)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[5], 1)
 	end	
 	
 	if getPlayerStorageValue(cid, sto_hachimon[6]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-12)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-12)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[6], 1)
 	end		
 	
 	if getPlayerStorageValue(cid, sto_hachimon[7]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-14)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-14)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[7], 1)
 	end		
 	
 	if getPlayerStorageValue(cid, sto_hachimon[8]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-14)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-14)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[8], 1)
 	end			
 
@@ -206,8 +205,7 @@ end
 		setPlayerStorageValue(cid, sto_inuzuka[2], 1)
 	end
 	if getPlayerStorageValue(cid, sto_inuzuka[3]) == 0 then
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-20)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-20)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_inuzuka[3], 1)
 	end
 
