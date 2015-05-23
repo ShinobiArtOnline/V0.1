@@ -3,7 +3,7 @@ exhausted = 4,
 }
 
 local confg = {
-level = 25,
+level = 1,
 chakra = 65
 }
 
