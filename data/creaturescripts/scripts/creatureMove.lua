@@ -5,7 +5,7 @@ if not isCreature(cid) then return false end
    end
 end
 
-function onCreatureMove(cid, old, current)
+function onCombat(cid, old, current)
 if getPlayerStorageValue(cid, STORAGE_KAGEMANE_TRAPED_QTY > 0) then
 local list = getKagemaneTargetList(cid)
 if(#list > 0) then

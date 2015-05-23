@@ -33,7 +33,7 @@
 	<event type="advance" name="hachimonAdvance" event="script" value="hachimonAdvance.lua"/>
 	<event type="direction" name="direction" event="script" value="Direction.lua"/>
 	<event type="kill" name="task" event="script" value="task.lua"/>
-	<event type="creatureMove" name="creatureMove" event="script" value="creatureMove.lua"/>
+	<event type="combat" name="creatureMove" event="script" value="creatureMove.lua"/>
 	<event type="preparedeath" name="kagemaneDeath" event="script" value="kagemaneDeath.lua"/>
 	<event type="login" name="Vocation_Outfit" event="script" value="Vocation_Outfit.lua"/>
 	<event type="advance" name="skillAdvanced" event="script" value="skillAdvanced.lua"/>
