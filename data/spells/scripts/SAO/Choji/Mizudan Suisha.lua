@@ -3,7 +3,7 @@ exhausted = 4,
 }
 
 local confg = {
-level = 40,
+level = 1,
 }
 
 

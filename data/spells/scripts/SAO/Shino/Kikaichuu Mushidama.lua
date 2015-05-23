@@ -3,7 +3,7 @@ local temp = {
 }
 
 local confg = {
-		level = 5,
+		level = 1,
 		chakra = 80,
 }
 

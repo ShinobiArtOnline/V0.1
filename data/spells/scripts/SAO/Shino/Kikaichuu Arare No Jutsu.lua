@@ -2,7 +2,7 @@ local temp = {
 exhausted = 3,
 }
 local confg = {
-level = 45,
+level = 1,
 chakra = 60,
 }
 

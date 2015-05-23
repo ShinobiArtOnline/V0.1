@@ -3,7 +3,7 @@ exhausted = 3,
 }
 
 local confg = {
-level = 50,
+level = 1,
 chakra = 45,
 }
 function onCastSpell(cid,var)
