@@ -57,6 +57,7 @@ function onCreatureDisappear(cid)
 end
 function onCreatureSay(cid, type, msg)
 	local PlayerVoc = getPlayerVocation(cid)
+	local playerLevel = getPlayerLevel(cid)
 	if  ((msg == 'hi') and (PlayerVoc == 6 or (PlayerVoc >= 25 and PlayerVoc <=29))) then -- Vocation Hyuuga Neji i jego transformów
 		addFocus(cid)
 		selfSay('Hello '..getPlayerName(cid)..' what do you need? {jutsu}', cid)
@@ -66,7 +67,7 @@ function onCreatureSay(cid, type, msg)
 		selfSay('{Hakke Shou no Jutsu} level ' .. level[3] .. '',cid)
 		selfSay('{Hakke Kuushou no Jutsu} level ' .. level[4] .. '',cid)
 		selfSay('{Hakke Shou} level ' .. level[5] .. '',cid)
-		selfSay('{Hakke SanjuuniShou no Jutsu} level ' .. level[6] .. '',cid)
+		selfSay('{Hakke Sanjuuni Shou no Jutsu} level ' .. level[6] .. '',cid)
 		selfSay('{Hakke Shiten Kuushou no Jutsu} level ' .. level[7] .. '',cid)
 		selfSay('{Hakkeshou Kaiten no Jutsu} level ' .. level[8] .. '',cid)
 	elseif((msg == 'Hakke Hasengeki no Jutsu') and (isFocused(cid))) then
@@ -124,7 +125,7 @@ function onCreatureSay(cid, type, msg)
 		else
 			doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, 'You need to be atleast level ' .. level[5] .. '')
 		end
-	elseif((msg == 'Hakke SanjuuniShou no Jutsu') and (isFocused(cid))) then
+	elseif((msg == 'Hakke Sanjuuni Shou no Jutsu') and (isFocused(cid))) then
 		if playerLevel >= level[6] then
 			if getPlayerLearnedInstantSpell(cid, 'Hakke SanjuuniShou no Jutsu') == false then
 				doPlayerLearnInstantSpell(cid, 'Hakke SanjuuniShou no Jutsu')

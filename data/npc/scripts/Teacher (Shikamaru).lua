@@ -56,6 +56,7 @@ function onCreatureDisappear(cid)
 end
 function onCreatureSay(cid, type, msg)
 	local PlayerVoc = getPlayerVocation(cid) 
+	local playerLevel = getPlayerLevel(cid)
 	if  ((msg == 'hi') and (PlayerVoc == 5 or (PlayerVoc >= 20 and PlayerVoc <=24))) then -- Vocation Shikamaru i jego transformów
 		addFocus(cid)
 		selfSay('Hello '..getPlayerName(cid)..' what do you need? {jutsu}', cid)

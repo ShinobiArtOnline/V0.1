@@ -55,6 +55,7 @@ function onCreatureDisappear(cid)
 end
 function onCreatureSay(cid, type, msg)
 	local PlayerVoc = getPlayerVocation(cid)
+	local playerLevel = getPlayerLevel(cid)
 	if  ((msg == 'hi') and (PlayerVoc == 1 or (PlayerVoc >= 37 and PlayerVoc <=41))) then -- Vocation Inuzuka i jego transformów
 		addFocus(cid)
 		selfSay('Hello '..getPlayerName(cid)..' what do you need? {jutsu}', cid)

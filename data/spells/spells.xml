@@ -107,7 +107,7 @@
 	</instant>
 	<instant name="Hakke Shou" words="Hakke Rokujuuyon Shou" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke Rokujuuyon Shou.lua">
 	</instant>
-	<instant name="Hakke SanjuuniShou no Jutsu" words="Hakke Sanjuuni Shou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke SanjuuniShou.lua">
+	<instant name="Hakke Sanjuuni Shou no Jutsu" words="Hakke Sanjuuni Shou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke SanjuuniShou.lua">
 	</instant>
 	<instant name="Hakke Shiten Kuushou no Jutsu" words="Hakke Shiten Kuushou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke Shiten Kuushou.lua">
 	</instant>

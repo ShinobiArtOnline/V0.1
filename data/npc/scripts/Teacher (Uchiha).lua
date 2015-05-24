@@ -57,6 +57,7 @@ function onCreatureDisappear(cid)
 end
 function onCreatureSay(cid, type, msg)
 	local PlayerVoc = getPlayerVocation(cid)
+	local playerLevel = getPlayerLevel(cid)
 	if  ((msg == 'hi') and (PlayerVoc == 7 or (PlayerVoc >= 30 and PlayerVoc <=36))) then -- Vocation Uchiha i jego transformów
 		addFocus(cid)
 		selfSay('Hello '..getPlayerName(cid)..' what do you need? {jutsu}', cid)

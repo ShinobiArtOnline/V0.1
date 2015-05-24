@@ -60,6 +60,7 @@ function onCreatureDisappear(cid)
 end
 function onCreatureSay(cid, type, msg)
 	local PlayerVoc = getPlayerVocation(cid)
+	local playerLevel = getPlayerLevel(cid)
 	if  ((msg == 'hi') and (PlayerVoc == 2 or (PlayerVoc >= 42 and PlayerVoc <=47))) then -- Vocation Maito Lee i jego transformów
 		addFocus(cid)
 		selfSay('Hello '..getPlayerName(cid)..' what do you need? {jutsu}', cid)
