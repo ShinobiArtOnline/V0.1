@@ -842,14 +842,46 @@ local OUTFIT = {
 	[2] =  {lookType=12},
 	[3] = {lookType=21},
 	[4] =  {lookType=57},
-	[5] =  {lookType=53},
+	[5] =  {lookType=46},
 	[6] =  {lookType=32},
 	[7] =  {lookType=65},
-	[8] =  {lookType=9},
-	[9] =  {lookType=11},
-	[10] =  {lookType=11},
-	[37] =  {lookType=3}, ---kiba
-	[38] =  {lookType=4},
+	
+	[8] =  {lookType=9},--admin
+	[9] =  {lookType=11},--admin
+	
+	[10] =  {lookType=19},
+	[11] =  {lookType=20},--Choji
+	[12] =  {lookType=22},
+	
+	[37] =  {lookType=5}, ---kiba
+	[38] =  {lookType=1},
+	[39] =  {lookType=3},
+	
+	[30] =  {lookType=61}, ---Uchiha
+	[31] =  {lookType=59},
+	[32] =  {lookType=62},
+	[33] =  {lookType=64},
+	[34] =  {lookType=66},
+	[35] =  {lookType=112},
+	
+	
+	[15] =  {lookType=58}, --Shino
+	[16] =  {lookType=56},
+	[17] =  {lookType=55},
+	
+	[20] =  {lookType=52},--Shikamaru
+	[21] =  {lookType=53},
+	[22] =  {lookType=51},
+	
+	[25] =  {lookType=34},--Neji
+	[26] =  {lookType=97},
+	[27] =  {lookType=99},
+	
+	[42] =  {lookType=10},--LEE
+	[43] =  {lookType=8},
+	[44] =  {lookType=9},
+	[45] =  {lookType=11},
+	
 }
 function Outfit(cid)
 if(OUTFIT[getPlayerVocation(cid)])then
