@@ -17,8 +17,7 @@ function onCastSpell(cid, var)
 	
 	if getPlayerStorageValue(cid, sto_kikkais[1]) >= 1 and getPlayerStorageValue(cid, sto_kikkais[1]) <= 300 then
 	local SmallKikais = doCreateMonster("Small Kikkais", getCreaturePosition(cid))
-		actionMove(cid, 373, 1000)
-		noMove(cid, 1000)
+		
 		addEvent(doCreatureSay, 300, cid, "Kikkaichu no Jutsu!", TALKTYPE_MONSTER)
 		doConvinceCreature(cid, SmallKikais)
 		setCreatureMaxHealth(SmallKikais, getPlayerStorageValue(cid, sto_kikkais[1]))
@@ -29,8 +28,7 @@ function onCastSpell(cid, var)
 	end
 		if getPlayerStorageValue(cid, sto_kikkais[1]) >= 310 and getPlayerStorageValue(cid, sto_kikkais[1]) <= 1000 then
 			local MediumKikais = doCreateMonster("Medium Kikkais", getCreaturePosition(cid))
-				actionMove(cid, 373, 1000)
-				noMove(cid, 1000)
+				
 				addEvent(doCreatureSay, 300, cid, "Kikkaichu no Jutsu!", TALKTYPE_MONSTER)
 				doConvinceCreature(cid, MediumKikais)
 				setCreatureMaxHealth(MediumKikais, getPlayerStorageValue(cid, sto_kikkais[1]))

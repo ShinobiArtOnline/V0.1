@@ -18,8 +18,7 @@ function onCastSpell(cid, var)
 	if isPlayer(cid) then
 		removeChakraLife(cid, - 1)
 		doPlayerSendCancel(cid, "You lose ".. 1 .." chakra.")
-		actionMove(cid, 372, 1000)
-		noMove(cid, 1000)
+		
 		setPlayerStorageValue(cid, sto_kikkais[1], getPlayerStorageValue(cid, sto_kikkais[1])+10)                             
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "You have ".. getPlayerStorageValue(cid, sto_kikkais[1]) .."/".. MaxCapKikais(cid) .." kikais.")
 	else

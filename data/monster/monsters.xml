@@ -9,7 +9,9 @@
 	<monster name="Star Ninja" file="SAO/Star Ninja.xml"/>
 	<monster name="Strong Star Ninja" file="SAO/Strong Star Ninja.xml"/>
 	<monster name="Wolf" file="SAO/Wolf.xml"/>
-	<monster name="Akamaru" file="SAO/Akamaru.xml"/>
+	<monster name="Akamaru" file="Akamaru.xml"/>
+	<monster name="Small Kikkais" file="Small Kikais.xml"/>
+    <monster name="Medium Kikkais" file="Medium Kikkais.xml"/>
 	
 	
 	
