@@ -17,9 +17,15 @@ setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 6)
 
 
 function onCastSpell(cid,var)
-local pet = getCreatureSummons(getCreatureMaster(cid))
-	if not pet then
-		return doPlayerSendCancel(cid, "Call your dog.")
+	local storage = 1113
+	local storage2 = 11114
+	local summons = getCreatureSummons(cid)				
+	if(table.maxn(summons) <= 0) and getPlayerStorageValue(cid, storage2) < 1 then
+		doPlayerSendCancel(cid, "Call your dog.")
+		setPlayerStorageValue(cid, storage, 0)
+		return false
+		else
+		setPlayerStorageValue(cid, storage, 1)
 	end
 	
 	if checkJutsu(cid, "Shikyaku") then
@@ -37,7 +43,6 @@ local pet = getCreatureSummons(getCreatureMaster(cid))
 	end
 
 	if getPlayerStorageValue(cid, sto_inuzuka[2]) > 0 then
-	local pet = getCreatureSummons(getCreatureMaster(cid))
 	 local outfit = getCreatureOutfit(cid)
 		outfit.lookType = 362
         changeMove(cid, 362, -1)
@@ -54,7 +59,15 @@ local pet = getCreatureSummons(getCreatureMaster(cid))
 		removeChakra(cid, 2, 2, sto_inuzuka[2], "sharingan")
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	elseif getPlayerStorageValue(cid, sto_inuzuka[2]) < 1 then
-		addEvent(changeMove, 0, cid, 359, -1)
+		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+				addEvent(changeMove, 0, cid, 4, -1)
+				elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+				addEvent(changeMove, 0, cid, 5, -1)
+				elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
+				addEvent(changeMove, 0, cid, 1, -1)
+				elseif getPlayerLevel(cid) > 100 and getPlayerLevel(cid) < 500 then
+				addEvent(changeMove, 0, cid, 3, -1)
+			  end
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 	    doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid))

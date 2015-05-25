@@ -39,11 +39,13 @@
 	</instant>
 	<instant name="Shikyaku no Jutsu" words="Shikyaku" lvl="1" mana="10" prem="0" exhaustion="3000" needlearn="1" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Shikyaku no Jutsu.lua">
 	</instant>
-	<instant name="Soutorou no Jutsu" words="Soutorou" lvl="1" mana="0" prem="0" exhaustion="3000" needlearn="1" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Soutorou.lua">
+	<instant name="Soutorou no Jutsu" words="Soutorou" lvl="1" mana="0" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Soutorou.lua">
 	</instant>
 	<instant name="Tsuga no Jutsu" words="Tsu" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Kiba/Tsuuga.lua">
 	</instant>
 	<instant name="Juujin Bunshin no Jutsu" words="Juujin Bunshin" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="1" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Juujin Bunshin.lua">
+	</instant>
+	<instant name="Akamaru" words="Akamaru" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Akamaru.lua">
 	</instant>
 	
 	

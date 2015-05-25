@@ -37,35 +37,52 @@ function onCastSpell(cid,var)
 	if not isCreature(cid) then
 		return true
 	end
-
-	local pet = getCreatureSummons(getCreatureMaster(cid))
-	if not pet then
-		return doPlayerSendCancel(cid, "Call your dog.")
+	local storage = 1111
+	local storage2 = 11112
+	local summons = getCreatureSummons(cid)				
+	if(table.maxn(summons) <= 0) and getPlayerStorageValue(cid, storage2) < 1 then
+		doPlayerSendCancel(cid, "Call your dog.")
+		setPlayerStorageValue(cid, storage, 0)
+		return false
+		else
+		setPlayerStorageValue(cid, storage, 1)
 	end
-	if isPlayer(cid) and getPlayerStorageValue(cid, sto_inuzuka[3]) > 0 then
-	 if pet then
-		doRemoveCreature(pet)
+	if isPlayer(cid) and getPlayerStorageValue(cid, sto_inuzuka[3]) > 0  and getPlayerStorageValue(cid, storage) > 0 then
+	 if getPlayerLevel(cid) >= 1 then
+		for _, pid in ipairs(getCreatureSummons(cid)) do
+		doRemoveCreature(pid)
+		end
        	removeChakraLife(cid, - confg.chakra)
 		addEvent(doCreatureSay, 200, cid, "Juujin Konbi Henge..", TALKTYPE_MONSTER)
 		addEvent(doCreatureSay, 600, cid, "SOUTOUROU!!!", TALKTYPE_MONSTER)
-		actionMove(cid, 464, 500)
-		addEvent(changeMove, 500, cid, 407, -1)
+		addEvent(changeMove, 500, cid, 363, -1)
 		doAddCondition(cid, buff)
 		addEvent(doSendMagicEffect, 500, getCreaturePosition(cid),111)
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid) + info.speed)
+		setPlayerStorageValue(cid, storage2, 1)
+		setPlayerStorageValue(cid, storage, 1)
 		setPlayerStorageValue(cid, sto_inuzuka[3], 0)
 		removeChakra(cid, 4, 2, sto_inuzuka[3], "sharingan")
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 		else
-		doPlayerSendCancel(cid, "Call your dog.")
+		doPlayerSendCancel(cid, "You don't have enough level.")
 		end
-	elseif isPlayer(cid) and getPlayerStorageValue(cid, sto_inuzuka[3]) == 0 then
-		changeMove(cid, 359, -1)
-		
+		elseif isPlayer(cid) and getPlayerStorageValue(cid, sto_inuzuka[3]) == 0 then
+				if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+				addEvent(changeMove, 0, cid, 4, -1)
+				elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+				addEvent(changeMove, 0, cid, 5, -1)
+				elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
+				addEvent(changeMove, 0, cid, 1, -1)
+				elseif getPlayerLevel(cid) > 100 and getPlayerLevel(cid) < 500 then
+				addEvent(changeMove, 0, cid, 3, -1)
+			  end
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 	    doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid))
+		setPlayerStorageValue(cid, storage, 0)
+		setPlayerStorageValue(cid, storage2, 0)
 		setPlayerStorageValue(cid, sto_inuzuka[3], 1)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	end
