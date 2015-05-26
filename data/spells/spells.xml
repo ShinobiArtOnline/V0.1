@@ -6,44 +6,44 @@
 		
 	<!--- Shino -->
 		
-	<instant name="Kikkaichuu Mushikame no Jutsu" words="Kikkaichuu Mushikame" lvl="5" mana="2000" prem="0" needtarget= "1" exhaustion="3000" needlearn="1" blockwalls="0" enabled="1" event="script" value="SAO/Shino/Kikkaichuu Mushikame.lua">
+	<instant name="Kikkaichuu Mushikame no Jutsu" words="Kikkaichuu Mushikame" lvl="5" mana="2000" prem="0" needtarget= "1" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" event="script" value="SAO/Shino/Kikkaichuu Mushikame.lua">
 	</instant>
-	<instant name="Kikaichuu Arare" words="Kikaichuu Arare no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/Kikaichuu Arare No Jutsu.lua">
+	<instant name="Kikaichuu Arare" words="Kikaichuu Arare no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Arare No Jutsu.lua">
 	</instant>
-	<instant name="Kikaichuu Bashira no Jutsu" words="Kikaichuu Bashira" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/Kikaichuu Bashira.lua">
+	<instant name="Kikaichuu Bashira no Jutsu" words="Kikaichuu Bashira" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Bashira.lua">
 	</instant>
-	<instant name="Kikaichuu Call no Jutsu" words="Kikaichuu Call" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/Kikaichuu Call.lua">
+	<instant name="Kikaichuu Call no Jutsu" words="Kikaichuu Call" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Call.lua">
 	</instant>
-	<instant name="Kikaichuu Mushidama no Jutsu" words="Kikaichuu Mushidama" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" needtarget="1" event="script" value="SAO/Shino/Kikaichuu Mushidama.lua">
+	<instant name="Kikaichuu Mushidama no Jutsu" words="Kikaichuu Mushidama" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1" event="script" value="SAO/Shino/Kikaichuu Mushidama.lua">
 	</instant>
-	<instant name="Kikaichuu" words="Kikaichuu no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/Kikaichuu no Jutsu.lua">
+	<instant name="Kikaichuu" words="Kikaichuu no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu no Jutsu.lua">
 	</instant>
-	<instant name="Kikaichuu Return no Jutsu" words="Kikaichuu Return" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/Kikaichuu Return.lua">
+	<instant name="Kikaichuu Return no Jutsu" words="Kikaichuu Return" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Return.lua">
 	</instant>
-	<instant name="Kikaichuu Tsumoji" words="Kikaichuu Tsumoji no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/Kikaichuu Tsumoji no Jutsu.lua">
+	<instant name="Kikaichuu Tsumoji" words="Kikaichuu Tsumoji no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Tsumoji no Jutsu.lua">
 	</instant>
-	<instant name="Kikaichuu Yajiri" words="Kikaichuu Yajiri no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/Kikaichuu Yajiri no Jutsu.lua">
+	<instant name="Kikaichuu Yajiri" words="Kikaichuu Yajiri no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Yajiri no Jutsu.lua">
 	</instant>
-	<instant name="Kikaichuu Yajiri no Jutsu" words="Mushi Bunshin no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/Mushi Bunshin no Jutsu.lua">
+	<instant name="Kikaichuu Yajiri no Jutsu" words="Mushi Bunshin no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Mushi Bunshin no Jutsu.lua">
 	</instant>
-	<instant name="target1" words="target" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Shino/target.lua">
+	<instant name="target1" words="target" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/target.lua">
 	</instant>
 	
 	
 	<!--- Kiba Inuzuka -->
 		
 	
-	<instant name="Garouga no Jutsu" words="Garouga" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="1" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Garouga.lua">
+	<instant name="Garouga no Jutsu" words="Garouga" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Garouga.lua">
 	</instant>
-	<instant name="Gatsuuga no Jutsu" words="Gatsuugaa" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="1" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Gatsuuga.lua">
+	<instant name="Gatsuuga no Jutsu" words="Gatsuugaa" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Gatsuuga.lua">
 	</instant>
-	<instant name="Shikyaku no Jutsu" words="Shikyaku" lvl="1" mana="10" prem="0" exhaustion="3000" needlearn="1" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Shikyaku no Jutsu.lua">
+	<instant name="Shikyaku no Jutsu" words="Shikyaku" lvl="1" mana="10" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Shikyaku no Jutsu.lua">
 	</instant>
 	<instant name="Soutorou no Jutsu" words="Soutorou" lvl="1" mana="0" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Soutorou.lua">
 	</instant>
-	<instant name="Tsuga no Jutsu" words="Tsu" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1" event="script" value="SAO/Kiba/Tsuuga.lua">
+	<instant name="Tsuga no Jutsu" words="Tsu" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Kiba/Tsuuga.lua">
 	</instant>
-	<instant name="Juujin Bunshin no Jutsu" words="Juujin Bunshin" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="1" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Juujin Bunshin.lua">
+	<instant name="Juujin Bunshin no Jutsu" words="Juujin Bunshin" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Juujin Bunshin.lua">
 	</instant>
 	<instant name="Akamaru" words="Akamaru" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Akamaru.lua">
 	</instant>
@@ -52,27 +52,27 @@
 	
 	<!--- Choji -->
 	
-	<instant name="Chou" words="Chou Baika" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Chou Baika.lua">
+	<instant name="Chou" words="Chou Baika" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Chou Baika.lua">
 	</instant>
-	<instant name="Bubun" words="Bubun Baika" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Bubun Baika.lua">
+	<instant name="Bubun" words="Bubun Baika" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Bubun Baika.lua">
 	</instant>
-	<instant name="Hari" words="Hari Sensha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Hari Sensha.lua">
+	<instant name="Hari" words="Hari Sensha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Hari Sensha.lua">
 	</instant>
-	<instant name="Choudan" words="Choudan Bakugeki" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Choudan Bakugeki.lua">
+	<instant name="Choudan" words="Choudan Bakugeki" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Choudan Bakugeki.lua">
 	</instant>
-	<instant name="Harite" words="Harite Chou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Harite Chou.lua">
+	<instant name="Harite" words="Harite Chou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Harite Chou.lua">
 	</instant>
-	<instant name="Horengan no Jutsu" words="Horengan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Horengan.lua">
+	<instant name="Horengan no Jutsu" words="Horengan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Horengan.lua">
 	</instant>
-	<instant name="Karegan no Jutsu" words="Karegan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Karegan.lua">
+	<instant name="Karegan no Jutsu" words="Karegan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Karegan.lua">
 	</instant>
-	<instant name="Mizudan Suisha no Jutsu" words="Mizudan Suisha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Mizudan Suisha.lua">
+	<instant name="Mizudan Suisha no Jutsu" words="Mizudan Suisha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Mizudan Suisha.lua">
 	</instant>
-	<instant name="Nikudan Sensha no Jutsu" words="Nikudan Sensha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Nikudan Sensha.lua">
+	<instant name="Nikudan Sensha no Jutsu" words="Nikudan Sensha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Nikudan Sensha.lua">
 	</instant>
-	<instant name="Omoni no Jutsu" words="Omoni" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Omoni.lua">
+	<instant name="Omoni no Jutsu" words="Omoni" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Omoni.lua">
 	</instant>
-	<instant name="Tongarashigan no Jutsu" words="Tongarashigan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Choji/Tongarashigan.lua">
+	<instant name="Tongarashigan no Jutsu" words="Tongarashigan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Tongarashigan.lua">
 	</instant>
 	
 	
@@ -80,62 +80,62 @@
 	
 	<!--- Uchiha -->
 	
-	<instant name="Goukakyuu no Jutsu" words="Goukakyuu" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Uchiha/Goukakyuu no Jutsu.lua">
+	<instant name="Goukakyuu no Jutsu" words="Goukakyuu" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Goukakyuu no Jutsu.lua">
 	</instant>
-	<instant name="Karyuu" words="Karyuu Endan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Uchiha/Karyuu Endan.lua">
+	<instant name="Karyuu" words="Karyuu Endan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Karyuu Endan.lua">
 	</instant>
-	<instant name="Katon Endan" words="Endan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1" needtarget="1"  event="script" value="SAO/Uchiha/Katon Endan.lua">
+	<instant name="Katon Endan" words="Endan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0" needtarget="1"  event="script" value="SAO/Uchiha/Katon Endan.lua">
 	</instant>
-	<instant name="Katon Gouryuuka" words="Gouryuuka" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Uchiha/Katon Gouryuuka.lua">
+	<instant name="Katon Gouryuuka" words="Gouryuuka" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Katon Gouryuuka.lua">
 	</instant>
-	<instant name="Katon Housenka no Jutsu" words="Housenka no Jutsu" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1" needtarget="1"   event="script" value="SAO/Uchiha/Katon Housenka no Jutsu.lua">
+	<instant name="Katon Housenka no Jutsu" words="Housenka no Jutsu" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0" needtarget="1"   event="script" value="SAO/Uchiha/Katon Housenka no Jutsu.lua">
 	</instant>
-	<instant name="Katon Karyuudan" words="Karyuudan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1" needtarget="1"   event="script" value="SAO/Uchiha/Katon Karyuudan.lua">
+	<instant name="Katon Karyuudan" words="Karyuudan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0" needtarget="1"   event="script" value="SAO/Uchiha/Katon Karyuudan.lua">
 	</instant>
-	<instant name="Mangekyou" words="Mangekyou Sharingan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Uchiha/Mangekyou Sharingan.lua">
+	<instant name="Mangekyou" words="Mangekyou Sharingan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Mangekyou Sharingan.lua">
 	</instant>
-	<instant name="Ryuuka" words="Ryuuka no Jutsu" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Uchiha/Ryuuka no Jutsu.lua">
+	<instant name="Ryuuka" words="Ryuuka no Jutsu" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Ryuuka no Jutsu.lua">
 	</instant>
 	<!--- Neji -->
 	
 	
-	<instant name="Hakke Hasengeki no Jutsu" words="Hakke Hasengeki" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke Hasengeki.lua">
+	<instant name="Hakke Hasengeki no Jutsu" words="Hakke Hasengeki" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Hasengeki.lua">
 	</instant>
-	<instant name="Hakke Hiasangi no Jutsu" words="Hakke Hiasangi" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke Hiasangi.lua">
+	<instant name="Hakke Hiasangi no Jutsu" words="Hakke Hiasangi" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Hiasangi.lua">
 	</instant>
-	<instant name="Hakke Shou no Jutsu" words="Hakke Hyakunijuuhachi Shou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke Hyakunijuuhachi Shou.lua">
+	<instant name="Hakke Shou no Jutsu" words="Hakke Hyakunijuuhachi Shou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Hyakunijuuhachi Shou.lua">
 	</instant>
-	<instant name="Hakke Kuushou no Jutsu" words="Hakke Kuushou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke Kuushou.lua">
+	<instant name="Hakke Kuushou no Jutsu" words="Hakke Kuushou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Kuushou.lua">
 	</instant>
-	<instant name="Hakke Shou" words="Hakke Rokujuuyon Shou" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke Rokujuuyon Shou.lua">
+	<instant name="Hakke Shou" words="Hakke Rokujuuyon Shou" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Rokujuuyon Shou.lua">
 	</instant>
-	<instant name="Hakke Sanjuuni Shou no Jutsu" words="Hakke Sanjuuni Shou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke SanjuuniShou.lua">
+	<instant name="Hakke Sanjuuni Shou no Jutsu" words="Hakke Sanjuuni Shou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke SanjuuniShou.lua">
 	</instant>
-	<instant name="Hakke Shiten Kuushou no Jutsu" words="Hakke Shiten Kuushou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakke Shiten Kuushou.lua">
+	<instant name="Hakke Shiten Kuushou no Jutsu" words="Hakke Shiten Kuushou" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Shiten Kuushou.lua">
 	</instant>
-	<instant name="Hakkeshou Kaiten no Jutsu" words="Hakkeshou Kaiten" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Neji/Hakkeshou Kaiten.lua">
+	<instant name="Hakkeshou Kaiten no Jutsu" words="Hakkeshou Kaiten" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakkeshou Kaiten.lua">
 	</instant>
 	
 		<!--- Shikamaru -->
-	<instant name="Kage Kubi Shibari no Jutsu" words="Kage Kubi Shibari" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Nara Shikamaru/Kage Kubi Shibari.lua">
+	<instant name="Kage Kubi Shibari no Jutsu" words="Kage Kubi Shibari" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/Kage Kubi Shibari.lua">
 	</instant>
-	<instant name="Kage Nui no Jutsu" words="Kage Nui" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Nara Shikamaru/kage nui.lua">
+	<instant name="Kage Nui no Jutsu" words="Kage Nui" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/kage nui.lua">
 	</instant>
-	<instant name="Kagemane Shuriken no Jutsu" words="Kagemane Shuriken" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Nara Shikamaru/Kagemane Shuriken.lua">
+	<instant name="Kagemane Shuriken no Jutsu" words="Kagemane Shuriken" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/Kagemane Shuriken.lua">
 	</instant>
-	<instant name="Kagemane no Jutsu" words="Kagemane" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Nara Shikamaru/Kagemane.lua">
+	<instant name="Kagemane no Jutsu" words="Kagemane" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/Kagemane.lua">
 	</instant>
-	<instant name="Duplicate no Jutsu" words="Duplicate" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Nara Shikamaru/duplicate.lua">
+	<instant name="Duplicate no Jutsu" words="Duplicate" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/duplicate.lua">
 	</instant>
-	<instant name="Free no Jutsu" words="Free" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Nara Shikamaru/free.lua">
+	<instant name="Free no Jutsu" words="Free" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/free.lua">
 	</instant>
-	<instant name="Moj no Jutsu" words="Moj" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="1"  event="script" value="SAO/Nara Shikamaru/moj.lua">
+	<instant name="Moj no Jutsu" words="Moj" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/moj.lua">
 	</instant>
 		
 		<!--- Genjutsu-->
 		<instant name="Kaen no Jutsu" words="kaen" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/genjutsu/kaen.lua">
 	    </instant>
-		<instant name="Kanashibari no Jutsu" words="kanashibari" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="1"  event="script" value="SAO/genjutsu/kanashibari.lua">
+		<instant name="Kanashibari no Jutsu" words="kanashibari" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0"  event="script" value="SAO/genjutsu/kanashibari.lua">
 	    </instant>
 </spells>
 
