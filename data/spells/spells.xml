@@ -131,6 +131,28 @@
 	</instant>
 	<instant name="Moj no Jutsu" words="Moj" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/moj.lua">
 	</instant>
+	
+	<!--- Maito LEE -->
+	<instant name="Dai Senpuu" words="Dai Senpuu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Dai Senpuu.lua">
+	</instant>
+	<instant name="Dinamic Entry" words="Dinamic Entry" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Dinamic Entry.lua">
+	</instant>
+	<instant name="Gouriki Senpuu" words="Gouriki Senpuu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Gouriki Senpuu.lua">
+	</instant>
+	<instant name="Kaimon" words="Kaimon" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Kaimon.lua">
+	</instant>
+	<instant name="Keimon" words="Keimon" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Keimon.lua">
+	</instant>
+	<instant name="Konoha Senpuu" words="Konoha Senpuu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Konoha Senpuu.lua">
+	</instant>
+	<instant name="Kyomon" words="Kyomon" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Kyomon.lua">
+	</instant>
+	<instant name="Kyumon" words="Kyumon" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Kyumon.lua">
+	</instant>
+	<instant name="Omote Renge" words="Omote Renge" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Omote Renge.lua">
+	</instant>
+	
+	
 		
 		<!--- Genjutsu-->
 		<instant name="Kaen no Jutsu" words="kaen" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/genjutsu/kaen.lua">

@@ -1,9 +1,12 @@
 	local temp = {
 	exhausted = 2,
 	}
+local buff = createConditionObject(CONDITION_ATTRIBUTES)
+setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
+setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 12)
+setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 12)
 	
-	
-function onUse(cid, item, fromPosition, itemEx, toPosition)
+function onCastSpell(cid, var)
 local info = {
 		mana = 7,
 		speed = 270,
@@ -68,17 +71,16 @@ local info = {
 	end
 	if getPlayerStorageValue(cid, sto_hachimon[7]) > 0 then
 		addEvent(doCreatureSay, 100, cid, "Hachimon Tonkou!", TALKTYPE_MONSTER)
-		addEvent(doSendAnimatedText, 200, getCreaturePosition(cid), "KAIMON..", COLOR_GREY)
-		addEvent(doSendAnimatedText, 400, getCreaturePosition(cid), "KYUMON..", COLOR_YELLOW)
-		addEvent(doSendAnimatedText, 600, getCreaturePosition(cid), "SEIMON..", COLOR_LIGHTBLUE)
-		addEvent(doSendAnimatedText, 800, getCreaturePosition(cid), "SHOUMON..", COLOR_RED)
-		addEvent(doSendAnimatedText, 1000, getCreaturePosition(cid), "TOMON..", COLOR_GREEN)
-		addEvent(doSendAnimatedText, 1200, getCreaturePosition(cid), "KEIMON..", COLOR_WHITE)
-		addEvent(doSendAnimatedText, 1400, getCreaturePosition(cid), "KYOMON..", COLOR_PINK)
-		addEvent(doCreatureSay, 1600, cid, "KAI!!!", TALKTYPE_SAY)
+		addEvent(doSendAnimatedText, 20, getCreaturePosition(cid), "KAIMON..", COLOR_GREY)
+		addEvent(doSendAnimatedText, 40, getCreaturePosition(cid), "KYUMON..", COLOR_YELLOW)
+		addEvent(doSendAnimatedText, 60, getCreaturePosition(cid), "SEIMON..", COLOR_LIGHTBLUE)
+		addEvent(doSendAnimatedText, 80, getCreaturePosition(cid), "SHOUMON..", COLOR_RED)
+		addEvent(doSendAnimatedText, 100, getCreaturePosition(cid), "TOMON..", COLOR_GREEN)
+		addEvent(doSendAnimatedText, 120, getCreaturePosition(cid), "KEIMON..", COLOR_WHITE)
+		addEvent(doSendAnimatedText, 140, getCreaturePosition(cid), "KYOMON..", COLOR_PINK)
+		addEvent(doCreatureSay, 160, cid, "KAI!!!", TALKTYPE_SAY)
 		hachimonTonkou3(cid)
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)+14)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)+14)
+		doAddCondition(cid, buff)
 		setPlayerStorageValue(cid, sto_hachimon[7], 0)
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid) + info.speed)
@@ -87,8 +89,7 @@ local info = {
 		endhachimonTonkou2(cid)
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid))
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-14)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-14)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[7], 1)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 		end

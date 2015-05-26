@@ -3,8 +3,12 @@ local temp = {
 	exhausted = 2,
 	}
 	
+	local buff = createConditionObject(CONDITION_ATTRIBUTES)
+setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
+setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 4)
+setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 4)
 	
-function onUse(cid, item, fromPosition, itemEx, toPosition)
+function onCastSpell(cid, var)
 local info = {
 		mana = 1,
 		speed = 210,
@@ -73,20 +77,18 @@ local info = {
 
 	
 	if getPlayerStorageValue(cid, sto_hachimon[1]) > 0 then
-		addEvent(doCreatureSay, 100, cid, "Hachimon Tonkou!", TALKTYPE_MONSTER)
-		addEvent(doSendAnimatedText, 400, getCreaturePosition(cid), "KAIMON..", COLOR_GREY)
-		addEvent(doCreatureSay, 900, cid, "KAI!", TALKTYPE_SAY)
+		addEvent(doCreatureSay, 10, cid, "Hachimon Tonkou!", TALKTYPE_MONSTER)
+		addEvent(doSendAnimatedText, 40, getCreaturePosition(cid), "KAIMON..", COLOR_GREY)
+		addEvent(doCreatureSay, 90, cid, "KAI!", TALKTYPE_SAY)
 		hachimonTonkou1(cid)
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)+2)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)+2)
+		doAddCondition(cid, buff)
 		setPlayerStorageValue(cid, sto_hachimon[1], 0)
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid) + info.speed)
 		removeStaminaSecondLife(cid, -manaPercent, 1, sto_hachimon[1])
 	elseif getPlayerStorageValue(cid, sto_hachimon[1]) == 0 then
 		endhachimonTonkou1(cid)
-		doPlayerSetSkillLevel(cid, 0, getPlayerSkill(cid, 0)-2)
-		doPlayerSetSkillLevel(cid, 6, getPlayerSkill(cid, 6)-2)
+		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_hachimon[1], 1)
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid))
