@@ -12,7 +12,8 @@
 	<monster name="Akamaru" file="Akamaru.xml"/>
 	<monster name="Small Kikkais" file="Small Kikais.xml"/>
     <monster name="Medium Kikkais" file="Medium Kikkais.xml"/>
-	
+	<monster name="Bunshin" file="Bunshin.xml"/>
+	<monster name="Training Target" file="trainingtarget.xml"/>
 	
 	
 	

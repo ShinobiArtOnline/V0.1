@@ -1,7 +1,6 @@
 function iniSenpuu(cid)
-  mayNotMove(cid, true)
- 
-  addEvent(doRemoveCondition, 90, cid, CONDITION_OUTFIT)
+  addEvent(actionMove, 0, cid, 400, 250)
+  addEvent(doRemoveCondition, 300, cid, CONDITION_OUTFIT)
 end
 
 
@@ -28,6 +27,6 @@ iniSenpuu(cid)
 		n = 0
 		while n < #pos do
 				n = n+1
-				addEvent(quake, 50, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, 255, true)
+				addEvent(quake, 40, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, 128, true)
 		end
 end

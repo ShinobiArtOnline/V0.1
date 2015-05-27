@@ -159,5 +159,15 @@
 	    </instant>
 		<instant name="Kanashibari no Jutsu" words="kanashibari" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0"  event="script" value="SAO/genjutsu/kanashibari.lua">
 	    </instant>
+		
+		<!--- Moje spelle-->
+		<instant name="zwykły target" words="t1" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0" needtarget="1"  event="script" value="SAO/Kiba/targecik.lua">
+	</instant>
+	<instant name="Tsukuyomi" words="Tsukuyomi" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0" needtarget="1"  event="script" value="SAO/Uchiha/Mangekyou Sharingan/Tsukuyomi.lua">
+	</instant>
+	<instant name="Amaterasu" words="Amaterasu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0"  event="script" value="SAO/Uchiha/Amaterasu.lua">
+	</instant>
+		
+		
 </spells>
 
