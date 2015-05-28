@@ -32,6 +32,9 @@ function onLogin(cid)
 	if(not isPlayerGhost(cid)) then
 		doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
 	end
+	if getPlayerStorageValue(cid, 49708) ~= 0 then
+        setPlayerStorageValue(cid, 49708, 0) 
+end
 	
 	for i = 9000, 9063 do setPlayerStorageValue(cid, i, 0) end
 	registerCreatureEvent(cid, "Bounty")

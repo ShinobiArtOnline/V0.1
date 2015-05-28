@@ -25,7 +25,7 @@ function iniciarEntry(cid)
 		return true
 	end
          
-         --addEvent(actionMove, 300, cid, 472, 100)-- wjazd
+         addEvent(actionMove, 300, cid, 198, 100)-- wjazd
 end
 
 function finalizarEntry(cid)

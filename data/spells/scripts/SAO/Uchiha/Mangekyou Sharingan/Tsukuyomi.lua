@@ -62,7 +62,7 @@ registerCreatureEvent(cid, "Tsuk")
 			end
 	end
 local outfit = getCreatureOutfit(cid)
-outfit.lookType = infoClan[getPlayerVocation(cid)].outfit
+
 
 	local oldPos = {}
 	local target = {}		
@@ -82,7 +82,7 @@ outfit.lookType = infoClan[getPlayerVocation(cid)].outfit
 		addEvent(doSendPlayerExtendedOpcode, 5000, cid, 124, "Default")
 	end
 		addEvent(doCreatureSay, 500, cid, "You will suffer this in the next 72\nhours.", TALKTYPE_MONSTER)
-		doPlayerSendTextMessage(cid,22,"You have caught '"..getPlayerName(cid).."' on your Genjutsu! (Tsukuyomi)")
+		doPlayerSendTextMessage(cid,22,"You have caught '"..getPlayerName(target).."' on your Genjutsu! (Tsukuyomi)")
 			doPlayerSendTextMessage(cid,22,"You are under influence of a '"..getPlayerName(cid).."' Genjutsu! (Tsukuyomi)")	  
 				addEvent(doTeleportThing, 400, cid, {x = 2405, y = 52, z = 7})
 	tsukuyomis = addEvent(doTeleportThing, 5300, cid, oldPos[1])
@@ -92,7 +92,7 @@ outfit.lookType = infoClan[getPlayerVocation(cid)].outfit
 			doConvinceCreature(cid, Tsukuyomi)
 				setCreatureMaxHealth(Tsukuyomi, getCreatureMaxHealth(cid))
 					doCreatureAddHealth(Tsukuyomi, getCreatureHealth(cid)-30)
-						doSetCreatureOutfit(Tsukuyomi, outfit, -1)
+						doSetCreatureOutfit(Tsukuyomi, 71, -1)
 							setCreatureName(Tsukuyomi, "".. getCreatureName(cid) .."", "the player ".. getCreatureName(cid) .." on the influence of this genjutsu. (Tsukuyomi)")
 								doChangeSpeed(Tsukuyomi, -getCreatureSpeed(cid))
 									addEvent(doTeleportThing, 100, Tsukuyomi, getThingPos(cid))

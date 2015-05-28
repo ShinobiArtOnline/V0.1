@@ -1,0 +1,5 @@
+<npc name="Examinator" script="data/npc/scripts/saga/examinator2.lua" walkinterval="0" floorchange="0">
+	<health now="150" max="150"/>
+	<look type="228" corpse="2212"/>
+
+</npc>

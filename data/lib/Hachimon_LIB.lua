@@ -7,7 +7,7 @@ omotedir = getFirstCreaturePosOnDirection(cid,4)
 		return true
 	end
   stopNow(cid, 2500)
-  actionMove(cid, 481, 200)
+  actionMove(cid, 215, 200)
   addEvent(actionMove, 100, cid, 215, 100)
   addEvent(actionMove, 200, cid, 216, 100)
   addEvent(actionMove, 300, cid, 217, 100)

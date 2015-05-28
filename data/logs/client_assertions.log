@@ -1012,3 +1012,53 @@ In(PatternX,1,Entry.PatternWidth)
 Sat May 23 16:04:02 2015
 Debug Assertion 8.54 Objects.cpp 251
 
+----- 27/05/2015 10:52:15 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 160 160 160 181 180 160 160 160 140 160
+Last Packet: 160 156 042 051 054 205 041 008 000 208 213 242 001 127 000 016
+Player Position: [2405,52,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+MainFrm.cpp 699: exception occurred (point.x = 907) (point.y = 476), reason:
+Control.cpp 696: exception occurred (x = 907) (y = 476), reason:
+GUI.cpp 1615: exception occurred (x = 907) (y = 476), reason:
+GUI.cpp 1615: exception occurred (x = 907) (y = 476), reason:
+MapWindow.cpp 391: exception occurred (x = 647) (y = 471), reason:
+MapWindow.cpp 358: assertion failed, reason:
+Obj!=CREATURE
+Wed May 27 10:51:53 2015
+Debug Assertion 8.54 MapWindow.cpp 358
+
+----- 28/05/2015 11:50:39 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 140 140 162 142 162 142 107 104 109 132
+Last Packet: 142 246 003 000 016 003 000 000 000 000 000 000 162 000 000 142
+Player Position: [128,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Player.cpp 465: exception occurred, reason:
+Control.cpp 1720: exception occurred (MessageType: 0 MaW: 1C60118 MoW: 0), reason:
+Control.cpp 1715: exception occurred, reason:
+Control.cpp 386: exception occurred (Force?1:0 = 0), reason:
+MainWindow.cpp 138: exception occurred (Surface = 1), reason:
+GUI.cpp 1479: exception occurred (Surface = 1), reason:
+MapWindow.cpp 869: exception occurred (Surface = 1), reason:
+MapWindow.cpp 549: exception occurred (Obj = 4515), reason:
+MapWindow.cpp 1146: exception occurred (posx = 180) (posy = 128), reason:
+MapWindow.cpp 973: exception occurred, reason:
+MapWindow.cpp 957: exception occurred (Creature->OutfitType = 481) (Creature->CreatureID = 268436470), reason:
+Objects.cpp 494: exception occurred (Number = 481) (Flag = 25), reason:
+Container.h 226: index out of range (original i: 481, i: 480, min: 1, d: 400)
+Thu May 28 11:47:25 2015
+Debug Assertion 8.54 Container.h 226
+

@@ -1,0 +1,8 @@
+<npc name="Header Trader" script="data/npc/scripts/header trader.lua" nameDescription="Header Trader" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="113" head="39" body="122" legs="125" feet="57" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hiho |PLAYERNAME|."/>
+		<parameter key="message_decline" value="Bye"/>
+	</parameters>
+</npc>
