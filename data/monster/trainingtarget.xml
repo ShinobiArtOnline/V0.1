@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Training Target" nameDescription="a training target" race="undead" experience="0" speed="0" manacost="0" taijutsu="0" endurance="0" ninjutsu="0" genjutsu="0" melee_weapon="0" distance_weapon="0" weapon="0" mainSkill="1" agility="1" chakra_level="1">
+<monster name="Training Target" nameDescription="a training target" race="undead" experience="0" speed="0" manacost="0">
 	<health now="1000000" max="1000000"/>
-	<look type="61" corpse="0"/>
-	<targetchange interval="5000" chance="0"/>
+	<look type="238" corpse="0"/>
+	<targetchange interval="0" chance="0"/>
 	<strategy attack="100" defense="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -28,7 +28,7 @@
 	<loot>
 	</loot>
 	<script>
-		<event name="animalTarget" />
+		
 		<event name="creatureMove" />
 	</script>
 </monster>

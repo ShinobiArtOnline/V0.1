@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
    
+   <!--- Wszystkie postaci, podstawowe spelle -->
+   
+   
+   <instant name="Heal" words="Chiyute" lvl="1" mana="15" aggressive="0" selftarget="1" exhaustion="1500" needlearn="0" event="script" value="Dla wszystkich postaci/chiyute.lua">
+	</instant>
+	<instant name="Chakra Rest" words="chakra rest" lvl="15" mana="25" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="Dla wszystkich postaci/chakra rest.lua">
+	</instant>
+	<instant name="Max Heal" words="Chiyute max" lvl="15" mana="30" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="Dla wszystkich postaci/saisei.lua">
+	</instant>
+	<instant name="Full Light" words="ranpu" lvl="1" mana="1" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/full light.lua">
+	</instant>
+	<instant name="Chakra Impulse" words="chakra impulse" lvl="15" mana="25" prem="0" aggressive="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/haste.lua">
+	</instant>
+   <instant name="Kai!" words="kai" lvl="30" mana="100" prem="0" aggressive="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/kai.lua">
+	</instant>
+	<instant name="Throw Big Shuriken" words="throw big shuriken" lvl="25" mana="1000" prem="0" needtarget="1" range="6" exhaustion="1200" blockwalls="1" needlearn="0" script="Dla wszystkich postaci/big.lua">
+	</instant>
+   
+   
+   
+   
+   
 		
 		                                     <!--- Moje Jutsu -->
 		

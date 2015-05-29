@@ -246,9 +246,9 @@ AREA_KATON1 = {
 	{1, 3, 1}
 }
 
-AREA_HARITE = {
-	{0, 1, 0},
-	{0, 1, 0},
+AREA_HARITE =createCombatArea {
+	{1, 1, 1},
+	{1, 1, 1},
 	{0, 1, 0},
 	{0, 3, 0}
 }
