@@ -1,3 +1,10 @@
+local combat = createCombatObject()
+local condition = createConditionObject(CONDITION_PARALYZE)
+setConditionParam(condition, CONDITION_PARAM_TICKS, 6 * 1000)
+setConditionParam(condition, CONDITION_PARAM_SPEED, -1000)
+setConditionParam(condition, CONDITION_PARAM_BUFF, TRUE)
+setCombatCondition(combat, condition)
+
 getStorage = getPlayerStorageValue
 STORAGE_DOING_JUTSU = 9000
 STORAGE_SHADOW_1 = 9001
@@ -75,6 +82,7 @@ end
   end
  
   doRemoveCondition(cid, CONDITION_OUTFIT)
+  doRemoveCondition(cid, CONDITION_PARALYZE)
   mayNotMove(target, false)
   removeFromKagemaneTargetList(cid, target)
   doPlayerSendTextMessage(cid, 22, "".. getCreatureName(target).." have broken your kagemane no jutsu!")
@@ -164,6 +172,8 @@ if getPlayerStorageValue(cid, STORAGE_SHADOW_1)  == 0  then
       removeShadow(auxPos, 3)    
       end  
     doRemoveCondition(cid, CONDITION_OUTFIT)
+	
+	--doAddCondition(getCreatureTarget(cid), condition)
      mayNotMove(cid, false)
    return true
    end
@@ -186,6 +196,7 @@ if getPlayerStorageValue(cid, STORAGE_SHADOW_1)  == 0  then
         local target = getCreatureTarget(cid)
         if isCreature(target) then
            currentDir = getSimpleDirectionTo(oldPosition, getCreaturePosition(target))
+		   --doAddCondition(getCreatureTarget(cid), condition)
            if currentDir == 50 then
               currentDir = 0
            end
@@ -213,6 +224,7 @@ if getPlayerStorageValue(cid, STORAGE_SHADOW_1)  == 0  then
       removeShadow(auxPos, 1)
       removeShadow(auxPos, 2)
       removeShadow(auxPos, 3)
+	  --doAddCondition(getCreatureTarget(cid), condition)
       end  
         doRemoveCondition(cid, CONDITION_OUTFIT)
         mayNotMove(cid, false)
@@ -260,6 +272,7 @@ if getPlayerStorageValue(cid, STORAGE_SHADOW_1)  == 0  then
                             removeShadow(auxPos, 1)
                             removeShadow(auxPos, 2)
                             removeShadow(auxPos, 3)
+							--doAddCondition(getCreatureTarget(cid), condition)
  
                           end
                           doRemoveCondition(cid, CONDITION_OUTFIT)
@@ -398,15 +411,16 @@ function addKagemaneTarget(cid, target)
  
   if isPlayer(cid) then
     if (isPlayer(target)) then
+	doAddCondition(cid, condition)
       doPlayerSendTextMessage(target, 22, "You have been caught on ".. getCreatureName(cid).."'s kagemane no jutsu!")
 		mayNotMove(target, true)
 	end              
   end
  
  
-  mayNotMove(target, true)
+  mayNotMove(cid, true)
   doRemoveCondition(cid, CONDITION_OUTFIT)
-
+--doAddCondition(getCreatureTarget(cid), condition)
   addKagemaneTargetToList(cid, target)
   doPlayerSendTextMessage(cid, 22, "You have caught ".. getCreatureName(target).." on your kagemane no jutsu!")
  
@@ -424,10 +438,12 @@ function removeKagemaneTarget(cid, target)
   if not isCreature(cid) then
     if (isPlayer(target)) then
       doPlayerSendTextMessage(target, 22, "You have been freed from ".. getCreatureName(cid).."'s kagemane no jutsu!")
-    else
+    doRemoveCondition(cid, CONDITION_PARALYZE)
+	else
       doMonsterSetTarget(target, cid)
      end
       mayNotMove(target, false)
+	  doRemoveCondition(cid, CONDITION_PARALYZE)
       setPlayerStorageValue(target, STORAGE_TRAPED_ON_KAGEMANE, 0)
       setPlayerStorageValue(target, STORAGE_KAGEMANE_ATTACKER_NAME, 0)
      return true
@@ -444,7 +460,7 @@ function removeKagemaneTarget(cid, target)
   if (isPlayer(target)) then
       doPlayerSendTextMessage(target, 22, "You have been freed from ".. getCreatureName(cid).."'s kagemane no jutsu!")
   end
- 
+ doRemoveCondition(cid, CONDITION_PARALYZE)
   mayNotMove(target, false)
   setPlayerStorageValue(target, STORAGE_TRAPED_ON_KAGEMANE, 0)
   setPlayerStorageValue(target, STORAGE_KAGEMANE_ATTACKER_NAME, 0)
@@ -470,7 +486,7 @@ function checkKagemaneBreak(cid)
              if(random <= breakChance or not isCreature(master)) then
                 return breakKagemane(master, cid)
              end
- 
+		doRemoveCondition(cid, CONDITION_PARALYZE)
              addEvent(checkKagemaneBreak, 1000, cid)
           end
         end

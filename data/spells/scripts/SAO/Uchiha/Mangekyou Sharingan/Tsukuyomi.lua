@@ -1,33 +1,33 @@
-local function olhos(uid)
-local pos = getThingPos(uid)
-         doSendMagicEffect({x=pos.x+3, y=pos.y-1, z=pos.z}, 50, uid) -- Esquerdo
-         doSendMagicEffect({x=pos.x-2, y=pos.y-1, z=pos.z}, 52, uid) -- Direito
+local function olhos(cid)
+local pos = getThingPos(cid)
+         doSendMagicEffect({x=pos.x+3, y=pos.y-1, z=pos.z}, 50, cid) -- Esquerdo
+         doSendMagicEffect({x=pos.x-2, y=pos.y-1, z=pos.z}, 52, cid) -- Direito
 end
 
-local function effect(uid, life, times, effectFire, effectExplosion, effectThunder)
+local function effect(cid, life, times, effectFire, effectExplosion, effectThunder)
 
-local pos = getThingPos(uid)
-             addEvent(doSendMagicEffect, 800, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 5, uid)
-             addEvent(doSendMagicEffect, 800, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 14, uid)
-             addEvent(doSendMagicEffect, 1000, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 14, uid)
-             addEvent(doSendMagicEffect, 1000, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 5, uid)
-			 addEvent(doSendMagicEffect, 1600, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 5, uid)
-             addEvent(doSendMagicEffect, 1600, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 14, uid)
-             addEvent(doSendMagicEffect, 1900, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 14, uid)
-             addEvent(doSendMagicEffect, 1900, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 5, uid)
-			 addEvent(doSendMagicEffect, 2400, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 5, uid)
-             addEvent(doSendMagicEffect, 2400, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 14, uid)
-             addEvent(doSendMagicEffect, 2800, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 14, uid)
-             addEvent(doSendMagicEffect, 2800, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 5, uid)
-			 addEvent(doSendMagicEffect, 3200, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 5, uid)
-             addEvent(doSendMagicEffect, 3200, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 14, uid)
-             addEvent(doSendMagicEffect, 3600, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 14, uid)
-             addEvent(doSendMagicEffect, 3600, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 5, uid)
+local pos = getThingPos(cid)
+             addEvent(doSendMagicEffect, 800,cid, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 5)
+             addEvent(doSendMagicEffect, 800,cid, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 14)
+             addEvent(doSendMagicEffect, 1000,cid, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 14)
+             addEvent(doSendMagicEffect, 1000,cid, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 5)
+			 addEvent(doSendMagicEffect, 1600,cid, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 5)
+             addEvent(doSendMagicEffect, 1600,cid, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 14)
+             addEvent(doSendMagicEffect, 1900,cid, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 14)
+             addEvent(doSendMagicEffect, 1900,cid, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 5)
+			 addEvent(doSendMagicEffect, 2400,cid, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 5)
+             addEvent(doSendMagicEffect, 2400,cid, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 14)
+             addEvent(doSendMagicEffect,2800,cid, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 14)
+             addEvent(doSendMagicEffect, 2800,cid, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 5)
+			 addEvent(doSendMagicEffect, 3200,cid, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 5)
+             addEvent(doSendMagicEffect, 3200,cid, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 14)
+             addEvent(doSendMagicEffect, 3600,cid, {x=pos.x+math.random(-4, 4), y=pos.y+math.random(1, 4), z=pos.z}, 14)
+             addEvent(doSendMagicEffect, 3600,cid, {x=pos.x-math.random(-4, 4), y=pos.y-math.random(1, 4), z=pos.z}, 5)
 			 return true
       end
 
 
-function onCastSpell(cid, item, fromPosition, itemEx, toPosition)
+function onCastSpell(cid, var)
 if not isCreature(cid) then
 return true
 end

@@ -5,43 +5,35 @@ function onCastSpell(cid, var)
 	local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 	local tempo = 8
 	local efeito = 4
-
-	function kaenDamage(uid, life, times, effect)
-	if not isCreature(itemEx.uid) then
+	local target=getCreatureTarget(cid)
+	local pos=getCreaturePosition(target)
+	function kaenDamage(cid, life, times, effect)
+	if not isCreature(cid) then
 		return true
 	end
 
 	for i = 1, times do
-		addEvent(doSendMagicEffect, i*1000, getThingPos(uid), effect, uid)
+		addEvent(doSendMagicEffect, i*1000, getCreaturePosition(target), effect)
 	end
 	return true
 	end
 
-	if not isCreature(cid) then
-		return true
-	end
+	
 	
     if getTilePzInfo(getPlayerPosition(cid)) then
         return doPlayerSendCancel(cid, "You in this area pz.") 
     end 
 
-       if getTilePzInfo(getPlayerPosition(itemEx.uid)) then
+       if getTilePzInfo(getPlayerPosition(cid)) then
         return doPlayerSendCancel(cid, "You in this area pz.") 
     end
 	
-	if itemEx.uid == cid then
-		return doPlayerSendCancel(cid, "Sorry this is not possible.")	
-	end
-	
-	if not isCreature(itemEx.uid) then
-		setPlayerStorageValue(cid, sto_gen[2], 1)
-		return true		
-	end
 	
 	
-	if not isLooking(cid, var) then
-		return doPlayerSendCancel(cid, "You need to look into the eyes of your enemy.")
-	end
+	
+	
+	
+	
 	
     if(getPlayerStorageValue(cid, sto_gen[2]) > os.time() and getPlayerStorageValue(cid, sto_gen[2]) < 100+os.time()) then
       return doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
@@ -49,19 +41,18 @@ function onCastSpell(cid, var)
     
 		if isPlayer(cid) then
 			doCreatureSay(cid, "Kaen!", TALKTYPE_MONSTER)
-			if isPlayer(itemEx.uid) then
-				doPlayerSendTextMessage(itemEx.uid,22,"You are under influence of a '"..getPlayerName(cid).."' Genjutsu! (Kaen)")
+			if isPlayer(cid) then
+				doPlayerSendTextMessage(cid,22,"You are under influence of a '"..getPlayerName(cid).."' Genjutsu! (Kaen)")
 			end
-			doPlayerSendTextMessage(cid,22,"You have caught '"..getPlayerName(itemEx.uid).."' on your Genjutsu! (Kaen)")	 
+			doPlayerSendTextMessage(cid,22,"You have caught '"..getPlayerName(cid).."' on your Genjutsu! (Kaen)")	 
 			doSendMagicEffect(getThingPos(cid), 3)
-			kaenDamage(cid, dmg, tempo, efeito)
+			kaenDamage(getCreaturePosition(target), dmg, tempo, efeito)
 			removeChakraLife(cid, - 95)
 			setPlayerStorageValue(cid, sto_gen[2], os.time() + 15)
 			setPlayerStorageValue(cid, sto_gen[1], os.time() + 8)
-			doSendPlayerExtendedOpcode(cid, 124,  "Grayscale")
-			stopNow(cid, 3000)
-			addEvent(doPlayerSendTextMessage, 8000, cid, 22, "'"..getPlayerName(itemEx.uid).."' escaped his genjutsu (Kaen)")
-			addEvent(doSendPlayerExtendedOpcode, 8000, itemEx.uid, 124,  "Default")
+			stopNow(getCreaturePosition(target), 3000)
+			addEvent(doPlayerSendTextMessage, 8000, cid, 22, "'"..getPlayerName(cid).."' escaped his genjutsu (Kaen)")
+			
 		end
 			return true
 end

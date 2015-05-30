@@ -149,9 +149,13 @@
 	</instant>
 	<instant name="Duplicate no Jutsu" words="Duplicate" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/duplicate.lua">
 	</instant>
-	<instant name="Free no Jutsu" words="Free" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/free.lua">
-	</instant>
 	<instant name="Moj no Jutsu" words="Moj" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/moj.lua">
+	</instant>
+	<instant name="Jump target" words="Jump target" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/Jump target.lua">
+	</instant>
+	<instant name="Kagemane Shuriken Second" words="Kagemane Shuriken Second" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/Kagemane Shuriken Second.lua">
+	</instant>
+	<instant name="Kagemane target" words="Kagemane target" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"  event="script" value="SAO/Nara Shikamaru/Kagemane target.lua">
 	</instant>
 	
 	<!--- Maito LEE -->

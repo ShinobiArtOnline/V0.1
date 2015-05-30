@@ -56,7 +56,7 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
       
 end
 else
-return doPlayerSendCancel(cid, "You have catch somebody on your kagemane first.")
+return doPlayerSendCancel(cid, "You have to catch somebody on your kagemane first.")
 end 
 
 return TRUE
