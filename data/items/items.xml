@@ -2224,9 +2224,8 @@
 		<attribute key="slotType" value="ring" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="transformDeEquipTo" value="2165" />
-		<attribute key="duration" value="600" />
 		<attribute key="showduration" value="1" />
-		<attribute key="invisible" value="1" />
+		
 	</item>
 	<item id="2203" article="a" name="power ring">
 		<attribute key="weight" value="80" />
@@ -2242,9 +2241,8 @@
 		<attribute key="slotType" value="ring" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="transformDeEquipTo" value="2167" />
-		<attribute key="duration" value="1200" />
 		<attribute key="showduration" value="1" />
-		<attribute key="manashield" value="1" />
+		
 	</item>
 	<item id="2205" article="a" name="life ring">
 		<attribute key="weight" value="80" />

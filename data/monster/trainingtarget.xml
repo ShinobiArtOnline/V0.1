@@ -29,6 +29,6 @@
 	</loot>
 	<script>
 		
-		<event name="creatureMove" />
+		
 	</script>
 </monster>

@@ -14,7 +14,8 @@
     <monster name="Medium Kikkais" file="Medium Kikkais.xml"/>
 	<monster name="Bunshin" file="Bunshin.xml"/>
 	<monster name="Training Target" file="trainingtarget.xml"/>
-	
+	<monster name="Katsuya" file="Katsuya.xml"/>
+	<monster name="Gamakichi" file="Gamakichi.xml"/>
 	
 	
 	

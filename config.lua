@@ -308,7 +308,7 @@
 	-- Summons
 	maxPlayerSummons = 5
 	teleportAllSummons = false
-	teleportPlayerSummons = false
+	teleportPlayerSummons = true
 
 	-- Status
 	ownerName = "b33ny"

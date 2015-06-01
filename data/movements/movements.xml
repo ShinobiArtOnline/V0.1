@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
-<movevent type="StepIn" fromid="12333" toid="12344" event="script" value="kagemane.lua"/>
+<movevent type="StepIn" fromid="11444" toid="11480" event="script" value="kagemane.lua"/>
 	<movevent type="StepIn" actionid="7500" event="script" value="blockDP.lua"/>
 <movevent event="StepIn" actionid="7890" script="TilePremium.lua"/>
 	<movevent event="StepOut" actionid="7890"  script="TilePremium.lua"/>
-<movevent type="StepIn" itemid="11474" event="script" value="explosiveTagM.lua"/>
+<movevent type="StepIn" itemid="11482" event="script" value="explosiveTagM.lua"/>
+<!-- PET-->
+
+<movevent type="Equip" itemid="2202" slot="ring" event="script" value="Hp Pet.lua"/>
+<movevent type="DeEquip" itemid="2202" slot="ring" event="script" value="Hp pet.lua"/>
+<movevent type="Equip" itemid="2204" slot="ring" event="script" value="Mana Pet.lua"/>
+<movevent type="DeEquip" itemid="2204" slot="ring" event="script" value="Mana pet.lua"/>
+
+
 
 	<!-- Decaying tiles -->
 	<movevent type="StepIn" itemid="293" event="script" value="decay.lua"/>
@@ -382,14 +390,13 @@
 	<movevent type="Equip" itemid="2164" slot="ring" event="function" value="onEquipItem"/>
 	<movevent type="DeEquip" itemid="2164" slot="ring" event="function" value="onDeEquipItem"/>
 	<movevent type="Equip" itemid="2165" slot="ring" event="function" value="onEquipItem"/>
-	<movevent type="Equip" itemid="2202" slot="ring" event="function" value="onEquipItem"/>
-	<movevent type="DeEquip" itemid="2202" slot="ring" event="function" value="onDeEquipItem"/>
 	<movevent type="Equip" itemid="2166" slot="ring" event="function" value="onEquipItem"/>
 	<movevent type="Equip" itemid="2203" slot="ring" event="function" value="onEquipItem"/>
 	<movevent type="DeEquip" itemid="2203" slot="ring" event="function" value="onDeEquipItem"/>
 	<movevent type="Equip" itemid="2167" slot="ring" event="function" value="onEquipItem"/>
-	<movevent type="Equip" itemid="2204" slot="ring" event="function" value="onEquipItem"/>
-	<movevent type="DeEquip" itemid="2204" slot="ring" event="function" value="onDeEquipItem"/>
+	<!--<movevent type="Equip" itemid="2204" slot="ring" event="function" value="onEquipItem"/>
+	<movevent type="DeEquip" itemid="2204" slot="ring" event="function" value="onDeEquipItem"/>  -->
+	
 	<movevent type="Equip" itemid="2168" slot="ring" event="function" value="onEquipItem"/>
 	<movevent type="Equip" itemid="2205" slot="ring" event="function" value="onEquipItem"/>
 	<movevent type="DeEquip" itemid="2205" slot="ring" event="function" value="onDeEquipItem"/>

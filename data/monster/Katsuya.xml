@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Katsuya" nameDescription="Katsuya" race="undead" experience="0" speed="450" manacost="0">
+	<health now="100" max="100"/>
+	<look type="271" head="0" body="0" legs="0" feet="0" corpse="0"/>
+	<flags>
+		
+		<flag convinceable="1"/>
+		<flag attackable="0"/>
+		<flag hostile="0"/>
+		<flag pushable="0"/>
+	</flags>
+  <attacks>
+	
+  </attacks>
+ 
+	<elements>
+		
+	</elements>
+	<immunities>
+		
+	</immunities>
+</monster>
