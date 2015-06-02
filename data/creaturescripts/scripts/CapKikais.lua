@@ -1,5 +1,5 @@
 function onAdvance(cid, skill, oldLevel, newLevel)
-	if getPlayerVocation(cid) == 3 then
+	if getPlayerVocation(cid) == 4 or getPlayerVocation(cid) == 15 or getPlayerVocation(cid) == 16 or getPlayerVocation(cid) == 17 or getPlayerVocation(cid) == 18 or getPlayerVocation(cid) == 19  then
 		if skill == 8 and getPlayerLevel(cid) > 10 then
 			if getPlayerStorageValue(cid, sto_kikkais[2]) > getPlayerLevel(cid) then
 				return true

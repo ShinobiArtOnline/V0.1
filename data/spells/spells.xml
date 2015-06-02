@@ -30,7 +30,7 @@
 		
 	<instant name="Kikkaichuu Mushikame no Jutsu" words="Kikkaichuu Mushikame" lvl="5" mana="2000" prem="0" needtarget= "1" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" event="script" value="SAO/Shino/Kikkaichuu Mushikame.lua">
 	</instant>
-	<instant name="Kikaichuu Arare" words="Kikaichuu Arare no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Arare No Jutsu.lua">
+	<instant name="Kikaichuu Arare" words="Kikaichuu Arare no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" needtarget="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Arare No Jutsu.lua">
 	</instant>
 	<instant name="Kikaichuu Bashira no Jutsu" words="Kikaichuu Bashira" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Bashira.lua">
 	</instant>
@@ -44,9 +44,9 @@
 	</instant>
 	<instant name="Kikaichuu Tsumoji" words="Kikaichuu Tsumoji no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Tsumoji no Jutsu.lua">
 	</instant>
-	<instant name="Kikaichuu Yajiri" words="Kikaichuu Yajiri no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Yajiri no Jutsu.lua">
+	<instant name="Kikaichuu Yajiri" words="Kikaichuu Yajiri no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu Yajiri no Jutsu.lua">
 	</instant>
-	<instant name="Kikaichuu Yajiri no Jutsu" words="Mushi Bunshin no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Mushi Bunshin no Jutsu.lua">
+	<instant name="Mushi Bunshin " words="Mushi Bunshin no Jutsu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Mushi Bunshin no Jutsu.lua">
 	</instant>
 	<instant name="target1" words="target" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/target.lua">
 	</instant>

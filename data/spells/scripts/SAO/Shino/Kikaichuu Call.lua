@@ -15,7 +15,7 @@ function onCastSpell(cid, var)
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
 	
-	if getPlayerStorageValue(cid, sto_kikkais[1]) >= 1 and getPlayerStorageValue(cid, sto_kikkais[1]) <= 300 then
+	if getPlayerStorageValue(cid, sto_kikkais[1]) >= 100 and getPlayerStorageValue(cid, sto_kikkais[1]) <= 300 then
 	local SmallKikais = doCreateMonster("Small Kikkais", getCreaturePosition(cid))
 		
 		addEvent(doCreatureSay, 300, cid, "Kikkaichu no Jutsu!", TALKTYPE_MONSTER)

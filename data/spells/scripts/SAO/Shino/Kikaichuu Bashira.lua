@@ -12,8 +12,7 @@ local level = getPlayerLevel(cid)
 local jutsuDmg = 6
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-actionMove(cid, 372, 500)
-addEvent(actionMove, 600, cid, 373, 1200)
+
 	
 	addEvent(doCreatureSay, 100, cid, "Kikkaichu", TALKTYPE_MONSTER)
 	addEvent(doCreatureSay, 400, cid, "Bashira!", TALKTYPE_MONSTER)

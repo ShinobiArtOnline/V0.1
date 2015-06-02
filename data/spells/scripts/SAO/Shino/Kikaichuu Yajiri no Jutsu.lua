@@ -3,6 +3,7 @@ exhausted = 3,
 }
 
 
+
 local confg = {
 level = 1,
 chakra = 25,
@@ -20,12 +21,9 @@ local position = {
 [8] = {x = pos.x-1, y = pos.y+1, z = pos.z , stackpos=253},
 [9] = {x = pos.x, y = pos.y, z = pos.z , stackpos=253}
 }
-for n = 1,9 do
-if isCreature(getThingfromPos(position[n]).uid) then
-doAddCondition(getThingfromPos(position[n]).uid, condt)
+
 end
-end
-end
+
 
 slow = createConditionObject(CONDITION_PARALYZE)
 setConditionParam(slow, CONDITION_PARAM_TICKS, 4000)
@@ -49,27 +47,25 @@ function onCastSpell(cid, var)
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
 ---[Restriçoes]------
-	if(getPlayerStorageValue(cid, sto_jutsu[1]) > os.time() and getPlayerStorageValue(cid, sto_jutsu[1]) < 100+os.time()) then
-		doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
-	return true
-    elseif getPlayerLevel(cid) < confg.level then
+	
+   if getPlayerLevel(cid) < confg.level then
 				doPlayerSendCancel(cid, "You need to be atleast level ".. confg.level ..".") 
 				return true
 	end
    if isPlayer(cid) then
 		removeChakraLife(cid, - confg.chakra)
 		addEvent(doCreatureSay, 300, cid, "Kikkaichu..", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 600, cid, "Yajiri!!", TALKTYPE_MONSTER)
-		noMove(cid, 600)
-		actionMove(cid, 373, 300)
+		addEvent(doCreatureSay, 300, cid, "Yajiri!!", TALKTYPE_MONSTER)
+		
 		local level = getPlayerLevel(cid) 
 		local jutsuDmg = 17
 		local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
 		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-		for n = 1,1 do
-			addEvent(conditSquareArea, 600*n, toPosition, slow)
-			addEvent(doAreaCombatHealth, 600*n, cid, COMBAT_KIKAICHUU, toPosition, 1, dmg, dmg, 30)
-			addEvent(doAreaCombatMana, 600*n, cid, toPosition, 1, dmg, dmg, 255)
+		local target = getCreatureTarget(cid)
+		local pos = getCreaturePosition(target)
+		for n = 1,4 do
+			addEvent(doAreaCombatHealth, 300*n, cid, COMBAT_PHYSICALDAMAGE, pos, 1, dmg, dmg, 30)
+			addEvent(doAreaCombatMana, 300*n, cid, pos, 1, dmg, dmg, 255)
 		end
 			setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 		return true

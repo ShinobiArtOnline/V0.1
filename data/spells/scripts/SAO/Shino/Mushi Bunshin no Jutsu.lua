@@ -33,28 +33,28 @@ function onCastSpell(cid,var)
 	return true
 	end
 
-    if #getCreatureSummons(cid) <= 1 and itemEx.uid == cid then
+    if #getCreatureSummons(cid) <= 1 then
 	  local pos = getPlayerPosition(cid)
-      local Bunshin = doCreateMonsterNick("Mushi Bunshin", getPlayerName(cid), toPosition)
+	  local Bunshin = doCreateMonster("Bunshin", getCreaturePosition(cid))
+      
 	  if isPlayer(cid) then
 			removeChakraLife(cid, - confg.chakra)
 		end
 		doConvinceCreature(cid, Bunshin)	 
 		setCreatureMaxHealth(Bunshin, 100)
 		doCreatureAddHealth(Bunshin, 100)
-		doChangeSpeed(Bunshin, getCreatureBaseSpeed(cid))
 		doSetCreatureOutfit(Bunshin, getCreatureOutfit(cid), -1)
-		actionMove(cid, 372, 300)
-		addEvent(doRemoveCondition, 300, cid, CONDITION_OUTFIT)
-		noMove(cid, 800)
-		doSendMagicEffect(getThingPos(Bunshin), 33)
+
+		doSendMagicEffect(getCreaturePosition(Bunshin), 33)
 		doCreatureSay(cid,"Mushi Bunshin no Jutsu!", TALKTYPE_MONSTER)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+		
 	return true	
 	end
-	if isCreature(itemEx.uid) and getCreatureNickRealName(itemEx.uid) == "Mushi Bunshin" and itemEx.uid ~= cid then
-		doSendMagicEffect(getCreaturePosition(itemEx.uid), 33)
-		doRemoveCreature(itemEx.uid)
+	if #getCreatureSummons(cid) == 2 then
+		doPlayerSendCancel(cid, "You can't use.") 
+		--doSendMagicEffect(getCreaturePosition(cid), 33)
+		--doRemoveCreature(Bunshin)
     else
       return doPlayerSendCancel(cid, "You can't use.") 
    end	

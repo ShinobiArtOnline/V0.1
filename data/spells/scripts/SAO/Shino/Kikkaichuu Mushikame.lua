@@ -31,10 +31,10 @@ function onCastSpell(cid, var)
 		n = 0
 		while n < #pos do
 				n = n+1
-				addEvent(quakePush, 300, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_KIKAICHUU, dmg, dmg, 255, true)
-				addEvent(quakePush, 600, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_KIKAICHUU, dmg, dmg, 255, true)
-				addEvent(quakePush, 850, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_KIKAICHUU, dmg, dmg, 255, true)
-				addEvent(quakePush, 1550, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_KIKAICHUU, dmg, dmg, 255, true)
+				addEvent(quakePush, 300, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
+				addEvent(quakePush, 600, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
+				addEvent(quakePush, 850, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
+				addEvent(quakePush, 1550, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
 		end
 		exhaustion.set(cid, storage, waittime)
 end

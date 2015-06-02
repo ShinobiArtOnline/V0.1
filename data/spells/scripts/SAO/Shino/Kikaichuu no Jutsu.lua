@@ -12,7 +12,7 @@ function onCastSpell(cid, var)
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
 	
-	if getPlayerVocation(cid) == 3 then
+	if getPlayerVocation(cid) == 4 or getPlayerVocation(cid) == 15 or getPlayerVocation(cid) == 16 or getPlayerVocation(cid) == 17 or getPlayerVocation(cid) == 18 or getPlayerVocation(cid) == 19  then
 	if #getCreatureSummons(cid) == 0 then
 	if getPlayerStorageValue(cid, sto_kikkais[1]) < MaxCapKikais(cid) then 
 	if isPlayer(cid) then

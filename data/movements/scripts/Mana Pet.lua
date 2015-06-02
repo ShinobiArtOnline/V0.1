@@ -8,7 +8,8 @@ local manaa=getCreatureMaxMana(cid)
 	summons = getCreatureSummons(cid)
 local Fuuton = doCreateMonster("Gamakichi", getCreaturePosition(cid))
 doConvinceCreature(cid, Fuuton)
-
+if getTilePzInfo(getPlayerPosition(cid)) then
+        return doPlayerSendCancel(cid, "You in this area pz.") end 
 			function mana(cid) 
 			
                 doCreatureAddMana(cid,manaa * (percent/100)) 

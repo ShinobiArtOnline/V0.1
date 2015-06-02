@@ -8,7 +8,8 @@ local hp=getCreatureMaxHealth(cid)
 	summons = getCreatureSummons(cid)
 local Fuuton = doCreateMonster("Katsuya", getCreaturePosition(cid))
 doConvinceCreature(cid, Fuuton)
-
+if getTilePzInfo(getPlayerPosition(cid)) then
+        return doPlayerSendCancel(cid, "You in this area pz.") end 
 			function heal(cid) 
 			if getPlayerStorageValue(cid, 123489) == 1 then
                 doCreatureAddHealth(cid,hp * (percent/100)) 
