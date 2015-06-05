@@ -20,18 +20,35 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
       	else
          	doMoveCreature(cid, getPlayerLookDirection(cid))
          	doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, getCreaturePosition(cid), area, dmg, dmg, efeito)
+			
      	return true
       end
     end
 end
 
 local function iniciarGarouga(cid)
+local level = getPlayerLevel(cid) 
+local jutsuDmg = 5
+local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
+local dmg1 = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+local find_area = getFirstCreaturePosOnDirection(cid, 1)
 	if not isCreature(cid) then
 		return true
 	end
          mayNotMove(cid, true)
          addEvent(actionMove, 200, cid, 400, 600)
          addEvent(mayNotMove, 310, cid, false)
+		 
+if getCreatureLookDir(cid) == 0 then
+addEvent(doAreaCombatHealth, 370, cid, 1, find_area, GAROUGA, dmg1, dmg1, 255)--Góra
+elseif getCreatureLookDir(cid) == 1 then
+addEvent(doAreaCombatHealth, 370, cid, 1, find_area, GAROUGA, dmg1, dmg1, 255)--Góra
+elseif getCreatureLookDir(cid) == 2 then
+addEvent(doAreaCombatHealth, 370, cid, 1, find_area, GAROUGA, dmg1, dmg1, 255)--Góra
+elseif getCreatureLookDir(cid) == 3 then
+addEvent(doAreaCombatHealth, 370, cid, 1, find_area, GAROUGA, dmg1, dmg1, 255)--Góra
+end
+
 end
 
 local function finalizarGarouga(cid)
@@ -48,13 +65,17 @@ local function dashGarouga(cid)
 
 local pos = getCreaturePosition(cid)
 if getCreatureLookDir(cid) == 0 then
-doSendMagicEffect({x=pos.x, y=pos.y-1, z=pos.z}, 68)
+doSendMagicEffect({x=pos.x+1, y=pos.y, z=pos.z}, 68)--góra
+doSendMagicEffect({x=pos.x, y=pos.y, z=pos.z}, 68)
 elseif getCreatureLookDir(cid) == 1 then
-doSendMagicEffect({x=pos.x+4, y=pos.y+0, z=pos.z}, 69)
+doSendMagicEffect({x=pos.x+4, y=pos.y, z=pos.z}, 69)--prawo
+doSendMagicEffect({x=pos.x+4, y=pos.y+1, z=pos.z}, 69)
 elseif getCreatureLookDir(cid) == 2 then
+doSendMagicEffect({x=pos.x+1, y=pos.y+4, z=pos.z}, 67)--dół
 doSendMagicEffect({x=pos.x, y=pos.y+4, z=pos.z}, 67)
 elseif getCreatureLookDir(cid) == 3 then
-doSendMagicEffect({x=pos.x-1, y=pos.y, z=pos.z}, 70)
+doSendMagicEffect({x=pos.x, y=pos.y+1, z=pos.z}, 70)--lewo
+doSendMagicEffect({x=pos.x, y=pos.y, z=pos.z}, 70)
 end
 
  local distance = 3

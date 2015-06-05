@@ -26,8 +26,8 @@ if isPremium(cid) then
 ---[Config Hospital]--
 	if getPlayerStorageValue(cid, initStorages.death) == 1 then
 		location = {
-		{x=1026, y=909, z=8},
-		
+		{x=246, y=300, z=7},
+		{x=246, y=302, z=7},
 
 	}
 		setPlayerStorageValue(cid, initStorages.death, 0)

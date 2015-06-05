@@ -57,18 +57,23 @@
 	
 	<instant name="Garouga no Jutsu" words="Garouga" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Garouga.lua">
 	</instant>
-	<instant name="Gatsuuga no Jutsu" words="Gatsuugaa" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Gatsuuga.lua">
-	</instant>
 	<instant name="Shikyaku no Jutsu" words="Shikyaku" lvl="1" mana="10" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Shikyaku no Jutsu.lua">
 	</instant>
 	<instant name="Soutorou no Jutsu" words="Soutorou" lvl="1" mana="0" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Soutorou.lua">
 	</instant>
-	<instant name="Tsuga no Jutsu" words="Tsu" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Kiba/Tsuuga.lua">
-	</instant>
-	<instant name="Juujin Bunshin no Jutsu" words="Juujin Bunshin" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Juujin Bunshin.lua">
+	<instant name="Tsuga no Jutsu" words="Tsu" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Kiba/Tsuuga.lua">
 	</instant>
 	<instant name="Akamaru" words="Akamaru" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Akamaru.lua">
 	</instant>
+	<instant name="Kizu" words="Kizu" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" needtarget="1"  event="script" value="SAO/Kiba/Kizu.lua">
+	</instant>
+	<instant name="Dinamyc Marking" words="Dinamyc Marking" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" needtarget="1"  event="script" value="SAO/Kiba/Dinamyc Marking.lua">
+	</instant>
+	<instant name="Moko Taiko" words="Moko Taiko" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" needtarget="1"  event="script" value="SAO/Kiba/Moko Taiko.lua">
+	</instant>
+	<instant name="Bite" words="Bite" lvl="1" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" needtarget="0"  event="script" value="SAO/Kiba/Bite.lua">
+	</instant>
+	
 	
 	
 	
@@ -118,6 +123,11 @@
 	</instant>
 	<instant name="Ryuuka" words="Ryuuka no Jutsu" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Ryuuka no Jutsu.lua">
 	</instant>
+	<instant name="Sharingan Level 1" words="Sharingan Level 1" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Sharingan Level 1.lua">
+	</instant>
+	<instant name="Sharingan Level 2" words="Sharingan Level 2" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Sharingan Level 2.lua">
+	</instant>
+	
 	<!--- Neji -->
 	
 	
@@ -188,8 +198,8 @@
 		
 		
 		<!--- Moje spelle-->
-	<instant name="zwykły target" words="t1" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0" needtarget="1"  event="script" value="SAO/Kiba/targecik.lua">
-	</instant>
+
+	
 	<instant name="Tsukuyomi" words="Tsukuyomi" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0" needtarget="1"  event="script" value="SAO/Uchiha/Mangekyou Sharingan/Tsukuyomi.lua">
 	</instant>
 	<instant name="Amaterasu" words="Amaterasu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0"  event="script" value="SAO/Uchiha/Amaterasu.lua">
@@ -200,6 +210,8 @@
 	</instant>
 	<instant name="teleport" words="tp" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0"  event="script" value="SAO/genjutsu/teleport.lua">
 	</instant>
+	
+	
 	
 		
 		

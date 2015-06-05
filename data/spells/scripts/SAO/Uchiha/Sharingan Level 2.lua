@@ -10,7 +10,7 @@ setConditionParam(buff, CONDITION_PARAM_SKILL_SWORD, 6)
 setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 6)
 setConditionParam(buff, CONDITION_PARAM_SKILL_DISTANCE, 6)
 
-function onUse(cid, item, fromPosition, itemEx, toPosition)
+function onCastSpell(cid, var)
 	if checkCmd(cid, "rest") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu while you are resting.")
 	end
@@ -45,7 +45,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
 		addEvent(stopNows, 0, cid, -1)
 		addEvent(stopNows, 500, cid, 0)
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Sharingan: Activated!")
-	    addEvent(actionMove, 0, cid, 385, 400)		
+	    	
 		addEvent(doCreatureSay, 100, cid, "Sharingan!", TALKTYPE_MONSTER)
 		setPlayerStorageValue(cid, 9998, getPlayerStorageValue(cid, 9998)+1)
 		setPlayerStorageValue(cid, sto_sharingan[2], 0)

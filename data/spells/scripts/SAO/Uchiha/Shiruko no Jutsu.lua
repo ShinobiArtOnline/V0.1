@@ -83,9 +83,7 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 
 	addEvent(doCreatureSay, 500, cid, "Katon:", TALKTYPE_MONSTER)
 	addEvent(doCreatureSay, 1000, cid, "Shiruko no Jutsu!", TALKTYPE_MONSTER)
-	noMove(cid, 1800)
-	actionMove(cid, 385, 1000)
-	addEvent(actionMove, 1000, cid, 386, 800)
+	
 local combat = {[1] = combat1, [2] = combat2, [3] = combat3, [4] = combat4,}
 local area = {[1] = area1, [2] = area2, [3] = area3, [4] = area4,}
 	for i = 0,3 do

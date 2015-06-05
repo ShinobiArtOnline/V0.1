@@ -78,7 +78,7 @@ function onLogout(cid)
 		if(getPlayerStorageValue(cid, STORAGE_TRAPED_ON_KAGEMANE) == 1) then
 			freeFromKagemane(cid)
 		end
-		setPlayerStorageValue(cid, 123489, 0) 
+		
 	--summons = getCreatureSummons(cid)
 	--for _, summon in pairs(summons) do
 	--doSendMagicEffect(getThingPos(summon), 1)

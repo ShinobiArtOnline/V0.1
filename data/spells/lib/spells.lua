@@ -5,6 +5,13 @@ Shiten = {
 	{1, 1, 1, 1, 1},
 	{0, 1, 1, 1, 0}
 }
+BITE = createCombatArea{
+	{0, 0, 1, 0, 0},
+	{0, 1, 1, 1, 0},
+	{1, 1, 2, 1, 1},
+	{0, 1, 1, 1, 0},
+	{0, 0, 1, 0, 0}
+}
 
 --Waves
 WAVE1 = {
@@ -239,7 +246,16 @@ KATON = createCombatArea{
 	{0, 0, 3, 0, 0},
 }
 
-AREA_KATON1 = {
+GAROUGA = createCombatArea{
+	{0, 0, 0, 0, 0},
+	{0, 1, 1, 1, 0},
+	{0, 1, 1, 1, 0},
+	{0, 1, 1, 1, 0},
+	{0, 1, 3, 1, 0},
+}
+
+
+AREA_KATON1 =  createCombatArea {
 	{1, 1, 1},
 	{1, 1, 1},
 	{1, 1, 1},

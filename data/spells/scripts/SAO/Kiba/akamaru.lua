@@ -3,7 +3,7 @@ local playerpos = getPlayerPosition(cid)
 local cloth = getCreatureOutfit(cid)
 local health = getCreatureHealth(cid)
 local maxhealth = getCreatureMaxHealth(cid)
-local MaximoSummon = 2 --- Maximo de Monstros Sumonados!! No Caso So Posso Sumonar 5 Clones
+local MaximoSummon = 1 --- Maximo de Monstros Sumonados!! No Caso So Posso Sumonar 5 Clones
 local level = getPlayerLevel(cid) 
 local summons = getCreatureSummons(cid)
 local hp = 60
@@ -27,6 +27,10 @@ local aka = doCreateMonster("Akamaru", getCreaturePosition(cid))
 				setCreatureMaxHealth(aka, maxhealth * (percent/100))
 				doCreatureAddHealth(aka, maxhealth * (percent/100))
 				elseif getPlayerLevel(cid) >= 100 and getPlayerLevel(cid) < 200 then
+				doConvinceCreature(cid, aka)
+				setCreatureMaxHealth(aka, maxhealth * (percent/100))
+				doCreatureAddHealth(aka, maxhealth * (percent/100))
+				elseif getPlayerLevel(cid) >= 200 and getPlayerLevel(cid) < 300 then
 				doConvinceCreature(cid, aka)
 				setCreatureMaxHealth(aka, maxhealth * (percent/100))
 				doCreatureAddHealth(aka, maxhealth * (percent/100))

@@ -11,7 +11,7 @@ setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 9)
 setConditionParam(buff, CONDITION_PARAM_SKILL_DISTANCE, 9)
 
 
-function onUse(cid, item, fromPosition, itemEx, toPosition)
+function onCastSpell(cid, var)
 	
 	if checkCmd(cid, "rest") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu while you are resting.")

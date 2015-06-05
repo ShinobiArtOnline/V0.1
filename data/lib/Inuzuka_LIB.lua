@@ -2,7 +2,8 @@ function onGatsuuga(cid)
 	if not isCreature(cid) then
 		return true
 	end
-local pet = getPlayerPet(cid)
+local Bunshin = doCreateMonster("Akamaru", getCreaturePosition(cid))
+local pet =  getCreatureSummons(cid)
 	local maxDmg = (getPlayerLevel(cid) * 0.3 + getPlayerSkill(cid,0) * 3.0)
 	local minDmg = (getPlayerLevel(cid) * 0.6 + getPlayerSkill(cid,0) * 3.5)
 	local poslook = getCreatureLookPosition(cid)
@@ -27,7 +28,7 @@ function iniciarGatsuuga(cid)
 		return true
 	end
          mayNotMove(cid, true)
-		 local pet = getPlayerPet(cid)
+		 local pet = getCreatureSummons(cid)
          addEvent(actionMove, 200, cid, 191, 600)
 		 addEvent(actionMove, 200, pet, 191, 600)
          addEvent(mayNotMove, 310, cid, false)
@@ -37,14 +38,14 @@ function finalizarGatsuuga(cid)
 	if not isCreature(cid) then
 		return true
 	end
-local pet = getPlayerPet(cid)
+local pet = getCreatureSummons(cid)(cid)
 end
 
 function dashGatsuuga(cid)
 	if not isCreature(cid) then
 		return true
 	end
-local pet = getPlayerPet(cid)
+local pet = getCreatureSummons(cid)(cid)
 local pos = getCreaturePosition(cid)
 local ppos = getCreaturePosition(pet)
 if getCreatureLookDir(cid) == 0 then
