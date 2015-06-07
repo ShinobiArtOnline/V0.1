@@ -7,11 +7,14 @@ level = 1,
 chakra = 65
 }
 
+local buff = createConditionObject(CONDITION_ATTRIBUTES)
+setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
+setConditionParam(buff, CONDITION_PARAM_SKILL_SHIELD, 25)
+setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 5)-- evaluation
+
+
 function onCastSpell(cid, var)
-	if(getPlayerStorageValue(cid, sto_jutsu[1]) > os.time() and getPlayerStorageValue(cid, sto_jutsu[1]) < 100+os.time()) then
-				doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
-	return true
-	end
+	
 	if checkJutsu(cid, "Kagemane") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
@@ -37,7 +40,6 @@ function onCastSpell(cid, var)
 	local info = {
 		speed = 100,
 	}
-	
 
 	if not isCreature(cid) then
 		return true
@@ -47,12 +49,14 @@ function onCastSpell(cid, var)
 	if isPlayer(cid) and getPlayerStorageValue(cid, sto_sensha[6]) > 0 then
        	removeChakraLife(cid, - confg.chakra)
 		iniBaika(cid)
+		doAddCondition(cid, buff)
 		addEvent(doSendMagicEffect, 550, getCreaturePosition(cid),111)
 		setPlayerStorageValue(cid, sto_sensha[6], 0)
 	    doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid) -info.speed)
 		removeChakra(cid, 1, 3, sto_sensha[6], "sharingan")
 	else
+	  doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		endBaika(cid)
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid))

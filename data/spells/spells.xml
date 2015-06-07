@@ -83,7 +83,7 @@
 	</instant>
 	<instant name="Bubun" words="Bubun Baika" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Bubun Baika.lua">
 	</instant>
-	<instant name="Hari" words="Hari Sensha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Hari Sensha.lua">
+	<instant name="Hari" words="Hari Sensha" lvl="1" mana="15" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Hari Sensha.lua">
 	</instant>
 	<instant name="Choudan" words="Choudan Bakugeki" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Choudan Bakugeki.lua">
 	</instant>
@@ -93,15 +93,12 @@
 	</instant>
 	<instant name="Karegan no Jutsu" words="Karegan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Karegan.lua">
 	</instant>
-	<instant name="Mizudan Suisha no Jutsu" words="Mizudan Suisha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Mizudan Suisha.lua">
-	</instant>
 	<instant name="Nikudan Sensha no Jutsu" words="Nikudan Sensha" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Nikudan Sensha.lua">
 	</instant>
 	<instant name="Omoni no Jutsu" words="Omoni" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Omoni.lua">
 	</instant>
-	<instant name="Tongarashigan no Jutsu" words="Tongarashigan" lvl="1" mana="150" aggressive="0" selftarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Tongarashigan.lua">
+	<instant name="Tongarashigan no Jutsu" words="Tongarashigan" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"  event="script" value="SAO/Choji/Tongarashigan.lua">
 	</instant>
-	
 	
 	
 	

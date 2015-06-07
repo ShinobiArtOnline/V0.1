@@ -42,7 +42,7 @@ function onCastSpell(cid,var)
              iniNikudan(cid)
 			 setPlayerStorageValue(cid, sto_sensha[1], 1)
              addEvent(nikudanSensha, 800, cid, 3)
-			 removeChakra(cid, -chakraPercent, 3, sto_sensha[1], "sharingan")
+			 removeChakra(cid, chakraPercent, 3, sto_sensha[1], "sharingan")
 			 setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
          else
              endNikudan(cid)

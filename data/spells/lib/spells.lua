@@ -268,6 +268,12 @@ AREA_HARITE =createCombatArea {
 	{0, 1, 0},
 	{0, 3, 0}
 }
+AREA_HARITE2 =createCombatArea {
+	{0, 0, 0},
+	{0, 0, 0},
+	{0, 1, 0},
+	{0, 3, 0}
+}
 
 AREA_HAKKE1 = {
 	{0, 0, 0},

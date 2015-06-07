@@ -15,6 +15,5 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 		
 		doAreaCombatHealth(cid, 1, getCreaturePosition(cid),BITE, BITE, dmg, 77)
 		doAreaCombatHealth(cid, 1, getThingPos(cid), BITE, dmg, dmg, 255)
-		
 		doCreatureSay(cid, "Bite!!", TALKTYPE_MONSTER)
 end 
