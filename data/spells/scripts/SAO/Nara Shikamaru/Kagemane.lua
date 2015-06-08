@@ -44,7 +44,8 @@ function onCastSpell(cid, var)
 	if getTileInfo(getCreaturePosition(cid)).protection then return doPlayerSendCancel(cid, "You use that from here.") end  
 	local maxShadowDist = 10
 	setPlayerStorageValue(cid, STORAGE_SHADOW_DIST, maxShadowDist)
-	doAddCondition(getCreatureTarget(cid), condition)
+	--doAddCondition(getCreatureTarget(cid), condition)
+	doAreaCombatCondition(cid, getCreaturePosition(cid), KAGEMANE, condition , 255)
 	setPlayerStorageValue(cid, STORAGE_MAX_SHADOW_DIST, maxShadowDist)
 	setPlayerStorageValue(cid, 10176, 1)
 	removeChakraLife(cid, - confg.chakra)

@@ -1,12 +1,15 @@
 local storage = 201
-
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-      if not isCreature(itemEx.uid) then
+--doCreatureSetHideHealth(cid, true)
+ --  addEvent(doCreatureSetHideHealth, 300, cid, false)
+  -- doSetItemOutfit(cid, math.random(2701, 2704), 7000)
+function onCastSpell(cid, var)
+      if not isCreature(cid) then
          return doPlayerSendCancel(cid, "Use only in creatures")
       end
    if(getPlayerStorageValue(cid,storage) <= 0) then
-         actionMove(cid, 191, -1)
+         actionMove(cid, 400, -1)
 		 doCreatureSetHideHealth(cid,TRUE)
+		 addEvent(doCreatureSetHideHealth, 7000, cid, false)
 		 doSendMagicEffect(getThingPos(cid), 107)
 		 doCreatureSay(cid, "Kakuremino!", TALKTYPE_MONSTER)
         mayNotMove(cid, true) 

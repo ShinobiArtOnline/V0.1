@@ -25,7 +25,7 @@ function iniciarEntry(cid)
 		return true
 	end
          
-         addEvent(actionMove, 300, cid, 198, 100)-- wjazd
+         addEvent(actionMove, 100, cid, 198, 500)-- wjazd
 end
 
 function finalizarEntry(cid)
@@ -33,7 +33,7 @@ function finalizarEntry(cid)
 		return true
 	end
          
-         addEvent(doRemoveCondition, 100, cid, CONDITION_OUTFIT)
+         addEvent(doRemoveCondition, 500, cid, CONDITION_OUTFIT)
 end
 
 local function dash(cid)
@@ -59,7 +59,7 @@ function onCastSpell(cid, var)
 		 if not isCreature(cid) then return true end
 		 setPlayerStorageValue(cid, STORAGE_DIRECTION, 0)
 		 end, 1000)
-         addEvent(finalizarEntry, 100, cid)
+         addEvent(finalizarEntry, 500, cid)
          addEvent(doCreatureSay, 100, cid, "DYNAMIC..", TALKTYPE_MONSTER)
 		 addEvent(doCreatureSay, 200, cid, "ENTRY!!", TALKTYPE_MONSTER)
 		

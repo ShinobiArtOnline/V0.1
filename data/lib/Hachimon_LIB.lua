@@ -93,3 +93,11 @@ function endhachimonTonkou2(cid)
   addEvent(changeMove, 200, cid, 12, -1)
   
 end
+function endhachimonTonkou3(cid)
+  stopNow(cid, 1200)
+  addEvent(changeMove, 0, cid, 9, 500)
+  addEvent(changeMove, 0, cid, 10, 500)
+  addEvent(changeMove, 100, cid,8 , 500)
+  addEvent(changeMove, 200, cid, 12, -1)
+  
+end

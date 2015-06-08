@@ -98,6 +98,7 @@ function removeStaminaLife(cid, percent)
 	   
 	   
 function removeStaminaSecondLife(cid, percent, time, storage)
+local Hp = getCreatureMaxHealth(cid) * (30 / 100)
     remove = percent
     if not isCreature(cid) then
        return true
@@ -105,11 +106,22 @@ function removeStaminaSecondLife(cid, percent, time, storage)
 if (getCreatureStorage(cid, storage) < 1) then
 	if getPlayerStorageValue(cid, STAMINA_STORAGE) >= 1 then
              addStamina(cid, remove)
-          else
+          elseif getCreatureHealth(cid) > Hp then
              setPlayerStorageValue(cid, STAMINA_STORAGE, 0)
              doCreatureAddHealth(cid, remove)
 			 doSendMagicEffect(getThingPos(cid), 0)
              doSendAnimatedText(getCreaturePosition(cid), remove, COLOR_RED)
+			 elseif getCreatureHealth(cid) < Hp and getCreatureStorage(cid, sto_hachimon[1])==0 then
+			 doPlayerCastSpell(cid, "Kaimon")
+			  elseif getCreatureHealth(cid) < Hp and getCreatureStorage(cid, sto_hachimon[6])==0 then
+			 doPlayerCastSpell(cid, "Keimon")
+			 
+			 elseif getCreatureHealth(cid) < Hp and getCreatureStorage(cid, sto_hachimon[7])==0 then
+			 doPlayerCastSpell(cid, "Kyomon")
+			 elseif getCreatureHealth(cid) < Hp and getCreatureStorage(cid, sto_hachimon[2])==0 then
+			 doPlayerCastSpell(cid, "Kyumon")
+			  elseif getCreatureHealth(cid) < Hp and getCreatureStorage(cid, sto_hachimon[8])==0 then
+			 doPlayerCastSpell(cid, "Shimon")
           end
 			addEvent(removeStaminaSecondLife, time*1000, cid, percent, time, storage)
 	end

@@ -1,5 +1,5 @@
 local chakra = 10
-function onUse(cid, item, fromPosition, itemEx, toPosition)
+function onCastSpell(cid, var)
 	if checkCmd(cid, "rest") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu while you are resting.")
 	end
@@ -10,7 +10,7 @@ function onUse(cid, item, fromPosition, itemEx, toPosition)
       return doPlayerSendCancel(cid, "Sorry this is not possible.")     
    end
 	
-   local target = itemEx.uid
+   local target = getCreatureTarget(cid)
    if not (target == cid) then
       if not isCreature(target) then
          return doPlayerSendCancel(cid, "Use only in creatures")

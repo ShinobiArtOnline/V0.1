@@ -10,7 +10,7 @@ setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 4)
 	
 function onCastSpell(cid, var)
 local info = {
-		mana = 1,
+		mana = 35,
 		speed = 210,
 	}
 

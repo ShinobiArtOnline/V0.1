@@ -1,6 +1,7 @@
 function iniSenpuu(cid)
   addEvent(actionMove, 0, cid, 400, 250)
   addEvent(doRemoveCondition, 300, cid, CONDITION_OUTFIT)
+  
 end
 
 

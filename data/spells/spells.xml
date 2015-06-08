@@ -182,7 +182,9 @@
 	</instant>
 	<instant name="Kyumon" words="Kyumon" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Kyumon.lua">
 	</instant>
-	<instant name="Omote Renge" words="Omote Renge" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Omote Renge.lua">
+	<instant name="Shimon" words="Shimon" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Shimon.lua">
+	</instant>
+	<instant name="Omote Renge" words="Omote Renge" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0" range="4"  event="script" value="SAO/genjutsu/Hirashin.lua">
 	</instant>
 	
 	
@@ -207,10 +209,14 @@
 	</instant>
 	<instant name="teleport" words="tp" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0"  event="script" value="SAO/genjutsu/teleport.lua">
 	</instant>
+	<instant name="Chowany" words="Chowany" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0" range="4"  event="script" value="SAO/Ninpou/Kakuremino.lua">
+	</instant>
+	<instant name="Henge" words="henge" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0" range="4"  event="script" value="SAO/Ninpou/Henge.lua">
+	</instant>
+	<instant name="Kawarimi" words="Kawarimi" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0" range="4"  event="script" value="SAO/Ninpou/Kawarimi.lua">
+	</instant>
 	
 	
-	
-		
 		
 </spells>
 
