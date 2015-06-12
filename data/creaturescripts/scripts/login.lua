@@ -35,7 +35,7 @@ function onLogin(cid)
 	if getPlayerStorageValue(cid, 49708) ~= 0 then
         setPlayerStorageValue(cid, 49708, 0) 
 end
-	
+	setPlayerStorageValue(cid, 123987, 0)
 	for i = 9000, 9063 do setPlayerStorageValue(cid, i, 0) end
 	registerCreatureEvent(cid, "Bounty")
     setPlayerStorageValue(cid, 8877, 0)

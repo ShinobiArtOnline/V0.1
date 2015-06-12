@@ -243,7 +243,7 @@ function Susano(cid, time)
 if not isCreature(cid) then
 return true
 end
-setPlayerStorageValue(cid, STORAGE_DEFENSE, 2)
+setPlayerStorageValue(cid, 123987, 1)
 --addEvent(setPlayerStorageValue, time, cid, STORAGE_DEFENSE, 0)
 addEvent(Susano, time, cid, time)
 end	

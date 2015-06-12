@@ -123,6 +123,8 @@
 	</instant>
 	<instant name="Sharingan Level 2" words="Sharingan Level 2" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Sharingan Level 2.lua">
 	</instant>
+	<instant name="susek" words="Susanoo" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1000" needlearn="0" script="susek.lua">
+	</instant>
 	
 	<!--- Neji -->
 	
@@ -218,8 +220,7 @@
 	</instant>
 	<instant name="Susano" words="Susano" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" exhaustion="3000" needlearn="0" script="susanoo.lua">
 	</instant>
-	<instant name="Susek" words="Susek" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1000" needlearn="0" script="susek.lua">
-	</instant>
+	
 	
 	
 		

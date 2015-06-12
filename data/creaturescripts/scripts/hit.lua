@@ -54,11 +54,13 @@ if isPlayer(cid) then
    
   if type == STATSCHANGE_HEALTHLOSS and isPlayer(cid) and isPlayer(attacker) or isMonster(attacker) then
    ----[SUSANOO]----
-   if getPlayerStorageValue(cid, STORAGE_DEFENSE) == 2 then
-   local ChanceBlock = math.random(1,10)
-   local ChanceBKHit = getPlayerSkill(cid, 5)
-   if ChanceBlock <= ChanceBKHit then
+   if getPlayerStorageValue(cid, 123987) == 1 then
+   local ChanceBlock = math.random(1,3)
+   local ChanceBKHit = 2
+   if ChanceBlock == ChanceBKHit then
 	doSendAnimatedText(getCreaturePosition(cid), "Def - ".. value .."", 173)
+	 else
+	 return true
 	end
 	 return false
    end
