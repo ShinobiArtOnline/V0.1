@@ -1,4 +1,4 @@
-function onCastSpell(cid, toPostion)
+function onCastSpell(cid, var)
 -----[Restrições]-----
     if getTilePzInfo(getPlayerPosition(cid)) then
         return doPlayerSendCancel(cid, "You in this area pz.") end 
@@ -11,12 +11,11 @@ function onCastSpell(cid, toPostion)
 	end
 -----[Restrições]-----
 if getPlayerStorageValue(cid, sto_byakugan[4]) == 0 then
-		addEvent(actionMove, 0, cid, 376, 300)
+		
 		setPlayerStorageValue(cid, sto_byakugan[3], 1)
 		setPlayerStorageValue(cid, sto_byakugan[4], 1)
 		setPlayerStorageValue(cid, sto_byakugan[5], 1)
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Byakugan Search Mode: Deactivated!")
-		
 	for x = -20,20 do
 	for y = -20,20 do
     local byakupos = getThingFromPos({x = getThingPos(cid).x+(x),y = getThingPos(cid).y+(y),z = getThingPos(cid).z, stackpos = 253})

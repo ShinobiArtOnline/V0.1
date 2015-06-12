@@ -1,7 +1,8 @@
 local temp = {
-exhausted = 4
+exhausted = 2
 }
-
+local waittime = 1.5 -- czas
+local storage = 115818
 
 local confg = {
 level = 1,
@@ -9,28 +10,34 @@ chakra = 30,
 }
 
 local function moviment(cid)
-actionMove(cid, 385, 1100)
-noMove(cid, 3300)
+
 doCreatureSay(cid, "Katon:", TALKTYPE_MONSTER)
 addEvent(doCreatureSay, 400, cid, "Karyuudan no Jutsu!", TALKTYPE_MONSTER)
-addEvent(actionMove, 300, cid, 386, 1200)
-setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+exhaustion.set(cid, storage, waittime)
 end
 
 function onCastSpell(cid,var)
+if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 local level = getPlayerLevel(cid) 
 local jutsuDmg = 24
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+local pos = getCreaturePosition(cid)
+	local target = getCreatureTarget(cid)
+	local poss= getCreaturePosition(target)
+	local newpos = {x=pos.x - 7, y = pos.y - 6, z = pos.z}
+	local basePos = getCreaturePosition(cid)
+	local fromPos = {x=basePos.x-3, y=basePos.y-8, z=basePos.z}
 
-local function katonKaryuudan(cid, pos, toPosition)
-local random = randomPos(cid, toPosition)
+local function katonKaryuudan(cid, pos, poss)
+local random = randomPos(cid, poss)
 doSendDistanceShoot({x = pos.x+2, y = pos.y+1, z = pos.z}, random, 20)
 addEvent(doAreaCombatHealth, 100, cid, COMBAT_FIREDAMAGE, random, 0, dmg, dmg, 5)
 end
- if getPlayerVocation(cid) ~= 1 then
- 	return true
- end
+
 
 	if not isCreature(cid) then
 		return true
@@ -49,55 +56,56 @@ end
 	if isPlayer(cid) then
 		removeChakraLife(cid, - confg.chakra)
 	local pos = getCreaturePosition(cid)
-	if (toPosition.y == pos.y 
-	or (toPosition.y <= pos.y+1 and toPosition.x >= pos.x+2) 
-	or (toPosition.y <= pos.y-1 and toPosition.x >= pos.x+2) 
-	or (toPosition.y <= pos.y+2 and toPosition.x >= pos.x+4) 
-	or (toPosition.y <= pos.y-2 and toPosition.x >= pos.x+4))
-	and toPosition.x > pos.x then
+	if (poss.y == pos.y 
+	or (poss.y <= pos.y+1 and poss.x >= pos.x+2) 
+	or (poss.y <= pos.y-1 and poss.x >= pos.x+2) 
+	or (poss.y <= pos.y+2 and poss.x >= pos.x+2) 
+	or (poss.y <= pos.y-2 and poss.x >= pos.x+2))
+	and poss.x > pos.x then
 		moviment(cid)
 	local disteffect = {x = pos.x, y = pos.y, z = pos.z}
-	local random = randomPos(cid, toPosition)
+	local random = randomPos(cid, poss)
       for i = 1,8 do
-      addEvent(katonKaryuudan, 300*i, cid, disteffect, toPosition)
+      addEvent(katonKaryuudan, 100*i, cid, disteffect, poss)
       end
-	elseif (toPosition.y == pos.y 
-	or (toPosition.y <= pos.y+1 and toPosition.x <= pos.x-2) 
-	or (toPosition.y <= pos.y-1 and toPosition.x <= pos.x-2) 
-	or (toPosition.y <= pos.y+2 and toPosition.x <= pos.x-4) 
-	or (toPosition.y <= pos.y-2 and toPosition.x <=  pos.x-4))
-	and toPosition.x < pos.x then
+	elseif (poss.y == pos.y 
+	or (poss.y <= pos.y+1 and poss.x <= pos.x-2) 
+	or (poss.y <= pos.y-1 and poss.x <= pos.x-2) 
+	or (poss.y <= pos.y+2 and poss.x <= pos.x-2) 
+	or (poss.y <= pos.y-2 and poss.x <=  pos.x-2))
+	and poss.x < pos.x then
 		moviment(cid)
 	local disteffect = {x = pos.x-2, y = pos.y, z = pos.z}
-	local random = randomPos(cid, toPosition)
+	local random = randomPos(cid, poss)
       for i = 1,8 do
-      addEvent(katonKaryuudan, 300*i, cid, disteffect, toPosition)
+      addEvent(katonKaryuudan, 100*i, cid, disteffect, poss)
       end
-	elseif (toPosition.x == pos.x
-	or (toPosition.y <= pos.y-2 and toPosition.x <= pos.x-1) 
-	or (toPosition.y <= pos.y-2 and toPosition.x <= pos.x+1) 
-	or (toPosition.y <= pos.y-5 and toPosition.x <= pos.x-2) 
-	or (toPosition.y <= pos.y-5 and toPosition.x <= pos.x+2))
-	and toPosition.y < pos.y then
+	elseif (poss.x == pos.x
+	or (poss.y <= pos.y-2 and poss.x <= pos.x-1) 
+	or (poss.y <= pos.y-2 and poss.x <= pos.x+1) 
+	or (poss.y <= pos.y-5 and poss.x <= pos.x-2) 
+	or (poss.y <= pos.y-5 and poss.x <= pos.x+2))
+	and poss.y < pos.y then
 	moviment(cid)
 	local disteffect = {x = pos.x-1, y = pos.y-1, z = pos.z}
-	local random = randomPos(cid, toPosition)
+	local random = randomPos(cid, poss)
       for i = 1,8 do
-      addEvent(katonKaryuudan, 300*i, cid, disteffect, toPosition)
+      addEvent(katonKaryuudan, 100*i, cid, disteffect, poss)
       end
-	elseif (toPosition.x == pos.x
-	or (toPosition.y <= pos.y+2 and toPosition.x <= pos.x-1) 
-	or (toPosition.y <= pos.y+2 and toPosition.x <= pos.x+1) 
-	or (toPosition.y <= pos.y+5 and toPosition.x <= pos.x-2) 
-	or (toPosition.y <= pos.y+5 and toPosition.x <= pos.x+2))
-	and toPosition.y > pos.y then
+	elseif (poss.x == pos.x
+	or (poss.y <= pos.y+2 and poss.x <= pos.x-1) 
+	or (poss.y <= pos.y+2 and poss.x <= pos.x+1) 
+	or (poss.y <= pos.y+5 and poss.x <= pos.x-2) 
+	or (poss.y <= pos.y+5 and poss.x <= pos.x+2))
+	and poss.y > pos.y then
 		moviment(cid)
 	local disteffect = {x = pos.x-1, y = pos.y+2, z = pos.z}
-	local random = randomPos(cid, toPosition)
+	local random = randomPos(cid, poss)
       for i = 1,8 do
-      addEvent(katonKaryuudan, 300*i, cid, disteffect, toPosition)
+      addEvent(katonKaryuudan, 100*i, cid, disteffect, poss)
       end
       end
 	end
+	
 	return true
 end

@@ -1,3 +1,8 @@
+local confg = {
+chakra = 10,
+}
+
+local combat = createCombatObject()
 function onCastSpell(cid, var)
 		if not isPlayer(cid) then
 				return true
@@ -18,23 +23,24 @@ function onCastSpell(cid, var)
         
         addEvent(doCreatureSay, 200, cid, "Kikkaichu", TALKTYPE_MONSTER)
         addEvent(doCreatureSay, 500, cid, "Mushikame!!", TALKTYPE_MONSTER)
-        local level = getPlayerLevel(cid) 
-		local jutsuDmg = 11
-		local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
-		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
+       local level = getPlayerMagLevel(cid)
+		local jutsuDmg = 100
+		local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/3)
+		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 		local pos = getCreaturePosition(cid)
-		addEvent(doSendMagicEffect, 300, {x = pos.x+1, y = pos.y+1, z = pos.z}, 36)
-		addEvent(doSendMagicEffect, 600, {x = pos.x+1, y = pos.y+1, z = pos.z}, 36)
-		addEvent(doSendMagicEffect, 1000, {x = pos.x+1, y = pos.y+1, z = pos.z}, 36)
+		removeChakraLife(cid, - confg.chakra)
+		local pos = getCreaturePosition(cid)
+		addEvent(doSendMagicEffect, 30, {x = pos.x+1, y = pos.y+1, z = pos.z}, 36)
+		addEvent(doSendMagicEffect, 60, {x = pos.x+1, y = pos.y+1, z = pos.z}, 36)
+		addEvent(doSendMagicEffect, 100, {x = pos.x+1, y = pos.y+1, z = pos.z}, 36)
 		
 		pos = getPosfromArea(cid,area)
 		n = 0
 		while n < #pos do
 				n = n+1
-				addEvent(quakePush, 300, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
-				addEvent(quakePush, 600, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
-				addEvent(quakePush, 850, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
-				addEvent(quakePush, 1550, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
+				addEvent(quakePush, 90, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z},COMBAT_PHYSICALDAMAGE, -dmg, -dmg, 255, true)
+				
 		end
 		exhaustion.set(cid, storage, waittime)
+		return doCombat(cid,combat, var)
 end

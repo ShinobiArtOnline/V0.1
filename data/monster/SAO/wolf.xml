@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Wolf" nameDescription="wolf" race="blood" experience="100000" speed="130" manacost="0">
-	<health now="30" max="30"/>
+<monster name="Wolf" nameDescription="wolf" race="blood" experience="10000" speed="200" manacost="0">
+	<health now="500" max="500"/>
 	<look type="103" corpse="3056"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="10" defense="20"/>

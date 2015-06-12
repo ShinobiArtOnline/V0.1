@@ -1,3 +1,8 @@
+local waittime = 1.5 -- czas
+local storage = 115818
+local combat = createCombatObject()
+
+
 function iniDaiSenpuu(cid)
 		if not isCreature(cid) then
 				return true
@@ -10,6 +15,11 @@ end
 function onCastSpell(cid, var)
 		if not isCreature(cid) then
 				return true
+		end
+		
+		if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
 		end
 		iniDaiSenpuu(cid)
 		local area = {
@@ -35,4 +45,6 @@ function onCastSpell(cid, var)
 				addEvent(quakePush, 50, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, 255, true)
 				
 		end
+		exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 end

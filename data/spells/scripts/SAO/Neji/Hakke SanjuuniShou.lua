@@ -1,3 +1,7 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 local function remove(pos, id)
 local item = getTileItemById(pos, id).uid
 if item > 1 then
@@ -14,7 +18,7 @@ end
 local function playerCombat(cid, min, max) 
 if isCreature(cid) then
 local find_area = getFirstCreaturePosOnDirection(cid,1)
-doAreaCombatHealth(cid, COMBAT_JUUKEN, find_area, 0, -min, -max, 255)
+doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, find_area, 0, -min, -max, 255)
 doAreaCombatMana(cid, find_area, 0, -min, -max, 255)	
 end
 end
@@ -23,11 +27,15 @@ local function lastHit(cid, min, max)
 if isCreature(cid) then
 local pos = getCreaturePosition(cid)
 local find_area = getFirstCreaturePosOnDirection(cid,1)
-quakePush(cid, find_area, 1, -min, -max, 255, true)
+quakePush(cid, find_area, 1, 0, 0, 255, true)
 end
 end
 	
 function onCastSpell(cid, var)
+if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
    local pos = getCreaturePosition(cid)
    local position = {
          [1] = {pos = {x = pos.x, y = pos.y, z = pos.z}, item = 11411},
@@ -53,22 +61,21 @@ function onCastSpell(cid, var)
          [21] = {pos = {x = pos.x-2, y = pos.y-1, z = pos.z}, item = 11443}
    }
    addEvent(playerSay, 0, cid, "Hakke..")
-   addEvent(actionMove, 100, cid, 404, 2100)
+  
    addEvent(playerSay, 1400, cid, "Ni Shou")
    addEvent(playerSay, 2100, cid, "Yon Shou")
-   addEvent(actionMove, 2100, cid, 405, 3600)
+   
    addEvent(playerSay, 2800, cid, "Hachi Shou")
    addEvent(playerSay, 3600, cid, "Juuroku Shou")
-   addEvent(actionMove, 3500, cid, 406, 200)
+
    addEvent(playerSay, 4900, cid, "SANJUUNI SHOU!!!")
-   addEvent(actionMove, 3500, cid, 406, 200)
-   addEvent(actionMove, 5800, cid, 382, 800)
+
 
    for i = 1,21 do
       if hasSqm(position[i].pos) then
          local item = doCreateItem(position[i].item, 1, position[i].pos)
          doDecayItem(item)
-         addEvent(remove, 7600, position[i].pos, position[i].item)
+         addEvent(remove, 760, position[i].pos, position[i].item)
       end
    end 
    
@@ -84,32 +91,34 @@ local max = -dmg
    if isPlayer(getThingfromPos(find_area).uid) then
          addEvent(doPlayerAddMana, 700 + (700*i), getThingfromPos(find_area).uid, -(min*i))
    end
-addEvent(playerCombat, 700, cid, (min), (max))	 
-addEvent(playerCombat, 1100, cid,(min), (max))
-addEvent(playerCombat, 1300, cid, (min), (max))
-addEvent(playerCombat, 1500, cid, (min), (max))
-addEvent(playerCombat, 1700, cid, (min), (max))
-addEvent(playerCombat, 1900, cid, (min), (max))
-addEvent(playerCombat, 2100, cid, (min), (max))
-addEvent(playerCombat, 2300, cid, (min), (max))
-addEvent(playerCombat, 2500, cid, (min), (max))
-addEvent(playerCombat, 2700, cid, (min), (max))	
-addEvent(playerCombat, 2900, cid, (min), (max))
-addEvent(playerCombat, 3100, cid, (min), (max))
-addEvent(playerCombat, 3300, cid, (min), (max))
-addEvent(playerCombat, 3500, cid, (min), (max))
-addEvent(playerCombat, 3700, cid, (min), (max))	
-addEvent(playerCombat, 3900, cid, (min), (max))
-addEvent(playerCombat, 4100, cid, (min), (max))
-addEvent(playerCombat, 4300, cid, (min), (max))
-addEvent(playerCombat, 4500, cid, (min), (max))
-addEvent(playerCombat, 4700, cid, (min), (max))	
-addEvent(playerCombat, 4900, cid, (min), (max))
-addEvent(playerCombat, 5100, cid, (min), (max))
-addEvent(playerCombat, 5300, cid, (min), (max))
-addEvent(playerCombat, 5500, cid, (min), (max))	
-addEvent(playerCombat, 5900, cid, (min), (max))
-addEvent(lastHit, 6000, cid, (min), (max))
+addEvent(playerCombat, 70, cid, (min), (max))	 
+addEvent(playerCombat, 110, cid,(min), (max))
+addEvent(playerCombat, 130, cid, (min), (max))
+addEvent(playerCombat, 150, cid, (min), (max))
+addEvent(playerCombat, 170, cid, (min), (max))
+addEvent(playerCombat, 190, cid, (min), (max))
+addEvent(playerCombat, 210, cid, (min), (max))
+addEvent(playerCombat, 230, cid, (min), (max))
+addEvent(playerCombat, 250, cid, (min), (max))
+addEvent(playerCombat, 270, cid, (min), (max))	
+addEvent(playerCombat, 290, cid, (min), (max))
+addEvent(playerCombat, 310, cid, (min), (max))
+addEvent(playerCombat, 330, cid, (min), (max))
+addEvent(playerCombat, 350, cid, (min), (max))
+addEvent(playerCombat, 370, cid, (min), (max))	
+addEvent(playerCombat, 390, cid, (min), (max))
+addEvent(playerCombat, 410, cid, (min), (max))
+addEvent(playerCombat, 430, cid, (min), (max))
+addEvent(playerCombat, 450, cid, (min), (max))
+addEvent(playerCombat, 470, cid, (min), (max))	
+addEvent(playerCombat, 490, cid, (min), (max))
+addEvent(playerCombat, 510, cid, (min), (max))
+addEvent(playerCombat, 530, cid, (min), (max))
+addEvent(playerCombat, 550, cid, (min), (max))	
+addEvent(playerCombat, 590, cid, (min), (max))
+addEvent(lastHit, 600, cid, (min), (max))
+exhaustion.set(cid, storage, waittime)
+	return doCombat(cid,combat, var)
    end
 return false
 end

@@ -1,3 +1,7 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 local temp = {
 exhausted = 4,
 }
@@ -33,6 +37,10 @@ function onCastSpell(cid,var)
 	if checkJutsu(cid, "Tongarashigan") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end	
+	if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 -----[Restrições]-----
    if isPlayer(cid) then
 	  if(getPlayerStorageValue(cid, sto_sensha[5]) == 0) then
@@ -47,6 +55,9 @@ function onCastSpell(cid,var)
 			 setPlayerStorageValue(cid, sto_sensha[5], 0)
              doRemoveCondition(cid, CONDITION_OUTFIT)
 			  setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+			  exhaustion.set(cid, storage, waittime)
+		     
          end
 end
+return doCombat(cid,combat, var)
 end

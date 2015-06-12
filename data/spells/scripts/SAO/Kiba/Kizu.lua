@@ -6,6 +6,6 @@ function onCastSpell(cid, var)
 local position1 = {x=getThingPosition(getCreatureTarget(cid)).x+1, y=getThingPosition(getCreatureTarget(cid)).y+1, z=getThingPosition(getCreatureTarget(cid)).z}
 local target = getCreatureTarget(cid)
 local pos = getCreaturePosition(target)
-addEvent(doSendMagicEffect, 1, {x = pos.x+2, y = pos.y+1, z = pos.z}, 74)
+addEvent(doSendMagicEffect, 1, {x = pos.x, y = pos.y-1, z = pos.z}, 76)
 return doCombat(cid, combat, var)
 end

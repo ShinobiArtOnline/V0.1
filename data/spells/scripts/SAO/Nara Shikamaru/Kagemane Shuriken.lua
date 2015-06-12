@@ -1,3 +1,6 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 local KAGEMANE_INTERVAL = 300
 local KAGEMANE_TABLE = {}
 local count = 0
@@ -143,7 +146,11 @@ function onCastSpell(cid,var)
 	  if impossibleUse(cid) then
       return true
    end
-
+if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
+		
    if checkDoing(cid) then
       return true
    end   
@@ -159,6 +166,8 @@ function onCastSpell(cid,var)
       doCreatureSay(cid, "Kagemane Shuriken No Jutsu!!", TALKTYPE_MONSTER)
       createCallback(cid, getCreaturePosition(cid), getCreatureLookDir(cid))
 	  setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+	  exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
    end
    return true
 end

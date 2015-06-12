@@ -1,6 +1,7 @@
 local confg = {
 chakra = 10,
 }
+local combat = createCombatObject()
 local waittime = 1.5 -- Tempo de exhaustion
 local storage = 115818
 local function onDash(cid)
@@ -89,6 +90,10 @@ function onCastSpell(cid, var)
 	if not isCreature(cid) then
 		return true
 	end
+	if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 		removeChakraLife(cid, - confg.chakra)
          iniciarGarouga(cid)
 		 setPlayerStorageValue(cid, STORAGE_DIRECTION, 1)
@@ -101,4 +106,5 @@ function onCastSpell(cid, var)
          addEvent(doCreatureSay, 0, cid, "GAAAA", TALKTYPE_MONSTER)
 		 addEvent(doCreatureSay, 500, cid, "ROUUGA!!!", TALKTYPE_MONSTER)
 		 exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 end 

@@ -2,12 +2,20 @@ function iniGourikiSenpuu(cid)
 
   addEvent(doRemoveCondition, 100, cid, CONDITION_OUTFIT)
 end
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 
 
 function onCastSpell(cid, var)
 		if not isCreature(cid) then
 				return true
 		end
+		if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
+		
 		iniGourikiSenpuu(cid)
 		local area = {
 				{1, 1, 1},
@@ -40,4 +48,6 @@ function onCastSpell(cid, var)
 				addEvent(quake, 205, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
 				addEvent(quake, 235, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, dmg, dmg, 255, true)
 		end
+		exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 end

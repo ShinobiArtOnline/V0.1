@@ -45,12 +45,12 @@ if #monster_table >= 0 then
 		local PosBya = getCreaturePosition(monsterBya)
         if isCreature(monsterBya) and monsterBya ~= cid then
             local peo = {x = PosBya.x, y = PosBya.y, z = PosBya.z}
-            doPlayerAddMapMark(cid, peo, 19, "name:" ..getCreatureName(monsterBya).. "|HP:"..getCreatureHealth(monsterBya).."/"..getCreatureMaxHealth(monsterBya).."|CP:"..getCreatureMana(monsterBya).."/"..getCreatureMaxMana(monsterBya).."")
+            doPlayerAddMapMark(cid, peo, 19, "name:" ..getCreatureName(monsterBya).. "")
         end
     end
 end
 
-addEvent(ByakuganSearch, 1000, cid)
+--addEvent(ByakuganSearch, 1000, cid)
 end
 end
 
@@ -74,11 +74,7 @@ function onCastSpell(cid, toPostion)
 -----[Restrições]----- 
 if getPlayerStorageValue(cid, sto_byakugan[6]) == 0 then
 if getPlayerStorageValue(cid, sto_byakugan[4]) == 1 and isPlayer(cid) then
-                if getPlayerStorageValue(cid, initStorages.graduation) == "Academy Student" then
-                actionMove(cid, 594, 300)
-                elseif getPlayerStorageValue(cid, initStorages.graduation) == "Gennin" then
-                actionMove(cid, 376, 300)
-                end
+              
                 setPlayerStorageValue(cid, sto_byakugan[4], 0)
 				setPlayerStorageValue(cid, sto_byakugan[3], 0)
 				ByakuganSearch(cid)

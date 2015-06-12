@@ -41,6 +41,7 @@ end
     setPlayerStorageValue(cid, 8877, 0)
     setPlayerStorageValue(cid, 14755, -1)
 	Outfit(cid)
+	registerCreatureEvent(cid, "fullhp")
 	registerCreatureEvent(cid, "sru")
 	registerCreatureEvent(cid, "Outfitek") 
 	registerCreatureEvent(cid, "petKill")

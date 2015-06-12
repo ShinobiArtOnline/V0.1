@@ -6,7 +6,9 @@ local area1 = createCombatArea(WAVE1)
 local area2 = createCombatArea(WAVE2)                                   
 local area3 = createCombatArea(WAVE3)                         
 local area4 = createCombatArea(WAVE4)
-
+local waittime = 1.5 -- czas
+local storage = 115818
+local combat5 = createCombatObject()
 setCombatArea(combat1, area1)
 setCombatArea(combat2, area2)
 setCombatArea(combat3, area3)
@@ -51,14 +53,17 @@ function onCastSpell(cid, var)
 	if not isCreature(cid) then
 		return true
 	end
-
-	actionMove(cid, 385, 500)
-	addEvent(actionMove, 600, cid, 386, 600) 
-	noMove(cid, 1800)
-	addEvent(doCreatureSay, 200, cid, "Katon:", TALKTYPE_MONSTER)
-	addEvent(doCreatureSay, 600, cid, "Ryuuka no Jutsu!!!", TALKTYPE_MONSTER)
+if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
+	
+	addEvent(doCreatureSay, 20, cid, "Katon:", TALKTYPE_MONSTER)
+	addEvent(doCreatureSay, 60, cid, "Ryuuka no Jutsu!!!", TALKTYPE_MONSTER)
 	local combat = {[1] = combat1, [2] = combat2, [3] = combat3, [4] = combat4}
 	for i = 0,3 do
-		addEvent(doCombat, 600+(200*i), cid, combat[i+1], var)
+		addEvent(doCombat, 300+(100*i), cid, combat[i+1], var)
 	end
+	exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat5, var)
 end

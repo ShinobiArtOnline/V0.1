@@ -1,3 +1,7 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 local temp = {
 	exhausted = 7,
 }
@@ -42,7 +46,11 @@ function onCastSpell(cid, var)
 	if	impossibleUse(cid) then
 		return true
 	end
-
+		if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
+		
 	if checkDoing(cid) then
 		return true
 	end	
@@ -58,9 +66,11 @@ function onCastSpell(cid, var)
 	    removeChakraLife(cid, - config.chakra)
 		doCreatureSay(cid, "Kage Nui !!", TALKTYPE_MONSTER)
 		direcao(cid)
-		actionMove(cid, 401, 6000)
+		
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 		noMove(cid, 6000)
+		exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 	end
     return true
 end

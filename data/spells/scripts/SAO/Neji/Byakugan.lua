@@ -1,3 +1,7 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 local temp = {
 exhausted = 2,
 }
@@ -12,6 +16,10 @@ function onCastSpell(cid)
     if not isCreature(cid) then
 		return true
 	end
+	if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 -----[Restrições]-----
 	if(getPlayerStorageValue(cid, sto_byakugan[2]) > os.time() and getPlayerStorageValue(cid, sto_byakugan[2]) < 100+os.time()) then
        			doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
@@ -53,4 +61,5 @@ function onCastSpell(cid)
 		setPlayerStorageValue(cid, sto_byakugan[3], 1)
 		setPlayerStorageValue(cid, sto_byakugan[2], os.time() + temp.exhausted)
 	end
+	exhaustion.set(cid, storage, waittime)
 end

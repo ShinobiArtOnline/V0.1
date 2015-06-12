@@ -1,3 +1,7 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 local confg = {
 level = 1,
 chakra = 100,
@@ -17,6 +21,10 @@ function onCastSpell(cid,var)
 	if checkDoing(cid) then
 		return true
 	end	
+		if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 -----[Restrições]-----
 	if isPlayer(cid) then
 		removeChakraLife(cid , - confg.chakra)

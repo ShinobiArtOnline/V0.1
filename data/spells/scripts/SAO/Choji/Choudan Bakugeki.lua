@@ -1,7 +1,14 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 
 function onCastSpell(cid, var)
 		if not isCreature(cid) then
 				return true
+		end
+		if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
 		end
 		
 		local area = {
@@ -13,9 +20,9 @@ function onCastSpell(cid, var)
 		}
 	
 		
-		addEvent(doCreatureSay, 10, cid, "KageMane!", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 20, cid, "Shuriken..", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 70, cid, "FULL!!!!!", TALKTYPE_MONSTER)
+		addEvent(doCreatureSay, 10, cid, "CHOUDAN", TALKTYPE_MONSTER)
+		addEvent(doCreatureSay, 20, cid, "BAKUGEKI..", TALKTYPE_MONSTER)
+		
 		local level = getPlayerLevel(cid) 
 		local jutsuDmg = 16
 		local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
@@ -29,8 +36,8 @@ function onCastSpell(cid, var)
 		while n < #pos do
 				n = n+1
 				addEvent(doAreaCombatHealth, 30, cid, 1, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, area, -mini, -dmg, 88)
-				
-				
-				
+	
 		end
+		exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 end

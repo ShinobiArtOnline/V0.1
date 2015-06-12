@@ -18,9 +18,7 @@ local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 
 -----[Restrições]-----
- if getPlayerVocation(cid) ~= 1 then
- 	return true
- end
+ 
 
 	if	impossibleUse(cid) then
 		return true
@@ -34,15 +32,11 @@ local pos = getCreaturePosition(target)
 -----[Restrições]-----
    if isPlayer(cid) then
         removeChakraLife(cid, - confg.chakra)
-		addEvent(doCreatureSay, 100, cid, "Katon:", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 300, cid, "Endan no Jutsu!", TALKTYPE_MONSTER)
-		stopNow(cid, 800)
-		addEvent(actionMove, 0, cid, 385, 200)
-		addEvent(actionMove, 300, cid, 386, 300)
+		addEvent(doCreatureSay, 10, cid, "Katon:", TALKTYPE_MONSTER)
+		addEvent(doCreatureSay, 30, cid, "Endan no Jutsu!", TALKTYPE_MONSTER)
 
-
-		addEvent(doSendDistanceShoot, 300, getCreaturePosition(cid), pos, 27)
-		addEvent(doAreaCombatHealth, 400, cid, COMBAT_FIREDAMAGE, pos, 0, dmg, dmg, 5)
+		addEvent(doSendDistanceShoot, 30, getCreaturePosition(cid), pos, 27)
+		addEvent(doAreaCombatHealth, 40, cid, COMBAT_FIREDAMAGE, pos, 0, dmg, dmg, 5)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	end
 	return true

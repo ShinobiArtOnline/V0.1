@@ -4,8 +4,7 @@ if not isCreature(cid) then return false end
       doTeleportThing(cid, pos, true)
    end
 end
-
-function onCreatureMove(cid, old, current)
+function onDirection(cid, old, current)
 if getPlayerStorageValue(cid, STORAGE_KAGEMANE_TRAPED_QTY > 0) then
 local list = getKagemaneTargetList(cid)
 if(#list > 0) then

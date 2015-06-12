@@ -1,7 +1,9 @@
 local temp = {
 exhausted = 3,
 }
-
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 
 local confg = {
 level = 1,
@@ -15,6 +17,10 @@ end
 	if getPlayerStorageValue(cid, sto_gen[1]) == 0 then
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
+	if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 ----[Restriçoes]-----    
     if getTilePzInfo(getPlayerPosition(cid)) then
         return doPlayerSendCancel(cid, "You in this area pz.")
@@ -41,7 +47,7 @@ end
 		addEvent(doCreatureSay, 0, cid, "Tsumoji !", TALKTYPE_MONSTER)
 		
 		
-local level = getPlayerLevel(cid) 
+local level = getPlayerMagLevel(cid)
 local jutsuDmg = 24
 local pos = pos or getCreaturePosition(cid)
 local target = getCreatureTarget(cid)
@@ -50,7 +56,7 @@ local tpos = (target ~= 0) and getCreaturePosition(target)
 local newPos = getPosByDir(pos, dir)
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-		addEvent(doAreaCombatHealth, 0, cid, COMBAT_PHYSICALDAMAGE, newPos, 2, dmg, dmg, 35)
+		addEvent(doAreaCombatHealth, 0, cid, COMBAT_PHYSICALDAMAGE, newPos, NARASHI, dmg, dmg, 31)
 		--addEvent(doAreaCombatHealth, 0, cid, COMBAT_PHYSICALDAMAGE, tpos, 1, dmg, dmg, 35)
 		addEvent(doAreaCombatMana, 0, cid, newPos, 1, dmg, dmg, 255)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
@@ -58,4 +64,6 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
 		doPlayerSendCancel(cid, "You do not have chakra.")
 		return true
 	end
+	exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 end

@@ -1,3 +1,8 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
+
 local function onDash(cid)
 	if not isCreature(cid) then
 		return true
@@ -51,7 +56,10 @@ function onCastSpell(cid, var)
 	if not isCreature(cid) then
 		return true
 	end
-		 	
+		 	if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
          iniciarEntry(cid)
 		 setPlayerStorageValue(cid, STORAGE_DIRECTION, 1)
          addEvent(dash, 320, cid)
@@ -62,6 +70,7 @@ function onCastSpell(cid, var)
          addEvent(finalizarEntry, 500, cid)
          addEvent(doCreatureSay, 100, cid, "DYNAMIC..", TALKTYPE_MONSTER)
 		 addEvent(doCreatureSay, 200, cid, "ENTRY!!", TALKTYPE_MONSTER)
-		
+		exhaustion.set(cid, storage, waittime)
+		doCombat(cid,combat, var)
 return false
 end 

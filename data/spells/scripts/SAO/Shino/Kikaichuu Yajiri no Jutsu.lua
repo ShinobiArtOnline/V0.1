@@ -1,7 +1,9 @@
 local temp = {
 exhausted = 3,
 }
-
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 
 
 local confg = {
@@ -31,6 +33,10 @@ setConditionFormula(slow, -0.63, -0.63, -0.63, -0.63)
 
 function onCastSpell(cid, var)
 
+if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 ----[Restriçoes]-----    
     if getTilePzInfo(getPlayerPosition(cid)) then
         return doPlayerSendCancel(cid, "You in this area pz.") end 
@@ -73,4 +79,6 @@ function onCastSpell(cid, var)
 			doPlayerSendCancel(cid, "you do not have chakra.")
 		return true
 	end
+	exhaustion.set(cid, storage, waittime)
+	return doCombat(cid,combat, var)
 end

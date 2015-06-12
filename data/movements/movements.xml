@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
-<movevent type="StepIn" fromid="11444" toid="11480" event="script" value="kagemane.lua"/>
+
 	<movevent type="StepIn" actionid="7500" event="script" value="blockDP.lua"/>
 <movevent event="StepIn" actionid="7890" script="TilePremium.lua"/>
 	<movevent event="StepOut" actionid="7890"  script="TilePremium.lua"/>

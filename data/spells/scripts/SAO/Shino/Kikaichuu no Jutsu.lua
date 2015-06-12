@@ -1,3 +1,6 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 local function MaxCapKikais(cid)
 local maxkikais = 50 + (10*getPlayerStorageValue(cid, sto_kikkais[2]))
 return maxkikais
@@ -7,7 +10,10 @@ function onCastSpell(cid, var)
 	if checkJutsu(cid, "Kagemane") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
-
+if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 	if getPlayerStorageValue(cid, sto_gen[1]) == 0 then
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
@@ -33,4 +39,6 @@ function onCastSpell(cid, var)
 	else
 		doPlayerSendCancel(cid, "you do not is Aburame.")
 	end 
+	exhaustion.set(cid, storage, waittime)
+	return doCombat(cid,combat, var)
 end

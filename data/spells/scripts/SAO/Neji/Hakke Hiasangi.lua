@@ -1,17 +1,11 @@
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -4.2, 1, -5.2, 1)
+
 function onCastSpell(cid, var)
-if not isCreature(cid) then
-return true
-end
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 12
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-local find_area = getFirstCreaturePosOnDirection(cid,1)
-local pos = getCreaturePosition(cid)
-if isPlayer(getThingfromPos(find_area).uid) then
-doPlayerAddMana(getThingfromPos(find_area).uid, (dmg/2))
-end
-addEvent(doCreatureSay, 300, cid, "Hiasangi!", TALKTYPE_MONSTER)
-addEvent(doAreaCombatHealth, 600, cid, COMBAT_JUUKEN, find_area, 0, dmg, dmg, 56)
-addEvent(doSendMagicEffect, 600, find_area, 1)
+local position1 = {x=getThingPosition(getCreatureTarget(cid)).x+1, y=getThingPosition(getCreatureTarget(cid)).y+1, z=getThingPosition(getCreatureTarget(cid)).z}
+local target = getCreatureTarget(cid)
+local pos = getCreaturePosition(target)
+addEvent(doSendMagicEffect, 1, {x = pos.x, y = pos.y-1, z = pos.z}, 9)
+return doCombat(cid, combat, var)
 end

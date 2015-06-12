@@ -1,8 +1,15 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 
 function onCastSpell(cid, var)
 if not isCreature(cid) then
 return true
 end
+if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 
 addEvent(doCreatureSay, 0, cid, "Harite..", TALKTYPE_MONSTER)
 addEvent(doCreatureSay, 300, cid, "Chou!!!", TALKTYPE_MONSTER)
@@ -30,4 +37,6 @@ addEvent(doSendMagicEffect, 300, {x = pos.x-1, y = pos.y, z = pos.z},121)
 addEvent(doSendMagicEffect, 300, {x = pos.x-1, y = pos.y+1, z = pos.z},121)
 
 end
+exhaustion.set(cid, storage, waittime)
+return doCombat(cid,combat, var)
 end

@@ -26,7 +26,7 @@ STORAGE_KAGE_KUBI = 9063
 SHADOW_ITEMID_FIRST = 11469-- mudar
 SHADOW_ITEMID_LAST = 11480-- mudar
  
-KAGEMANE_TIME = 300 -- MS
+KAGEMANE_TIME = 190 -- MS
  
  
  local function getLanguage(cid)
@@ -414,10 +414,11 @@ function addKagemaneTarget(cid, target)
 	doAddCondition(cid, condition)
       doPlayerSendTextMessage(target, 22, "You have been caught on ".. getCreatureName(cid).."'s kagemane no jutsu!")
 		mayNotMove(target, true)
+		noMove(target,5000)
 	end              
   end
  
- 
+ noMove(target,5000)
   mayNotMove(cid, true)
   doRemoveCondition(cid, CONDITION_OUTFIT)
 --doAddCondition(getCreatureTarget(cid), condition)
@@ -475,13 +476,13 @@ function checkKagemaneBreak(cid)
         if(isCreature(cid)) then
           if(getPlayerStorageValue(cid, STORAGE_TRAPED_ON_KAGEMANE) == 1) then
              local master = getPlayerStorageValue(cid, STORAGE_KAGEMANE_ATTACKER_NAME)
-             local breakChance = 10 -- chance de quebrar
+             local breakChance = 2 -- chance de quebrar
          
              if(not isCreature(master)) then
                  return breakKagemane(master, cid)
              end
          
-             local random = math.random(1,100)
+             local random = math.random(1,2)
                    
              if(random <= breakChance or not isCreature(master)) then
                 return breakKagemane(master, cid)

@@ -1,5 +1,4 @@
 local combat = createCombatObject()
-
 local confg = {
 chakra = 10,
 }
@@ -30,7 +29,7 @@ function onCastSpell(cid, var)
 		addEvent(doSendMagicEffect, 90, {x = pos.x+1, y = pos.y+1, z = pos.z}, 38)
 		addEvent(doSendMagicEffect, 140, {x = pos.x+1, y = pos.y+1, z = pos.z}, 38)
 		addEvent(doSendMagicEffect, 180, {x = pos.x+1, y = pos.y+1, z = pos.z}, 38)
-		addEvent(Defense, 100, cid, 160)
+		addEvent(Defense, 400, cid, 160)
 		pos = getPosfromArea(cid,area)
 		n = 0
 		while n < #pos do

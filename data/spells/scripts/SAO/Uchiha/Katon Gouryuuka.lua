@@ -1,6 +1,9 @@
 local temp = {
 exhausted = 3,
 }
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 
 local confg = {
 level = 1,
@@ -10,6 +13,10 @@ function onCastSpell(cid,var)
 	if not isCreature(cid) then
 		return true
 	end
+	if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 local level = getPlayerLevel(cid) 
 local jutsuDmg = 27
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
@@ -24,23 +31,21 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 		return true
 	end	
 
-	if getPlayerVocation(cid) ~= 1 then
- 		return true
- 	end
+	
 ------------------------
 	if isPlayer(cid) then
 		removeChakraLife(cid, - confg.chakra)
-		addEvent(doCreatureSay, 100, cid, "Katon:", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 300, cid, "Gouryuuka no Jutsu!!!", TALKTYPE_MONSTER)
-		noMove(cid, 2100)
-		addEvent(actionMove, 0, cid, 385, 200)
-		addEvent(actionMove, 300, cid, 386, 300)
+		addEvent(doCreatureSay, 10, cid, "Katon:", TALKTYPE_MONSTER)
+		addEvent(doCreatureSay, 30, cid, "Gouryuuka no Jutsu!!!", TALKTYPE_MONSTER)
+		
 		local target = getCreatureTarget(cid)
 		local pos = getCreaturePosition(target)
 		for i = 1,6 do
-			addEvent(doSendDistanceShoot, 300+(200*i), getCreaturePosition(cid), pos, 11)
-				addEvent(doAreaCombatHealth, 300+(200*i), cid, COMBAT_FIREDAMAGE, pos, 0, dmg, dmg, 5)
+			addEvent(doSendDistanceShoot, 30+(200*i), getCreaturePosition(cid), pos, 11)
+				addEvent(doAreaCombatHealth, 30+(200*i), cid, COMBAT_FIREDAMAGE, pos, 0, dmg, dmg, 5)
 			end
-		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+		
 	end
+	exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 end

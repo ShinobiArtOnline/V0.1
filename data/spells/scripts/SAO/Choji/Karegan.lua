@@ -5,7 +5,7 @@ setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 8)
 
 function onCastSpell(cid,var)
 	if(getPlayerStorageValue(cid, sto_jutsu[1]) > os.time() and getPlayerStorageValue(cid, sto_jutsu[1]) < 100+os.time()) then
-		doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
+		doPlayerSendTextMessage(cid, 24, "You are exhausted")
 	return true
 	end
 	

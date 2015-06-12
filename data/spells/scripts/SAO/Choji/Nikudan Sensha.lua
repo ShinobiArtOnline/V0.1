@@ -1,3 +1,7 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 local temp = {
 exhausted = 2,
 }
@@ -36,6 +40,10 @@ function onCastSpell(cid,var)
 	if checkJutsu(cid, "Tongarashigan") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
+	if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 ----------------------	
 	 if isPlayer(cid) then
 	  if(getPlayerStorageValue(cid,sto_sensha[1]) == 0) then
@@ -44,11 +52,15 @@ function onCastSpell(cid,var)
              addEvent(nikudanSensha, 800, cid, 3)
 			 removeChakra(cid, chakraPercent, 3, sto_sensha[1], "sharingan")
 			 setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+			 exhaustion.set(cid, storage, waittime)
+		
          else
              endNikudan(cid)
 			 setPlayerStorageValue(cid, sto_sensha[1], 0)
              normalizeOutfit(cid)
 			 setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+			 exhaustion.set(cid, storage, waittime)
          end
 	end
+	return doCombat(cid,combat, var)
 end

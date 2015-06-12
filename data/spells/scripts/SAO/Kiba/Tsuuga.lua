@@ -1,11 +1,11 @@
 local combat = createCombatObject()
-
+local waittime = 1.5 -- czas
+local storage = 115818
 
 local confg = {
 chakra = 10,
 }
-local waittime = 1.5 -- Tempo de exhaustion
-local storage = 115818
+
 		
 local function onDash(cid)
 	if not isCreature(cid) then

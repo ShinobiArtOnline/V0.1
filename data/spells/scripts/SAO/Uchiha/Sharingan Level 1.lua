@@ -40,10 +40,8 @@ function onCastSpell(cid, var)
 		return true
 	end	
 	
-	if(getPlayerStorageValue(cid, sto_sharingan_exhausted[1]) > os.time() and getPlayerStorageValue(cid, sto_sharingan_exhausted[1]) < 100+os.time()) then
-       			doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
-	return true
-	elseif getPlayerStorageValue(cid, sto_sharingan[1]) > 0 then
+
+	if getPlayerStorageValue(cid, sto_sharingan[1]) > 0 then
         addEvent(stopNows, 0, cid, -1)
 		addEvent(stopNows, 500, cid, 0)
 	   

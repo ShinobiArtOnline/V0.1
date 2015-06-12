@@ -18,13 +18,14 @@ end
 
 function move(attacker, cid, playerpos, targetpos, times)
     if not isCreature(attacker) then
-        stopNows(cid, 0)
+       
         setPlayerStorageValue(cid, sto_nara[2], 1)
         setPlayerStorageValue(cid, sto_nara[6], 1)
         return true
     end
         if not isCreature(cid) then
-            mayNotMove(attacker, false)
+			
+            mayNotMove(attacker, true)
             setPlayerStorageValue(attacker, sto_nara[1], 1)
             setPlayerStorageValue(attacker, sto_nara[2], 1)
             setPlayerStorageValue(attacker, sto_nara[10], 1)
@@ -51,7 +52,7 @@ function move(attacker, cid, playerpos, targetpos, times)
     local playerpos, targetpos = getCreaturePosition(attacker), getCreaturePosition(cid)
     local times = times+1
     
-    if times  <  160 then
+    if times  <  120 then
         addEvent(move, 1, attacker, cid, playerpos, targetpos, times)
     else
         stopEvent(Kubi)
@@ -65,7 +66,8 @@ function move(attacker, cid, playerpos, targetpos, times)
         setPlayerStorageValue(attacker, sto_nara[10], 1)
         setPlayerStorageValue(attacker, sto_nara[9], 1)
         stopNows(cid, 0)
-        mayNotMove(attacker, false)
+		
+        mayNotMove(attacker, true)
         doPlayerSendTextMessage(attacker, MESSAGE_EVENT_ADVANCE, "'"..getPlayerName(cid).."' is not longer tied to your Kagemane")
     end
 end

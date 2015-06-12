@@ -61,11 +61,13 @@ local position127 = {x=getPlayerPosition(cid).x, y=getPlayerPosition(cid).y, z=g
 local parameters = { cid = cid, var = var}
 local target = getCreatureTarget(cid)
 local pos = getCreaturePosition(target)
-addEvent(doSendMagicEffect, 200, {x = pos.x+1, y = pos.y+0, z = pos.z}, 79)
-addEvent(doSendMagicEffect, 600, {x = pos.x+1, y = pos.y+0, z = pos.z}, 79)
-addEvent(doSendMagicEffect, 1000, {x = pos.x+1, y = pos.y+0, z = pos.z}, 79)
-addEvent(onCastSpell1, 200, parameters)
-addEvent(onCastSpell2, 600, parameters)
-addEvent(onCastSpell2, 1000, parameters)
+addEvent(doSendMagicEffect, 200, {x = pos.x+1, y = pos.y, z = pos.z}, 131)
+addEvent(doSendMagicEffect, 300, {x = pos.x+1, y = pos.y, z = pos.z}, 131)
+addEvent(doSendMagicEffect, 600, {x = pos.x+1, y = pos.y, z = pos.z}, 131)
+addEvent(doSendMagicEffect, 800, {x = pos.x+1, y = pos.y, z = pos.z}, 131)
+addEvent(onCastSpell1, 100, parameters)
+addEvent(onCastSpell2, 300, parameters)
+addEvent(onCastSpell3, 600, parameters)
+addEvent(onCastSpell4, 800, parameters)
 return TRUE
 end 

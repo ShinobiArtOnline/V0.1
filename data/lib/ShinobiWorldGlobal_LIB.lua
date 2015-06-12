@@ -238,6 +238,15 @@ setPlayerStorageValue(cid, STORAGE_DEFENSE, 1)
 addEvent(setPlayerStorageValue, time, cid, STORAGE_DEFENSE, 0)
 end	
 
+
+function Susano(cid, time)
+if not isCreature(cid) then
+return true
+end
+setPlayerStorageValue(cid, STORAGE_DEFENSE, 2)
+--addEvent(setPlayerStorageValue, time, cid, STORAGE_DEFENSE, 0)
+addEvent(Susano, time, cid, time)
+end	
 function getPlayerMeleeSkill(cid)
   return {[0] = getPlayerSkillLevel(cid, SKILL_FIST), [1] = getPlayerSkillLevel(cid, SKILL_CLUB), [2] = getPlayerSkillLevel(cid, SKILL_SWORD), [3] = getPlayerSkillLevel(cid, SKILL_AXE)}
 end
@@ -263,8 +272,8 @@ function noMoves(cid, time)
 end
 
 function isSummon(sid)
-    for i, pid in ipairs(getPlayersOnline()) do
-        for c, cid in pairs(getCreatureSummons(pid)) do
+    for i, cid in ipairs(getPlayersOnline()) do
+        for c, cid in pairs(getCreatureSummons(cid)) do
             if (cid == sid) then
                 return true
             end

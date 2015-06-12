@@ -18060,6 +18060,12 @@
 		<attribute key="description" value="Transforma seu personagem na vocacao ANBU." />
 		<attribute key="weight" value="1" />
 	</item>
+	<item id="11605" article="a" name="wall">
+		<attribute key="type" value="magicfield" />
+		<attribute key="decayTo" value="0"/>
+		<attribute key="duration" value="5"/>
+		
+	</item>
 	<item id="20001" name="water" />
 	<item id="20002" name="blood" />
 	<item id="20003" name="beer" />

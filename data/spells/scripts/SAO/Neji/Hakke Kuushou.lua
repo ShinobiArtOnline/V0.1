@@ -1,3 +1,6 @@
+local waittime = 1.5 -- czas
+local storage = 115818
+local combat = createCombatObject()
 local combat1 = createCombatObject()
 local combat2 = createCombatObject()
 local combat3 = createCombatObject()
@@ -15,7 +18,7 @@ local level = getPlayerLevel(cid)
 local jutsuDmg = 14
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-quake(cid, pos, COMBAT_JUUKEN, -dmg, -dmg, effectdir(cid, 99, 97), true)
+quake(cid, pos, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, effectdir(cid, 99, 97), true)
 end
 function onTargetTile2(cid, pos)
 local level = getPlayerLevel(cid) 
@@ -48,10 +51,15 @@ function onCastSpell(cid, var)
 if not isCreature(cid) then
 return true
 end
-
-addEvent(doCreatureSay, 100, cid, "Kuushou!", TALKTYPE_MONSTER)
+if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
+addEvent(doCreatureSay, 50, cid, "Kuushou!", TALKTYPE_MONSTER)
 local combat = {[1] = combat1, [2] = combat2, [3] = combat3, [4] = combat4,}
 for i = 0,3 do
-addEvent(doCombat, (200*i), cid, combat[i+1], var)
+addEvent(doCombat, (100*i), cid, combat[i+1], var)
 end
+exhaustion.set(cid, storage, waittime)
+return doCombat(cid,combat1, var)
 end

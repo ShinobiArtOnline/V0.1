@@ -1,6 +1,10 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
  local config = {
-                jumps = 7,
-                walktime = 220
+                jumps = 8,
+                walktime = 210
 }
 
 combat = createCombatObject()
@@ -10,6 +14,12 @@ setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1, -10, -1, -15, 5, 5, 1.8,
 
 
 function onCastSpell(cid)
+
+if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
+		
     function move(cid, pos, n)
         local n = n or 0
 
@@ -35,13 +45,13 @@ function onCastSpell(cid)
                     pos = newPos,
                     type = 2
                 })
-
                 addEvent(move, config.walktime, cid, newPos, n + 1)
             end
         end
     end
 
     move(cid)
-
-    return true
+	exhaustion.set(cid, storage, waittime)
+    return true  
+	
 end  

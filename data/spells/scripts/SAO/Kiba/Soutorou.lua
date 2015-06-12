@@ -1,3 +1,7 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 local temp = {
 exhausted = 3,
 }
@@ -28,7 +32,11 @@ function onCastSpell(cid,var)
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
 	
-
+if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
+		
 	local info = {
 		speed = 500,
 	}
@@ -85,5 +93,7 @@ function onCastSpell(cid,var)
 		setPlayerStorageValue(cid, storage2, 0)
 		setPlayerStorageValue(cid, sto_inuzuka[3], 1)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+		exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 	end
 end

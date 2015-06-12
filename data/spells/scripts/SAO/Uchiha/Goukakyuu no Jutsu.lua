@@ -1,7 +1,15 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 function onCastSpell(cid, var)
 	if not isCreature(cid) then
 		return true
 	end
+	if exhaustion.check(cid, storage) then
+			doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 local level = getPlayerLevel(cid) 
 local jutsuDmg = 14
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
@@ -11,20 +19,22 @@ local pos = getCreaturePosition(cid)
 
 
 	
-	addEvent(doCreatureSay, 200, cid, "Katon:", TALKTYPE_MONSTER)
-	addEvent(doCreatureSay, 300, cid, "Goukakyuu no Jutsu!", TALKTYPE_MONSTER)
+	addEvent(doCreatureSay, 20, cid, "Katon:", TALKTYPE_MONSTER)
+	addEvent(doCreatureSay, 30, cid, "Goukakyuu no Jutsu!", TALKTYPE_MONSTER)
 
 	if getCreatureLookDir(cid) == 0 then
-		addEvent(doAreaCombatHealth, 300, cid, COMBAT_FIREDAMAGE, find_area, KATON, dmg, dmg, 255)
-		addEvent(doSendMagicEffect, 300, {x = pos.x+1, y = pos.y-1, z = pos.z}, 17)
+		addEvent(doAreaCombatHealth, 30, cid, COMBAT_FIREDAMAGE, find_area, KATON, dmg, dmg, 255)
+		addEvent(doSendMagicEffect, 30, {x = pos.x+1, y = pos.y-1, z = pos.z}, 17)
 	elseif getCreatureLookDir(cid) == 1 then
-		addEvent(doAreaCombatHealth, 300, cid, COMBAT_FIREDAMAGE, find_area, KATON, dmg, dmg, 255)
-		addEvent(doSendMagicEffect, 300, {x = pos.x+5, y = pos.y+1, z = pos.z}, 18)
+		addEvent(doAreaCombatHealth, 30, cid, COMBAT_FIREDAMAGE, find_area, KATON, dmg, dmg, 255)
+		addEvent(doSendMagicEffect, 30, {x = pos.x+5, y = pos.y+1, z = pos.z}, 18)
 	elseif getCreatureLookDir(cid) == 2 then
-		addEvent(doAreaCombatHealth, 300, cid, COMBAT_FIREDAMAGE, find_area, KATON, dmg, dmg, 255)
-		addEvent(doSendMagicEffect, 300, {x = pos.x+1, y = pos.y+5, z = pos.z}, 19)
+		addEvent(doAreaCombatHealth, 30, cid, COMBAT_FIREDAMAGE, find_area, KATON, dmg, dmg, 255)
+		addEvent(doSendMagicEffect, 30, {x = pos.x+1, y = pos.y+5, z = pos.z}, 19)
 	elseif getCreatureLookDir(cid) == 3 then
-		addEvent(doAreaCombatHealth, 300, cid, COMBAT_FIREDAMAGE, find_area, KATON, dmg, dmg, 255)
-		addEvent(doSendMagicEffect, 600, {x = pos.x-1, y = pos.y+1, z = pos.z}, 16)
+		addEvent(doAreaCombatHealth, 30, cid, COMBAT_FIREDAMAGE, find_area, KATON, dmg, dmg, 255)
+		addEvent(doSendMagicEffect, 60, {x = pos.x-1, y = pos.y+1, z = pos.z}, 16)
 	end
+	exhaustion.set(cid, storage, waittime)
+	return doCombat(cid,combat, var)
 end

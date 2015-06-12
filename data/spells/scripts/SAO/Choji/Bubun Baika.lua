@@ -1,3 +1,6 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 
 function onCastSpell(cid, var)
 if checkDoing(cid) then
@@ -21,7 +24,10 @@ if checkDoing(cid) then
 if not isCreature(cid) then
 return true
 end
-
+if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 addEvent(doCreatureSay, 0, cid, "Bubun..", TALKTYPE_MONSTER)
 addEvent(doCreatureSay, 30, cid, "BAIKA!!!", TALKTYPE_MONSTER)
   local level = getPlayerLevel(cid) 
@@ -46,4 +52,6 @@ end
 for i = 0,1 do
 addEvent(doMoveCreature2, 250+(200*i), getThingfromPos(find_area).uid, getPlayerLookDir(cid), effectdir(cid, 255, 255))
 end
+exhaustion.set(cid, storage, waittime)
+return doCombat(cid,combat, var)
 end

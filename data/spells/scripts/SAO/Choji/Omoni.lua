@@ -1,3 +1,7 @@
+local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
+
 local function onOmoni(cid)
   local level = getPlayerLevel(cid) 
   local jutsuDmg = 22
@@ -56,6 +60,10 @@ if	impossibleUse(cid) then
 	if checkJutsu(cid, "Tongarashigan") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
+	if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 
 if isPlayer(cid) and getPlayerStorageValue(cid, sto_sensha[6]) == 0 then
 
@@ -65,6 +73,8 @@ if isPlayer(cid) and getPlayerStorageValue(cid, sto_sensha[6]) == 0 then
          addEvent(finalizarOmoni, 1000, cid)
          addEvent(doCreatureSay, 100, cid, "OMONI!!!!", TALKTYPE_MONSTER)
 		 addEvent(doCreatureSay, 120, cid, "BOOMMM!!!!", TALKTYPE_MONSTER)
+		 exhaustion.set(cid, storage, waittime)
+		 return doCombat(cid,combat, var)
 		 else 
 		 doPlayerSendCancel(cid, "USE first Chou Baika")
 return false

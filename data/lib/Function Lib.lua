@@ -25,7 +25,7 @@ temp = {
 	storage = 3000,
 }
 
-function isLooking(uid, target)      
+function isLooking(cid, target)      
         local var = {
                 [0] = "x",
                 [1] = "y",
@@ -33,9 +33,9 @@ function isLooking(uid, target)
                 [3] = "y",
         }
        
-        local look = getCreatureLookDirection(uid)
+        local look = getCreatureLookDirection(cid)
        
-        local pos_a, pos_b = getThingPos(uid), getThingPos(target)
+        local pos_a, pos_b = getThingPos(cid), getThingPos(target)
        
         if math.abs(look - getCreatureLookDirection(target)) == 2 and pos_a[var[look]] == pos_b[var[look]] then
                 return true
