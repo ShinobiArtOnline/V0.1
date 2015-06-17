@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+<action itemid="11829" event="script" value="pet.lua"/>	
+<action itemid="11830" event="script" value="Hppet.lua"/>	
 <action itemid="11802" event="script" value="expbox.lua"/>	
 <action itemid="11806" event="script" value="unknown box.lua"/>	
 <action itemid="11801" event="script" value="pet box.lua"/>	

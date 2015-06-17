@@ -223,6 +223,11 @@
 	
 	<instant name="Cos" words="Cos" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1000" needlearn="0" script="cos.lua">
 	</instant>
+	<instant name="pet" words="pet" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1000" needlearn="0" script="pet.lua">
+	</instant>
+	<instant name="Hppet" words="Hppet" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1000" needlearn="0" script="Hppet.lua">
+	</instant>
+	
 	
 	
 	

@@ -18592,34 +18592,15 @@
   </item>
   <!-- PETY-->
   
-   <item id="11831" article="a" name="Gamakichi pet">
-		<attribute key="weight" value="100" />
-		<attribute key="slotType" value="necklace" />
-		<attribute key="transformDeEquipTo" value="11829" />
-		
-	</item>
+  
  
 	<item id="11829" article="a" name="Katsuya pet">
 		<attribute key="weight" value="100" />
-		<attribute key="slotType" value="necklace" />
-		<attribute key="transformEquipTo" value="11831" />
-		<attribute key="duration" value="0" />
-		<attribute key="showduration" value="1" />
 	</item>
 	
-	<item id="11832" article="a" name="Gamakichi pet">
-		<attribute key="weight" value="100" />
-		<attribute key="slotType" value="necklace" />
-		<attribute key="transformEquipTo" value="11830" />
-		<attribute key="stopduration" value="1" />
-		<attribute key="showduration" value="1" />
-	</item>
+	
 	<item id="11830" article="a" name="Katsuya pet">
 		<attribute key="weight" value="100" />
-		<attribute key="slotType" value="necklace" />
-		<attribute key="transformEquipTo" value="11832" />
-		<attribute key="stopduration" value="1" />
-		<attribute key="showduration" value="1" />
 	</item>
 	
 	

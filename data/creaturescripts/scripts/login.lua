@@ -35,15 +35,16 @@ function onLogin(cid)
 	if getPlayerStorageValue(cid, 49708) ~= 0 then
         setPlayerStorageValue(cid, 49708, 0) 
 end
-	setPlayerStorageValue(cid, 123987, 0)
-	
+	setPlayerStorageValue(cid, 123987, 0)--Susano
+	setPlayerStorageValue(cid, 10002, 0)--pet
+	setPlayerStorageValue(cid, 10003, 0)--pet
 	for i = 9000, 9063 do setPlayerStorageValue(cid, i, 0) end
 	registerCreatureEvent(cid, "Bounty")
     setPlayerStorageValue(cid, 8877, 0)
     setPlayerStorageValue(cid, 14755, -1)
 	Outfit(cid)
 	registerCreatureEvent(cid, "Petdeath")
-	setPlayerStorageValue(cid, 1234899, 1) 
+	--setPlayerStorageValue(cid, 1234899, 1) 
 	registerCreatureEvent(cid, "Aol")
 	registerCreatureEvent(cid, "fullhp")
 	registerCreatureEvent(cid, "sru")
@@ -66,7 +67,7 @@ end
 	registerCreatureEvent(cid, "creatureMove")
 	registerCreatureEvent(cid, "kagemaneDeath")
 	registerCreatureEvent(cid, "Osiagniecia")
-
+setPlayerStorageValue(cid, 1234998, 0)
 	if(config.useFragHandler) then
 		registerCreatureEvent(cid, "SkullCheck")
 	end
@@ -81,12 +82,15 @@ function onLogout(cid)
 		if(getPlayerStorageValue(cid, STORAGE_TRAPED_ON_KAGEMANE) == 1) then
 			freeFromKagemane(cid)
 		end
-		
-	--summons = getCreatureSummons(cid)
-	--for _, summon in pairs(summons) do
-	--doSendMagicEffect(getThingPos(summon), 1)
-	--doRemoveCreature(summon)
- -- end
+		--setPlayerStorageValue(cid, 1234998, 1)
+	
+	if getPlayerStorageValue(cid, 10002) == 1 then
+	doPlayerCastSpell(cid, "pet")
+	end
+	if getPlayerStorageValue(cid, 10003) == 1 then
+	doPlayerCastSpell(cid, "Hppet")
+	end
+	
 	for i = 9000, 9063 do 
    		 setPlayerStorageValue(cid, i, 0)
 	end
