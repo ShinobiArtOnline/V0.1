@@ -8,8 +8,8 @@
 	[6] = {lookType = {lookType=32}},
 	[7] = {lookType = {lookType=65}},
 	
-	[8] = {lookType = {lookType=9}},--ADNINI
-	[9] = {lookType = {lookType=11}},
+	[8] = {lookType = {lookType= 24}},--Sakura
+	[9] = {lookType = {lookType=11}},--Admin
 	
 	[10] = {lookType = {lookType=19}},--CHOJI
 	[11] = {lookType = {lookType=20}},
@@ -38,6 +38,11 @@
 	[25] = {lookType = {lookType=34}},--NEJI
 	[26] = {lookType = {lookType=97}},
 	[27] = {lookType = {lookType=99}},
+	
+	[48] = {lookType = {lookType=14}},--Sakura
+	[49] = {lookType = {lookType=15}},
+	[50] = {lookType = {lookType=25}},
+	[51] = {lookType = {lookType=7}},
 	
 	--[42] = {lookType = {lookType=10}},
 	--[43] = {lookType = {lookType=8}},

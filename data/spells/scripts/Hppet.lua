@@ -27,7 +27,9 @@ local buff = createConditionObject(CONDITION_INFIGHT,-1)
 
 	
 function onCastSpell(cid,var)
-
+if getTilePzInfo(getPlayerPosition(cid)) then
+return doPlayerSendCancel(cid, "You in this area pz.") 
+end 
 	
 	
 

@@ -15,7 +15,7 @@
 	doOutLogin(cid, 65)
 	
 	elseif getPlayerVocation(cid) == 8 then
-	doOutLogin(cid, 9)
+	doOutLogin(cid, 24)
 	elseif getPlayerVocation(cid) == 9 then
 	doOutLogin(cid, 11)
 	
@@ -60,6 +60,15 @@
 	doOutLogin(cid, 97)
 	elseif getPlayerVocation(cid) == 27 then
 	doOutLogin(cid, 99)
+	
+	elseif getPlayerVocation(cid) == 48 then--Sakura
+	doOutLogin(cid, 14)
+	elseif getPlayerVocation(cid) == 49 then
+	doOutLogin(cid, 15)
+	elseif getPlayerVocation(cid) == 50 then
+	doOutLogin(cid, 25)
+	elseif getPlayerVocation(cid) == 51 then
+	doOutLogin(cid, 7)
 	
 	--elseif getPlayerVocation(cid) == 42 then
 	--doOutLogin(cid, 10)

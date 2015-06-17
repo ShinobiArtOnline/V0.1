@@ -846,7 +846,7 @@ local OUTFIT = {
 	[6] =  {lookType=32},
 	[7] =  {lookType=65},
 	
-	[8] =  {lookType=9},--admin
+	[8] =  {lookType=24},--admin
 	[9] =  {lookType=11},--admin
 	
 	[10] =  {lookType=19},
@@ -881,6 +881,11 @@ local OUTFIT = {
 	[43] =  {lookType=8},
 	[44] =  {lookType=9},
 	[45] =  {lookType=11},
+	
+	[48] =  {lookType=14},--Sakura
+	[49] =  {lookType=15},
+	[50] =  {lookType=25},
+	[51] =  {lookType=7},
 	
 }
 function Outfit(cid)
