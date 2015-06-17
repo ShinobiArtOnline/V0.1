@@ -38,7 +38,7 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.4))
 				
          	 doMoveCreature(cid, getPlayerLookDirection(cid))
 			  
-			  doAreaCombatHealth(cid, 1, newPos, NEHAN, dmg, dmg, config.effects[dir])
+			  doAreaCombatHealth(cid, 1, newPos, BITE, dmg, dmg, config.effects[dir])
          	
 			 --addEvent(onDash, config.intervalo, cid, newPos, n + 1)
 			
@@ -70,7 +70,7 @@ local function iniciarTsuuga(cid)
 	end
         
 		mayNotMove(cid, true)
-         addEvent(actionMove, 20, cid, 400, 600)
+         addEvent(actionMove, 200, cid, 400, 600)
          addEvent(mayNotMove, 310, cid, false)
 end
 
@@ -87,9 +87,10 @@ local function dashtsuuga(cid)
 	end
 	
 
- local distance = 3
+ local distance = 2
+
       for i = 0, distance do
-      addEvent(onDash,120*i,cid)
+      addEvent(onDash,160*i,cid)
 end
 end
 
@@ -113,17 +114,17 @@ end
          addEvent(function()
 		 if not isCreature(cid) then return true end
 		 dashtsuuga(cid)
-		 end, 32)
+		 end, 320)
 		 addEvent(function()
 		 if not isCreature(cid) then return true end
 		 setPlayerStorageValue(cid, STORAGE_DIRECTION, 0)
-		 end, 200)
+		 end, 1000)
          addEvent(function()
 		  if not isCreature(cid) then return true end
 		 finalizarTsuuga(cid)
-		 end, 200)
+		 end, 1000)
          doCreatureSay(cid, "TSUUU", TALKTYPE_MONSTER)
-		 addEvent(doCreatureSay, 100, cid, "GGAAA!!!", TALKTYPE_MONSTER)
+		 addEvent(doCreatureSay, 500, cid, "GGAAA!!!", TALKTYPE_MONSTER)
 		 exhaustion.set(cid, storage, waittime)
 		 return doCombat(cid,combat, var)
 end 

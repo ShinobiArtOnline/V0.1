@@ -388,7 +388,8 @@
 
  	<!-- Ammunition -->
 	<distance id="2545" event="script" value="poison_arrow.lua"/>
-	<distance id="2546" event="script" value="burst_arrow.lua"/>
+	<distance id="11656" event="script" value="explosive.lua"/>
+	<distance id="11750" event="script" value="gumbai.lua"/>
 	<distance id="7366" event="script" value="viper_star.lua"/>
 	<distance id="7838" type="energy" event="function" value="default"/>
 	<distance id="7839" type="ice" event="function" value="default"/>
@@ -404,5 +405,6 @@
 	<distance id="2547" level="55" event="function" value="default"/> <!-- Power Bolt -->
 	<distance id="6529" level="70" event="function" value="default"/> <!-- Infernal Bolt -->
 	
-	<melee id="11299" unproperly="1" event="script" value="skill band.lua"></melee>
+	<melee id="11726" unproperly="1" event="script" value="skill band.lua"></melee>
+	<melee id="11648" unproperly="1" event="script" value="skill band.lua"></melee>
 </weapons>

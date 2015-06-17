@@ -10,6 +10,6 @@ end
 setCombatCallback(combat, CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
 function onUseWeapon(cid, var)
 local position1 = {x=getThingPosition(getCreatureTarget(cid)).x+1, y=getThingPosition(getCreatureTarget(cid)).y+1, z=getThingPosition(getCreatureTarget(cid)).z}
-doSendMagicEffect(position1, 75)
+doSendMagicEffect(position1, 2)
 return doCombat(cid, combat, var)
 end

@@ -36,16 +36,18 @@ function onLogin(cid)
         setPlayerStorageValue(cid, 49708, 0) 
 end
 	setPlayerStorageValue(cid, 123987, 0)
+	
 	for i = 9000, 9063 do setPlayerStorageValue(cid, i, 0) end
 	registerCreatureEvent(cid, "Bounty")
     setPlayerStorageValue(cid, 8877, 0)
     setPlayerStorageValue(cid, 14755, -1)
 	Outfit(cid)
+	registerCreatureEvent(cid, "Petdeath")
+	setPlayerStorageValue(cid, 1234899, 1) 
+	registerCreatureEvent(cid, "Aol")
 	registerCreatureEvent(cid, "fullhp")
 	registerCreatureEvent(cid, "sru")
 	registerCreatureEvent(cid, "Outfitek") 
-	registerCreatureEvent(cid, "petKill")
-	registerCreatureEvent(cid, "petdeath")
 	registerCreatureEvent(cid, "direction")
 	registerCreatureEvent(cid, "Stamina")
 	registerCreatureEvent(cid, "Mail")
@@ -88,5 +90,19 @@ function onLogout(cid)
 	for i = 9000, 9063 do 
    		 setPlayerStorageValue(cid, i, 0)
 	end
+	if configExp.work then
+
+if exhaustion.check(cid, configExp.storageExh) then
+
+local yourRates = getPlayerRates(cid)[SKILL__LEVEL]
+local bonusExpRate = yourRates + (configExp.rate * yourRates/100)
+local lastTime = exhaustion.get(cid, configExp.storageExh)
+
+doPlayerSetRate(cid, SKILL__LEVEL, bonusExpRate)
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, 'Your bonus experience is still active. (Left: ' .. lastTime ..' seconds.)')
+addEvent(bonusExp, lastTime * 1000, cid)
+end
+
+end
 	return true
 end

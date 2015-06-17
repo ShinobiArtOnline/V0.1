@@ -17,8 +17,8 @@ blocked_ids = {8881}
 }
 local it = {
 --[itemid] = [percent]
-[8306] = 0, -- 0% additional
-
+ -- 0% additional
+[8305] = 100, -- 50%
 }
 if not setItemName then
 function setItemName(uid,name)
@@ -142,8 +142,8 @@ if level == 1 then
 setItemName(itemEx.uid, getItemNameById(itemEx.itemid)..slot)
 addEvent(doPlayerSendTextMessage,500,cid,22,"Your item back to normal.")
 else
-doRemoveItem(itemEx.uid,1)
-addEvent(doPlayerSendTextMessage,500,cid,22,"Ups")
+setItemName(itemEx.uid, getItemNameById(itemEx.itemid)..' +'..(level-1)..slot)
+addEvent(doPlayerSendTextMessage,500,cid,22,"Your item back to +"..(level-1)..slot..".")
 end
 if isArmor(itemEx) then
 setItemArmor(itemEx.uid,doTransform(gain.loseArmor ,itemEx))
@@ -156,7 +156,7 @@ elseif isShield(itemEx.uid) then
 setItemDefense(itemEx.uid, doTransform(gain.loseShield,itemEx))
 end
 end
---doSendMagicEffect(toPosition, 9)
+doSendMagicEffect(toPosition, 9)
 end
 doRemoveItem(item.uid,1)
 return true

@@ -4,12 +4,15 @@ local percent =10
 local buff = createConditionObject(CONDITION_INFIGHT,-1)
 
 function onEquip(cid, item, slot)
+ --if getTilePzInfo(getPlayerPosition(cid)) then
+    --    return doPlayerSendCancel(cid, "You in this area pz.")
+	--	end 
 local manaa=getCreatureMaxMana(cid)
 	summons = getCreatureSummons(cid)
 local Fuuton = doCreateMonster("Gamakichi", getCreaturePosition(cid))
 doConvinceCreature(cid, Fuuton)
-if getTilePzInfo(getPlayerPosition(cid)) then
-        return doPlayerSendCancel(cid, "You in this area pz.") end 
+--if getTilePzInfo(getPlayerPosition(cid)) then
+        --return doPlayerSendCancel(cid, "You in this area pz.") end 
 			function mana(cid) 
 			
                 doCreatureAddMana(cid,manaa * (percent/100)) 

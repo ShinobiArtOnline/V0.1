@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
 	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
-	<event type="logout" name="PlayerLogout" event="script" value="login.lua"/>
+	
 	<event type="joinchannel" name="GuildMotd" event="script" value="guildmotd.lua"/>
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
@@ -10,7 +10,7 @@
 	<event type="login" name="AntiMc" event="script" value="antimc.lua"/> 
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
-
+	<event type="death" name="Aol" event="script" value="aol.lua"/>
 	<event type="death" name="HeartDrop" event="script" value="heart.lua"/>
 	
 	<event type="login" name="StaffLogin" event="script" value="login/adm.lua"/>
@@ -22,7 +22,7 @@
 	<event type="combat" name="noMove" event="script" value="noMove.lua"/>
 	<event type="statschange" name="Hit" event="script" value="hit.lua"/>
 	<event type="preparedeath" name="Death" event="script" value="death.lua"/>
-	
+	<event type="death" name="Petdeath" event="script" value="Petdeath.lua"/>
 	<event type="advance" name="CapKikkais" event="script" value="CapKikais.lua"/>
 	<event type="advance" name="hachimonAdvance" event="script" value="hachimonAdvance.lua"/>
 	<event type="direction" name="direction" event="script" value="Direction.lua"/>

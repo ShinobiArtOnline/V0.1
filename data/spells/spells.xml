@@ -52,7 +52,7 @@
 	<!--- Kiba Inuzuka -->
 		
 	
-	<instant name="Garouga no Jutsu" words="Garouga" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Kiba/Garouga.lua">
+	<instant name="Garouga no Jutsu" words="Garouga" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0"  event="script" value="SAO/Kiba/Garouga.lua">
 	</instant>
 	<instant name="Shikyaku no Jutsu" words="Shikyaku" lvl="1" mana="10" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Shikyaku no Jutsu.lua">
 	</instant>
@@ -133,7 +133,7 @@
 	</instant>
 	<instant name="Hakke Hiasangi no Jutsu" words="Hakke Hiasangi" lvl="1" mana="150" aggressive="0" needtarget="1" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Hiasangi.lua">
 	</instant>
-	<instant name="Hakke Shou no Jutsu" words="Hakke Hyakunijuuhachi Shou" lvl="1" mana="150" aggressive="0" needtarget="1" exhaustion="1000" range="1" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Hyakunijuuhachi Shou.lua">
+	<instant name="Hakke Shou no Jutsu" words="Hakke Hyakunijuuhachi Shou" lvl="1" mana="150" aggressive="0" needtarget="0" exhaustion="1000" range="0" direction="0" needlearn="0"  event="script" value="SAO/Neji/Hakke Hyakunijuuhachi Shou.lua">
 	</instant>
 	<instant name="Hakke Kuushou no Jutsu" words="Hakke Kuushou" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke Kuushou.lua">
 	</instant>
@@ -165,12 +165,14 @@
 	
 	<instant name="Kage Kubishibari no Jutsu" words="Kage Kubishibari no Jutsu" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="0"  event="script" value="SAO/Nara Shikamaru/Kage Kubishibari no Jutsu.lua">
 	</instant>
-	<instant name="Paralyze" words="paralyze" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="0"  event="script" value="SAO/Nara Shikamaru/Paralyze.lua">
+	<instant name="Paralyze" words="paralyze" lvl="1" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="0"  event="script" value="SAO/Nara Shikamaru/obszar.lua">
 	</instant>
 	
 	
 	<!--- Maito LEE -->
 	<instant name="Dai Senpuu" words="Dai Senpuu" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Dai Senpuu.lua">
+	</instant>
+	<instant name="Asa Kujaku" words="Asa Kujaku" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Asa Kujaku.lua">
 	</instant>
 	<instant name="Dinamic Entry" words="Dinamic Entry" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Maito/Dinamic Entry.lua">
 	</instant>
@@ -218,8 +220,10 @@
 	</instant>
 	<instant name="trap" words="trap" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" exhaustion="3000" needlearn="0" script="SAO/Sciana/1.lua">
 	</instant>
-	<instant name="Susano" words="Susano" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" exhaustion="3000" needlearn="0" script="susanoo.lua">
+	
+	<instant name="Cos" words="Cos" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1000" needlearn="0" script="cos.lua">
 	</instant>
+	
 	
 	
 	

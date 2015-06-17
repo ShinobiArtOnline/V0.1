@@ -1,14 +1,10 @@
-function onDeath(cid, corpse, deathList)
-
-   if not isMonster(cid) or not isPet(cid) then return true end
-  
-		doCreatureSetStorage(getCreatureMaster(cid), petStorages.isDead, 1)
-		doPlayerSendTextMessage(getCreatureMaster(cid), MESSAGE_STATUS_CONSOLE_BLUE, "Your pet is dead.")
-   
-	local pet = getPlayerPet(cid)
-	
-	if pet then
-	
-	
-   return true
+function onDeath(cid, deathList)
+local aol = getPlayerSlotItem(cid, 2)
+if getPlayerStorageValue(cid, 10001) == 1  and (aol.itemid == 2165) then
+doRemoveItem(aol.uid, 1)
+doPlayerAddItem(cid, 2202, 1)
+setPlayerStorageValue(cid, 1234899, 0)
+doRemoveCondition(cid, CONDITION_ATTRIBUTES)
+end
+  return true
 end

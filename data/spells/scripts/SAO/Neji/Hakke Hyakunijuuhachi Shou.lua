@@ -16,11 +16,11 @@ end
 
 local function playerCombat(cid, min, max) 
 if isCreature(cid) then
-local target=getCreatureTarget(cid)
-local pos = getCreaturePosition(target)
-local find_area = getFirstCreaturePosOnDirection(cid,1)
-doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, pos, 0, -min, -max, 255)
-doAreaCombatMana(cid, pos, 0, -min, -max, 255)	
+
+local pos = getCreaturePosition(cid)
+local find_area = getCreaturePosition(cid)
+doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, pos, Marking_area , -min, -max, 255)
+doAreaCombatMana(cid, pos, Marking_area , -min, -max, 255)	
 end
 end
 
@@ -28,7 +28,7 @@ local function lastHit(cid, min, max)
 if isCreature(cid) then
 local target=getCreatureTarget(cid)
 local pos = getCreaturePosition(target)
-local find_area = getFirstCreaturePosOnDirection(cid,1)
+
 
 end
 end
@@ -87,31 +87,31 @@ function onCastSpell(cid, var)
    end  
 
 local level = getPlayerLevel(cid) 
-local jutsuDmg = 1
+local jutsuDmg = 5
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.10))
-local min = -dmg
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.10))
+local min = -mdmg
 local max = -dmg
-   local find_area = getFirstCreaturePosOnDirection(cid,1)
+   local find_area = getCreaturePosition(cid)
    for i = 1,12 do
-   if isPlayer(getThingfromPos(find_area).uid) then
+  if isPlayer(getThingfromPos(find_area).uid) then
          addEvent(doPlayerAddMana, 70 + (40*i), getThingfromPos(find_area).uid, -(min*i))
    end
-addEvent(playerCombat, 300, cid, (min), (min))	 
-addEvent(playerCombat, 500, cid, (min), (min))
-addEvent(playerCombat, 900, cid, (min), (min))
-addEvent(playerCombat, 1300, cid, (min), (min))
-addEvent(playerCombat, 1600, cid, (min), (min))
-addEvent(playerCombat, 1900, cid, (min), (min))
-addEvent(playerCombat, 2100, cid, (min), (min))
-addEvent(playerCombat, 2300, cid, (min), (min))
-addEvent(playerCombat, 2500, cid, (min), (min))
-addEvent(playerCombat, 2700, cid, (min), (min))	
-addEvent(playerCombat, 2900, cid, (min), (min))
-addEvent(playerCombat, 2100, cid, (min), (min))
-addEvent(playerCombat, 3300, cid, (min), (min))
-addEvent(playerCombat, 3500, cid, (min), (min))
-addEvent(lastHit, 3700, cid, (min), (min))
+addEvent(playerCombat, 300, cid, (min), (max))	 
+addEvent(playerCombat, 500, cid, (min), (max))
+addEvent(playerCombat, 900, cid, (min), (max))
+addEvent(playerCombat, 1300, cid, (min), (max))
+addEvent(playerCombat, 1600, cid, (min), (max))
+addEvent(playerCombat, 1900, cid, (min), (max))
+addEvent(playerCombat, 2100, cid, (min), (max))
+addEvent(playerCombat, 2300, cid, (min), (max))
+addEvent(playerCombat, 2500, cid, (min), (max))
+addEvent(playerCombat, 2700, cid, (min), (max))	
+addEvent(playerCombat, 2900, cid, (min), (max))
+addEvent(playerCombat, 2100, cid, (min), (max))
+addEvent(playerCombat, 3300, cid, (min), (max))
+addEvent(playerCombat, 3500, cid, (min), (max))
 exhaustion.set(cid, storage, waittime)
 return doCombat(cid,combat, var)
    end

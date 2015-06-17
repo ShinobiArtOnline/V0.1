@@ -3,7 +3,7 @@ config = {
     max = 20,
     effect = CONST_ME_EXPLOSIONAREA,
     damageType = COMBAT_FIREDAMAGE,
-    itemId = 11474,
+    itemId = 11657,
 }
 
 function explode(cid, min, max, damagetype, pos, effect, itemId)

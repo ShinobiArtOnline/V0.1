@@ -8,7 +8,7 @@ local temp = {
 
 
 local config = {
-     sqms = 20,
+     sqms = 10,
 	 chakra = 50,
      effects = {
          [0] = 83,
@@ -16,7 +16,7 @@ local config = {
          [2] = 84,
          [3] = 86,
      },
-     intervalo = 300
+     intervalo = 250
 }
 
 local function direcao(cid, pos, n)
@@ -33,10 +33,17 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
                 local dir = getCreatureLookDirection(cid)
 
                 local newPos = getPosByDir(pos, dir)
-
-                --doAreaCombatHealth(cid, type, pos, area, min, max, effect)
-                doAreaCombatHealth(cid, 1, newPos, 0, dmg, dmg, config.effects[dir])
-
+if getCreatureLookDir(cid) == 0 then
+		 doAreaCombatHealth(cid, 1, pos, BITE, dmg, dmg, 83)
+	elseif getCreatureLookDir(cid) == 1 then
+	 doAreaCombatHealth(cid, 1, pos, BITE, dmg, dmg, 85)
+	elseif getCreatureLookDir(cid) == 2 then
+	 doAreaCombatHealth(cid, 1, pos, BITE, dmg, dmg, 84)
+	elseif getCreatureLookDir(cid) == 3 then
+	 doAreaCombatHealth(cid, 1, pos, BITE, dmg, dmg, 86)
+	end
+             
+                doAreaCombatHealth(cid, 1, newPos, BITE, dmg, dmg, config.effects[dir])
                 addEvent(direcao, config.intervalo, cid, newPos, n + 1)
             end
         end
@@ -68,7 +75,7 @@ function onCastSpell(cid, var)
 		direcao(cid)
 		
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
-		noMove(cid, 6000)
+		noMove(cid, 3000)
 		exhaustion.set(cid, storage, waittime)
 		 return doCombat(cid,combat, var)
 	end

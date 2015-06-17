@@ -894,3 +894,22 @@ function doOutLogin(cid, out)
  local out3 = {lookType=out}
 			doSetCreatureOutfit(cid, out3, -1)
 end
+configExp = 
+{
+work = true, -- dziala czy nie true lub false (nie działa)
+rate = 20, -- ile więcej % expa,
+storageExh = 43320,
+workTime = 3, -- min czas działania bonus expa,
+resetExp = 1.0 -- reset expa.
+}
+
+function bonusExp(cid)
+if isCreature(cid) == false then
+return true
+end
+
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_RED, "Your bonus experience just ended.")
+doPlayerSetRate(cid, SKILL__LEVEL, configExp.resetExp)
+
+return true
+end

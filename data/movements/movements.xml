@@ -4,13 +4,15 @@
 	<movevent type="StepIn" actionid="7500" event="script" value="blockDP.lua"/>
 <movevent event="StepIn" actionid="7890" script="TilePremium.lua"/>
 	<movevent event="StepOut" actionid="7890"  script="TilePremium.lua"/>
-<movevent type="StepIn" itemid="11482" event="script" value="explosiveTagM.lua"/>
+<movevent type="StepIn" itemid="11657" event="script" value="explosiveTagM.lua"/>
 <!-- PET-->
 
 <movevent type="Equip" itemid="2202" slot="ring" event="script" value="Hp Pet.lua"/>
 <movevent type="DeEquip" itemid="2202" slot="ring" event="script" value="Hp pet.lua"/>
 <movevent type="Equip" itemid="2204" slot="ring" event="script" value="Mana Pet.lua"/>
 <movevent type="DeEquip" itemid="2204" slot="ring" event="script" value="Mana pet.lua"/>
+
+
 
 
 

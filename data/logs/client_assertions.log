@@ -1062,3 +1062,158 @@ Container.h 226: index out of range (original i: 481, i: 480, min: 1, d: 400)
 Thu May 28 11:47:25 2015
 Debug Assertion 8.54 Container.h 226
 
+----- 14/06/2015 12:54:23 - Shino (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 110 104 109 160 160 140 111 101 109 102
+Last Packet: 110 000 037 011 003 000 098 097 103 008 000 004 165 041 001 183
+Player Position: [132,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 25087496), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 46849) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 46849) (ObjectProperties->high() = 11829), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sun Jun 14 12:53:22 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 14/06/2015 12:58:40 - Shino (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 110 160 160 140 102 109 180 221 132 160
+Last Packet: 110 000 037 011 003 000 098 097 103 008 000 004 165 041 183 045
+Player Position: [131,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 110) (MainWindow = 25284104), reason:
+Communication.cpp 2136: exception occurred (Container = 0), reason:
+Objects.cpp 280: exception occurred (Type = 30765) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 30765) (ObjectProperties->high() = 11829), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sun Jun 14 12:56:54 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 14/06/2015 12:59:54 - Shino (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 132 106 180 030 132 160 132 160 140 030
+Last Packet: 180 018 008 000 047 105 032 049 049 054 048 057 106 132 000 244
+Player Position: [132,244,7]
+Player Name: Shino (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 132) (MainWindow = 24628744), reason:
+Communication.cpp 2388: exception occurred (rx = 62347) (ry = 1561), reason:
+Network.cpp 502: exception occurred, reason:
+Utils.cpp 490: assertion failed (Position = 36) (Size = 36), reason:
+Position<=Size-1
+Sun Jun 14 12:59:02 2015
+Debug Assertion 8.54 Utils.cpp 490
+
+----- 14/06/2015 13:08:43 - Kamil (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 120 180 030 160 160 140 160 160 140
+Last Packet: 030 180 018 008 000 047 105 032 049 049 054 049 050 120 005 141
+Player Position: [132,244,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 26594824), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 13216) (PlayerY = 13060), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 16960) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 16960) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 16960) (ObjectProperties->high() = 11829), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Sun Jun 14 13:08:26 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 15/06/2015 13:00:08 - Aburame (127.0.0.1) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 120 120 120 121 120 100 011 010 031
+Last Packet: 010 001 004 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [684,576,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 23972792), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1657) (PlayerY = 1912), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 30989) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 30989) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 30989) (ObjectProperties->high() = 11829), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Mon Jun 15 12:58:50 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 15/06/2015 21:26:58 - Uchiha (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 120 120 120 121 120 100 011 010 031
+Last Packet: 010 002 004 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [684,576,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 25349048), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1657) (PlayerY = 1912), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 30989) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 30989) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 30989) (ObjectProperties->high() = 11829), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Mon Jun 15 21:26:23 2015
+Debug Assertion 8.54 Objects.cpp 277
+
+----- 16/06/2015 19:36:24 - Aburame (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 120 120 120 121 120 100 011 010 031
+Last Packet: 010 002 004 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [684,576,7]
+Player Name: Kamil (White)
+Player Action: 049 050 055 046 048 046 048 046 049 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 24628152), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1657) (PlayerY = 1912), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 30989) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 30989) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 30989) (ObjectProperties->high() = 11829), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Tue Jun 16 19:34:45 2015
+Debug Assertion 8.54 Objects.cpp 277
+

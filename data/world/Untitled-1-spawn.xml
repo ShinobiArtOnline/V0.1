@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+  <spawn centerx="701" centery="666" centerz="6" radius="5">
+    <monster name="Training Target" x="-5" y="-5" z="6" spawntime="60"/>
+    <monster name="Training Target" x="0" y="-5" z="6" spawntime="60"/>
+    <monster name="Training Target" x="4" y="-5" z="6" spawntime="60"/>
+    <monster name="Training Target" x="-5" y="-1" z="6" spawntime="60"/>
+    <monster name="Training Target" x="0" y="-1" z="6" spawntime="60"/>
+    <monster name="Training Target" x="4" y="-1" z="6" spawntime="60"/>
+    <monster name="Training Target" x="-5" y="4" z="6" spawntime="60"/>
+    <monster name="Training Target" x="0" y="4" z="6" spawntime="60"/>
+    <monster name="Training Target" x="4" y="4" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="701" centery="666" centerz="7" radius="5">
+    <monster name="Training Target" x="-4" y="-4" z="7" spawntime="60"/>
+    <monster name="Training Target" x="0" y="-4" z="7" spawntime="60"/>
+    <monster name="Training Target" x="3" y="-4" z="7" spawntime="60"/>
+    <monster name="Training Target" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Training Target" x="-4" y="0" z="7" spawntime="60"/>
+    <monster name="Training Target" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Training Target" x="2" y="3" z="7" spawntime="60"/>
+    <monster name="Training Target" x="-2" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="745" centery="666" centerz="7" radius="5">
+    <monster name="Star Ninja" x="-4" y="-5" z="7" spawntime="60"/>
+    <monster name="Star Ninja" x="0" y="-4" z="7" spawntime="60"/>
+    <monster name="Star Ninja" x="-5" y="-1" z="7" spawntime="60"/>
+    <monster name="Star Ninja" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="1" z="7" spawntime="60"/>
+    <monster name="Strong Star Ninja" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Strong Star Ninja" x="-2" y="3" z="7" spawntime="60"/>
+  </spawn>
+</spawns>
