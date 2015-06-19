@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Master Ninja" nameDescription="a ninja" race="blood" experience="1300" speed="295" manacost="0">
-    <health now="1100" max="1100"/>
-    <look type="138" head="0" body="0" legs="0" feet="0" corpse="2831"/>
+  <monster name=" Electric Shinobi" nameDescription="a shinobi" race="blood" experience="1700" speed="295" manacost="0">
+    <health now="1500" max="1500"/>
+    <look type="79"  corpse="2909"/>
     <targetchange interval="60000" chance="0"/>
-    <strategy attack="0" defense="0"/>
+    <strategy attack="10" defense="5"/>
     <flags>
       <flag attackable="1"/>
       <flag hostile="1"/>
@@ -18,8 +18,7 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-400" max="-500"/>
-
+<attack name="melee" interval="1000" min="-25" max="-78"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -33,16 +32,16 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-<item id="2148" countmax="20" chance1="50000" chancemax="0"/>
-<item id="2788" chance="50000"/>
-<item id="2482" chance="2000"/>
-<item id="1999" chance="50000">
+<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
+<item id="2791" chance="50000"/>
+<item id="2453" chance="2000"/>
+<item id="1992" chance="50000">
 <inside>
-<item id="7875" chance="2000"/>
+<item id="2654" chance="2000"/>
 <item id="2547" countmax="5" chance1="20000" chancemax="0"/>
-<item id="2643" chance="3000"/>
-<item id="2397" chance="333"/>
-<item id="2430" chance="333"/>
+<item id="2642" chance="3000"/>
+<item id="7461" chance="3000"/>
+<item id="2393" chance="3000"/>
 </inside>
 </item>
     </loot>

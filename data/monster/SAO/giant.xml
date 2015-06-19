@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Giant" nameDescription="a giant" race="blood" experience="500" speed="200" manacost="490">
-	<health now="460" max="460"/>
-	<look type="605" corpse="2946"/>
+<monster name="Giant" nameDescription="a giant" race="blood" experience="1700" speed="170" manacost="490">
+	<health now="1000" max="1000"/>
+	<look type="76" corpse="2946"/>
 	<targetchange interval="5000" chance="8"/>
-	<strategy attack="100" defense="0"/>
+	<strategy attack="45" defense="0"/>
 	<flags>
 		<flag summonable="1"/>
 		<flag attackable="1"/>
@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-100"/>
+		<attack name="melee" interval="2000" min="-0" max="-80"/>
 	</attacks>
 	<defenses armor="15" defense="20"/>
 	<elements>

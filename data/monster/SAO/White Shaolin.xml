@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Strong Electric Shinobi" nameDescription="a shinobi" race="blood" experience="300" speed="295" manacost="0">
-    <health now="1500" max="1500"/>
-    <look type="144" head="0" body="0" legs="0" feet="0" corpse="2909"/>
+  <monster name="White Shaolin" nameDescription="a shaolin" race="blood" experience="5500" speed="295" manacost="0">
+    <health now="3500" max="3500"/>
+    <look type="76"  corpse="2939"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -18,9 +18,7 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-121" max="-141"/>
-<attack name="piorun2" interval="2000" min="-191" max="-201"/>
-<attack name="pioruny" interval="5000" min="-211" max="-216"/>
+<attack name="melee" interval="2500" min="-80" max="-100"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -34,16 +32,17 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-<item id="2791" chance="50000"/>
-<item id="2453" chance="2000"/>
-<item id="1992" chance="50000">
+<item id="2148" countmax="20" chance1="50000" chancemax="0"/>
+<item id="2788" chance="50000"/>
+<item id="2482" chance="2000"/>
+<item id="1999" chance="50000">
 <inside>
-<item id="2654" chance="2000"/>
+<item id="8852" chance="2000"/>
 <item id="2547" countmax="5" chance1="20000" chancemax="0"/>
-<item id="2642" chance="3000"/>
-<item id="7461" chance="3000"/>
-<item id="2393" chance="3000"/>
+<item id="2643" chance="3000"/>
+<item id="2397" chance="333"/>
+<item id="6132" chance="333"/>
+<item id="2312" chance="333"/>
 </inside>
 </item>
     </loot>

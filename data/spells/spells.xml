@@ -197,12 +197,17 @@
 	</instant>
 	<instant name="Ninpo Soza Size" words="Ninpo Soza Size" lvl="50" mana="20" prem="0" aggressive="0" needtarget="0"  exhaustion="800"  needlearn="0" event="script" value="SAO/Sakura/Ninpo Soza Size.lua">
 	</instant>
-	<instant name="Heal Friends" words="Two player" lvl="8" mana="0" exhaustion="1000" needtarget="1" params="1" aggressive="0" needlearn="0" event="script" value="SAO/Sakura/Two Player.lua">
-
-</instant>
+	<instant name="Mistic Palm" words="Mistic Palm" lvl="8" mana="0" exhaustion="1000" needtarget="1" params="1" aggressive="0" needlearn="0" event="script" value="SAO/Sakura/Mistic Palm.lua">
+	</instant>
 	<instant name="Mute" words="Sakura silence" lvl="30" mana="20" prem="0" range="4" needtarget="1" exhaustion="1000" needlearn="0" event="script" value="SAO/Sakura/Mute.lua">
-
-</instant> 
+	</instant> 
+	<instant name="Okashou" words="Okashou" lvl="50" mana="20" prem="0" aggressive="0" needtarget="0"  exhaustion="800"  needlearn="0" event="script" value="SAO/Sakura/Okashou.lua">
+	</instant>
+	<instant name="Shannaro" words="Shannaro" lvl="50" mana="20" prem="0" aggressive="0" needtarget="0"  exhaustion="800"  needlearn="0" event="script" value="SAO/Sakura/Shannaro.lua">
+	</instant>
+	<instant name="Chakra no mesu" words="Chakra no mesu" lvl="50" mana="20" prem="0" aggressive="0" needtarget="1"  exhaustion="1000"  needlearn="0" event="script" value="SAO/Sakura/Chakra no mesu.lua">
+	</instant>
+		
 		
 		<!--- Genjutsu-->
 		<instant name="Kaen no Jutsu" words="kaen" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/genjutsu/kaen.lua">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Master Unknown" nameDescription="a unknow shinobi" race="blood" experience="1350" speed="295" manacost="0">
-    <health now="24000" max="24000"/>
-    <look type="268" head="0" body="0" legs="0" feet="0" corpse="2960"/>
+  <monster name="Samurai" nameDescription="a samurai" race="blood" experience="7500" speed="295" manacost="0">
+    <health now="1000" max="1000"/>
+    <look type="141" head="0" body="0" legs="0" feet="0" corpse="2941"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -18,13 +18,7 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-300" max="-500"/>
-<attack name="ogien wielki" interval="1000" min="-200" max="-300"/>
-<attack name="ognisty smok" interval="2000" min="-200" max="-400"/>
-<attack name="syriudan ognisty" interval="3000" min="-200" max="-500"/>
-<attack name="Katon Gokakyu no Jutsu" interval="4000" min="-200" max="-600"/>
-<attack name="Katon Hosenka no Jutsu" interval="5000" min="-50" max="-200"/>
-<attack name="fire kunai" interval="6000" min="-200" max="-400"/>
+<attack name="melee" interval="1500" min="-300" max="-400"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -38,9 +32,8 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-<item id="2148" countmax="40" chance1="50000" chancemax="0"/>
-
-<item id="2789" chance="50000"/>
+      <item id="2148" countmax="15" chance1="50000" chancemax="0"/>
+<item id="2510" chance="333"/>
 
     </loot>
   </monster>

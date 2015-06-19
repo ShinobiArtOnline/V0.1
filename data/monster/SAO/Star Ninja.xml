@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Star Ninja" nameDescription="a shinobi" race="blood" experience="100000" speed="195" manacost="0">
-    <health now="30" max="30"/>
-    <look type="113" head="0" body="0" legs="0" feet="0" corpse="2913"/>
+  <monster name="Star Ninja" nameDescription="a shinobi" race="blood" experience="1200" speed="195" manacost="0">
+    <health now="1000" max="1000"/>
+    <look type="68" corpse="2913"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -18,19 +18,9 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="3000" min="-3" max="-4"/>
+<attack name="melee" interval="3000" min="-15" max="-75"/>
     </attacks>
-      <immunities>
-      <immunity physical="0"/>
-      <immunity energy="0"/>
-      <immunity fire="0"/>
-      <immunity poison="0"/>
-      <immunity lifedrain="0"/>
-      <immunity paralyze="0"/>
-      <immunity outfit="0"/>
-      <immunity drunk="0"/>
-      <immunity invisible="0"/>
-    </immunities>
+     
     <loot>
 <item id="2148" countmax="20" chance1="50000" chancemax="0"/>
 <item id="2795" chance="50000"/>

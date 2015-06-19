@@ -2,10 +2,30 @@
 <monsters>
 	<!-- White -->
 	
+	<monster name="Frozen Ninja" file="SAO/Frozen Ninja.xml"/>
 	<monster name="Ninja" file="SAO/Ninja.xml"/>
+	<monster name="giant" file="SAO/giant.xml"/>
+	<monster name="White Shaolin" file="SAO/White Shaolin.xml"/>
+	<monster name="Winter Soldier" file="SAO/Winter Soldier.xml"/>
+	<monster name="Hoshi Shinobi" file="SAO/Hoshi Shinobi.xml"/>
+	<monster name="Master Shinobi" file="SAO/Master Shinobi.xml"/>
+	<monster name="samurai warrior" file="SAO/samurai warrior.xml"/>
+	<monster name="Samurai" file="SAO/Samurai.xml"/>
+	<monster name="Sound Shinobi" file="SAO/Sound Shinobi.xml"/>
+	<monster name="Strong Shaolin" file="SAO/Strong Shaolin.xml"/>
+	<monster name="Unknown" file="SAO/Unknown.xml"/>
+	<monster name="White Ninja" file="SAO/White Ninja.xml"/>
+	<monster name="White Samurai" file="SAO/White Samurai.xml"/>
+	<monster name="Hoshi fighter" file="SAO/Hoshi fighter.xml"/>
+	<monster name="Assasin" file="SAO/Assasin.xml"/>
+	<monster name="Bandit" file="SAO/bandit.xml"/>
+	<monster name="Black Ninja" file="SAO/Black Ninja.xml"/>
+	<monster name="Black Wolf" file="SAO/Black Wolf.xml"/>
+	<monster name="Destruction Ninja" file="SAO/Destruction Ninja.xml"/>
 	<monster name="Strong Ninja" file="SAO/Strong Ninja.xml"/>
+	<monster name="Electric Shinobi" file="SAO/Electric Shinobi.xml"/>
 	<monster name="Elite Ninja" file="SAO/Elite Ninja.xml"/>
-	<monster name="Oinin" file="SAO/Oinin.xml"/>
+	<monster name="Disable soldier" file="SAO/Disable soldier.xml"/>
 	<monster name="Star Ninja" file="SAO/Star Ninja.xml"/>
 	<monster name="Strong Star Ninja" file="SAO/Strong Star Ninja.xml"/>
 	<monster name="Wolf" file="SAO/Wolf.xml"/>

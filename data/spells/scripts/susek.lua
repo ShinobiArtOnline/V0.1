@@ -6,20 +6,20 @@ local temp = {
 exhausted = 2,
 }
 local times = 1 -- in sec 
-local percent =5
+local percent =-5
 
 local info = {
 speed = 200,	
 	}
-	function mana(cid) 
-			local manaa=getCreatureMaxMana(cid)
-			local perc= manaa * (35/100)
-                doCreatureAddMana(cid,-manaa * (percent/100)) 
-                manaling=addEvent(mana,times*1000,cid)
+	function man(cid) 
+			local m=getCreatureMaxMana(cid)
+			local perc= m * (35/100)
+                doCreatureAddMana(cid,m * (percent/100)) 
+                manaling=addEvent(man,times*1000,cid)
 				if getCreatureMana(cid) < perc then
 				stopEvent(a)
 				stopEvent(manaling)
-				doPlayerCastSpell(cid, "susek")
+				doPlayerCastSpell(cid, "susanoo")
 end
             return true 
         end 
@@ -27,22 +27,26 @@ function Susano(cid,time)
 if not isCreature(cid) then
 return true
 end
+local l=getCreatureMaxMana(cid)
+			local percy= l * (35/100)
 setPlayerStorageValue(cid, 123987, 1)
 --addEvent(setPlayerStorageValue, time, cid, getPlayerStorageValue(cid,1239876)+1, 0)
+if getCreatureMana(cid) < percy then
+doPlayerSendCancel(cid, "You cannot use jutsu, you don't have mana")
+else
 a=addEvent(Susano, time, cid, time)
+end
 end
 
 	
-	local buff = createConditionObject(CONDITION_ATTRIBUTES)
-setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
-setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 3)
-setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 3)
 
 	
 function onCastSpell(cid,var)
-local perc =90
-local man=getCreatureMaxMana(cid)
-local proc=man*(perc/100)
+
+local l=getCreatureMaxMana(cid)
+			local percy= l * (35/100)
+			
+		
 	
 	if checkJutsu(cid, "Kagemane") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
@@ -69,18 +73,16 @@ local proc=man*(perc/100)
 		end
 		
 		
+	
 		
-		
-	if getPlayerStorageValue(cid, 123987) == 0 then
+	if getPlayerStorageValue(cid, 123987) == 0 and getCreatureMana(cid) > percy then
 		Susano(cid)
-		mana(cid)
-		
+		man(cid)
         addEvent(changeMove, 0, cid, 112, -1)
 		doCreatureSay(cid, "SUSANOO!!!", TALKTYPE_MONSTER)
-		setPlayerStorageValue(cid, 123987, 1)
-
+		--setPlayerStorageValue(cid, 123987, 1)
+		
 	elseif getPlayerStorageValue(cid, 123987) == 1 then
-	
 				if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 20 then
 				addEvent(changeMove, 0, cid, 61, -1)
 				stopEvent(a)
@@ -109,10 +111,12 @@ local proc=man*(perc/100)
 				stopEvent(manaling)
 				setPlayerStorageValue(cid, 123987, 0)
 				elseif getPlayerLevel(cid) >= 120 and getPlayerLevel(cid) < 500 then
-				addEvent(changeMove, 0, cid, 112, -1)
+				addEvent(changeMove, 0, cid, 66, -1)
 				stopEvent(a)
 				stopEvent(manaling)
 				setPlayerStorageValue(cid, 123987, 0)
+				else
+				return doPlayerSendCancel(cid, "You cannot use jutsu, you don't have mana")
 			  end
 		
 		setPlayerStorageValue(cid, 123987, 0)

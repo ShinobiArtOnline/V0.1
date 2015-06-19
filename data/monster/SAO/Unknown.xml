@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Fire Shaolin Master" nameDescription="a shinobi" race="blood" experience="900" speed="295" manacost="0">
-    <health now="10000" max="10000"/>
-    <look type="121" head="0" body="0" legs="0" feet="0" corpse="2843"/>
+  <monster name="Unknown" nameDescription="a unknow shinobi" race="blood" experience="650" speed="295" manacost="0">
+    <health now="550" max="550"/>
+    <look type="70"  corpse="2841"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -18,10 +18,7 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-400" max="-500"/>
-<attack name="Katon Gokakyu no Jutsu" interval="3000" min="-450" max="-700"/>
-<attack name="syriudan ognisty" interval="5000" min="-400" max="-620"/>
-<attack name="ozel" interval="7000" min="-450" max="-660"/>
+<attack name="melee" interval="1000" min="-0" max="-40"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -35,16 +32,9 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-<item id="2148" countmax="20" chance1="50000" chancemax="0"/>
-<item id="2482" chance="2000"/>
-<item id="1988" chance="50000">
-<inside>
-<item id="2407" chance="2000"/>
-<item id="2399" countmax="5" chance1="20000" chancemax="0"/>
-<item id="2643" chance="3000"/>
-<item id="2393" chance="333"/>
-<item id="2431" chance="333"/>
-</inside>
-</item>
+<item id="2148" countmax="40" chance1="50000" chancemax="0"/>
+
+<item id="2789" chance="50000"/>
+
     </loot>
   </monster>

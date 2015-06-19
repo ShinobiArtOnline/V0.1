@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Elite Electric Shinobi" nameDescription="a shinobi" race="blood" experience="400" speed="295" manacost="0">
-    <health now="2800" max="2800"/>
-    <look type="117" head="0" body="0" legs="0" feet="0" corpse="2903"/>
+  <monster name="Strong Ninja" nameDescription="a ninja" race="blood" experience="1200" speed="255" manacost="0">
+    <health now="1100" max="1100"/>
+    <look type="123" head="0" body="0" legs="0" feet="0" corpse="2875"/>
     <targetchange interval="60000" chance="0"/>
-    <strategy attack="0" defense="0"/>
+    <strategy attack="80" defense="0"/>
     <flags>
       <flag attackable="1"/>
       <flag hostile="1"/>
@@ -18,10 +18,7 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-221" max="-241"/>
-<attack name="piorun1" interval="3000" min="-291" max="-301"/>
-<attack name="pioruny" interval="5000" min="-311" max="-316"/>
-<attack name="shuriken" interval="1000" min="-51" max="-116"/>
+<attack name="melee" interval="1000" min="-20" max="-90"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -36,16 +33,16 @@
     </immunities>
     <loot>
 <item id="2148" countmax="20" chance1="50000" chancemax="0"/>
-<item id="2791" chance="50000"/>
-<item id="2453" chance="2000"/>
-<item id="2788" chance="20000"/>
-<item id="1992" chance="50000">
+<item id="2788" chance="50000"/>
+<item id="2787" chance="50000"/>
+<item id="2482" chance="2000"/>
+<item id="2002" chance="50000">
 <inside>
-<item id="2411" chance="2000"/>
-<item id="7838" countmax="5" chance1="20000" chancemax="0"/>
+<item id="2391" chance="2000"/>
+<item id="2547" countmax="5" chance1="20000" chancemax="0"/>
 <item id="2643" chance="3000"/>
-<item id="7457" chance="3000"/>
-<item id="2661" chance="3000"/>
+<item id="2397" chance="333"/>
+<item id="2430" chance="333"/>
 </inside>
 </item>
     </loot>

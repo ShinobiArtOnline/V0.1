@@ -8,7 +8,7 @@
 	elseif getPlayerVocation(cid) == 4 then
 	doOutLogin(cid, 57)
 	elseif getPlayerVocation(cid) == 5 then
-	doOutLogin(cid, 46)
+	doOutLogin(cid, 51)
 	elseif getPlayerVocation(cid) == 6 then
 	doOutLogin(cid, 32)
 	elseif getPlayerVocation(cid) == 7 then
@@ -55,7 +55,7 @@
 	doOutLogin(cid, 55)
 	
 	elseif getPlayerVocation(cid) == 25 then--NEJI
-	doOutLogin(cid, 34)
+	doOutLogin(cid, 17)
 	elseif getPlayerVocation(cid) == 26 then
 	doOutLogin(cid, 97)
 	elseif getPlayerVocation(cid) == 27 then
@@ -70,6 +70,12 @@
 	elseif getPlayerVocation(cid) == 51 then
 	doOutLogin(cid, 7)
 	
+	elseif getPlayerVocation(cid) == 20 then--SHIKAMARU
+	doOutLogin(cid, 52)
+	elseif getPlayerVocation(cid) == 21 then
+	doOutLogin(cid, 53)
+	elseif getPlayerVocation(cid) == 22 then
+	doOutLogin(cid, 54)
 	--elseif getPlayerVocation(cid) == 42 then
 	--doOutLogin(cid, 10)
 	--elseif getPlayerVocation(cid) == 43 then

@@ -4,7 +4,7 @@
 	[2] = {lookType = {lookType=12}},
 	[3] = {lookType = {lookType=21}},
 	[4] = {lookType = {lookType=57}},
-	[5] = {lookType = {lookType=46}},
+	[5] = {lookType = {lookType=51}},
 	[6] = {lookType = {lookType=32}},
 	[7] = {lookType = {lookType=65}},
 	
@@ -33,9 +33,9 @@
 	
 	[20] = {lookType = {lookType=52}},--SHIKAMARU
 	[21] = {lookType = {lookType=53}},
-	[22] = {lookType = {lookType=51}},
+	[22] = {lookType = {lookType=54}},
 	
-	[25] = {lookType = {lookType=34}},--NEJI
+	[25] = {lookType = {lookType=17}},--NEJI
 	[26] = {lookType = {lookType=97}},
 	[27] = {lookType = {lookType=99}},
 	

@@ -46,6 +46,7 @@ end
 	registerCreatureEvent(cid, "Petdeath")
 	--setPlayerStorageValue(cid, 1234899, 1) 
 	registerCreatureEvent(cid, "Aol")
+	registerCreatureEvent(cid, "dead")
 	registerCreatureEvent(cid, "fullhp")
 	registerCreatureEvent(cid, "sru")
 	registerCreatureEvent(cid, "Outfitek") 

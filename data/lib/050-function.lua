@@ -842,7 +842,7 @@ local OUTFIT = {
 	[2] =  {lookType=12},
 	[3] = {lookType=21},
 	[4] =  {lookType=57},
-	[5] =  {lookType=46},
+	[5] =  {lookType=51},
 	[6] =  {lookType=32},
 	[7] =  {lookType=65},
 	
@@ -871,9 +871,9 @@ local OUTFIT = {
 	
 	[20] =  {lookType=52},--Shikamaru
 	[21] =  {lookType=53},
-	[22] =  {lookType=51},
+	[22] =  {lookType=54},
 	
-	[25] =  {lookType=34},--Neji
+	[25] =  {lookType=17},--Neji
 	[26] =  {lookType=97},
 	[27] =  {lookType=99},
 	

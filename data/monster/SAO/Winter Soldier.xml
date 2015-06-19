@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Strong Swordsman" nameDescription="a swordsman" race="blood" experience="200" speed="295" manacost="0">
-    <health now="3000" max="3000"/>
-    <look type="252" head="0" body="0" legs="0" feet="0" corpse="2944"/>
+  <monster name="Winter Soldier" nameDescription="a soldier" race="blood" experience="2100" speed="295" manacost="0">
+    <health now="1700" max="1700"/>
+    <look type="104" head="0" body="0" legs="0" feet="0" corpse="2934"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -18,8 +18,7 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-200" max="-235"/>
-<attack name="miecz" interval="5000" min="-200" max="-275"/>
+<attack name="melee" interval="1000" min="-31" max="-101"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -33,8 +32,17 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-      <item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-<item id="2510" chance="666"/>
-
+<item id="2148" countmax="10" chance1="50000" chancemax="0"/>
+<item id="2787" chance="50000"/>
+<item id="7426" chance="3000"/>
+<item id="1991" chance="50000">
+<inside>
+<item id="2379" chance="2000"/>
+<item id="2545" countmax="5" chance1="20000" chancemax="0"/>
+<item id="7403" chance="3000"/>
+<item id="2427" chance="3000"/>
+<item id="2458" chance="3000"/>
+</inside>
+</item>
     </loot>
   </monster>

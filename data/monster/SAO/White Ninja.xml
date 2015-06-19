@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="White Ninja" nameDescription="a ninja" race="blood" experience="2300" speed="295" manacost="0">
-    <health now="35000" max="35000"/>
-    <look type="247" head="0" body="0" legs="0" feet="0" corpse="2939"/>
+  <monster name="White Ninja" nameDescription="a ninja" race="blood" experience="900" speed="295" manacost="0">
+    <health now="750" max="750"/>
+    <look type="139" head="0" body="0" legs="0" feet="0" corpse="2939"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -18,10 +18,8 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-800" max="-1200"/>
-<attack name="mokton" interval="3000" min="-750" max="-1400"/>
-<attack name="waz" interval="5000" min="-600" max="-1420"/>
-<attack name="maly shuriken" interval="1000" min="-550" max="-1560"/>
+<attack name="melee" interval="1500" min="-15" max="-50"/>
+<attack name="throw big shuriken" interval="1500" min="-55" max="-85"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>

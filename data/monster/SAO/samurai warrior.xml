@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Samurai Warrior" nameDescription="a samurai warrior" race="blood" experience="2500" speed="200" manacost="650">
-	<health now="150" max="150"/>
-	<look type="266" corpse="2946"/>
+<monster name="Samurai Warrior" nameDescription="a samurai warrior" race="blood" experience="3500" speed="200" manacost="650">
+	<health now="2400" max="2400"/>
+	<look type="80" corpse="2946"/>
 	<targetchange interval="5000" chance="8"/>
-	<strategy attack="100" defense="0"/>
+	<strategy attack="70" defense="0"/>
 	<flags>
 		<flag summonable="1"/>
 		<flag attackable="1"/>
@@ -20,16 +20,8 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="-60" max="-150"/>
 	</attacks>
-	<defenses armor="15" defense="22"/>
-	<elements>
-		<element earthPercent="90"/>
-		<element physicalPercent="20"/>
-		<element firePercent="-5"/>
-		<element deathPercent="-5"/>
-	</elements>
-	<immunities>
-		<immunity invisible="1"/>
-	</immunities>
+	<defenses armor="10" defense="15"/>
+	
 	<voices interval="5000" chance="10">
 		<voice sentence="Hail Durin!"/>
 	</voices>
