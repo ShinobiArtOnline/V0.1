@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Cripple" nameDescription="a cripple" race="blood" experience="450" speed="235" manacost="0">
+    <health now="850" max="800"/>
+    <look type="123" head="0" body="0" legs="0" feet="0" corpse="2874"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="10" defense="20"/>
+    
+	<flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    
+	<attacks>
+	<attack name="melee" interval="1500" min="-50" max="-85"/>
+    </attacks>
+	
+	<defenses armor="0" defense="0"> 
+	</defenses>
+    
+	<immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    
+	<loot>
+		<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
+
+    </loot>
+  </monster>

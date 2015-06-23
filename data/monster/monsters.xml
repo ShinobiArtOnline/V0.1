@@ -58,5 +58,32 @@
 	<monster name="Fire overlord" file="/SAO/BOSSY/fire overlord.xml"/>
 	<monster name="Thalas" file="/SAO/BOSSY/thalas.xml"/>
 	
+	<!-- NOWE MONSTERY -->
+	<monster name="Onbu" file="/SAO/NOWE/Onbu.xml"/>
+	<monster name="Villager" file="/SAO/NOWE/Villager.xml"/>
+	<monster name="Thief" file="/SAO/NOWE/Thief.xml"/>
+	<monster name="Black wolf" file="/SAO/NOWE/Black Wolf.xml"/>
+	<monster name="Shinobi" file="/SAO/NOWE/Shinobi.xml"/>
+	<monster name="Robber" file="/SAO/NOWE/Robber.xml"/>
+	<monster name="Assassin" file="/SAO/NOWE/Assassin.xml"/>
+	<monster name="Guardian" file="/SAO/NOWE/Guardian.xml"/>
+	<monster name="Trainer worms" file="/SAO/NOWE/Trainer Worms.xml"/>
+	<monster name="Cripple" file="/SAO/NOWE/Cripple.xml"/>
+	<monster name="Necromancer" file="/SAO/NOWE/Necromancer.xml"/>
+	<monster name="Elder assassin" file="/SAO/NOWE/Elder assassin.xml"/>
+	<monster name="White shinobi" file="/SAO/NOWE/White Shinobi.xml"/>
+	<monster name="Swordman" file="/SAO/NOWE/Swordman.xml"/>
+	<monster name="Ronin" file="/SAO/NOWE/Ronin.xml"/>
+	<monster name="Resurgent" file="/SAO/NOWE/Resurgent.xml"/>
+	<monster name="Magmaman" file="/SAO/NOWE/Magmaman.xml"/>
+	<monster name="Lightingman" file="/SAO/NOWE/Lightingman.xml"/>
+	<monster name="Dark priest" file="/SAO/NOWE/Dark priest.xml"/>
+	<monster name="Waterman" file="/SAO/NOWE/Waterman.xml"/>
+	<monster name="Grassman" file="/SAO/NOWE/Grassman.xml"/>
+	<monster name="Shining ninja" file="/SAO/NOWE/Shining ninja.xml"/>
+	<monster name="Sand warrior" file="/SAO/NOWE/Sand warrior.xml"/>
+	<monster name="Sand beast" file="/SAO/NOWE/Sand beast.xml"/>
+	<monster name="Pirate" file="/SAO/NOWE/Pirate.xml"/>
+	<monster name="Samurai" file="/SAO/NOWE/Samurai.xml"/>
 	
 </monsters>
