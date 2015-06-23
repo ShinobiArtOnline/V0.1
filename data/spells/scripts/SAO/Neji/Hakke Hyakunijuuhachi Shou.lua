@@ -86,10 +86,10 @@ function onCastSpell(cid, var)
       end
    end  
 
-local level = getPlayerLevel(cid) 
+local level = getPlayerMagLevel(cid)
 local jutsuDmg = 5
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.10))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.6) * jutsuDmg)*0.10))
 local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.10))
 local min = -mdmg
 local max = -dmg

@@ -21,10 +21,12 @@ if exhaustion.check(cid, storage) then
 			doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
-local level = getPlayerLevel(cid) 
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
 local jutsuDmg = 24
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
 local pos = getCreaturePosition(cid)
 	local target = getCreatureTarget(cid)
 	local poss= getCreaturePosition(target)
@@ -35,7 +37,7 @@ local pos = getCreaturePosition(cid)
 local function katonKaryuudan(cid, pos, poss)
 local random = randomPos(cid, poss)
 doSendDistanceShoot({x = pos.x+2, y = pos.y+1, z = pos.z}, random, 20)
-addEvent(doAreaCombatHealth, 100, cid, COMBAT_FIREDAMAGE, random, 0, dmg, dmg, 5)
+addEvent(doAreaCombatHealth, 100, cid, COMBAT_FIREDAMAGE, random, 0, mdmg, dmg, 5)
 end
 
 

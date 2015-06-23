@@ -12,11 +12,12 @@ function onCastSpell(cid, var)
 		return true
 	end
 
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 12
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
+local jutsuDmg = 11
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
 -----[Restrições]-----
  
 
@@ -36,7 +37,7 @@ local pos = getCreaturePosition(target)
 		addEvent(doCreatureSay, 30, cid, "Endan no Jutsu!", TALKTYPE_MONSTER)
 
 		addEvent(doSendDistanceShoot, 30, getCreaturePosition(cid), pos, 27)
-		addEvent(doAreaCombatHealth, 40, cid, COMBAT_FIREDAMAGE, pos, 0, dmg, dmg, 5)
+		addEvent(doAreaCombatHealth, 40, cid, COMBAT_FIREDAMAGE, pos, 0, mdmg, dmg, 5)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	end
 	return true

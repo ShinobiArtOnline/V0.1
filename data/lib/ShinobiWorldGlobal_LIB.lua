@@ -59,7 +59,7 @@ sto_jutsu = {3232322, 29869, 29871, 297855}
 --sto_jutsu = {time, henge, kinobori, shunshin}
 
 --[Akimichi Storage]
-sto_sensha = {658741, 658742, 6587454, 6859745121, 658743, 65132121, 54156155}
+sto_sensha = {658741, 658742, 6587454, 6859745121, 658743, 65132121, 54156155, 54156167}
 --sto_sensha = {nikudan, horengan, karengan, tongarashigan, hari, choubaika, mizudan}
 
 --[Inuzuka Storage]--
@@ -239,14 +239,7 @@ addEvent(setPlayerStorageValue, time, cid, STORAGE_DEFENSE, 0)
 end	
 
 
-function Susano(cid, time)
-if not isCreature(cid) then
-return true
-end
-setPlayerStorageValue(cid, 123987, 1)
---addEvent(setPlayerStorageValue, time, cid, STORAGE_DEFENSE, 0)
-addEvent(Susano, time, cid, time)
-end	
+
 function getPlayerMeleeSkill(cid)
   return {[0] = getPlayerSkillLevel(cid, SKILL_FIST), [1] = getPlayerSkillLevel(cid, SKILL_CLUB), [2] = getPlayerSkillLevel(cid, SKILL_SWORD), [3] = getPlayerSkillLevel(cid, SKILL_AXE)}
 end

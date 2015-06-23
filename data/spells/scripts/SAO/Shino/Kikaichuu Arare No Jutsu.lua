@@ -54,9 +54,10 @@ function onCastSpell(cid, var)
 		addEvent(doCreatureSay, 1, cid, "Kikkaichu !!", TALKTYPE_MONSTER)
 		addEvent(doCreatureSay, 4, cid, "ARARE !!", TALKTYPE_MONSTER)
 		
-local level = getPlayerMagLevel(cid) 
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
 local jutsuDmg = 27
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
 local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.20))
 		addEvent(doSendDistanceShoot, 3, basePos, fromPos, 12)

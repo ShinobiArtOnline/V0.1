@@ -95,12 +95,12 @@
 	retryTimeout = 5 * 1000
 	loginTimeout = 60 * 1000
 	maxPlayers = 1000
-	motd = "Bem vindo ao Naruto White Online!"
+	motd = "Shinaobi art ONLINE!"
 	displayOnOrOffAtCharlist = false
 	onePlayerOnlinePerAccount = true
 	allowClones = false
 	serverName = "White"
-	loginMessage = "Bem vindo ao Naruto White Online!"
+	loginMessage = "Shinaobi art ONLINE!"
 	statusTimeout = 5 * 60 * 1000
 	replaceKickOnLogin = true
 	forceSlowConnectionsToDisconnect = false
@@ -252,7 +252,7 @@
 	rateSpawn = 1
 
 	-- Monster rates
-	rateMonsterHealth = 2.0
+	rateMonsterHealth = 1.0
 	rateMonsterMana = 1.0
 	rateMonsterAttack = 1.0
 	rateMonsterDefense = 1.0

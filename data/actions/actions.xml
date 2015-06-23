@@ -8,7 +8,7 @@
 <action itemid="8306" event="script" value="upgrade.lua"/>
 <action itemid="8305" event="script" value="upgrade2.lua"/>
 <action itemid="2157" event="script" value="pille.lua"/>
-
+<action itemid="2158" event="script" value="pils.lua"/>
 	<!-- Quests -->
 	<action actionid="2000" event="script" value="quests/system.lua"/>
 	<action actionid="2001" event="script" value="quests/system.lua"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="White Samurai" nameDescription="a samurai" race="blood" experience="6500" speed="295" manacost="0">
     <health now="5000" max="5000"/>
-    <look type="158" head="0" body="0" legs="0" feet="0" corpse="2941"/>
+    <look type="158" head="0" body="0" legs="0" feet="0" corpse="2876"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="100" defense="0"/>
     <flags>

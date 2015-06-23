@@ -22,7 +22,7 @@ local function kubi(cid, dmg, chakra, neck)
                    doSendAnimatedText(targetPosition, "K.O", COLOR_BLACK)
                 else
                     doCreatureAddMana(cid, -chakra)
-                   addEvent(doAreaCombatHealth,  0, cid, COMBAT_PHYSICALDAMAGE, targetPosition, 0, dmg, dmg, 15)
+                   addEvent(doAreaCombatHealth,  0, cid, COMBAT_PHYSICALDAMAGE, targetPosition, 0, mdmg, dmg, 15)
                        exhaustion.set(cid, storage, waittime)
 					
 				end
@@ -47,10 +47,12 @@ if exhaustion.check(cid, storage) then
 		end
   
 if getPlayerLevel(cid) > 0 then
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 70
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
+local jutsuDmg = 50
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.20))
       doCreatureSay(cid, "Kage Kubi Shibari!", TALKTYPE_ORANGE_1)
       mayNotMove(cid, true)
       return kubi(cid, dmg, 10, 2) -- esse 10 é a quantidade de chakra que gasta

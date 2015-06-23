@@ -14,32 +14,40 @@ setCombatArea(combat2, area2)
 setCombatArea(combat3, area3)
 setCombatArea(combat4, area4)
 function onTargetTile1(cid, pos)
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 14
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
+	local level = getPlayerMagLevel(cid)
+	local mlevel = getPlayerMagLevel(cid) 
+	local jutsuDmg = 14
+	local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-quake(cid, pos, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, effectdir(cid, 99, 97), true)
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
+quake(cid, pos, COMBAT_PHYSICALDAMAGE, -mdmg, -dmg, effectdir(cid, 99, 97), true)
 end
 function onTargetTile2(cid, pos)
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 14
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
+local level = getPlayerMagLevel(cid)
+	local mlevel = getPlayerMagLevel(cid) 
+	local jutsuDmg = 7
+	local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-quake(cid, pos, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, effectdir(cid, 99, 97), true)
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
+quake(cid, pos, COMBAT_PHYSICALDAMAGE, -mdmg, -dmg, effectdir(cid, 99, 97), true)
 end
 function onTargetTile3(cid, pos)
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 14
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
+local level = getPlayerMagLevel(cid)
+	local mlevel = getPlayerMagLevel(cid) 
+	local jutsuDmg = 10
+	local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-quake(cid, pos, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, effectdir(cid, 99, 97), true)
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
+quake(cid, pos, COMBAT_PHYSICALDAMAGE, -mdmg, -dmg, effectdir(cid, 99, 97), true)
 end
 function onTargetTile4(cid, pos)
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 14
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
+local level = getPlayerMagLevel(cid)
+	local mlevel = getPlayerMagLevel(cid) 
+	local jutsuDmg = 14
+	local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-quake(cid, pos, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, effectdir(cid, 99, 97), true)
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
+quake(cid, pos, COMBAT_PHYSICALDAMAGE, -mdmg, -dmg, effectdir(cid, 99, 97), true)
 end
 
 setCombatCallback(combat1, CALLBACK_PARAM_TARGETTILE, "onTargetTile1")

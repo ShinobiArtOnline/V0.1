@@ -10,6 +10,7 @@
 	<event type="login" name="AntiMc" event="script" value="antimc.lua"/> 
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+	<event type="think" name="Sakura" event="script" value="sakura.lua"/>
 	<event type="death" name="Aol" event="script" value="aol.lua"/>
 	<event type="death" name="HeartDrop" event="script" value="heart.lua"/>
 	

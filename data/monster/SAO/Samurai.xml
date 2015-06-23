@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Samurai" nameDescription="a samurai" race="blood" experience="7500" speed="295" manacost="0">
     <health now="1000" max="1000"/>
-    <look type="141" head="0" body="0" legs="0" feet="0" corpse="2941"/>
+    <look type="141" head="0" body="0" legs="0" feet="0" corpse="2852"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -32,8 +32,9 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-      <item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-<item id="2510" chance="333"/>
-
+      <item id="2148" countmax="7000" chance1="70000" chancemax="100"/>
+	<item id="11624" chance="3333"/>
+	<item id="11732" chance="1333"/>
+	<item id="11771" chance="333"/>
     </loot>
   </monster>

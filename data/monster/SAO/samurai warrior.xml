@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <monster name="Samurai Warrior" nameDescription="a samurai warrior" race="blood" experience="3500" speed="200" manacost="650">
 	<health now="2400" max="2400"/>
-	<look type="80" corpse="2946"/>
+	<look type="80" corpse="2871"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="70" defense="0"/>
 	<flags>

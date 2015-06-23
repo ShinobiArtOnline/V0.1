@@ -79,12 +79,14 @@ if exhaustion.check(cid, storage) then
       end
    end 
    
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 1
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
+	local level = getPlayerMagLevel(cid)
+		local mlevel = getPlayerMagLevel(cid) 
+		local jutsuDmg = 3
+		local skill_factor = math.ceil((mlevel + level)/3)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.10))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.10))
 local min = -dmg
-local max = -dmg
+local max = -mdmg
 
    local find_area = getFirstCreaturePosOnDirection(cid,1)
    for i = 1,10 do

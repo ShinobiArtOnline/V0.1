@@ -10,13 +10,23 @@ local confg = {
 level = 1,
 chakra = 35
 }
+ 
+
+	
+
+
+function many(cid) 
+			
+                doCreatureAddMana(cid,-1) 
+                removemana=addEvent(many,1*1000,cid)
+            return true 
+        end 
 
 function onCastSpell(cid,var)
 	local info = {
 		chakra = 6,
 	}
-
-	local chakraPercent = getCreatureMaxMana(cid) * (info.chakra / 100)
+	
 -----[Restrições]-----
 	if	impossibleUse(cid) then
 		return true
@@ -44,17 +54,20 @@ function onCastSpell(cid,var)
 -----[Restrições]-----
    if isPlayer(cid) then
 	  if(getPlayerStorageValue(cid, sto_sensha[5]) == 0) then
-             iniHariNikudan(cid)
+           iniHariNikudan(cid)
+		   many(cid)
 			 removeChakraLife(cid, - confg.chakra)
-			 setPlayerStorageValue(cid, sto_sensha[5], 1)
-             addEvent(harinikudanSensha, 400, cid, 3)
-			 removeChakra(cid, chakraPercent, 3, sto_sensha[5], "sharingan")
-			 setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+			 
+			addEvent(harinikudanSensha, 300, cid, 3)
+			setPlayerStorageValue(cid, sto_sensha[5], 1)
+			setPlayerStorageValue(cid, 676767, 1)
+			
          else
+		 stopEvent(removemana)
+		 --setPlayerStorageValue(cid, 676767, 0)
              endHariNikudan(cid)
 			 setPlayerStorageValue(cid, sto_sensha[5], 0)
              doRemoveCondition(cid, CONDITION_OUTFIT)
-			  setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 			  exhaustion.set(cid, storage, waittime)
 		     
          end

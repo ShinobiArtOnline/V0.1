@@ -12,9 +12,9 @@ local info = {
 speed = 200,	
 	}
 	function mana(cid) 
-			local manaa=getCreatureMaxMana(cid)
-			local perc= manaa * (35/100)
-                doCreatureAddMana(cid,manaa * (percent/100)) 
+			
+			local perc= getCreatureMaxMana(cid) * (35/100)
+                doCreatureAddMana(cid,getCreatureMaxMana(cid) * (percent/100)) 
                 manaling=addEvent(mana,times*1000,cid)
 				setPlayerStorageValue(cid, 10002, 1)
             return true 
@@ -31,7 +31,9 @@ function onCastSpell(cid,var)
 	if getTilePzInfo(getPlayerPosition(cid)) then
 return doPlayerSendCancel(cid, "You in this area pz.") 
 end 
-
+if getPlayerStorageValue(cid, 10004) == 0 then
+return doPlayerSendCancel(cid, "you cannot summon two pets")
+end
 	if not isCreature(cid) then
 		return true
 	end
@@ -48,9 +50,11 @@ end
 			doConvinceCreature(cid, Fuuton)
 		mana(cid)
 		setPlayerStorageValue(cid, 10002, 1)
+		setPlayerStorageValue(cid, 10005, 0)
 		--doAddCondition(cid, buff)
 	elseif getPlayerStorageValue(cid, 10002) == 1 then
 		stopEvent(manaling)
+		setPlayerStorageValue(cid, 10005, 1)
 		setPlayerStorageValue(cid, 10002, 0)
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 	   summons = getCreatureSummons(cid)

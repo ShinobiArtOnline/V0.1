@@ -918,3 +918,52 @@ doPlayerSetRate(cid, SKILL__LEVEL, configExp.resetExp)
 
 return true
 end
+
+configPils = 
+{
+work = true, -- dziala czy nie true lub false (nie działa)
+rate = 20, -- ile więcej % expa,
+storageExh = 43330,
+workTime = 1, -- min czas działania bonus expa,
+
+}
+
+function bonusPils(cid)--CHOJI
+if isCreature(cid) == false then
+return true
+end
+local waittime = 600 -- czas
+local storage = 115819
+
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_RED, "Your bonus pils is ended.")
+
+setCreatureMaxHealth(cid, getCreatureMaxHealth(cid) - 300)
+doCreatureAddHealth(cid, -300,1)
+
+return true
+end
+configSakura = 
+{
+work = true, -- dziala czy nie true lub false (nie działa)
+rate = 20, -- ile więcej % expa,
+storageExh = 43330,
+workTime = 1, -- min czas działania bonus expa,
+
+}
+
+function bonusSakura(cid)
+if isCreature(cid) == false then
+return true
+end
+local target=getCreatureTarget(cid)
+local waittime = 600 -- czas
+local storage = 115819
+
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_RED, "Your bonus pils is ended.")
+if getPlayerStorageValue(cid, 10007) == 1 then
+setCreatureMaxHealth(target, getCreatureMaxHealth(cid) - 300)
+doCreatureAddHealth(target, -300,1)
+setPlayerStorageValue(target, 10007, 0)
+end
+return true
+end

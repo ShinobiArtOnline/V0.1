@@ -17,10 +17,12 @@ function onCastSpell(cid,var)
 			doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 27
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
+local jutsuDmg = 20
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.30))
 -----[Restrições]-----
 
 	if	impossibleUse(cid) then
@@ -42,7 +44,7 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 		local pos = getCreaturePosition(target)
 		for i = 1,6 do
 			addEvent(doSendDistanceShoot, 30+(200*i), getCreaturePosition(cid), pos, 11)
-				addEvent(doAreaCombatHealth, 30+(200*i), cid, COMBAT_FIREDAMAGE, pos, 0, dmg, dmg, 5)
+				addEvent(doAreaCombatHealth, 30+(200*i), cid, COMBAT_FIREDAMAGE, pos, 0, mdmg, dmg, 5)
 			end
 		
 	end

@@ -20,10 +20,12 @@ local config = {
 }
 
 local function direcao(cid, pos, n)
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 18
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
+local jutsuDmg = 26
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.20))
         local n = n or 0
 
         if (n < config.sqms) then
@@ -34,16 +36,16 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
 
                 local newPos = getPosByDir(pos, dir)
 if getCreatureLookDir(cid) == 0 then
-		 doAreaCombatHealth(cid, 1, pos, BITE, dmg, dmg, 83)
+		 doAreaCombatHealth(cid, 1, pos, BITE, mdmg, dmg, 83)
 	elseif getCreatureLookDir(cid) == 1 then
-	 doAreaCombatHealth(cid, 1, pos, BITE, dmg, dmg, 85)
+	 doAreaCombatHealth(cid, 1, pos, BITE, mdmg, dmg, 85)
 	elseif getCreatureLookDir(cid) == 2 then
-	 doAreaCombatHealth(cid, 1, pos, BITE, dmg, dmg, 84)
+	 doAreaCombatHealth(cid, 1, pos, BITE, mdmg, dmg, 84)
 	elseif getCreatureLookDir(cid) == 3 then
-	 doAreaCombatHealth(cid, 1, pos, BITE, dmg, dmg, 86)
+	 doAreaCombatHealth(cid, 1, pos, BITE, mdmg, dmg, 86)
 	end
              
-                doAreaCombatHealth(cid, 1, newPos, BITE, dmg, dmg, config.effects[dir])
+                doAreaCombatHealth(cid, 1, newPos, BITE, mdmg, dmg, config.effects[dir])
                 addEvent(direcao, config.intervalo, cid, newPos, n + 1)
             end
         end

@@ -47,18 +47,21 @@ end
 		addEvent(doCreatureSay, 0, cid, "Tsumoji !", TALKTYPE_MONSTER)
 		
 		
-local level = getPlayerMagLevel(cid)
-local jutsuDmg = 24
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
+local jutsuDmg = 26
+
 local pos = pos or getCreaturePosition(cid)
 local target = getCreatureTarget(cid)
 local dir = (target ~= 0) and getDirectionTo(pos, getCreaturePosition(target)) or getCreatureLookDirection(cid)
 local tpos = (target ~= 0) and getCreaturePosition(target)
 local newPos = getPosByDir(pos, dir)
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-		addEvent(doAreaCombatHealth, 0, cid, COMBAT_PHYSICALDAMAGE, newPos, NARASHI, dmg, dmg, 31)
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.20))
+		addEvent(doAreaCombatHealth, 0, cid, COMBAT_PHYSICALDAMAGE, newPos, NARASHI, mdmg, dmg, 31)
 		--addEvent(doAreaCombatHealth, 0, cid, COMBAT_PHYSICALDAMAGE, tpos, 1, dmg, dmg, 35)
-		addEvent(doAreaCombatMana, 0, cid, newPos, 1, dmg, dmg, 255)
+		addEvent(doAreaCombatMana, 0, cid, newPos, 1, mdmg, dmg, 255)
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	else
 		doPlayerSendCancel(cid, "You do not have chakra.")

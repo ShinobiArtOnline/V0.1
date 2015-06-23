@@ -15,9 +15,10 @@ if checkCmd(cid, "mold") then
 			doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
-local level = getPlayerMagLevel(cid)
-local jutsuDmg = 20
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
+local jutsuDmg = 26
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
 local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.20))
 	

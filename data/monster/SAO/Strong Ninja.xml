@@ -31,19 +31,10 @@
       <immunity drunk="0"/>
       <immunity invisible="0"/>
     </immunities>
-    <loot>
-<item id="2148" countmax="20" chance1="50000" chancemax="0"/>
-<item id="2788" chance="50000"/>
-<item id="2787" chance="50000"/>
-<item id="2482" chance="2000"/>
-<item id="2002" chance="50000">
-<inside>
-<item id="2391" chance="2000"/>
-<item id="2547" countmax="5" chance1="20000" chancemax="0"/>
-<item id="2643" chance="3000"/>
-<item id="2397" chance="333"/>
-<item id="2430" chance="333"/>
-</inside>
-</item>
+   <loot>
+<item id="2148" countmax="45" chance1="50000" chancemax="0"/>
+<item id="11815" chance="2000"/>
+<item id="11819" chance="50000"/>
+<item id="11647" chance="2000"/>
     </loot>
   </monster>

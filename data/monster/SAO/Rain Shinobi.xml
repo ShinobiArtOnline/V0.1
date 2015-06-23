@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Rain Shinobi" nameDescription="a shinobi" race="blood" experience="2500" speed="295" manacost="0">
+    <health now="2350" max="2350"/>
+    <look type="301" corpse="2854"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+	<attack name="melee" interval="2000" min="-0" max="-60"/>
+    </attacks>
+    
+    <loot>
+<item id="2148" countmax="100" chance1="50000" chancemax="0"/><!-- gold coin -->
+<item id="2794" chance="50000"/><!--grzyb -->
+
+<item id="11666" chance="2000"/><!-- katana -->
+<item id="11782" chance="3000"/><!-- katana -->
+
+
+    </loot>
+  </monster>

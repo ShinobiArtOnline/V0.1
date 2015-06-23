@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Strong Ninja" nameDescription="a ninja" race="blood" experience="1200" speed="255" manacost="0">
     <health now="1100" max="1100"/>
-    <look type="123" head="0" body="0" legs="0" feet="0" corpse="2875"/>
+    <look type="123" head="0" body="0" legs="0" feet="0" corpse="2813"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="80" defense="0"/>
     <flags>

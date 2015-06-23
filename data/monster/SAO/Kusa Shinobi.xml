@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kusa Shinobi" nameDescription="a Kusa Shinobi" race="blood" experience="870" speed="200" manacost="0">
+	<health now="750" max="750"/>
+	<look type="256" corpse="2946"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-50"/>
+	</attacks>
+	
+	<voices interval="5000" chance="10">
+		<voice sentence="Give me your money!"/>
+		<voice sentence="Hahahaha!"/>
+	</voices>
+	<loot>
+		
+		<item id="11833" countmax="25" chance="1000"/><!-- elite taijutsu gloves -->
+		<item id="11612" countmax="25" chance="10000"/>
+	</loot>
+</monster>

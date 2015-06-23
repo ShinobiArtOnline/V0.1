@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Strong Ninja" nameDescription="a ninja" race="blood" experience="2900" speed="295" manacost="0">
     <health now="2100" max="2100"/>
-    <look type="111" head="0" body="0" legs="0" feet="0" corpse="4220"/>
+    <look type="111" head="0" body="0" legs="0" feet="0" corpse="2826"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="80" defense="0"/>
     <flags>
@@ -35,15 +35,9 @@
 <item id="2148" countmax="20" chance1="50000" chancemax="0"/>
 <item id="2788" chance="50000"/>
 <item id="2787" chance="50000"/>
-<item id="2482" chance="2000"/>
-<item id="2002" chance="50000">
-<inside>
-<item id="2391" chance="2000"/>
-<item id="2547" countmax="5" chance1="20000" chancemax="0"/>
-<item id="2643" chance="3000"/>
-<item id="2397" chance="333"/>
-<item id="2430" chance="333"/>
-</inside>
-</item>
+
+<item id="11653" chance="1000"/>
+
+
     </loot>
   </monster>

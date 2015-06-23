@@ -23,10 +23,12 @@ function onCastSpell(cid, var)
         
         addEvent(doCreatureSay, 200, cid, "Kikkaichu", TALKTYPE_MONSTER)
         addEvent(doCreatureSay, 500, cid, "Mushikame!!", TALKTYPE_MONSTER)
-       local level = getPlayerMagLevel(cid)
-		local jutsuDmg = 100
-		local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/3)
+		local level = getPlayerLevel(cid)
+		local mlevel = getPlayerMagLevel(cid) 
+		local jutsuDmg = 26
+		local skill_factor = math.ceil((mlevel + level)/3)
 		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+		local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
 		local pos = getCreaturePosition(cid)
 		removeChakraLife(cid, - confg.chakra)
 		local pos = getCreaturePosition(cid)
@@ -38,7 +40,7 @@ function onCastSpell(cid, var)
 		n = 0
 		while n < #pos do
 				n = n+1
-				addEvent(quakePush, 90, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z},COMBAT_PHYSICALDAMAGE, -dmg, -dmg, 255, true)
+				addEvent(quake, 90, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z},COMBAT_PHYSICALDAMAGE, -dmg, -dmg, 255, true)
 				
 		end
 		exhaustion.set(cid, storage, waittime)

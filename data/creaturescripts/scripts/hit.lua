@@ -76,7 +76,7 @@ if type == STATSCHANGE_HEALTHLOSS and isPlayer(cid) and isPlayer(attacker) or is
   end
 ----------[EVASION]----------
    local ChanceEva = math.random(1, 300)
-   local ChanceEvHit = getPlayerSkill(cid, 6)
+   local ChanceEvHit = getPlayerSkill(cid, 1)
    if ChanceEva <= ChanceEvHit then
    doSendAnimatedText(getCreaturePosition(cid), "Evasion..", COLOR_GREEN)    
       return false  
@@ -105,7 +105,7 @@ if getPlayerStorageValue(cid, 9998) >= 5 and getPlayerLevel(cid) >= 45 and getPl
     
 end
       ----[Sharingan level 3]----    
-if getPlayerStorageValue(cid, 9998) >= 2000 and getPlayerLevel(cid) >= 20 and getPlayerVocation(cid) == 5 and getPlayerStorageValue(cid, 9999) == 2 
+if getPlayerStorageValue(cid, 9998) >= 200 and getPlayerLevel(cid) >= 20 and getPlayerVocation(cid) == 5 and getPlayerStorageValue(cid, 9999) == 2 
        and getPlayerStorageValue(cid, 9999) == 2 and math.random(1,300) == 1 then 
       doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Congratulations! You released the Sharingan Level 3!")
 	  doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Congratulations! You released the Sharingan Level 3!. Write Sharingan Level 3")

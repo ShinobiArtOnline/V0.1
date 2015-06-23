@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Assasin" nameDescription="a assasin" race="blood" experience="1050" speed="295" manacost="0">
-    <health now="3000" max="3000"/>
-    <look type="140" head="0" body="0" legs="0" feet="0" corpse="2874"/>
+    <health now="950" max="950"/>
+    <look type="140" head="0" body="0" legs="0" feet="0" corpse="2868"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -19,7 +19,7 @@
     </flags>
     <attacks>
 <attack name="melee" interval="1000" min="-30" max="-55"/>
-<attack name="throw big shuriken" interval="2000" min="-50" max="-70"/>
+<attack name="Throw Big Shuriken" interval="2000" min="-50" max="-70"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -33,17 +33,13 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-<item id="2793" chance="50000"/>
-<item id="2453" chance="2000"/>
-<item id="1991" chance="50000">
-<inside>
-<item id="2435" chance="2000"/>
-<item id="2546" countmax="5" chance1="20000" chancemax="0"/>
-<item id="2642" chance="3000"/>
+<item id="7368" countmax="15" chance1="50000" chancemax="0"/>
+
+
+<item id="11609" countmax="5" chance1="20000" chancemax="0"/>
+<item id="11708" chance="3000"/>
 <item id="2428" chance="3000"/>
 <item id="2661" chance="3000"/>
-</inside>
-</item>
+
     </loot>
   </monster>

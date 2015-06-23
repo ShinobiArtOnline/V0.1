@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Destruction Ninja" nameDescription="a ninja" race="blood" experience="2100" speed="295" manacost="0">
     <health now="1500" max="1500"/>
-    <look type="89" head="0" body="0" legs="0" feet="0" corpse="2928"/>
+    <look type="89" head="0" body="0" legs="0" feet="0" corpse="2813"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="50" defense="0"/>
     <flags>
@@ -19,7 +19,7 @@
     </flags>
     <attacks>
 <attack name="melee" interval="1500" min="-50" max="-100"/>
-<attack name="throw big shuriken" interval="3000" min="-150" max="-260"/>
+<attack name="Throw Big Shuriken" interval="3000" min="-150" max="-260"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>

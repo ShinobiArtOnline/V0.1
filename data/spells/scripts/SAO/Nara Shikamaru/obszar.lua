@@ -30,9 +30,10 @@ function onCastSpell(cid, var)
 		addEvent(doCreatureSay, 20, cid, "BAKUGEKI..", TALKTYPE_MONSTER)
 		
 		local level = getPlayerLevel(cid) 
-		local jutsuDmg = 3
-		local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
-		local dmg = math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
+		local level = getPlayerLevel(cid)
+		local mlevel = getPlayerMagLevel(cid) 
+		local jutsuDmg = 15
+		local skill_factor = math.ceil((mlevel + level)/2)
 		local mini = math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
 		local pos = getCreaturePosition(cid)
 		addEvent(doSendMagicEffect, 30, {x = pos.x+1, y = pos.y+1, z = pos.z}, 83)

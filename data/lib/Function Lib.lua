@@ -71,6 +71,9 @@ function removeHealth(cid, percent, time, storage)
 	end
 end
 
+
+
+
 function removeChakra(cid, percent, time, storage, type)
  local remove = percent
  if not isCreature(cid) then
@@ -100,6 +103,7 @@ function removeChakra(cid, percent, time, storage, type)
   end
  end
 end
+
 
 function stopNow(cid, time)   
    if not isCreature(cid) or not tonumber( time ) then 

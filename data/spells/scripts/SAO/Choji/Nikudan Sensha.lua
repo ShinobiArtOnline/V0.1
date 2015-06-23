@@ -8,7 +8,29 @@ exhausted = 2,
 
 local confg = {
 level = 1,
+chakra = 35
 }
+function ChojiremoveChakra(cid, percent, time, storage, type)
+ local remove = percent
+ if not isCreature(cid) then
+  return true
+ end
+
+
+  if type == "sharingan" then
+   if getCreatureMana(cid) > remove then
+    doCreatureAddMana(cid, -remove)
+   else
+    doCreatureAddMana(cid, -remove)
+    doCreatureAddHealth(cid, -remove)
+    doSendAnimatedText(getCreaturePosition(cid), remove, COLOR_RED)
+   end
+   elseif  getPlayerStorageValue(cid,676767)==1 then
+   stopEvent(ab)
+  end
+  ab=addEvent(ChojiremoveChakra, 1*1000, cid, remove, time, storage, type)
+  
+ end
 
 
 function onCastSpell(cid,var)
@@ -45,19 +67,24 @@ function onCastSpell(cid,var)
 		return false
 		end
 ----------------------	
+
 	 if isPlayer(cid) then
-	  if(getPlayerStorageValue(cid,sto_sensha[1]) == 0) then
+	  if getPlayerStorageValue(cid,sto_sensha[1]) == 0 then
+		setPlayerStorageValue(cid, 676767, 0)
              iniNikudan(cid)
+			  
+			  --ChojiremoveChakra(cid, 1, 1, 676767, "sharingan")
 			 setPlayerStorageValue(cid, sto_sensha[1], 1)
-             addEvent(nikudanSensha, 800, cid, 3)
-			 removeChakra(cid, chakraPercent, 3, sto_sensha[1], "sharingan")
+             addEvent(nikudanSensha, 300, cid, 3)
 			 setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
-			 exhaustion.set(cid, storage, waittime)
+			
 		
          else
+		 setPlayerStorageValue(cid, 676767, 1)
+			
              endNikudan(cid)
 			 setPlayerStorageValue(cid, sto_sensha[1], 0)
-             normalizeOutfit(cid)
+			doRemoveCondition(cid, CONDITION_OUTFIT)
 			 setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 			 exhaustion.set(cid, storage, waittime)
          end

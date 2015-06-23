@@ -75,7 +75,7 @@ local l=getCreatureMaxMana(cid)
 		
 	
 		
-	if getPlayerStorageValue(cid, 123987) == 0 and getCreatureMana(cid) > percy then
+	if getPlayerStorageValue(cid, 123987) == 0 and getCreatureMana(cid) >= percy then
 		Susano(cid)
 		man(cid)
         addEvent(changeMove, 0, cid, 112, -1)
@@ -109,17 +109,24 @@ local l=getCreatureMaxMana(cid)
 				addEvent(changeMove, 0, cid, 66, -1)
 				stopEvent(a)
 				stopEvent(manaling)
+				doRemoveCondition(cid, CONDITION_OUTFIT)
 				setPlayerStorageValue(cid, 123987, 0)
 				elseif getPlayerLevel(cid) >= 120 and getPlayerLevel(cid) < 500 then
 				addEvent(changeMove, 0, cid, 66, -1)
 				stopEvent(a)
 				stopEvent(manaling)
+				doRemoveCondition(cid, CONDITION_OUTFIT)
 				setPlayerStorageValue(cid, 123987, 0)
 				else
-				return doPlayerSendCancel(cid, "You cannot use jutsu, you don't have mana")
+				doRemoveCondition(cid, CONDITION_OUTFIT)
+				addEvent(changeMove, 0, cid, 66, -1)
+				stopEvent(a)
+				stopEvent(manaling)
+				doPlayerSendCancel(cid, "You cannot use jutsu, you don't have mana")
 			  end
 		
-		setPlayerStorageValue(cid, 123987, 0)
+		--setPlayerStorageValue(cid, 123987, 0)
+		doRemoveCondition(cid, CONDITION_OUTFIT)
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 	    doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid))

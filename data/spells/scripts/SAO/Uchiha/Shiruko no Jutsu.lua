@@ -75,10 +75,12 @@ function onCastSpell(cid, var)
 		return true
 	end
 
-local level = getPlayerLevel(cid) 
-local jutsuDmg = 22
-local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+local level = getPlayerLevel(cid)
+local mlevel = getPlayerMagLevel(cid) 
+local jutsuDmg = 26
+local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
 
 
 	addEvent(doCreatureSay, 500, cid, "Katon:", TALKTYPE_MONSTER)
@@ -88,8 +90,8 @@ local combat = {[1] = combat1, [2] = combat2, [3] = combat3, [4] = combat4,}
 local area = {[1] = area1, [2] = area2, [3] = area3, [4] = area4,}
 	for i = 0,3 do
 		addEvent(doCombat, (1000 +(100*i)), cid, combat[i+1], var)
-		addEvent(doAreaCombatHealth, (1000 +(100*i)), cid, COMBAT_FIREDAMAGE, getFirstCreaturePosOnDirection(cid,1), area[i+1], dmg, dmg, 4)
+		addEvent(doAreaCombatHealth, (1000 +(100*i)), cid, COMBAT_FIREDAMAGE, getFirstCreaturePosOnDirection(cid,1), area[i+1], mdmg, dmg, 4)
 	end
 	addEvent(doCombat, 1600, cid, combat5, var)
-	addEvent(doAreaCombatHealth, 1600, cid, COMBAT_FIREDAMAGE, getFirstCreaturePosOnDirection(cid,1), area5, dmg, dmg, 4)
+	addEvent(doAreaCombatHealth, 1600, cid, COMBAT_FIREDAMAGE, getFirstCreaturePosOnDirection(cid,1), area5, mdmg, dmg, 4)
 end

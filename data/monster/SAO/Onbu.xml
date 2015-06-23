@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Oinin" nameDescription="a oinin" race="fire" experience="3000" speed="330" manacost="0">
+	<health now="300" max="300"/>
+	<look type="18" corpse="2823"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="80" attack="90"/>
+	</attacks>
+	<defenses armor="20" defense="20"/>
+	<elements>
+		<element icePercent="-25"/>
+	</elements>
+	<loot>
+		<item id="2148" countmax="10" chance="100000"/><!-- gold coin -->
+		<item id="2671" countmax="4" chance="99999"/><!-- ham -->
+		
+	</loot>
+</monster>

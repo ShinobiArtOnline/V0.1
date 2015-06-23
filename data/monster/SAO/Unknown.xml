@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Unknown" nameDescription="a unknow shinobi" race="blood" experience="650" speed="295" manacost="0">
     <health now="550" max="550"/>
-    <look type="70"  corpse="2841"/>
+    <look type="70"  corpse="2830"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>

@@ -35,14 +35,17 @@ function onLogin(cid)
 	if getPlayerStorageValue(cid, 49708) ~= 0 then
         setPlayerStorageValue(cid, 49708, 0) 
 end
-	setPlayerStorageValue(cid, 123987, 0)--Susano
+	--setPlayerStorageValue(cid, 123987, 0)--Susano
+	setPlayerStorageValue(cid, 676767, 0)--
 	setPlayerStorageValue(cid, 10002, 0)--pet
 	setPlayerStorageValue(cid, 10003, 0)--pet
-	for i = 9000, 9063 do setPlayerStorageValue(cid, i, 0) end
+	for i = 9000, 9063 do setPlayerStorageValue(cid, i, 0)
+	end
 	registerCreatureEvent(cid, "Bounty")
     setPlayerStorageValue(cid, 8877, 0)
     setPlayerStorageValue(cid, 14755, -1)
 	Outfit(cid)
+	registerCreatureEvent(cid, "Sakura")
 	registerCreatureEvent(cid, "Petdeath")
 	--setPlayerStorageValue(cid, 1234899, 1) 
 	registerCreatureEvent(cid, "Aol")
@@ -91,6 +94,9 @@ function onLogout(cid)
 	if getPlayerStorageValue(cid, 10003) == 1 then
 	doPlayerCastSpell(cid, "Hppet")
 	end
+	if getPlayerStorageValue(cid, 676767) == 1 then
+	doPlayerCastSpell(cid, "Hari Sensha")
+	end
 	
 	for i = 9000, 9063 do 
    		 setPlayerStorageValue(cid, i, 0)
@@ -106,6 +112,20 @@ local lastTime = exhaustion.get(cid, configExp.storageExh)
 doPlayerSetRate(cid, SKILL__LEVEL, bonusExpRate)
 doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, 'Your bonus experience is still active. (Left: ' .. lastTime ..' seconds.)')
 addEvent(bonusExp, lastTime * 1000, cid)
+end
+
+end
+
+if configPils.work then
+
+if exhaustion.check(cid, configPils.storageExh) then
+
+setCreatureMaxHealth(cid, getCreatureMaxHealth(cid)+300)
+doCreatureAddHealth(cid, 300)
+local lastTime = exhaustion.get(cid, configExp.storageExh)
+
+doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, 'Your bonus experience is still active. (Left: ' .. lastTime ..' seconds.)')
+addEvent(bonusPils, lastTime * 1000, cid)
 end
 
 end

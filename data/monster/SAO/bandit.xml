@@ -1,32 +1,44 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Kusa Shinobi" nameDescription="a Kusa Shinobi" race="blood" experience="870" speed="200" manacost="0">
-	<health now="750" max="750"/>
-	<look type="256" corpse="2946"/>
-	<targetchange interval="5000" chance="8"/>
-	<strategy attack="100" defense="0"/>
-	<flags>
-		<flag summonable="0"/>
-		<flag attackable="1"/>
-		<flag hostile="1"/>
-		<flag illusionable="0"/>
-		<flag convinceable="0"/>
-		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="0"/>
-		<flag targetdistance="4"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
-	</flags>
-	<attacks>
-		<attack name="melee" interval="2000" min="-0" max="-50"/>
-	</attacks>
-	
-	<voices interval="5000" chance="10">
-		<voice sentence="Give me your money!"/>
-		<voice sentence="Hahahaha!"/>
-	</voices>
-	<loot>
-		<item id="3031" countmax="20" chance="100000"/><!-- gold coin -->
-		<item id="11434" countmax="1" chance="3000"/><!-- elite taijutsu gloves -->
-	</loot>
-</monster>
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Bandit" nameDescription="a Bandit" race="blood" experience="700" speed="200" manacost="0">
+    <health now="650" max="650"/>
+    <look type="306" head="0" body="0" legs="0" feet="0" corpse="2865"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="0" defense="0"/>
+    <flags>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+     <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+<attack name="melee" interval="1000" min="-30" max="-55"/>
+    </attacks>
+      <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <loot>
+<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
+
+<item id="11645" chance="7000"/>
+<item id="11742" chance="20000" />
+<item id="11818" chance="3000"/>
+
+
+
+    </loot>
+  </monster>

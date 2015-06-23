@@ -41,7 +41,9 @@ end
 		doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
-
+if getPlayerStorageValue(cid, 10005) == 0 then
+return doPlayerSendCancel(cid, "you cannot summon two pets")
+end
 	if getPlayerStorageValue(cid, 10003) == 0 then
 		
 			summons = getCreatureSummons(cid)
@@ -49,9 +51,11 @@ end
 			doConvinceCreature(cid, Fuuton)
 		hp(cid)
 		setPlayerStorageValue(cid, 10003, 1)
+		setPlayerStorageValue(cid, 10004, 0)
 		--doAddCondition(cid, buff)
 	elseif getPlayerStorageValue(cid, 10003) == 1 then
 		stopEvent(hpling)
+		setPlayerStorageValue(cid, 10004, 1)
 		setPlayerStorageValue(cid, 10003, 0)
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 	   summons = getCreatureSummons(cid)

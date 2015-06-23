@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name=" Electric Shinobi" nameDescription="a shinobi" race="blood" experience="1700" speed="295" manacost="0">
     <health now="1500" max="1500"/>
-    <look type="79"  corpse="2909"/>
+    <look type="79"  corpse="2814"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="5"/>
     <flags>
@@ -32,17 +32,11 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-<item id="2791" chance="50000"/>
-<item id="2453" chance="2000"/>
-<item id="1992" chance="50000">
-<inside>
-<item id="2654" chance="2000"/>
-<item id="2547" countmax="5" chance1="20000" chancemax="0"/>
-<item id="2642" chance="3000"/>
-<item id="7461" chance="3000"/>
-<item id="2393" chance="3000"/>
-</inside>
+<item id="2148" countmax="1000" chance1="50000" chancemax="30"/>
+<item id="11666" chance="50000"/>
+<item id="11681" chance="200"/>
+<item id="11707" chance="100">
+
 </item>
     </loot>
   </monster>

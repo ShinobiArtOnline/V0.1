@@ -63,14 +63,16 @@ if exhaustion.check(cid, storage) then
 		addEvent(doCreatureSay, 300, cid, "Kikkaichu..", TALKTYPE_MONSTER)
 		addEvent(doCreatureSay, 300, cid, "Yajiri!!", TALKTYPE_MONSTER)
 		
-		local level = getPlayerLevel(cid) 
-		local jutsuDmg = 17
-		local skill_factor = math.ceil((jutsuSkill_factor(cid, 1) + level)/2)
+		local level = getPlayerLevel(cid)
+		local mlevel = getPlayerMagLevel(cid) 
+		local jutsuDmg = 16
+		local skill_factor = math.ceil((mlevel + level)/2)
 		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
+		local mdmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
 		local target = getCreatureTarget(cid)
 		local pos = getCreaturePosition(target)
 		for n = 1,4 do
-			addEvent(doAreaCombatHealth, 300*n, cid, COMBAT_PHYSICALDAMAGE, pos, 1, dmg, dmg, 30)
+			addEvent(doAreaCombatHealth, 300*n, cid, COMBAT_PHYSICALDAMAGE, pos, 1, mdmg, dmg, 30)
 			addEvent(doAreaCombatMana, 300*n, cid, pos, 1, dmg, dmg, 255)
 		end
 			setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)

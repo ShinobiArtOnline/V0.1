@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Strong Shaolin" nameDescription="a shaolin" race="blood" experience="8500" speed="295" manacost="0">
     <health now="6000" max="6000"/>
-    <look type="72" head="0" body="0" legs="0" feet="0" corpse="2951"/>
+    <look type="303" head="0" body="0" legs="0" feet="0" corpse="2818"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
     <flags>
@@ -33,16 +33,10 @@
     </immunities>
     <loot>
 <item id="2148" countmax="20" chance1="50000" chancemax="0"/>
-<item id="2482" chance="333"/>
-<item id="2788" chance="20000"/>
-<item id="2004" chance="50000">
-<inside>
-<item id="7884" chance="333"/>
-<item id="2547" countmax="5" chance1="20000" chancemax="0"/>
-<item id="2643" chance="3333"/>
-<item id="2397" chance="333"/>
-<item id="2430" chance="333"/>
-</inside>
+<item id="11790" chance="3333"/>
+<item id="11792" chance="9000"/>
+<item id="11791" chance="10000">
+<item id="11640" chance="999"/>
 </item>
     </loot>
   </monster>
