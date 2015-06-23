@@ -243,6 +243,16 @@
 	</instant>
 	
 	
+	<!-- spelle mobby  -->
+		
+	<instant name="Groundshaker" words="exori mas" lvl="33" mana="160" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="Do bossow/attack/groundshaker.lua">		
+	</instant>
+	
+	<instant name="Poison Field" words="adevo grav pox" lvl="14" mana="200" prem="1" needweapon="1"  exhaustion="2000" needlearn="0" event="script" value="Do bossow/attack/posion field.lua">		
+	</instant>
+	
+	<instant name="Energy Field" words="heheszki" lvl="14" mana="200" prem="1" needweapon="1"  exhaustion="2000" needlearn="0" event="script" value="Do bossow/attack/energy field.lua">		
+	</instant>
 	
 	
 	

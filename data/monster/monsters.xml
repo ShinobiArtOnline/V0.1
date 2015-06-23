@@ -37,6 +37,11 @@
 	<monster name="Katsuya" file="Katsuya.xml"/>
 	<monster name="Gamakichi" file="Gamakichi.xml"/>
 	
+	<!-- BOSSY -->
+	<monster name="Annihilon" file="/SAO/BOSSY/annihilon.xml"/>
+	<monster name="Dracola" file="/SAO/BOSSY/dracola.xml"/>
+	<monster name="Fire overlord" file="/SAO/BOSSY/fire overlord.xml"/>
+	<monster name="Thalas" file="/SAO/BOSSY/thalas.xml"/>
 	
 	
 </monsters>
