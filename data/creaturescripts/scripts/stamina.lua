@@ -187,11 +187,6 @@ end
 	setPlayerStorageValue(cid, sto_sensha[2], 1)
 ------------------------
 
-	setPlayerStorageValue(cid, STORAGE_PET_REST, 1)
-	
-	if getPlayerStorageValue(cid, STORAGE_NICKPET) <= 0 then 
-		setPlayerStorageValue(cid, petStorages.nick, "Dog")
-	end
 	
 
 ---[Config Inuzuka]--

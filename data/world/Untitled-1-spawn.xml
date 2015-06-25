@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spawns>
+  <spawn centerx="770" centery="942" centerz="4" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="2" y="-2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="2" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="761" centery="943" centerz="4" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="2" y="-2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="2" y="2" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="759" centery="953" centerz="4" radius="2">
+    <monster name="Assasin" x="1" y="-2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="1" z="4" spawntime="60"/>
+    <monster name="Assasin" x="2" y="2" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="774" centery="953" centerz="4" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="2" y="2" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="762" centery="961" centerz="4" radius="2">
+    <monster name="Assasin" x="-1" y="-2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="2" y="2" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="776" centery="963" centerz="4" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="4" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="4" spawntime="60"/>
+    <monster name="Assasin" x="2" y="2" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="675" centery="811" centerz="5" radius="2">
+    <monster name="Villager" x="-1" y="-2" z="5" spawntime="60"/>
+    <monster name="Villager" x="2" y="-2" z="5" spawntime="60"/>
+    <monster name="Thief" x="0" y="-1" z="5" spawntime="60"/>
+    <monster name="Villager" x="-2" y="0" z="5" spawntime="60"/>
+    <monster name="Villager" x="0" y="1" z="5" spawntime="60"/>
+    <monster name="Thief" x="-2" y="2" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="536" centery="825" centerz="5" radius="2">
+    <monster name="Trainer Worms" x="-1" y="-1" z="5" spawntime="60"/>
+    <monster name="Trainer Worms" x="2" y="-1" z="5" spawntime="60"/>
+    <monster name="Trainer Worms" x="-2" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="765" centery="941" centerz="5" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="5" spawntime="60"/>
+    <monster name="Assasin" x="2" y="-2" z="5" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="2" z="5" spawntime="60"/>
+    <monster name="Assasin" x="2" y="2" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="759" centery="951" centerz="5" radius="1"/>
+  <spawn centerx="775" centery="952" centerz="5" radius="1">
+    <monster name="Assasin" x="-1" y="-1" z="5" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="5" spawntime="60"/>
+    <monster name="Assasin" x="1" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="761" centery="960" centerz="5" radius="1">
+    <monster name="Assasin" x="-1" y="-1" z="5" spawntime="60"/>
+    <monster name="Assasin" x="1" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="774" centery="962" centerz="5" radius="1">
+    <monster name="Assasin" x="-1" y="-1" z="5" spawntime="60"/>
+    <monster name="Assasin" x="1" y="-1" z="5" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="701" centery="666" centerz="6" radius="5">
     <monster name="Training Target" x="-5" y="-5" z="6" spawntime="60"/>
     <monster name="Training Target" x="0" y="-5" z="6" spawntime="60"/>
@@ -10,6 +74,113 @@
     <monster name="Training Target" x="-5" y="4" z="6" spawntime="60"/>
     <monster name="Training Target" x="0" y="4" z="6" spawntime="60"/>
     <monster name="Training Target" x="4" y="4" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="761" centery="804" centerz="6" radius="6">
+    <monster name="Villager" x="-3" y="-6" z="6" spawntime="60"/>
+    <monster name="Villager" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Villager" x="2" y="5" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="607" centery="807" centerz="6" radius="2">
+    <monster name="Thief" x="0" y="-2" z="6" spawntime="60"/>
+    <monster name="Thief" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Thief" x="-2" y="-1" z="6" spawntime="60"/>
+    <monster name="Thief" x="1" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="728" centery="811" centerz="6" radius="6">
+    <monster name="Villager" x="-5" y="-5" z="6" spawntime="60"/>
+    <monster name="Villager" x="5" y="-4" z="6" spawntime="60"/>
+    <monster name="Villager" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Villager" x="0" y="4" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="535" centery="813" centerz="6" radius="2">
+    <monster name="Guardian" x="-1" y="-2" z="6" spawntime="60"/>
+    <monster name="Guardian" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="657" centery="813" centerz="6" radius="2">
+    <monster name="Onbu" x="-1" y="-2" z="6" spawntime="60"/>
+    <monster name="Onbu" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="604" centery="815" centerz="6" radius="2">
+    <monster name="Thief" x="0" y="-2" z="6" spawntime="60"/>
+    <monster name="Thief" x="-2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="610" centery="815" centerz="6" radius="2">
+    <monster name="Thief" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Thief" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Thief" x="2" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="750" centery="815" centerz="6" radius="6">
+    <monster name="Villager" x="5" y="-2" z="6" spawntime="60"/>
+    <monster name="Villager" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="663" centery="816" centerz="6" radius="2">
+    <monster name="Villager" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Thief" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Villager" x="1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="536" centery="818" centerz="6" radius="2">
+    <monster name="Guardian" x="2" y="-1" z="6" spawntime="60"/>
+    <monster name="Guardian" x="-1" y="1" z="6" spawntime="60"/>
+    <monster name="Guardian" x="2" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="612" centery="823" centerz="6" radius="2">
+    <monster name="Thief" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Thief" x="-2" y="1" z="6" spawntime="60"/>
+    <monster name="Thief" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="574" centery="827" centerz="6" radius="2">
+    <monster name="Shinobi" x="-2" y="-1" z="6" spawntime="60"/>
+    <monster name="Shinobi" x="-1" y="1" z="6" spawntime="60"/>
+    <monster name="Shinobi" x="2" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="581" centery="827" centerz="6" radius="2">
+    <monster name="Shinobi" x="1" y="-1" z="6" spawntime="60"/>
+    <monster name="Shinobi" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="589" centery="827" centerz="6" radius="2">
+    <monster name="Shinobi" x="0" y="-1" z="6" spawntime="60"/>
+    <monster name="Shinobi" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="555" centery="858" centerz="6" radius="2">
+    <monster name="Cripple" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Cripple" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Cripple" x="0" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="546" centery="860" centerz="6" radius="1">
+    <monster name="Cripple" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Cripple" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="555" centery="864" centerz="6" radius="2">
+    <monster name="Cripple" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Cripple" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Cripple" x="-2" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="761" centery="942" centerz="6" radius="1">
+    <monster name="Assasin" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Assasin" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Assasin" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="769" centery="942" centerz="6" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Assasin" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Assasin" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="761" centery="952" centerz="6" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Assasin" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Assasin" x="1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="773" centery="952" centerz="6" radius="1">
+    <monster name="Assasin" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Assasin" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="762" centery="960" centerz="6" radius="1">
+    <monster name="Assasin" x="1" y="-1" z="6" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="776" centery="963" centerz="6" radius="1">
+    <monster name="Assasin" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Assasin" x="1" y="1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="701" centery="666" centerz="7" radius="5">
     <monster name="Training Target" x="-4" y="-4" z="7" spawntime="60"/>
@@ -34,13 +205,303 @@
   <spawn centerx="720" centery="704" centerz="7" radius="1">
     <npc name="Saga2" x="0" y="-1" z="7" spawntime="20"/>
   </spawn>
+  <spawn centerx="739" centery="777" centerz="7" radius="6">
+    <monster name="Onbu" x="2" y="-4" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-3" y="3" z="7" spawntime="60"/>
+    <monster name="Onbu" x="5" y="6" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="674" centery="778" centerz="7" radius="6">
+    <monster name="Onbu" x="5" y="-5" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-3" y="-4" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-5" y="-2" z="7" spawntime="60"/>
+    <monster name="Onbu" x="1" y="2" z="7" spawntime="60"/>
+    <monster name="Onbu" x="2" y="4" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="764" centery="779" centerz="7" radius="1">
     <npc name="Saga5" x="-1" y="0" z="7" spawntime="20"/>
   </spawn>
   <spawn centerx="664" centery="787" centerz="7" radius="2">
     <monster name="Mizuki" x="1" y="-1" z="7" spawntime="20"/>
   </spawn>
+  <spawn centerx="608" centery="788" centerz="7" radius="2">
+    <monster name="Thief" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Thief" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="659" centery="789" centerz="7" radius="2">
     <npc name="Saga3" x="-2" y="0" z="7" spawntime="20"/>
+  </spawn>
+  <spawn centerx="608" centery="791" centerz="7" radius="2">
+    <monster name="Thief" x="-2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="675" centery="791" centerz="7" radius="6">
+    <monster name="Onbu" x="-4" y="-5" z="7" spawntime="60"/>
+    <monster name="Onbu" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Onbu" x="1" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="719" centery="793" centerz="7" radius="5">
+    <monster name="Onbu" x="-5" y="-4" z="7" spawntime="60"/>
+    <monster name="Onbu" x="4" y="-2" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-4" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="738" centery="794" centerz="7" radius="2">
+    <monster name="Onbu" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Onbu" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="744" centery="797" centerz="7" radius="2">
+    <monster name="Onbu" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="574" centery="801" centerz="7" radius="2">
+    <monster name="Shinobi" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="662" centery="801" centerz="7" radius="2">
+    <monster name="Onbu" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="745" centery="802" centerz="7" radius="2">
+    <monster name="Onbu" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="753" centery="802" centerz="7" radius="2">
+    <monster name="Onbu" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="558" centery="804" centerz="7" radius="2">
+    <monster name="Shinobi" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="644" centery="807" centerz="7" radius="2">
+    <monster name="Onbu" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="622" centery="808" centerz="7" radius="2">
+    <monster name="Onbu" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="749" centery="808" centerz="7" radius="2">
+    <monster name="Onbu" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="521" centery="809" centerz="7" radius="2">
+    <monster name="Robber" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Robber" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Robber" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="572" centery="809" centerz="7" radius="2">
+    <monster name="Shinobi" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="592" centery="810" centerz="7" radius="2">
+    <monster name="Shinobi" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="499" centery="812" centerz="7" radius="2">
+    <monster name="Robber" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Robber" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="510" centery="813" centerz="7" radius="2">
+    <monster name="Robber" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Robber" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Robber" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Robber" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="576" centery="816" centerz="7" radius="2">
+    <monster name="Shinobi" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="592" centery="818" centerz="7" radius="2">
+    <monster name="Shinobi" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="643" centery="818" centerz="7" radius="2">
+    <monster name="Onbu" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="500" centery="819" centerz="7" radius="2">
+    <monster name="Robber" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Robber" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Robber" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="526" centery="819" centerz="7" radius="2">
+    <monster name="Robber" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Robber" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="563" centery="820" centerz="7" radius="2">
+    <monster name="Shinobi" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="630" centery="820" centerz="7" radius="2">
+    <monster name="Onbu" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Onbu" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="551" centery="822" centerz="7" radius="2">
+    <monster name="Assasin" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="575" centery="824" centerz="7" radius="2">
+    <monster name="Shinobi" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-2" y="2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="514" centery="825" centerz="7" radius="2">
+    <monster name="Robber" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Robber" x="-2" y="2" z="7" spawntime="60"/>
+    <monster name="Robber" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="585" centery="828" centerz="7" radius="2">
+    <monster name="Shinobi" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="530" centery="833" centerz="7" radius="2">
+    <monster name="Onbu" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="554" centery="833" centerz="7" radius="2">
+    <monster name="Onbu" x="-1" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="566" centery="835" centerz="7" radius="2"/>
+  <spawn centerx="590" centery="837" centerz="7" radius="2">
+    <monster name="Shinobi" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="552" centery="840" centerz="7" radius="2">
+    <monster name="Onbu" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="572" centery="840" centerz="7" radius="2">
+    <monster name="Shinobi" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="585" centery="843" centerz="7" radius="2">
+    <monster name="Shinobi" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="598" centery="845" centerz="7" radius="2">
+    <monster name="Shinobi" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Shinobi" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="532" centery="848" centerz="7" radius="2">
+    <monster name="Onbu" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="655" centery="851" centerz="7" radius="1">
+    <monster name="Onbu" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="614" centery="852" centerz="7" radius="2">
+    <monster name="Onbu" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Villager" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="636" centery="853" centerz="7" radius="1">
+    <monster name="Onbu" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="557" centery="856" centerz="7" radius="1">
+    <monster name="Guardian" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Guardian" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="673" centery="857" centerz="7" radius="1">
+    <monster name="Onbu" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Onbu" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="545" centery="860" centerz="7" radius="1">
+    <monster name="Trainer Worms" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Trainer Worms" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Trainer Worms" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="550" centery="864" centerz="7" radius="1">
+    <monster name="Cripple" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Cripple" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="557" centery="867" centerz="7" radius="1">
+    <monster name="Necromancer" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="765" centery="941" centerz="7" radius="2">
+    <monster name="Assasin" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Assasin" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="751" centery="948" centerz="7" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Assasin" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="760" centery="952" centerz="7" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Assasin" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="775" centery="952" centerz="7" radius="2">
+    <monster name="Assasin" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Assasin" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="761" centery="960" centerz="7" radius="1">
+    <monster name="Assasin" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Assasin" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="752" centery="961" centerz="7" radius="2">
+    <monster name="Assasin" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Assasin" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="774" centery="961" centerz="7" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Assasin" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="779" centery="963" centerz="7" radius="1">
+    <monster name="Assasin" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Assasin" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="Assasin" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="589" centery="806" centerz="8" radius="2">
+    <monster name="Assasin" x="-1" y="-2" z="8" spawntime="60"/>
+    <monster name="Assasin" x="1" y="-1" z="8" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="1" z="8" spawntime="60"/>
+    <monster name="Assasin" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="599" centery="813" centerz="8" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="8" spawntime="60"/>
+    <monster name="Assasin" x="1" y="-2" z="8" spawntime="60"/>
+    <monster name="Assasin" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="582" centery="815" centerz="8" radius="2">
+    <monster name="Assasin" x="1" y="-2" z="8" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="-1" z="8" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="590" centery="816" centerz="8" radius="2">
+    <monster name="Assasin" x="-2" y="-2" z="8" spawntime="60"/>
+    <monster name="Assasin" x="0" y="-2" z="8" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="595" centery="818" centerz="8" radius="2">
+    <monster name="Assasin" x="-1" y="-2" z="8" spawntime="60"/>
+    <monster name="Assasin" x="1" y="1" z="8" spawntime="60"/>
+    <monster name="Assasin" x="-2" y="2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="577" centery="821" centerz="8" radius="2">
+    <monster name="Assasin" x="1" y="-1" z="8" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="0" z="8" spawntime="60"/>
+    <monster name="Assasin" x="0" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="579" centery="828" centerz="8" radius="2">
+    <monster name="Assasin" x="1" y="-1" z="8" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="594" centery="831" centerz="8" radius="2">
+    <monster name="Assasin" x="-1" y="-1" z="8" spawntime="60"/>
+    <monster name="Assasin" x="1" y="-1" z="8" spawntime="60"/>
+    <monster name="Assasin" x="-1" y="1" z="8" spawntime="60"/>
   </spawn>
 </spawns>
