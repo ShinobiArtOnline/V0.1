@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Zabuza" nameDescription="a zabuza" race="blood" saga="4" experience="1100" speed="295" manacost="0">
-    <health now="50000" max="50000"/>
+  <monster name="Zabuza" nameDescription="a zabuza" race="blood" saga="4" experience="0" speed="295" manacost="0">
+    <health now="5000" max="5000"/>
     <look type="253" head="0" body="0" legs="0" feet="0" corpse="2945"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
@@ -18,11 +18,7 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-300" max="-400"/>
-<attack name="wodna kula" interval="5000" min="-500" max="-820"/>
-<attack name="wodna sciana" interval="7000" min="-550" max="-1160"/>
-<attack name="syriudan wodny" interval="9000" min="-450" max="-760"/>
-<attack name="wodne bomble" interval="11000" min="-150" max="-160"/>
+<attack name="melee" interval="1000" min="-30" max="-40"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -38,5 +34,12 @@
     <loot>
 
     </loot>
-<script><event name="zabuza"/></script>
+<!--
+<event name="zabuza"/>
+<event name="zabuza combat"/>
+<event name="zabuza think"/>
+-->
+<script>
+
+</script>
   </monster>

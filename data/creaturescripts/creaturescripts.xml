@@ -6,6 +6,18 @@
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
 	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+	<event type="combat" name="sagoweMonstery" event="script" value="SAGAmonstery.lua"/>  	<!-- uniemożliwienie graczom ataku sagowego monstera bez odpowiedniego storage -->
+	
+	<!-- Saga -->
+	<event type="death" name="mizuki" event="script" value="saga/mizuki.lua"/> 				<!-- sagowy mizuki -->
+	<event type="combat" name="mizuki combat" event="script" value="saga/mizuki.lua"/> 		
+	<event type="think" name="mizuki think" event="script" value="saga/mizuki.lua"/> 		
+	<event type="death" name="KakashiClone" event="script" value="saga/kakashiClone.lua"/> 		<!-- sagowy KakashiClone -->
+	<event type="combat" name="KakashiClone combat" event="script" value="saga/kakashiClone.lua"/>
+	<event type="think" name="KakashiClone think" event="script" value="saga/kakashiClone.lua"/>
+	<event type="death" name="Masked Ninja" event="script" value="saga/maskedNinja.lua"/> 		<!-- sagowy Masked Ninja -->
+	<event type="combat" name="Masked Ninja combat" event="script" value="saga/maskedNinja.lua"/>
+	<event type="think" name="Masked think" event="script" value="saga/maskedNinja.lua"/>
 
 	<event type="login" name="AntiMc" event="script" value="antimc.lua"/> 
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
