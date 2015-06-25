@@ -7,10 +7,10 @@
 <movevent type="StepIn" itemid="11657" event="script" value="explosiveTagM.lua"/>
 <!-- PET-->
 
-<movevent type="Equip" itemid="2202" slot="ring" event="script" value="Hp Pet.lua"/>
+<movevent type="Equip" itemid="2202" slot="ring" event="script" value="Hp pet.lua"/>
 <movevent type="DeEquip" itemid="2202" slot="ring" event="script" value="Hp pet.lua"/>
 <movevent type="Equip" itemid="2204" slot="ring" event="script" value="Mana Pet.lua"/>
-<movevent type="DeEquip" itemid="2204" slot="ring" event="script" value="Mana pet.lua"/>
+<movevent type="DeEquip" itemid="2204" slot="ring" event="script" value="Mana Pet.lua"/>
 
 
 

@@ -112,7 +112,7 @@
 		<vocation id="38"/>
 		<vocation id="39"/>
 	</instant>
-	<instant name="Akamaru" words="Akamaru" lvl="10" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Akamaru.lua">
+	<instant name="Akamaru" words="Akamaru" lvl="10" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/akamaru.lua">
 		<vocation id="1"/>
 		<vocation id="37"/>
 		<vocation id="38"/>
@@ -366,7 +366,7 @@
 	<instant name="Hakkeshou Kaiten no Jutsu" words="Hakkeshou Kaiten" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakkeshou Kaiten.lua">
 		
 	</instant>
-	<instant name="chmurka" words="chmurka" lvl="125" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" needtarget="1"  event="script" value="SAO/Neji/chmurka.lua">
+	<instant name="chmurka" words="chmurka" lvl="125" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" needtarget="1"  event="script" value="SAO/Neji/Chmurka.lua">
 		<vocation id="6"/>
 		<vocation id="25"/>
 		<vocation id="26"/>
@@ -590,7 +590,7 @@
 	</instant>
 	<instant name="Henge" words="henge" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0" range="4"  event="script" value="SAO/Ninpou/Henge.lua">
 	</instant>
-	<instant name="Kawarimi" words="Kawarimi" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0" range="4"  event="script" value="SAO/Ninpou/Kawarimi.lua">
+	<instant name="Kawarimi" words="Kawarimi" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0" range="4"  event="script" value="SAO/Ninpou/kawarimi.lua">
 	</instant>
 	<instant name="trap" words="trap" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" exhaustion="3000" needlearn="0" script="SAO/Sciana/1.lua">
 	</instant>

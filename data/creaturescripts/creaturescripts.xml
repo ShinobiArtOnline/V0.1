@@ -6,23 +6,23 @@
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
 	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
-	<event type="combat" name="sagoweMonstery" event="script" value="SAGAmonstery.lua"/>  	<!-- uniemożliwienie graczom ataku sagowego monstera bez odpowiedniego storage -->
+	<event type="combat" name="sagoweMonstery" event="script" value="SAGAMonstery.lua"/>  	<!-- uniemożliwienie graczom ataku sagowego monstera bez odpowiedniego storage -->
 	
 	<!-- Saga -->
-	<event type="death" name="mizuki" event="script" value="saga/mizuki.lua"/> 				<!-- sagowy mizuki -->
-	<event type="combat" name="mizuki combat" event="script" value="saga/mizuki.lua"/> 		
-	<event type="think" name="mizuki think" event="script" value="saga/mizuki.lua"/> 		
-	<event type="death" name="KakashiClone" event="script" value="saga/kakashiClone.lua"/> 		<!-- sagowy KakashiClone -->
-	<event type="combat" name="KakashiClone combat" event="script" value="saga/kakashiClone.lua"/>
-	<event type="think" name="KakashiClone think" event="script" value="saga/kakashiClone.lua"/>
-	<event type="death" name="Masked Ninja" event="script" value="saga/maskedNinja.lua"/> 		<!-- sagowy Masked Ninja -->
-	<event type="combat" name="Masked Ninja combat" event="script" value="saga/maskedNinja.lua"/>
-	<event type="think" name="Masked think" event="script" value="saga/maskedNinja.lua"/>
+	<event type="death" name="mizuki" event="script" value="Saga/mizuki.lua"/> 				<!-- sagowy mizuki -->
+	<event type="combat" name="mizuki combat" event="script" value="Saga/mizuki.lua"/> 		
+	<event type="think" name="mizuki think" event="script" value="Saga/mizuki.lua"/> 		
+	<event type="death" name="KakashiClone" event="script" value="Saga/kakashiClone.lua"/> 		<!-- sagowy KakashiClone -->
+	<event type="combat" name="KakashiClone combat" event="script" value="Saga/kakashiClone.lua"/>
+	<event type="think" name="KakashiClone think" event="script" value="Saga/kakashiClone.lua"/>
+	<event type="death" name="Masked Ninja" event="script" value="Saga/maskedNinja.lua"/> 		<!-- sagowy Masked Ninja -->
+	<event type="combat" name="Masked Ninja combat" event="script" value="Saga/maskedNinja.lua"/>
+	<event type="think" name="Masked think" event="script" value="Saga/maskedNinja.lua"/>
 
 	<event type="login" name="AntiMc" event="script" value="antimc.lua"/> 
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
-	<event type="think" name="Sakura" event="script" value="sakura.lua"/>
+	<event type="think" name="Sakura" event="script" value="Sakura.lua"/>
 	<event type="death" name="Aol" event="script" value="aol.lua"/>
 	<event type="death" name="HeartDrop" event="script" value="heart.lua"/>
 	
@@ -31,13 +31,13 @@
 	<event type="login" name="BattleLogin" event="script" value="BattleCreatureScript.lua"/>
 	<event type="PrepareDeath" name="BattleDeath" event="script" value="BattleCreatureScript.lua"/>
 	<event type="combat" name="BattleTeam" event="script" value="BattleCreatureScript.lua"/>
-	<event type="direction" name="CreatureMove" event="script" value="CreatureMove.lua"/>
-	<event type="combat" name="noMove" event="script" value="noMove.lua"/>
+	<event type="direction" name="CreatureMove" event="script" value="creatureMove.lua"/>
+	<event type="combat" name="noMove" event="script" value="nomove.lua"/>
 	<event type="statschange" name="Hit" event="script" value="hit.lua"/>
 
 	<event type="preparedeath" name="Death" event="script" value="death.lua"/>
 	<event type="PrepareDeath" name="dead" event="script" value="dead.lua"/>
-	<event type="death" name="Petdeath" event="script" value="Petdeath.lua"/>
+	<event type="death" name="Petdeath" event="script" value="petdeath.lua"/>
 	<event type="advance" name="CapKikkais" event="script" value="CapKikais.lua"/>
 	<event type="advance" name="hachimonAdvance" event="script" value="hachimonAdvance.lua"/>
 	<event type="direction" name="direction" event="script" value="Direction.lua"/>
@@ -57,7 +57,7 @@
 	<event type="kill" name="Bounty" script="bounty.lua"/>
 	
 	<event type="advance" name="fullhp" event="script" value="fullhp.lua"/>
-	<event type="advance" name="sru" event="script" value="Advance/sru.lua"/>
+	<event type="advance" name="sru" event="script" value="Advance/Sru.lua"/>
 	<event type="advance" name="Osiagniecia" event="script" value="Advance/Osiagniecia.lua"/>
 	
 </creaturescripts>

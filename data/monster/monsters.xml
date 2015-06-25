@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monsters>
+
+	<!-- Saga -->
+
+	<monster name="Mizuki" file="SAGOWE/Mizuki.xml"/>
+	<monster name="Kakashi's Clone" file="SAGOWE/KakashiClone.xml"/>
+	<monster name="Masked Ninja" file="SAGOWE/MaskedNinja.xml"/>
+	<monster name="Zabuza" file="SAGOWE/Zabuza.xml"/>
+	<monster name="Zabuza" file="SAGOWE/Zabuza2.xml"/> <!-- tan na moscie -->
+	<monster name="Haku" file="SAGOWE/Haku.xml"/>
+	
 	<!-- White -->
 	
 	<monster name="Frozen Ninja" file="SAO/Frozen Ninja.xml"/>
