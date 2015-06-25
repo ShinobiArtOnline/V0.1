@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Haku" nameDescription="a Haku" race="blood" saga="4" experience="0" speed="295" manacost="0">
+  <monster name="zabuza" nameDescription="a zabuza" race="blood" saga="4" experience="0" speed="295" manacost="0">
     <health now="5000" max="5000"/>
     <look type="253" head="0" body="0" legs="0" feet="0" corpse="2945"/>
     <targetchange interval="60000" chance="0"/>
@@ -35,9 +35,9 @@
 
     </loot>
 <!--
-<event name="zabuza"/>
-<event name="zabuza combat"/>
-<event name="zabuza think"/>
+<event name="zabuza2"/>
+<event name="zabuza2 combat"/>
+<event name="zabuza2 think"/>
 -->
 <script>
 

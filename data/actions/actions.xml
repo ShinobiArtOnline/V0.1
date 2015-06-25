@@ -9,6 +9,10 @@
 <action itemid="8305" event="script" value="upgrade2.lua"/>
 <action itemid="2157" event="script" value="pille.lua"/>
 <action itemid="2158" event="script" value="pils.lua"/>
+
+	<!--Saga-->
+    <action itemid="6119" event="script" value="other/scroll.lua"/>
+	
 	<!-- Quests -->
 	<action actionid="2000" event="script" value="quests/system.lua"/>
 	<action actionid="2001" event="script" value="quests/system.lua"/>

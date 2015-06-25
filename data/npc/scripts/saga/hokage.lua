@@ -36,7 +36,7 @@ end
 
 function onCreatureDisappear(cid)
 	if(isFocused(cid)) then
-		selfSay("Hmph!")
+		selfSay("Bye!")
 		removeFocus(cid)
 		if(isPlayer(cid) == TRUE) then --Be sure he's online
 			closeShopWindow(cid)
@@ -45,23 +45,26 @@ function onCreatureDisappear(cid)
 end
 
 function onCreatureSay(cid, type, msg)
-	if((msg == "hi") and getPlayerStorageValue(cid,8000) == 5 and not (isFocused(cid))) then
-		selfSay("I underestimated you ".. getCreatureName(cid) ..". This is your forehead protector.  You passed the exam!", cid)
+	if((msg == "hi") and getPlayerStorageValue(cid,8000) == 11 and not (isFocused(cid))) then
+		selfSay("It's time for your first mission. Escort Tazuna to the Land of Waves. He must be able to safely finish construction of the bridge.", cid)
 		addFocus(cid)
-		setPlayerStorageValue(cid,8000,6)
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) < 5) then
+		setPlayerStorageValue(cid,8000,12)
+		doPlayerSendTextMessage(cid, 19,"Escort Tazuna to the Land of Waves. Beat the enemies. Tazuna must survive!")
+	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) < 11) then
 		selfSay("Sorry, but you can\'t do this {saga} at the moment.", cid)
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) > 5) then
+	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) > 11) then
 		selfSay("Sorry, but you can\'t do this {saga} anymore.", cid)
 	elseif((isFocused(cid)) and (msg == "bye" or msg == "goodbye" or msg == "cya")) then
-		selfSay("Goodbye!", cid, TRUE)
+		selfSay("Bye!", cid)
+		closeShopWindow(cid)
 		removeFocus(cid)
 	end
 end
 
 function onPlayerCloseChannel(cid)
 	if(isFocused(cid)) then
-		selfSay("Hmph!")
+		selfSay("Bye!")
+		closeShopWindow(cid)
 		removeFocus(cid)
 	end
 end
@@ -73,7 +76,8 @@ function onThink()
 		else
 			local distance = getDistanceTo(focus) or -1
 			if((distance > 4) or (distance == -1)) then
-				selfSay("Hmph!")
+				selfSay("Bye!")
+				closeShopWindow(focus)
 				removeFocus(focus)
 			end
 		end
@@ -81,11 +85,6 @@ function onThink()
 	lookAtFocus()
 end
 
+
 	
-  	
-
-
-
-
-
 

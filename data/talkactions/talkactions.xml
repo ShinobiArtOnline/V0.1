@@ -73,7 +73,7 @@
 	<talkaction words="transformar" event="script" value="transformar.lua"/>
 	<talkaction words="!sell;/sell;!buy;/buy" event="script" value="shop.lua"/>
 	<talkaction words="!aol;!jam" event="script" value="aol.lua"/>
-	<talkaction words="!missions" event="script" value="missions.lua"/>
+	<talkaction words="!mission" event="script" value="saga.lua"/>
 
 	<!-- Houses -->
 	<talkaction words="alana res" filter="word-spaced" event="function" value="houseBuy"/>

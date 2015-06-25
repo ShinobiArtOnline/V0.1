@@ -16,8 +16,7 @@ function onLogin(cid)
 			doPlayerSendTextMessage(cid, MESSAGE_STATUS_DEFAULT, str)
 			str = "Your last visit was on " .. os.date("%a %b %d %X %Y", lastLogin) .. "."
 		else
-			str = str .. " Please choose your outfit."
-			doPlayerSendOutfitWindow(cid)
+			str = 'Good luck have fun ' ..getPlayerName(cid)..'! SAO Team'
 		end
 
 		doPlayerSendTextMessage(cid, MESSAGE_STATUS_DEFAULT, str)
@@ -71,6 +70,9 @@ end
 	registerCreatureEvent(cid, "creatureMove")
 	registerCreatureEvent(cid, "kagemaneDeath")
 	registerCreatureEvent(cid, "Osiagniecia")
+	registerCreatureEvent(cid, "mizuki")
+	registerCreatureEvent(cid, "mizuki think")
+	registerCreatureEvent(cid, "sagoweMonstery")
 setPlayerStorageValue(cid, 1234998, 0)
 	if(config.useFragHandler) then
 		registerCreatureEvent(cid, "SkullCheck")

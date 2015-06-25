@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Mizuki" nameDescription="a mizuki" race="blood" saga="2" experience="400" speed="295" manacost="0">
-    <health now="10000" max="10000"/>
+  <monster name="Mizuki" nameDescription="a mizuki" race="blood" saga="2" experience="0" speed="295" manacost="0">
+    <health now="100" max="100"/>
     <look type="160" head="0" body="0" legs="0" feet="0" corpse="2916"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="0" defense="0"/>
@@ -18,10 +18,7 @@
       <flag runonhealth="0"/>
     </flags>
     <attacks>
-<attack name="melee" interval="1000" min="-200" max="-300"/>
-<attack name="kunai" interval="3000" min="-250" max="-300"/>
-<attack name="maly shuriken" interval="5000" min="-300" max="-320"/>
-
+<attack name="melee" interval="1000" min="-20" max="-30"/>
     </attacks>
       <immunities>
       <immunity physical="0"/>
@@ -35,7 +32,8 @@
       <immunity invisible="0"/>
     </immunities>
     <loot>
-<item id="2688" chance="100000"/>
     </loot>
-<script><event name="mizuki"/></script>
+<script><event name="mizuki"/>
+<event name="mizuki combat"/>
+<event name="mizuki think"/></script>
   </monster>
