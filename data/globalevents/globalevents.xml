@@ -6,9 +6,9 @@
 	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
 	<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
 
-	
+	<!--
 	<globalevent name="texto" interval="3" script="textochao.lua"/>
 	<globalevent name="mensagem" interval="350" script="anuncio.lua"/>
 	<globalevent name="GlobalBattle" interval="60" event="script" value="BattleGlobalEvents.lua"/>
-
+	-->
 </globalevents>
