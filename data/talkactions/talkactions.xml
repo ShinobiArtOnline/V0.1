@@ -71,8 +71,6 @@
 	<talkaction words="!serverinfo" event="script" value="serverinfo.lua"/>
 	<talkaction words="/commands" event="script" value="commands.lua"/>
 
-
-
 	<talkaction words="!mission" event="script" value="saga.lua"/>
 
 	<!-- Houses -->
