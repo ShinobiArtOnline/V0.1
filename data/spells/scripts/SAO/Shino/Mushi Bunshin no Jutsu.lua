@@ -33,7 +33,7 @@ function onCastSpell(cid,var)
 	return true
 	end
 
-    if #getCreatureSummons(cid) <= 1 then
+    if #getCreatureSummons(cid) <= 2 then
 	  local pos = getPlayerPosition(cid)
 	  local Bunshin = doCreateMonster("Bunshin", getCreaturePosition(cid))
       
@@ -51,7 +51,7 @@ function onCastSpell(cid,var)
 		
 	return true	
 	end
-	if #getCreatureSummons(cid) == 2 then
+	if #getCreatureSummons(cid) == 3 then
 		doPlayerSendCancel(cid, "You can't use.") 
 		--doSendMagicEffect(getCreaturePosition(cid), 33)
 		--doRemoveCreature(Bunshin)

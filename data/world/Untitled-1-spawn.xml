@@ -55,4 +55,8 @@
     <monster name="Skeleton" x="-1" y="3" z="7" spawntime="60"/>
     <monster name="Wolf" x="0" y="3" z="7" spawntime="60"/>
   </spawn>
+  <spawn centerx="615" centery="678" centerz="7" radius="5">
+    <monster name="Wolf" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="0" z="7" spawntime="60"/>
+  </spawn>
 </spawns>

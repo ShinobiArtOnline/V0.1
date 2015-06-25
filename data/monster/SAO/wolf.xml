@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<monster name="Wolf" nameDescription="wolf" race="blood" experience="760" speed="200" manacost="0">
-	<health now="500" max="500"/>
+<monster name="Wolf" nameDescription="wolf" race="blood" experience="500000" speed="200" manacost="0">
+	<health now="5" max="5"/>
 	<look type="75" corpse="2845"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="10" defense="20"/>
@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
   <attacks>
-    <attack name="melee" interval="2000" min="-10" max="-45"/>
+    <attack name="melee" interval="2000" min="-1" max="-4"/>
   </attacks>
   <defenses armor="0" defense="0"/>
 	<voices interval="5000" chance="10">

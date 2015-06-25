@@ -58,7 +58,7 @@
 		<vocation id="16"/>
 		<vocation id="17"/>
 	</instant>
-	<instant name="Kikaichuu" words="Kikaichuu no Jutsu" lvl="15" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Shino/Kikaichuu no Jutsu.lua">
+	<instant name="Kikaichuu" words="Kikaichuu no Jutsu" lvl="15" mana="15" aggressive="0" selftarget="1" exhaustion="1000" direction="0" needlearn="0" event="script" value="SAO/Shino/Kikaichuu no Jutsu.lua">
 		<vocation id="4"/>
 		<vocation id="15"/>
 		<vocation id="16"/>
@@ -363,11 +363,8 @@
 		<vocation id="26"/>
 		<vocation id="27"/>
 	</instant>
-	<instant name="Hakkeshou Kaiten no Jutsu" words="Hakkeshou Kaiten" lvl="45" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakkeshou Kaiten.lua">
-		<vocation id="6"/>
-		<vocation id="25"/>
-		<vocation id="26"/>
-		<vocation id="27"/>
+	<instant name="Hakkeshou Kaiten no Jutsu" words="Hakkeshou Kaiten" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakkeshou Kaiten.lua">
+		
 	</instant>
 	<instant name="chmurka" words="chmurka" lvl="125" mana="20" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" needtarget="1"  event="script" value="SAO/Neji/chmurka.lua">
 		<vocation id="6"/>
@@ -608,16 +605,6 @@
 	</instant>
 	
 	
-	<!-- spelle mobby  -->
-		
-	<instant name="Groundshaker" words="exori mas" lvl="33" mana="160" prem="1" needweapon="1" exhaustion="2000" needlearn="0" event="script" value="Do bossow/attack/groundshaker.lua">		
-	</instant>
-	
-	<instant name="Poison Field" words="adevo grav pox" lvl="14" mana="200" prem="1" needweapon="1"  exhaustion="2000" needlearn="0" event="script" value="Do bossow/attack/posion field.lua">		
-	</instant>
-	
-	<instant name="Energy Field" words="heheszki" lvl="14" mana="200" prem="1" needweapon="1"  exhaustion="2000" needlearn="0" event="script" value="Do bossow/attack/energy field.lua">		
-	</instant>
 	
 	
 	

@@ -44,16 +44,20 @@
 	<monster name="Star Ninja" file="SAO/Star Ninja.xml"/>
 	<monster name="Strong Star Ninja" file="SAO/Strong Star Ninja.xml"/>
 	<monster name="Wolf" file="SAO/Wolf.xml"/>
-	<monster name="Akamaru" file="Akamaru.xml"/>
-	<monster name="Small Kikkais" file="Small Kikais.xml"/>
-    <monster name="Medium Kikkais" file="Medium Kikkais.xml"/>
+	<monster name="Akamaru" file="Akamaru/Akamaru.xml"/>
+	<monster name="Akamaruu" file="Akamaru/Akamaru50.xml"/>
+	<monster name="Red Akamaru" file="Akamaru/Akamaru100.xml"/>
+	<monster name="Adult Akamaru" file="Akamaru/Akamaru150.xml"/>
+	<monster name="Large Kikkais" file="Kikkais/Large Kikkais.xml"/>
+	<monster name="Small Kikkais" file="Kikkais/Small Kikais.xml"/>
+    <monster name="Medium Kikkais" file="Kikkais/Medium Kikkais.xml"/>
 	<monster name="Bunshin" file="Bunshin.xml"/>
 	<monster name="Training Target" file="trainingtarget.xml"/>
 	<monster name="Katsuya" file="Katsuya.xml"/>
 	<monster name="Gamakichi" file="Gamakichi.xml"/>
 	
 	<!-- BOSSY -->
-	<monster name="Annihilon" file="/SAO/BOSSY/annihilon.xml"/>
+	
 	<monster name="Dracola" file="/SAO/BOSSY/dracola.xml"/>
 	<monster name="Fire overlord" file="/SAO/BOSSY/fire overlord.xml"/>
 	<monster name="Thalas" file="/SAO/BOSSY/thalas.xml"/>

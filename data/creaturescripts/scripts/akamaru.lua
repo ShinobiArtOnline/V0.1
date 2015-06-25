@@ -19,7 +19,7 @@ local arr = {
 
 
 local area = createCombatArea(arr)
-function onPrepareDeath(cid, deathList)
+function onCombat(cid, attacker)
 if isMonster(cid) and getCreatureName(cid):lower() == 'Akamaru' then
 doPlayerCastSpell(getCreatureSummons(cid), "Tsuuga no jutsu")
 doAreaCombatHealth(cid, 1, getThingPos(cid), area, -1, -30, 20)

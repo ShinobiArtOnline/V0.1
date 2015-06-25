@@ -15,7 +15,7 @@ function onCastSpell(cid, var)
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
 	
-	if getPlayerStorageValue(cid, sto_kikkais[1]) >= 100 and getPlayerStorageValue(cid, sto_kikkais[1]) <= 300 then
+	if getPlayerStorageValue(cid, sto_kikkais[1]) >= 1 and getPlayerStorageValue(cid, sto_kikkais[1]) < 310 then
 	local SmallKikais = doCreateMonster("Small Kikkais", getCreaturePosition(cid))
 		
 		addEvent(doCreatureSay, 300, cid, "Kikkaichu no Jutsu!", TALKTYPE_MONSTER)
@@ -26,7 +26,7 @@ function onCastSpell(cid, var)
 	else
 		doPlayerSendCancel(cid, "You do not have enough kikais.")
 	end
-		if getPlayerStorageValue(cid, sto_kikkais[1]) >= 310 and getPlayerStorageValue(cid, sto_kikkais[1]) <= 1000 then
+		if getPlayerStorageValue(cid, sto_kikkais[1]) >= 310 and getPlayerStorageValue(cid, sto_kikkais[1]) < 500 then
 			local MediumKikais = doCreateMonster("Medium Kikkais", getCreaturePosition(cid))
 				
 				addEvent(doCreatureSay, 300, cid, "Kikkaichu no Jutsu!", TALKTYPE_MONSTER)
@@ -37,4 +37,17 @@ function onCastSpell(cid, var)
 		else
 	doPlayerSendCancel(cid, "You do not have enough kikais.")
 	end
+	if getPlayerStorageValue(cid, sto_kikkais[1]) >= 500 and getPlayerStorageValue(cid, sto_kikkais[1]) < 1500 then
+			local MediumKikais = doCreateMonster("Large Kikkais", getCreaturePosition(cid))
+				
+				addEvent(doCreatureSay, 300, cid, "Kikkaichu no Jutsu!", TALKTYPE_MONSTER)
+				doConvinceCreature(cid, MediumKikais)
+				setCreatureMaxHealth(MediumKikais, getPlayerStorageValue(cid, sto_kikkais[1]))
+				doCreatureAddHealth(MediumKikais, getPlayerStorageValue(cid, sto_kikkais[1]))
+				setPlayerStorageValue(cid, sto_kikkais[1], getPlayerStorageValue(cid, sto_kikkais[1]) - getPlayerStorageValue(cid, sto_kikkais[1])) 
+		else
+	doPlayerSendCancel(cid, "You do not have enough kikais.")
+	end
+	return true
 end
+
