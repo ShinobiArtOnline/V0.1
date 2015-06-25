@@ -26,13 +26,7 @@
 	<action actionid="4000" event="script" value="quests/inicial.lua"/>
 	<action actionid="5010" event="script" value="quests/madara.lua"/>
 	
-	<action actionid="5000" event="script" value="akatsuki/sasori.lua"/>
-	<action actionid="5001" event="script" value="akatsuki/deidara.lua"/>
-	<action actionid="5002" event="script" value="akatsuki/kisame.lua"/>
-	<action actionid="5003" event="script" value="akatsuki/itachi.lua"/>
-	<action actionid="5004" event="script" value="akatsuki/hidan.lua"/>
-	<action actionid="5005" event="script" value="akatsuki/kakuzu.lua"/>
-	<action actionid="5007" event="script" value="akatsuki/nagato.lua"/>
+	
 
 	<action actionid="9000" event="script" value="placas/hat.lua"/>	
 	<action actionid="9001" event="script" value="placas/armor.lua"/>	

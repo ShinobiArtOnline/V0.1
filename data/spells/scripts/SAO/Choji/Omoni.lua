@@ -7,6 +7,7 @@ local function onOmoni(cid)
   local jutsuDmg = 22
   local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
   local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
+  local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
  local poslook = getCreatureLookPosition(cid)
  poslook.stackpos = STACKPOS_TOP_MOVEABLE_ITEM_OR_CREATURE
      if isWalkable(poslook, false, false, false) then
@@ -15,7 +16,7 @@ local function onOmoni(cid)
      return TRUE
       else
           doMoveCreature(cid, getPlayerLookDirection(cid))
-          doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, getCreaturePosition(cid), area, dmg, dmg, 93)
+          doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, getCreaturePosition(cid), area, mdmg, dmg, 93)
      return TRUE
       end
        end

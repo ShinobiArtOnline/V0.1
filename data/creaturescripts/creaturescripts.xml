@@ -22,7 +22,7 @@
 	<event type="direction" name="CreatureMove" event="script" value="CreatureMove.lua"/>
 	<event type="combat" name="noMove" event="script" value="noMove.lua"/>
 	<event type="statschange" name="Hit" event="script" value="hit.lua"/>
-	<event type="statschange" name="BlockMob" event="script" value="BlockMob.lua"/>
+
 	<event type="preparedeath" name="Death" event="script" value="death.lua"/>
 	<event type="PrepareDeath" name="dead" event="script" value="dead.lua"/>
 	<event type="death" name="Petdeath" event="script" value="Petdeath.lua"/>

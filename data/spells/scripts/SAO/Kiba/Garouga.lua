@@ -11,7 +11,7 @@ local config = {
          [2] = 67,
          [3] = 70,
      },
-     intervalo = 1000
+     intervalo = 900
 }
 
 		
@@ -23,6 +23,7 @@ local level = getPlayerLevel(cid)
 local jutsuDmg = 16
 local skill_factor = math.ceil((jutsuSkill_factor(cid,0) + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.4))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.2) * jutsuDmg)*0.4))
 	local poslook = getCreatureLookPosition(cid)
 	poslook.stackpos = STACKPOS_TOP_MOVEABLE_ITEM_OR_CREATURE
      if isWalkable(poslook, false, false, true) then
@@ -38,7 +39,7 @@ local dmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.4))
 				
          	 doMoveCreature(cid, getPlayerLookDirection(cid))
 			  
-			  doAreaCombatHealth(cid, 1, newPos, NEHAN, dmg, dmg, config.effects[dir])
+			  doAreaCombatHealth(cid, 1, newPos, NEHAN, mdmg, dmg, config.effects[dir])
          	
 			 --addEvent(onDash, config.intervalo, cid, newPos, n + 1)
 			

@@ -34,19 +34,20 @@ addEvent(doCreatureSay, 30, cid, "BAIKA!!!", TALKTYPE_MONSTER)
   local jutsuDmg = 33
   local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
   local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
+   local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
 local find_area = getFirstCreaturePosOnDirection(cid, 1)
 local pos = getThingPos(cid)
 if getCreatureLookDir(cid) == 0 then
-addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, dmg, dmg, 255)
+addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, mdmg, dmg, 255)
 addEvent(doSendMagicEffect, 20, {x = pos.x+1, y = pos.y-1, z = pos.z}, 28)--Góra
 elseif getCreatureLookDir(cid) == 1 then
-addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, dmg, dmg, 255)--Prawo
+addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, mdmg, dmg, 255)--Prawo
 addEvent(doSendMagicEffect, 20, {x = pos.x+3, y = pos.y+1, z = pos.z}, 90)
 elseif getCreatureLookDir(cid) == 2 then
-addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, dmg, dmg, 255)--Dół
+addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, mdmg, dmg, 255)--Dół
 addEvent(doSendMagicEffect, 20, {x = pos.x+1, y = pos.y+3, z = pos.z}, 89)
 elseif getCreatureLookDir(cid) == 3 then
-addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, dmg, dmg, 255)--Lewo
+addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, mdmg, dmg, 255)--Lewo
 addEvent(doSendMagicEffect, 20, {x = pos.x-1, y = pos.y+1, z = pos.z}, 27)
 end
 for i = 0,1 do

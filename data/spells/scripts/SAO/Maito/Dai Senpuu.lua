@@ -29,20 +29,21 @@ function onCastSpell(cid, var)
 		}
 	
 		
-		addEvent(doCreatureSay, 100, cid, "KONOHA!", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 200, cid, "DAI SENPUU!!!", TALKTYPE_MONSTER)
+		addEvent(doCreatureSay, 10, cid, "KONOHA!", TALKTYPE_MONSTER)
+		addEvent(doCreatureSay, 20, cid, "DAI SENPUU!!!", TALKTYPE_MONSTER)
 	local level = getPlayerLevel(cid) 
 	local jutsuDmg = 19
 	local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
 	local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
+	local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
 		local pos = getCreaturePosition(cid)
-		addEvent(doSendMagicEffect, 50, {x = pos.x+1, y = pos.y+1, z = pos.z}, 93)
+		addEvent(doSendMagicEffect, 1, {x = pos.x+1, y = pos.y+1, z = pos.z}, 93)
 		
 		pos = getPosfromArea(cid,area)
 		n = 0
 		while n < #pos do
 				n = n+1
-				addEvent(quakePush, 50, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, -dmg, -dmg, 255, true)
+				addEvent(quakePush, 1, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, -mdmg, -dmg, 255, true)
 				
 		end
 		exhaustion.set(cid, storage, waittime)

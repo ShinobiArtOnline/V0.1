@@ -7,12 +7,12 @@
 	<monster name="Angel" file="SAO/Angel.xml"/>
 	<monster name="Fire Angel" file="SAO/Fire Angel.xml"/>
 	<monster name="Hooligan" file="SAO/Hooligan.xml"/>
-	<monster name="Onbu" file="SAO/Onbu.xml"/>
+	
 	<monster name="Farmer" file="SAO/Farmer.xml"/>
 	<monster name="Skeleton" file="SAO/Skeleton.xml"/>
 	<monster name="White Skeleton" file="SAO/White Skeleton.xml"/>
 	<monster name="Harvester" file="SAO/Harvester.xml"/>
-	<monster name="Robber" file="SAO/Robber.xml"/>
+
 	<monster name="Vampir" file="SAO/Vampir.xml"/>
 	<monster name="Blue Shinobi" file="SAO/Blue Shinobi.xml"/>
 	<monster name="Kusa Shinobi" file="SAO/Kusa Shinobi.xml"/>
@@ -26,14 +26,14 @@
 	<monster name="Hoshi Shinobi" file="SAO/Hoshi Shinobi.xml"/>
 	<monster name="Master Shinobi" file="SAO/Master Shinobi.xml"/>
 	<monster name="samurai warrior" file="SAO/samurai warrior.xml"/>
-	<monster name="Samurai" file="SAO/Samurai.xml"/>
+	
 	<monster name="Sound Shinobi" file="SAO/Sound Shinobi.xml"/>
 	<monster name="Strong Shaolin" file="SAO/Strong Shaolin.xml"/>
 	<monster name="Unknown" file="SAO/Unknown.xml"/>
 	<monster name="White Ninja" file="SAO/White Ninja.xml"/>
 	<monster name="White Samurai" file="SAO/White Samurai.xml"/>
 	<monster name="Hoshi fighter" file="SAO/Hoshi fighter.xml"/>
-	<monster name="Assasin" file="SAO/Assasin.xml"/>
+	
 	<monster name="Bandit" file="SAO/bandit.xml"/>
 	<monster name="Black Ninja" file="SAO/Black Ninja.xml"/>
 	<monster name="Destruction Ninja" file="SAO/Destruction Ninja.xml"/>
@@ -69,7 +69,7 @@
 	<monster name="Black wolf" file="/SAO/NOWE/Black Wolf.xml"/>
 	<monster name="Shinobi" file="/SAO/NOWE/Shinobi.xml"/>
 	<monster name="Robber" file="/SAO/NOWE/Robber.xml"/>
-	<monster name="Assassin" file="/SAO/NOWE/Assassin.xml"/>
+	<monster name="Assasin" file="/SAO/NOWE/Assasin.xml"/>
 	<monster name="Guardian" file="/SAO/NOWE/Guardian.xml"/>
 	<monster name="Trainer worms" file="/SAO/NOWE/Trainer Worms.xml"/>
 	<monster name="Cripple" file="/SAO/NOWE/Cripple.xml"/>

@@ -77,13 +77,13 @@ if exhaustion.check(cid, storage) then
 		doPlayerSendCancel(cid, "You don't have enough level.")
 		end
 		elseif isPlayer(cid) and getPlayerStorageValue(cid, sto_inuzuka[3]) == 0 then
-				if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+				if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 				addEvent(changeMove, 0, cid, 4, -1)
-				elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
-				addEvent(changeMove, 0, cid, 5, -1)
 				elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
+				addEvent(changeMove, 0, cid, 5, -1)
+				elseif getPlayerLevel(cid) >= 100 and getPlayerLevel(cid) < 150 then
 				addEvent(changeMove, 0, cid, 1, -1)
-				elseif getPlayerLevel(cid) > 100 and getPlayerLevel(cid) < 500 then
+				elseif getPlayerLevel(cid) > 150 and getPlayerLevel(cid) < 500 then
 				addEvent(changeMove, 0, cid, 3, -1)
 			  end
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)

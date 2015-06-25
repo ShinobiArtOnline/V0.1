@@ -7,7 +7,7 @@ for i, tid in ipairs(getPlayersOnline()) do
 end
 for i = 1, #list do
 doPlayerAddItem(list[i],t[1],t[2])
-doBroadcastMessage(getPlayerName(cid) .. " Acabou de dar: " .. t[2] .." ".. getItemNameById(t[1]) .. " para todos os players online!")
+doBroadcastMessage(getPlayerName(cid) .. " SSij: " .. t[2] .." ".. getItemNameById(t[1]) .. " para todos os players online!")
 end
 else
 doPlayerPopupFYI(cid, "No parm...\nSend:\n /itemadd itemid,how_much_items\nexample:\n /itemadd 2160,10")

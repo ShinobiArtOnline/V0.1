@@ -20,9 +20,10 @@ function onCastSpell(cid, var)
 		local jutsuDmg = 6
 		local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
 		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+		local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
 		
-		doAreaCombatHealth(cid, 1, getThingPos(target), Marking_area, dmg, dmg, 72)
-		addEvent(doAreaCombatHealth, 20, cid, 1, getThingPos(target), Marking_area, dmg, dmg, 72)
+		doAreaCombatHealth(cid, 1, getThingPos(target), Marking_area, mdmg, dmg, 72)
+		addEvent(doAreaCombatHealth, 20, cid, 1, getThingPos(target), Marking_area, mdmg, dmg, 72)
 		doAreaCombatCondition(cid, getThingPos(target), Marking_area, CONDICAO_POISON, 72)
 		doCreatureSay(cid, "Dynamic Marking", TALKTYPE_MONSTER)
 		exhaustion.set(cid, storage, waittime)

@@ -70,10 +70,7 @@
 	<talkaction words="!q" event="script" value="money.lua"/>
 	<talkaction words="!serverinfo" event="script" value="serverinfo.lua"/>
 	<talkaction words="/commands" event="script" value="commands.lua"/>
-	<talkaction words="transformar" event="script" value="transformar.lua"/>
-	<talkaction words="!sell;/sell;!buy;/buy" event="script" value="shop.lua"/>
-	<talkaction words="!aol;!jam" event="script" value="aol.lua"/>
-	<talkaction words="!missions" event="script" value="missions.lua"/>
+	
 
 	<!-- Houses -->
 	<talkaction words="alana res" filter="word-spaced" event="function" value="houseBuy"/>
