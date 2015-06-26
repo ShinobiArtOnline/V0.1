@@ -26,11 +26,11 @@ function onThink(cid, interval)
 		local player = getCreatureTarget(cid)
 		local basespeed = getCreatureBaseSpeed(cid)
 		local speed = getCreatureSpeed(cid)
-		if (getPlayerStorageValue(player, 8000) < 4 or getPlayerStorageValue(player, 8000) > 4) and speed > 0 then
+		if isMonster(cid) and (getPlayerStorageValue(player, 8000) < 4 or getPlayerStorageValue(player, 8000) > 4) and speed > 0 then
 			doChangeSpeed(cid, -speed)
 			--doTeleportThing(cid,{x = 85, y = 245, z = 7})    -- TODO zooptymalizowaæ zeby teleportowalo tylko raz
 			return true
-		elseif getPlayerStorageValue(player, 8000) == 4 then
+		elseif isMonster(cid) and getPlayerStorageValue(player, 8000) == 4 then
 			if (speed > basespeed) then
 				delta=speed-basespeed
 				doChangeSpeed(cid, -delta)

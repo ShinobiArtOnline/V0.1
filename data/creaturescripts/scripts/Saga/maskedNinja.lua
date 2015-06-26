@@ -34,10 +34,10 @@ function onThink(cid, interval)
 		local player = getCreatureTarget(cid)
 		local basespeed = getCreatureBaseSpeed(cid)
 		local speed = getCreatureSpeed(cid)
-		if (getPlayerStorageValue(player, 8000) < 13 or getPlayerStorageValue(player, 8000) > 13) and speed > 0 then
+		if isMonster(cid) and (getPlayerStorageValue(player, 8000) < 13 or getPlayerStorageValue(player, 8000) > 13) and speed > 0 then
 			doChangeSpeed(cid, -speed)
 			return true
-		elseif getPlayerStorageValue(player, 8000) == 13 then
+		elseif isMonster(cid) and getPlayerStorageValue(player, 8000) == 13 then
 			if (speed > basespeed) then
 				delta=speed-basespeed
 				doChangeSpeed(cid, -delta)
