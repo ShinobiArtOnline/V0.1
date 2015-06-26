@@ -1217,3 +1217,26 @@ In(Type,ObjectProperties->low(),ObjectProperties->high())
 Tue Jun 16 19:34:45 2015
 Debug Assertion 8.54 Objects.cpp 277
 
+----- 26/06/2015 10:33:08 - Uchiha (127.0.0.1) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 32 Bit in POL
+Processor: Intel Core 2 DUO E7300
+Video Card: ATI Radeon AMD R7 20
+Last Packet Types: 100 120 121 120 121 120 100 011 010 031
+Last Packet: 010 015 005 000 016 050 000 000 011 170 170 170 170 213 213 213
+Player Position: [706,666,6]
+Player Name: Kamil (Forgotten)
+Player Action: 049 056 053 046 052 057 046 049 050 046 055 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 992: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1330: exception occurred (Type = 100) (MainWindow = 30915392), reason:
+Communication.cpp 1640: exception occurred (PlayerX = 1657) (PlayerY = 1913), reason:
+Communication.cpp 1618: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1597: exception occurred (Type = 30984) (OldType = 0), reason:
+Objects.cpp 280: exception occurred (Type = 30984) (Flag = 11), reason:
+Objects.cpp 277: assertion failed (Type = 30984) (ObjectProperties->high() = 11829), reason:
+In(Type,ObjectProperties->low(),ObjectProperties->high())
+Fri Jun 26 10:32:41 2015
+Debug Assertion 8.54 Objects.cpp 277
+

@@ -16,10 +16,10 @@ speed = 200,
 
 	
 function onCastSpell(cid,var)
-
+	
 
 	
-		--if getPlayerVocation ==1 or getPlayerVocation ==37 or getPlayerVocation ==38 or getPlayerVocation ==39 then
+		if getPlayerVocation(cid) ==1 or getPlayerVocation(cid) ==37 or getPlayerVocation(cid) ==38 or getPlayerVocation(cid) ==39 then
 		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 		 addEvent(changeMove, 0, cid, 5, -1)
 		elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
@@ -27,9 +27,9 @@ function onCastSpell(cid,var)
 		elseif getPlayerLevel(cid) >= 100 and getPlayerLevel(cid) < 150 then
 		addEvent(changeMove, 0, cid, 3, -1)
 		end
-	
+	end
 		
-		if getPlayerVocation ==3 or getPlayerVocation ==10 or getPlayerVocation ==11 or getPlayerVocation ==12 then
+		if getPlayerVocation(cid) ==3 or getPlayerVocation(cid) ==10 or getPlayerVocation(cid) ==11 or getPlayerVocation(cid) ==12 then
 		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 		 addEvent(changeMove, 0, cid, 19, -1)
 		elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
@@ -39,7 +39,7 @@ function onCastSpell(cid,var)
 		end
 	end
 	
-       if getPlayerVocation ==4 or getPlayerVocation ==15 or getPlayerVocation ==16 or getPlayerVocation ==17 then
+       if getPlayerVocation(cid) ==4 or getPlayerVocation(cid) ==15 or getPlayerVocation(cid) ==16 or getPlayerVocation(cid) ==17 then
 		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 		 addEvent(changeMove, 0, cid, 58, -1)
 		elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
@@ -49,7 +49,7 @@ function onCastSpell(cid,var)
 		end
 	end
 		
-		if getPlayerVocation ==5 or getPlayerVocation ==20 or getPlayerVocation ==21 or getPlayerVocation ==22 then
+		if getPlayerVocation(cid) ==5 or getPlayerVocation(cid) ==20 or getPlayerVocation(cid) ==21 or getPlayerVocation(cid) ==22 then
 		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 		 addEvent(changeMove, 0, cid, 52, -1)
 		elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
@@ -58,7 +58,7 @@ function onCastSpell(cid,var)
 		addEvent(changeMove, 0, cid, 54, -1)
 		end
 	end
-		if getPlayerVocation ==6 or getPlayerVocation ==25 or getPlayerVocation ==26 or getPlayerVocation ==27 then
+		if getPlayerVocation(cid) ==6 or getPlayerVocation(cid) ==25 or getPlayerVocation(cid) ==26 or getPlayerVocation(cid) ==27 then
 		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 		 addEvent(changeMove, 0, cid,34, -1)
 		elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
@@ -68,7 +68,7 @@ function onCastSpell(cid,var)
 		end
 	end
 		
-		if getPlayerVocation ==7 or getPlayerVocation ==30 or getPlayerVocation ==31 or getPlayerVocation ==32 then
+		if getPlayerVocation(cid) ==7 or getPlayerVocation(cid) ==30 or getPlayerVocation(cid) ==31 or getPlayerVocation(cid) ==32 then
 		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 		 addEvent(changeMove, 0, cid, 61, -1)
 		elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
@@ -78,7 +78,7 @@ function onCastSpell(cid,var)
 		end
 	end
 	
-	if getPlayerVocation ==8 or getPlayerVocation ==48 or getPlayerVocation ==49 or getPlayerVocation ==50 then
+	if getPlayerVocation(cid) ==8 or getPlayerVocation(cid) ==48 or getPlayerVocation(cid) ==49 or getPlayerVocation(cid) ==50 then
 		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 		 addEvent(changeMove, 0, cid, 14, -1)
 		elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then

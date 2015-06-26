@@ -35,9 +35,9 @@
 	<event type="combat" name="noMove" event="script" value="nomove.lua"/>
 	<event type="statschange" name="Hit" event="script" value="hit.lua"/>
 
-	<event type="preparedeath" name="Death" event="script" value="death.lua"/>
+	<event type="preparedeath" name="death" event="script" value="death.lua"/>
 	<event type="PrepareDeath" name="dead" event="script" value="dead.lua"/>
-	<event type="death" name="Petdeath" event="script" value="petdeath.lua"/>
+	<event type="death" name="petdeath" event="script" value="petdeath.lua"/>
 	<event type="advance" name="CapKikkais" event="script" value="CapKikais.lua"/>
 	<event type="advance" name="hachimonAdvance" event="script" value="hachimonAdvance.lua"/>
 	<event type="direction" name="direction" event="script" value="Direction.lua"/>

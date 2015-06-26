@@ -17945,7 +17945,7 @@
 		<attribute key="weight" value="3000" />
 		<attribute key="defense" value="24" />
 		<attribute key="attack" value="24" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11641" article="a" name="ryuka gloves">
 		<attribute key="weight" value="3500" />
@@ -17989,7 +17989,7 @@
 		<attribute key="breakChance" value="80" />
 		<attribute key="ammoAction" value="moveback" />
 	</item>
-	<item id="11833" article="a" name=" small shuriken">
+	<item id="11622" article="a" name=" small shuriken">
 		<attribute key="weight" value="1400" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="10" />
@@ -18129,42 +18129,42 @@
 		<attribute key="attack" value="47" />
 		<attribute key="weaponType" value="axe" />
 		<attribute key="slotType" value="two-handed" />
-		<attribute key="weight" value="5400" />
+		<attribute key="weight" value="54" />
 	</item>
 	<item id="11300" name="sais">
 		<attribute key="defense" value="27" />
 		<attribute key="attack" value="45" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
-		<attribute key="weight" value="5000" />
+		<attribute key="weight" value="50" />
 	</item>
 	<item id="11626" name="zaoan sword">
 		<attribute key="defense" value="25" />
 		<attribute key="attack" value="46" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="weight" value="4900" />
+		<attribute key="weight" value="49" />
 		<attribute key="extradef" value="2" />
 	</item>
 	<item id="11624" name="samurai sword">
 		<attribute key="defense" value="25" />
 		<attribute key="attack" value="42" />
 		<attribute key="weaponType" value="sword" />
-		<attribute key="weight" value="4900" />
+		<attribute key="weight" value="49" />
 		
 	</item>
 	<item id="11607" name="drachaku">
-		<attribute key="defense" value="25" />
-		<attribute key="attack" value="46" />
+		<attribute key="defense" value="8" />
+		<attribute key="attack" value="12" />
 		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
-		<attribute key="weight" value="6000" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11606" name="nunchaku">
-		<attribute key="defense" value="25" />
-		<attribute key="attack" value="46" />
+		<attribute key="defense" value="5" />
+		<attribute key="attack" value="8" />
 		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
-		<attribute key="weight" value="6000" />
+		<attribute key="weight" value="60" />
 	</item>
 	
 	
@@ -18173,7 +18173,7 @@
 		<attribute key="attack" value="37" />
 		<attribute key="weaponType" value="axe" />
 		<attribute key="slotType" value="two-handed" />
-		<attribute key="weight" value="8700" />
+		<attribute key="weight" value="87" />
 	</item>
 	
 	<!-- Czapki -->
@@ -18181,37 +18181,37 @@
 		<item id="11749" name="Konoha helmet">
 		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11725" name="Suna helmet">
 		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11724" name="Google">
 		<attribute key="armor" value="3" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11722" name="Farmer Hat">
 		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11721" name="Vampire Mask">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11720" name="Robber cap">
 		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11714" name="Tobi mask">
 		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11715" name="Konohamaru hat">
 		<attribute key="armor" value="4" />
