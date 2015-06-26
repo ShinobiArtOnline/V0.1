@@ -53,11 +53,11 @@
 	<monster name="Disable soldier" file="SAO/Disable soldier.xml"/>
 	<monster name="Star Ninja" file="SAO/Star Ninja.xml"/>
 	<monster name="Strong Star Ninja" file="SAO/Strong Star Ninja.xml"/>
-	<monster name="Wolf" file="SAO/Wolf.xml"/>
-	<monster name="Akamaru" file="Akamaru/Akamaru.xml"/>
-	<monster name="Akamaruu" file="Akamaru/Akamaru50.xml"/>
-	<monster name="Red Akamaru" file="Akamaru/Akamaru100.xml"/>
-	<monster name="Adult Akamaru" file="Akamaru/Akamaru150.xml"/>
+	<monster name="Wolf" file="SAO/wolf.xml"/>
+	<monster name="Akamaru" file="Akamaru/akamaru.xml"/>
+	<monster name="Akamaruu" file="Akamaru/akamaru50.xml"/>
+	<monster name="Red Akamaru" file="Akamaru/akamaru100.xml"/>
+	<monster name="Adult Akamaru" file="Akamaru/akamaru150.xml"/>
 	<monster name="Large Kikkais" file="Kikkais/Large Kikkais.xml"/>
 	<monster name="Small Kikkais" file="Kikkais/Small Kikais.xml"/>
     <monster name="Medium Kikkais" file="Kikkais/Medium Kikkais.xml"/>
