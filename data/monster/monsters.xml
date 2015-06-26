@@ -7,7 +7,7 @@
 	<monster name="Kakashi's Clone" file="SAGOWE/KakashiClone.xml"/>
 	<monster name="Masked Ninja" file="SAGOWE/MaskedNinja.xml"/>
 	<monster name="Zabuza" file="SAGOWE/Zabuza.xml"/>
-	<monster name="Zabuza" file="SAGOWE/Zabuza2.xml"/> <!-- tan na moscie -->
+	<monster name="Zabuza(bridge)" file="SAGOWE/Zabuza2.xml"/> <!-- tan na moscie -->
 	<monster name="Haku" file="SAGOWE/Haku.xml"/>
 	
 	<!-- White -->

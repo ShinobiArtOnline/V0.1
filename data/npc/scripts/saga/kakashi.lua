@@ -45,20 +45,24 @@ function onCreatureDisappear(cid)
 end
 
 function onCreatureSay(cid, type, msg)
-	if((msg == "hi") and getPlayerStorageValue(cid,8000) == 6 and not (isFocused(cid))) then
+	if(((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) == 6 and not (isFocused(cid))) then
 		selfSay("So you are. To be a member of my team, you need to pass a special test. Are you {ready}?", cid)
 		addFocus(cid)
 	elseif((msg == "hi") and getPlayerStorageValue(cid,8000) == 10 and not (isFocused(cid))) then
 		selfSay("Hokage calls us. He has a first mission for you.", cid)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, '#12. Go to the Hokage and talk to him')
+		doPlayerSendTextMessage(cid, 19,'#12. Go to the Hokage and talk to him')
 		setPlayerStorageValue(cid,8000,11)
 		addFocus(cid)
 	elseif (isFocused(cid) and (msg == "ready") and getPlayerStorageValue(cid,8000) == 6) then
 		setPlayerStorageValue(cid,8000,7)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, '#8. Go to the training place')
+		doPlayerSendTextMessage(cid, 19,'#8. Go to the training place')
 		selfSay("Ok. See you tomorrow on the test.", cid)
 		doPlayerSendTextMessage(cid, 19,"Go to the training place")
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) < 6) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) < 6) then
 		selfSay("Sorry, but you can\'t do this {saga} at the moment.", cid)
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) > 6) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) > 6) then
 		selfSay("Sorry, but you can\'t do this {saga} anymore.", cid)
 	elseif((isFocused(cid)) and (msg == "bye" or msg == "goodbye" or msg == "cya")) then
 		selfSay("Goodbye!", cid, TRUE)

@@ -9,7 +9,7 @@ function onLogin(cid)
 ---[EXP VIP]--
 local rate = 1.1 -- 10%
 local config = {
-	welvip = "Parabens voce e premium, como recompensa voce tera "..((rate - 1)*100).."% de exp a mais agora!",
+	welvip = "You are premium member! ["..((rate - 1)*100).."% more exp]",
 }
 
 if isPremium(cid) then
@@ -57,8 +57,8 @@ end
 
 -----INIT PONTOS----
 	if getPlayerStorageValue(cid, initStorages.init) <= 0 then
-	doPlayerAddMapMark(cid, {x = 1026, y = 909, z = 7,}, 21, 'GYM KONOHA')
-	doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "Bem-vindo ao otNaruto, sua primeira missao e ir a academia para comecar o seu teste gennin procure por Tekuno e entao comece seu treinamento, logo comecara a sua aventura ninja! (Academia marcada no minimap)")
+	--doPlayerAddMapMark(cid, {x = 1026, y = 909, z = 7,}, 21, 'GYM KONOHA')
+	--doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "")
 	end
 	
 -----INIT GRADUAÇÃO---

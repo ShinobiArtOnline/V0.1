@@ -36,7 +36,7 @@ end
 
 function onCreatureDisappear(cid)
 	if(isFocused(cid)) then
-		selfSay("Hmph!")
+		selfSay("Bye!")
 		removeFocus(cid)
 		if(isPlayer(cid) == TRUE) then --Be sure he's online
 			closeShopWindow(cid)
@@ -45,13 +45,15 @@ function onCreatureDisappear(cid)
 end
 
 function onCreatureSay(cid, type, msg)
-	if((msg == "hi") and getPlayerStorageValue(cid,8000) == 5 and not (isFocused(cid))) then
+	if(((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) == 5 and not (isFocused(cid))) then
 		selfSay("I underestimated you ".. getCreatureName(cid) ..". This is your forehead protector.  You passed the exam!", cid)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, '#7. Talk with Kakashi and join the team')
+		doPlayerSendTextMessage(cid, 19,'#7. Talk with Kakashi and join the team')
 		addFocus(cid)
 		setPlayerStorageValue(cid,8000,6)
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) < 5) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) < 5) then
 		selfSay("Sorry, but you can\'t do this {saga} at the moment.", cid)
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) > 5) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) > 5) then
 		selfSay("Sorry, but you can\'t do this {saga} anymore.", cid)
 	elseif((isFocused(cid)) and (msg == "bye" or msg == "goodbye" or msg == "cya")) then
 		selfSay("Goodbye!", cid, TRUE)
@@ -61,7 +63,7 @@ end
 
 function onPlayerCloseChannel(cid)
 	if(isFocused(cid)) then
-		selfSay("Hmph!")
+		selfSay("Bye!")
 		removeFocus(cid)
 	end
 end
@@ -73,7 +75,7 @@ function onThink()
 		else
 			local distance = getDistanceTo(focus) or -1
 			if((distance > 4) or (distance == -1)) then
-				selfSay("Hmph!")
+				selfSay("Bye!")
 				removeFocus(focus)
 			end
 		end

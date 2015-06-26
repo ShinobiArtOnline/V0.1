@@ -36,7 +36,7 @@ end
 
 function onCreatureDisappear(cid)
 	if(isFocused(cid)) then
-		selfSay("Hmph!")
+		selfSay("Bye!")
 		removeFocus(cid)
 		if(isPlayer(cid) == TRUE) then --Be sure he's online
 			closeShopWindow(cid)
@@ -45,13 +45,15 @@ function onCreatureDisappear(cid)
 end
 
 function onCreatureSay(cid, type, msg)
-	if((msg == "hi") and getPlayerStorageValue(cid,8000) == 2 and not (isFocused(cid))) then
+	if(((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) == 2 and not (isFocused(cid))) then
 		selfSay("Don't worry about the exam. There is another way to be a genin. Bring me the scroll from Hokage House.", cid)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, '#4. Find the scroll in Hokage House and bring him to Mizuki. He will be waiting in the forest')
+		doPlayerSendTextMessage(cid, 19,'#4. Find the scroll in Hokage House and bring him to Mizuki. He will be waiting in the forest')
 		addFocus(cid)
 		setPlayerStorageValue(cid,8000,3)
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) < 2) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) < 2) then
 		selfSay("Sorry, but you can\'t do this {saga} at the moment.", cid)
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) > 2) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) > 2) then
 		selfSay("Sorry, but you can\'t do this {saga} anymore.", cid)
 	elseif((isFocused(cid)) and (msg == "bye" or msg == "goodbye" or msg == "cya")) then
 		selfSay("Heh!", cid)
@@ -62,7 +64,7 @@ end
 
 function onPlayerCloseChannel(cid)
 	if(isFocused(cid)) then
-		selfSay("Hmph!")
+		selfSay("Bye!")
 		closeShopWindow(cid)
 		removeFocus(cid)
 	end
@@ -75,7 +77,7 @@ function onThink()
 		else
 			local distance = getDistanceTo(focus) or -1
 			if((distance > 4) or (distance == -1)) then
-				selfSay("Hmph!")
+				selfSay("Bye!")
 				closeShopWindow(focus)
 				removeFocus(focus)
 			end

@@ -36,7 +36,7 @@ end
 
 function onCreatureDisappear(cid)
 	if(isFocused(cid)) then
-		selfSay("Hmph!")
+		selfSay("Bye!")
 		removeFocus(cid)
 		if(isPlayer(cid) == TRUE) then --Be sure he's online
 			closeShopWindow(cid)
@@ -45,16 +45,20 @@ function onCreatureDisappear(cid)
 end
 
 function onCreatureSay(cid, type, msg)
-	if((msg == "hi") and getPlayerStorageValue(cid,8000) < 1 and not (isFocused(cid))) then
+	if(((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) < 1 and not (isFocused(cid))) then
 		selfSay("To pass your exam use {Bunshin no Jutsu}", cid)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, '#2. Use Bunshin no Jutsu')
+		doPlayerSendTextMessage(cid, 19,"#2. Use Bunshin no Jutsu")
 		setPlayerStorageValue(cid,8000,1)
 		addFocus(cid)
     elseif (isFocused(cid) and msg == "Bunshin no Jutsu" and getPlayerStorageValue(cid,8000) > 1) then
 		selfSay("{Sorry, but you already failed thix exam.}", cid)
 	elseif (isFocused(cid) and getPlayerStorageValue(cid,8000) == 1 and msg == "Bunshin no Jutsu") then
 		setPlayerStorageValue(cid,8000,2)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, '#3. Talk with Mizuki')
+		doPlayerSendTextMessage(cid, 19,'#3. Talk with Mizuki')
 		selfSay("Wrong! You failed!")
-	elseif (isFocused(cid) and (msg == "hi") and getPlayerStorageValue(cid,8000) > 1) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) > 1) then
 		selfSay("Sorry, but you can\'t do this {saga} anymore.", cid)
 	elseif((isFocused(cid)) and (msg == "bye" or msg == "goodbye" or msg == "cya")) then
 		selfSay("Bye!", cid)
@@ -64,7 +68,7 @@ end
 
 function onPlayerCloseChannel(cid)
 	if(isFocused(cid)) then
-		selfSay("Hmph!")
+		selfSay("Bye")
 		closeShopWindow(cid)
 		removeFocus(cid)
 	end
@@ -77,7 +81,7 @@ function onThink()
 		else
 			local distance = getDistanceTo(focus) or -1
 			if((distance > 4) or (distance == -1)) then
-				selfSay("Hmph!")
+				selfSay("Bye!")
 				closeShopWindow(focus)
 				removeFocus(focus)
 			end

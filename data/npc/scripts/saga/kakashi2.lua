@@ -44,14 +44,15 @@ function onCreatureDisappear(cid)
 end
 
 function onCreatureSay(cid, type, msg)
-	if((msg == "hi") and getPlayerStorageValue(cid,8000) == 7 and not (isFocused(cid))) then
+	if(((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) == 7 and not (isFocused(cid))) then
 		selfSay("Now you can start the {test}!", cid)
 		addFocus(cid)
-	elseif((msg == "hi") and getPlayerStorageValue(cid,8000) == 9 and not (isFocused(cid))) then
+	elseif(((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) == 9 and not (isFocused(cid))) then
 		selfSay("You made it! You are now officially admitted to the group number 7!", cid)
 		addFocus(cid)
+		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, 'Go to Kakashi\'s house and talk to him')
+		doPlayerSendTextMessage(cid, 19,'Go to Kakashi\'s house and talk to him')
 		setPlayerStorageValue(cid,8000,10)
-		doPlayerSendTextMessage(cid, 19,"Go to Kakashi's house and talk to him")
 	elseif (isFocused(cid) and (msg == "test") and getPlayerStorageValue(cid,8000) == 7) then
 		setPlayerStorageValue(cid,8000,8)
 		doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, 'Kill Kakashi\'s clones!')
@@ -60,9 +61,9 @@ function onCreatureSay(cid, type, msg)
 		doCreateMonster('Kakashi\'s Clone', {x=761,y=776,z=7,stackpos = 253})
 		doCreateMonster('Kakashi\'s Clone', {x=760,y=782,z=7,stackpos = 253})
 		doCreateMonster('Kakashi\'s Clone', {x=766,y=782,z=7,stackpos = 253})
-	elseif ((msg == "hi") and getPlayerStorageValue(cid,8000) < 9) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) < 9) then
 		selfSay("Sorry, but you can\'t do this {saga} at the moment.", cid)
-	elseif ((msg == "hi") and getPlayerStorageValue(cid,8000) > 9) then
+	elseif (((msg == "hi") or (msg == "Hi") or (msg == "hello") or (msg == "Hello") or (msg == "Whats Up") or (msg == "whats up") or (msg == "Whats up") or (msg == "hej") or (msg == "Hej")) and getPlayerStorageValue(cid,8000) > 9) then
 		selfSay("Sorry, but you can\'t do this {saga} anymore.", cid)
 	elseif ((msg == "bye" or msg == "goodbye" or msg == "cya")) then
 		selfSay("Goodbye!", cid, TRUE)
