@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Thief" nameDescription="a thief" race="blood" experience="250" speed="235" manacost="0">
     <health now="400" max="400"/>
-    <look type="82" head="0" body="0" legs="0" feet="0" corpse="2874"/>
+    <look type="82" head="0" body="0" legs="0" feet="0" corpse="3017"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
     <flags>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Elder assassin" nameDescription="an elder assasin" race="blood" experience="500" speed="235" manacost="0">
     <health now="1300" max="1300"/>
-    <look type="138" head="0" body="0" legs="0" feet="0" corpse="2874"/>
+    <look type="138" head="0" body="0" legs="0" feet="0" corpse="2869"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
     

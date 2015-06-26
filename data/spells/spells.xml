@@ -88,7 +88,7 @@
 	<!--- Kiba Inuzuka -->
 		
 	
-	<instant name="Garouga no Jutsu" words="Garouga" lvl="150" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0"  event="script" value="SAO/Kiba/Garouga.lua">
+	<instant name="Garouga no Jutsu" words="Garouga" lvl="135" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needlearn="0"  event="script" value="SAO/Kiba/Garouga.lua">
 		<vocation id="1"/>
 		<vocation id="37"/>
 		<vocation id="38"/>
@@ -603,6 +603,9 @@
 	</instant>
 	<instant name="Sakura" words="Sakura" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1000" needlearn="0" script="Sakura.lua">
 	</instant>
+	<instant name="outfits" words="outfits" lvl="1" mana="0" prem="0" aggressive="0" needtarget="0" exhaustion="1000" needlearn="0" script="outfit.lua">
+	</instant>
+	
 	
 	
 	

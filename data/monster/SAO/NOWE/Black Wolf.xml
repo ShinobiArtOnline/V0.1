@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Black wolf" nameDescription="a black wolf" race="blood" experience="280" speed="235" manacost="0">
     <health now="500" max="500"/>
-    <look type="75" head="0" body="0" legs="0" feet="0" corpse="2874"/>
+    <look type="75" head="0" body="0" legs="0" feet="0" corpse="2842"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
     <flags>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Shining ninja" nameDescription="a shining ninja" race="blood" experience="1300" speed="235" manacost="0">
     <health now="2350" max="2100"/>
-    <look type="119" head="0" body="0" legs="0" feet="0" corpse="2874"/>
+    <look type="119" head="0" body="0" legs="0" feet="0" corpse="3074"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
     

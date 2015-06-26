@@ -64,7 +64,7 @@ function onCastSpell(cid,var)
 		removeChakra(cid, 1, 2, sto_inuzuka[1], "sharingan")
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	elseif getPlayerStorageValue(cid, sto_inuzuka[1]) < 1 then
-				if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+				if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 				addEvent(changeMove, 0, cid, 4, -1)
 				elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
 				addEvent(changeMove, 0, cid, 5, -1)

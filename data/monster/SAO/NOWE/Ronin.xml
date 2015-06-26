@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Ronin" nameDescription="a ronin" race="blood" experience="900" speed="235" manacost="0">
     <health now="1400" max="1400"/>
-    <look type="80" head="0" body="0" legs="0" feet="0" corpse="2874"/>
+    <look type="80" head="0" body="0" legs="0" feet="0" corpse="2871"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="20" defense="10"/>
     
