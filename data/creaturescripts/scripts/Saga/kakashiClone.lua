@@ -7,8 +7,8 @@ function onDeath(cid, corpse, deathList)
 		elseif (getPlayerStorageValue(deathList[i],8000) == 8 and getPlayerStorageValue(deathList[i],8803) == 1 ) then
 			doPlayerSetStorageValue(deathList[i],8000, 9)
 			doPlayerSetStorageValue(deathList[i],8803, 3)
-			doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, '#10. Talk with Kakashi')
-			doPlayerSendTextMessage(cid, 19,'#10. Talk with Kakashi')
+			doPlayerSendTextMessage(deathList[i], MESSAGE_EVENT_ADVANCE, '#10. Talk with Kakashi')
+			doPlayerSendTextMessage(deathList[i], 19,'#10. Talk with Kakashi')
 		end
 	end
 	return doTeleportThing(cid,{x = 1, y = 1, z = 7, stackpos = 2})

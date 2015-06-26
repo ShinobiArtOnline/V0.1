@@ -96,9 +96,6 @@ function onLogout(cid)
 	if getPlayerStorageValue(cid, 10003) == 1 then
 	doPlayerCastSpell(cid, "Hppet")
 	end
-	if getPlayerStorageValue(cid, 676767) == 0 then
-	doPlayerCastSpell(cid, "Hari Sensha")
-	end
 	
 	for i = 9000, 9063 do 
    		 setPlayerStorageValue(cid, i, 0)

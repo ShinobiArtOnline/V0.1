@@ -4,8 +4,8 @@ function onDeath(cid, corpse, deathList)
 			doPlayerAddExp(deathList[i],10000)
 			doPlayerSetStorageValue(deathList[i],8801, 1)	-- TODO opracowac wczytywanie calej listy graczy 
 			doPlayerSetStorageValue(deathList[i],8000, 5)
-			doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, '#6. Talk with Iruka')
-			doPlayerSendTextMessage(cid, 19,'#6. Talk with Iruka')
+			doPlayerSendTextMessage(deathList[i], MESSAGE_EVENT_ADVANCE, '#6. Talk with Iruka')
+			doPlayerSendTextMessage(deathList[i], 19,'#6. Talk with Iruka')
 		end
 	end
 	return doTeleportThing(cid,{x = 1, y = 1, z = 7, stackpos = 253})
