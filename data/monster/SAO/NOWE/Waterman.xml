@@ -43,6 +43,7 @@
 	<item id="11673" chance="2000"/>
 	<item id="7763" chance="2000"/>
 	<item id="11811" chance="2000"/>
-	
+	<item id="11778" chance="2000"/>
+	<item id="11779" chance="2000"/>
     </loot>
   </monster>

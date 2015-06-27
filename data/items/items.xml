@@ -17507,58 +17507,25 @@
         <attribute key="slotType" value="head" />
         <attribute key="showattributes" value="1" />
 	</item>
-	<item id="11394" article="a" name="akatsuki hat">
-		<attribute key="description" value="Chakra and health regeneration +800/s, +5 All Skill, Health and Chakra +100" />
-        <attribute key="weight" value="1200" />
+	<item id="11394" article="a" name="green robe">
+        <attribute key="weight" value="120" />
         <attribute key="armor" value="5" />
-        <attribute key="maxhealthpoints" value="+100." />  
-        <attribute key="maxmanapoints" value="+100." />  
-        <attribute key="skillAxe" value="5" />
-        <attribute key="skillClub" value="5" />
-        <attribute key="skillSword" value="5" />
-        <attribute key="skillDist" value="5" />
-        <attribute key="magiclevelpoints" value="5" />
-        <attribute key="manaGain" value="800" />
-        <attribute key="manaTicks" value="1000" />
-        <attribute key="healthGain" value="800" />
-        <attribute key="healthTicks" value="1000" />
-        <attribute key="slotType" value="head" />
+        <attribute key="slotType" value="body" />
         <attribute key="showattributes" value="1" />
 	</item>
-	<item id="11395" article="a" name="gennin shirt">
-		<attribute key="description" value="Chakra and health regeneration +4/s" />
-        <attribute key="weight" value="1000" />
+	<item id="11396" article="a" name="konoha shirt">
+        <attribute key="weight" value="50" />
         <attribute key="armor" value="3" />
-        <attribute key="manaGain" value="2" />
-        <attribute key="manaTicks" value="1000" />
-        <attribute key="healthGain" value="2" />
-        <attribute key="healthTicks" value="1000" />
         <attribute key="slotType" value="body" />
         <attribute key="showattributes" value="1" />
 	</item>
-	<item id="11396" article="a" name="chunnin shirt">
-		<attribute key="description" value="Chakra and health regeneration +6/s" />
-        <attribute key="weight" value="1000" />
-        <attribute key="armor" value="3" />
-        <attribute key="manaGain" value="3" />
-        <attribute key="manaTicks" value="1000" />
-        <attribute key="healthGain" value="3" />
-        <attribute key="healthTicks" value="1000" />
+
+	<item id="11397" article="a" name="chunin armor">
+		
+        <attribute key="weight" value="90" />
+        <attribute key="armor" value="10" />
         <attribute key="slotType" value="body" />
-        <attribute key="showattributes" value="1" />
-	</item>
-	<item id="11397" article="a" name="jounin armor">
-		<attribute key="description" value="Chakra and health regeneration +8/s, Health and Chakra +25" />
-        <attribute key="weight" value="2000" />
-        <attribute key="armor" value="5" />
-        <attribute key="maxhealthpoints" value="+25." />  
-        <attribute key="maxmanapoints" value="+25." />  
-        <attribute key="manaGain" value="8" />
-        <attribute key="manaTicks" value="1000" />
-        <attribute key="healthGain" value="8" />
-        <attribute key="healthTicks" value="1000" />
-        <attribute key="slotType" value="body" />
-        <attribute key="showattributes" value="1" />
+   
 	</item>
 	<item id="11398" article="a" name="anbu armor">
 		<attribute key="description" value="Chakra and health regeneration +10/s, Health and Chakra +50" />
@@ -17598,18 +17565,11 @@
         <attribute key="slotType" value="body" />
         <attribute key="showattributes" value="1" />
 	</item>
-	<item id="11401" article="a" name="sarutobi armor">
-		<attribute key="description" value="Chakra and health regeneration +18/s, Health and Chakra +150" />
-        <attribute key="weight" value="2000" />
-        <attribute key="armor" value="7" />
-        <attribute key="maxhealthpoints" value="+150." />  
-        <attribute key="maxmanapoints" value="+150." />  
-        <attribute key="manaGain" value="18" />
-        <attribute key="manaTicks" value="1000" />
-        <attribute key="healthGain" value="18" />
-        <attribute key="healthTicks" value="1000" />
+	<item id="11401" article="a" name="black armor">
+        <attribute key="weight" value="90" />
+        <attribute key="armor" value="" />
         <attribute key="slotType" value="body" />
-        <attribute key="showattributes" value="1" />
+      
 	</item>
 	<item id="11402" article="a" name="akatsuki robe">
 		<attribute key="description" value="Chakra and health regeneration +1000/s, Health and Chakra +200" />
@@ -18266,13 +18226,13 @@
 		<attribute key="slotType" value="head" />
 		<attribute key="weight" value="66" />
 	</item>
-	<item id="11722" name="Farmer Hat">
-		<attribute key="armor" value="4" />
+	<item id="11722" name="Villager Hat">
+		<attribute key="armor" value="3" />
 		<attribute key="slotType" value="head" />
 		<attribute key="weight" value="66" />
 	</item>
-	<item id="11721" name="Vampire Mask">
-		<attribute key="armor" value="8" />
+	<item id="11721" name="necro mask">
+		<attribute key="armor" value="7" />
 		<attribute key="slotType" value="head" />
 		<attribute key="weight" value="66" />
 	</item>
@@ -18296,20 +18256,20 @@
 		<attribute key="slotType" value="head" />
 		<attribute key="weight" value="6600" />
 	</item>
-	<item id="11708" name="Assasin hat">
-		<attribute key="armor" value="6" />
+	<item id="11708" name="hat">
+		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
-	<item id="11709" name="Boss Assasin hat">
-		<attribute key="armor" value="6" />
+	<item id="11709" name="aa hat">
+		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
-	<item id="11707" name="Voodu helmet">
-		<attribute key="armor" value="20" />
+	<item id="11707" name="resurgent mask">
+		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11706" name="Konoha helmet">
 		<attribute key="armor" value="2" />
@@ -18352,9 +18312,14 @@
 		<attribute key="weight" value="6600" />
 	</item>
 	<item id="11685" name="Konoha belt">
-		<attribute key="armor" value="1" />
+		<attribute key="armor" value="3" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="11710" name="guardian helmet">
+		<attribute key="armor" value="5" />
+		<attribute key="slotType" value="head" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11719" name="Forestry hood">
 		<attribute key="armor" value="1" />
@@ -18362,7 +18327,7 @@
 		<attribute key="weight" value="6600" />
 	</item>
 	<item id="11769" name="Sandy cap">
-		<attribute key="armor" value="1" />
+		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="head" />
 		<attribute key="weight" value="6600" />
 	</item>
@@ -18403,10 +18368,10 @@
 		<attribute key="slotType" value="body" />
 		<attribute key="weight" value="9550" />
 	</item>
-	<item id="11739" name="Forestry armor">
+	<item id="11739" name="Assasin armor">
 		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="95" />
 	</item>	
 	<item id="11738" name="Tsunade armor">
 		<attribute key="armor" value="10" />
@@ -18432,22 +18397,32 @@
 	<item id="11730" name="Hyuuga armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="95" />
 	</item>	
 	<item id="11742" name="Bandit Shirt">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="95" />
 	</item>	
 	<item id="11736" name="Haku Shirt">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="95" />
+	</item>	
+	<item id="11743" name="heavy shirt">
+		<attribute key="armor" value="12" />
+		<attribute key="slotType" value="body" />
+		<attribute key="weight" value="95" />
 	</item>	
 	<item id="11755" name="Blue Shirt">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="95" />
+	</item>	
+	<item id="11744" name="white armor">
+		<attribute key="armor" value="14" />
+		<attribute key="slotType" value="body" />
+		<attribute key="weight" value="95" />
 	</item>	
 	<item id="11756" name="Inuzuka coat">
 		<attribute key="armor" value="5" />
@@ -18457,27 +18432,32 @@
 	<item id="11757" name="Ninja Cape">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11758" name="Guy armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
-	<item id="11760" name="Chunin armor">
-		<attribute key="armor" value="5" />
+	<item id="11760" name="grey armor">
+		<attribute key="armor" value="16" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
-	<item id="11762" name="Green coat">
-		<attribute key="armor" value="5" />
+	<item id="11762" name="resurgent coat">
+		<attribute key="armor" value="20" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
+	</item>	
+	<item id="11728" name="samurai armor">
+		<attribute key="armor" value="28" />
+		<attribute key="slotType" value="body" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11765" name="Shikamaru blouse">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11767" name="Cape">
 		<attribute key="armor" value="5" />
@@ -18506,14 +18486,14 @@
 		<attribute key="weight" value="9550" />
 	</item>	
 	<item id="11777" name="Fire Armor">
-		<attribute key="armor" value="5" />
+		<attribute key="armor" value="25" />
 		<attribute key="slotType" value="body" />
 		<attribute key="weight" value="9550" />
 	</item>
-	<item id="11778" name="Suiton Armor">
-		<attribute key="armor" value="5" />
+	<item id="11778" name="Water Armor">
+		<attribute key="armor" value="25" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11781" name="Clan Armor">
 		<attribute key="armor" value="5" />
@@ -18540,11 +18520,7 @@
 		<attribute key="slotType" value="body" />
 		<attribute key="weight" value="9550" />
 	</item>
-	<item id="11793" name="Dragon armor">
-		<attribute key="armor" value="5" />
-		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
-	</item>
+	
 	<item id="11795" name="Akatsuki armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
@@ -18636,31 +18612,37 @@
 		<attribute key="slotType" value="legs" />
 		<attribute key="weight" value="6600" />
 	</item>
-	<item id="11799" name="Sarutobi legs">
-		<attribute key="armor" value="8" />
+	<item id="11799" name="black legs">
+		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11796" name="Akatsuki legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
-	<item id="11794" name="Dragon legs">
-		<attribute key="armor" value="8" />
+	<item id="11794" name="ronin legs">
+		<attribute key="armor" value="11" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
-	<item id="11791" name="Shaolin legs">
-		<attribute key="armor" value="8" />
+	<item id="11793" name="ronin armor">
+		<attribute key="armor" value="18" />
+		<attribute key="slotType" value="body" />
+		<attribute key="weight" value="60" />
+	</item>
+	<item id="11826" name="swordman legs">
+		<attribute key="armor" value="9" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
+	
 	
 	<item id="11787" name="Choji legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11785" name="Sasuke legs">
 		<attribute key="armor" value="8" />
@@ -18673,13 +18655,13 @@
 		<attribute key="weight" value="6600" />
 	</item>
 	
-	<item id="11782" name="Rain Legs">
-		<attribute key="armor" value="8" />
+	<item id="11782" name="dark legs">
+		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="legs" />
 		<attribute key="weight" value="6600" />
 	</item>
-	<item id="11779" name="Suiton Legs">
-		<attribute key="armor" value="8" />
+	<item id="11779" name="Water Legs">
+		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="legs" />
 		<attribute key="weight" value="6600" />
 	</item>
@@ -18696,27 +18678,27 @@
 	<item id="11771" name="Master legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11768" name="Academy legs">
-		<attribute key="armor" value="8" />
+		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
-	<item id="11761" name="Forestry legs">
-		<attribute key="armor" value="8" />
+	<item id="11761" name="Grey legs">
+		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
-	<item id="11766" name="Green legs">
-		<attribute key="armor" value="8" />
+	<item id="11766" name="guardian legs">
+		<attribute key="armor" value="6" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11780" name="Chunin legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11759" name="Guy legs">
 		<attribute key="armor" value="8" />
@@ -18732,12 +18714,12 @@
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
 		<attribute key="absorbPercentPhysical" value="2" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
-	<item id="11751" name="Jounin legs">
-		<attribute key="armor" value="9" />
+	<item id="11751" name="pirate legs">
+		<attribute key="armor" value="14" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 <!-- BANDY/ScroLle-->
 	

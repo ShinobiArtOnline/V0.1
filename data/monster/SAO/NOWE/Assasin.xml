@@ -40,5 +40,7 @@
 		<item id="11613" countmax="15" chance1="5000" chancemax="0"/>
 		<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
 		<item id="7424" chance="2000"/>
+		<item id="11739" chance="2000"/>
+		<item id="11799" chance="2000"/>
     </loot>
   </monster>
