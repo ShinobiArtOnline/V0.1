@@ -508,6 +508,7 @@
 		<vocation id="44"/>
 		<vocation id="45"/>
 	</instant>
+	
 	<!--- Sakura -->
 	<instant name="Heal Friend" words="Heal Friend" lvl="50" mana="550" prem="0" aggressive="0" needtarget="1" params="1" exhaustion="800" groups="2,1000" icon="84" needlearn="0" event="script" value="SAO/Sakura/heal friend.lua">
 		<vocation id="8"/>
@@ -517,7 +518,7 @@
 		<vocation id="51"/>
 		<vocation id="52"/>
 	</instant>
-	<instant name="Shannaro" words="Shannaro" lvl="50" mana="550" prem="0" aggressive="0" needtarget="1" params="1" exhaustion="2000" allowfaruse="1" needlearn="0" event="script" value="SAO/Sakura/shannaro buff.lua">
+	<instant name="Shannaro" words="Shannaro" lvl="50" mana="550" prem="0" aggressive="0" needtarget="1" params="1" exhaustion="2000" allowfaruse="1" needlearn="0" event="script" value="SAO/Sakura/Shannaro buff.lua">
 		<vocation id="8"/>
 		<vocation id="48"/>
 		<vocation id="49"/>
