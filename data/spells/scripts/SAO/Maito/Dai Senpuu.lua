@@ -43,7 +43,7 @@ function onCastSpell(cid, var)
 		n = 0
 		while n < #pos do
 				n = n+1
-				addEvent(quakePush, 1, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, -mdmg, -dmg, 255, true)
+				addEvent(quake, 1, cid, {x=pos[n].x,y=pos[n].y,z=pos[n].z}, COMBAT_PHYSICALDAMAGE, -mdmg, -dmg, 255, true)
 				
 		end
 		exhaustion.set(cid, storage, waittime)

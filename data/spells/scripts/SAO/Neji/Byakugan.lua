@@ -47,7 +47,9 @@ function onCastSpell(cid)
 		setPlayerStorageValue(cid, 9997, 1)
 		setPlayerStorageValue(cid, sto_byakugan[1], 0)
 		setPlayerStorageValue(cid, sto_byakugan[6], 0)
-		removeChakra(cid, 1, 2, sto_byakugan[1], "sharingan")
+		removeChakra(cid, 5, 2, sto_byakugan[1], "sharingan")
+	
+		
 	elseif getPlayerStorageValue(cid, sto_byakugan[1]) == 0 then
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, 9997, 0)
@@ -60,6 +62,8 @@ function onCastSpell(cid)
 		setPlayerStorageValue(cid, sto_byakugan[4], 1)
 		setPlayerStorageValue(cid, sto_byakugan[3], 1)
 		setPlayerStorageValue(cid, sto_byakugan[2], os.time() + temp.exhausted)
+		
 	end
+	
 	exhaustion.set(cid, storage, waittime)
 end

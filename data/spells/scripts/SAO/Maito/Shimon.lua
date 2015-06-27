@@ -6,10 +6,10 @@
 	exhausted = 2,
 	}
 	
-	local buff = createConditionObject(CONDITION_ATTRIBUTES)
+local buff = createConditionObject(CONDITION_ATTRIBUTES)
 setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
-setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 16)
-setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 16)
+setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 25)
+setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 20)
 function onCastSpell(cid, var)
 local info = {
 		mana = 8,
@@ -34,10 +34,7 @@ local info = {
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
 
-	if(getPlayerStorageValue(cid, sto_jutsu[1]) > os.time() and getPlayerStorageValue(cid, sto_jutsu[1]) < 100+os.time()) then
-		doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
-		return true
-	end
+
 	
 	if getCreatureStorage(cid, sto_hachimon[1]) == 0 then
 		doPlayerSendCancel(cid, "You can't use Shimon while you are using Kaimon.")
@@ -84,14 +81,14 @@ local info = {
 		addEvent(doSendAnimatedText, 1400, getCreaturePosition(cid), "KYOMON..", COLOR_PINK)
 		addEvent(doSendAnimatedText, 1600, getCreaturePosition(cid), "SHIMON..", COLOR_BLACK)
 		addEvent(doCreatureSay, 1900, cid, "KAAAAI!!!!!!!!", TALKTYPE_SAY)
-		hachimonTonkou3(cid)
+		hachimonTonkou4(cid)
 		doAddCondition(cid, buff)
 		setPlayerStorageValue(cid, sto_hachimon[8], 0)
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid) + info.speed)
 		removeStaminaSecondLife(cid, -manaPercent, 1, sto_hachimon[8])
 	elseif getPlayerStorageValue(cid, sto_hachimon[8]) == 0 then
-		endhachimonTonkou3(cid)
+		endhachimonTonkou4(cid)
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doPlayerAddHealth(cid, - (getCreatureMaxHealth(cid) * 1 / 100))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid))

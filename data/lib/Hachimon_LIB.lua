@@ -79,6 +79,23 @@ local pos = getThingPos(cid)
   stopNow(cid, 1200)
 end
 
+function hachimonTonkou4(cid)
+local pos = getThingPos(cid)
+  addEvent(changeMove, 0, cid, 12, 500)
+  addEvent(changeMove, 100, cid, 8, 500)
+  addEvent(changeMove, 200, cid, 10, 500)
+  addEvent(changeMove, 300, cid, 9, 500)
+   addEvent(changeMove, 400, cid, 11, 500)
+ 
+
+  addEvent(doSendMagicEffect, 600, {x=pos.x+1, y=pos.y+1, z=pos.z}, 93)
+  addEvent(doSendMagicEffect, 800, {x=pos.x+1, y=pos.y+1, z=pos.z}, 93)
+  addEvent(doSendMagicEffect, 1000, {x=pos.x+1, y=pos.y+1, z=pos.z}, 93)
+  addEvent(doSendMagicEffect, 1200, {x=pos.x+1, y=pos.y+1, z=pos.z}, 93)
+
+  stopNow(cid, 1200)
+end
+
 function endhachimonTonkou1(cid)
   stopNow(cid, 400)
   addEvent(actionMove, 0, cid, 8, 500)
@@ -95,6 +112,15 @@ function endhachimonTonkou2(cid)
 end
 function endhachimonTonkou3(cid)
   stopNow(cid, 1200)
+  addEvent(changeMove, 0, cid, 9, 500)
+  addEvent(changeMove, 0, cid, 10, 500)
+  addEvent(changeMove, 100, cid,8 , 500)
+  addEvent(changeMove, 200, cid, 12, -1)
+  
+end
+function endhachimonTonkou4(cid)
+  stopNow(cid, 1200)
+  addEvent(changeMove, 0, cid, 11, 500)
   addEvent(changeMove, 0, cid, 9, 500)
   addEvent(changeMove, 0, cid, 10, 500)
   addEvent(changeMove, 100, cid,8 , 500)

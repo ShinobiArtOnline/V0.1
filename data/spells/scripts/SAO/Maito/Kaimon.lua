@@ -10,7 +10,7 @@ setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 4)
 	
 function onCastSpell(cid, var)
 local info = {
-		mana = 35,
+		mana = 5,
 		speed = 210,
 	}
 
@@ -34,10 +34,7 @@ local info = {
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
 	
-	if(getPlayerStorageValue(cid, sto_jutsu[1]) > os.time() and getPlayerStorageValue(cid, sto_jutsu[1]) < 100+os.time()) then
-		doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
-		return true
-	end
+
 	
 
 	if getCreatureStorage(cid, sto_hachimon[2]) == 0 then

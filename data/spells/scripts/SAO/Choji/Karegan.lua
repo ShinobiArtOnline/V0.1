@@ -4,10 +4,9 @@ setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 8)
 
 
 function onCastSpell(cid,var)
-	if(getPlayerStorageValue(cid, sto_jutsu[1]) > os.time() and getPlayerStorageValue(cid, sto_jutsu[1]) < 100+os.time()) then
-		doPlayerSendTextMessage(cid, 24, "You are exhausted")
-	return true
-	end
+	local combat = createCombatObject()
+local waittime = 1.5 -- czas
+local storage = 115818
 	
 	if checkJutsu(cid, "Nikudan") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
@@ -18,23 +17,19 @@ function onCastSpell(cid,var)
 	if checkJutsu(cid, "Horengan") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
-	if checkJutsu(cid, "Tongarashigan") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu")
-	end
-	if checkJutsu(cid, "Mizudan") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu")
-	end
+	
 	if checkJutsu(cid, "Chou Baika") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
-	if checkJutsu(cid, "Kagemane") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu")
-	end	
+	
 	if getPlayerStorageValue(cid, sto_gen[1]) == 0 then
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end
 ------------------------------------
-
+if exhaustion.check(cid, storage) then
+		doPlayerSendCancel(cid, "You are exhausted")
+		return false
+		end
 	if not isCreature(cid) then
 		return true
 	end
@@ -43,11 +38,12 @@ function onCastSpell(cid,var)
 		setPlayerStorageValue(cid, sto_sensha[3], 0)
 		doAddCondition(cid, buff)
 		removeChakra(cid, 2, 2, sto_sensha[3], "sharingan")	
-		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+		exhaustion.set(cid, storage, waittime)
 	else
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_sensha[3], 1)
-		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
+		exhaustion.set(cid, storage, waittime)
 		
 	end
+	return doCombat(cid,combat, var)
 end

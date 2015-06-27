@@ -12147,19 +12147,17 @@
 	<item id="7401" article="a" name="minotaur trophy">
 		<attribute key="weight" value="500" />
 	</item>
-	<item id="7402" article="a" name="dragon slayer">
-		<attribute key="weight" value="8200" />
-		<attribute key="defense" value="28" />
-		<attribute key="attack" value="44" />
-		<attribute key="weaponType" value="sword" />
-		<attribute key="slotType" value="two-handed" />
+	<item id="7402" article="a" name="slippers">
+		<attribute key="weight" value="85" />
+		<attribute key="defense" value="2" />
+		<attribute key="slotType" value="feet" />
+		
 	</item>
-	<item id="7403" name="berserker">
-		<attribute key="weight" value="13000" />
-		<attribute key="defense" value="21" />
-		<attribute key="attack" value="48" />
-		<attribute key="weaponType" value="sword" />
-		<attribute key="slotType" value="two-handed" />
+	<item id="7403" name="jiraya shoes">
+		<attribute key="weight" value="100" />
+		<attribute key="defense" value="0" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="speed" value="-25" />
 	</item>
 	<item id="7404" article="an" name="assassin dagger">
 		<attribute key="weight" value="1700" />
@@ -12251,12 +12249,11 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="extradef" value="-3" />
 	</item>
-	<item id="7417" name="runed sword">
-		<attribute key="weight" value="4600" />
-		<attribute key="defense" value="32" />
-		<attribute key="attack" value="45" />
-		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="2" />
+	<item id="7417" name="shinobi shoes">
+		<attribute key="weight" value="46" />
+		<attribute key="defense" value="4" />
+		<attribute key="slotType" value="feet" />
+		<attribute key="extradef" value="1" />
 	</item>
 	<item id="7418" article="a" name="nightmare blade">
 		<attribute key="weight" value="5900" />
@@ -12299,12 +12296,11 @@
 		<attribute key="weaponType" value="club" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="7424" article="a" name="lunar staff">
-		<attribute key="weight" value="3800" />
-		<attribute key="defense" value="25" />
-		<attribute key="attack" value="40" />
-		<attribute key="weaponType" value="club" />
-		<attribute key="slotType" value="two-handed" />
+	<item id="7424" article="a" name="black shoes">
+		<attribute key="weight" value="90" />
+		<attribute key="defense" value="6" />
+		<attribute key="slotType" value="feet" />
+	
 	</item>
 	<item id="7425" article="a" name="taurus mace">
 		<attribute key="weight" value="5100" />
@@ -13136,17 +13132,7 @@
 	<item id="7762" article="a" name="enchanted small amethyst" plural="enchanted small amethysts">
 		<attribute key="weight" value="10" />
 	</item>
-	<item id="7763" article="a" name="spike sword">
-		<attribute key="weight" value="5000" />
-		<attribute key="defense" value="21" />
-		<attribute key="attack" value="24" />
-		<attribute key="weaponType" value="sword" />
-		<attribute key="extradef" value="2" />
-		<attribute key="elementIce" value="4" />
-		<attribute key="charges" value="1000" />
-		<attribute key="decayTo" value="2383" />
-		<attribute key="showcharges" value="1" />
-	</item>
+	
 	<item id="7764" article="a" name="relic sword">
 		<attribute key="weight" value="4800" />
 		<attribute key="defense" value="24" />
@@ -17847,6 +17833,19 @@
 		</item>
 		
 		<!-- SWORDY/GLOVY/ -->
+	<item id="11683" article="a" name="grey sword">
+		<attribute key="weight" value="120" />
+		<attribute key="defense" value="15" />
+		<attribute key="attack" value="25" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="11668" article="a" name="shinobi sword">
+		<attribute key="weight" value="120" />
+		<attribute key="defense" value="15" />
+		<attribute key="attack" value="25" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	
 	
 	<item id="11645" article="a" name="bandit glove">
 		<attribute key="weight" value="1800" />
@@ -17869,28 +17868,40 @@
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11638" article="a" name="thor glove">
-		<attribute key="weight" value="1800" />
+		<attribute key="weight" value="180" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	
 	<item id="11644" article="a" name="bandage glove">
-		<attribute key="weight" value="1800" />
+		<attribute key="weight" value="180" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	
-	<item id="11671" article="a" name="Vampire glove">
-		<attribute key="weight" value="1800" />
-		<attribute key="defense" value="10" />
-		<attribute key="attack" value="10" />
+	<item id="11671" article="a" name="mist glove">
+		<attribute key="weight" value="180" />
+		<attribute key="defense" value="25" />
+		<attribute key="attack" value="33" />
 		<attribute key="weaponType" value="fist" />
+	</item>
+	<item id="11621" article="a" name="small scythes">
+		<attribute key="weight" value="80" />
+		<attribute key="defense" value="10" />
+		<attribute key="attack" value="20" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="11675" article="a" name="pirate sword">
+		<attribute key="weight" value="80" />
+		<attribute key="defense" value="24" />
+		<attribute key="attack" value="34" />
+		<attribute key="weaponType" value="sword" />
 	</item>
 	
 	<item id="11648" article="a" name="zabuza speed band">
-		<attribute key="weight" value="1800" />
+		<attribute key="weight" value="180" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="1" />
 		<attribute key="weaponType" value="axe" />
@@ -17911,16 +17922,16 @@
 	</item>
 		
 
-	<item id="11650" article="a" name="taijutsu glove">
+	<item id="11650" article="a" name="death glove">
 		<attribute key="weight" value="2000" />
 		<attribute key="defense" value="12" />
-		<attribute key="attack" value="12" />
+		<attribute key="attack" value="27" />
 		<attribute key="weaponType" value="fist" />
 	</item>
-	<item id="11665" article="a" name="elite taijutsu glove">
-		<attribute key="weight" value="2000" />
-		<attribute key="defense" value="13" />
-		<attribute key="attack" value="13" />
+	<item id="11665" article="a" name="Necromante glover">
+		<attribute key="weight" value="100" />
+		<attribute key="defense" value="20" />
+		<attribute key="attack" value="24" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11663" article="a" name="jounin glove">
@@ -17929,10 +17940,16 @@
 		<attribute key="attack" value="14" />
 		<attribute key="weaponType" value="fist" />
 	</item>
-	<item id="11651" article="a" name="konoha glove">
+	<item id="11652" article="a" name="ronin glove">
 		<attribute key="weight" value="2500" />
-		<attribute key="defense" value="18" />
-		<attribute key="attack" value="18" />
+		<attribute key="defense" value="20" />
+		<attribute key="attack" value="26" />
+		<attribute key="weaponType" value="fist" />
+	</item>
+	<item id="11651" article="a" name="grass glove">
+		<attribute key="weight" value="2500" />
+		<attribute key="defense" value="19" />
+		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11653" article="a" name="sound glove">
@@ -17942,15 +17959,27 @@
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11640" article="a" name="shaolin gloves">
-		<attribute key="weight" value="3000" />
+		<attribute key="weight" value="30" />
 		<attribute key="defense" value="24" />
 		<attribute key="attack" value="24" />
 		<attribute key="weaponType" value="fist" />
 	</item>
-	<item id="11641" article="a" name="ryuka gloves">
+	<item id="11641" article="a" name="lighting glover">
+		<attribute key="weight" value="150" />
+		<attribute key="defense" value="25" />
+		<attribute key="attack" value="30" />
+		<attribute key="weaponType" value="fist" />
+	</item>
+	<item id="11646" article="a" name="shadow glover">
+		<attribute key="weight" value="150" />
+		<attribute key="defense" value="15" />
+		<attribute key="attack" value="20" />
+		<attribute key="weaponType" value="fist" />
+	</item>
+	<item id="11673" article="a" name="water glover">
 		<attribute key="weight" value="3500" />
-		<attribute key="defense" value="28" />
-		<attribute key="attack" value="28" />
+		<attribute key="defense" value="20" />
+		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	
@@ -18040,15 +18069,33 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="11620" article="a" name="asuma fist">
-		<attribute key="weight" value="1500" />
+		<attribute key="weight" value="70" />
 		<attribute key="defense" value="8" />
 		<attribute key="attack" value="15" />
 		<attribute key="weaponType" value="fist" />
 	</item>
-	<item id="11610" article="a" name="knife">
-		<attribute key="weight" value="1500" />
-		<attribute key="defense" value="3" />
-		<attribute key="attack" value="6" />
+	<item id="11610" article="a" name="light sword">
+		<attribute key="weight" value="70" />
+		<attribute key="defense" value="8" />
+		<attribute key="attack" value="13" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="11672" article="a" name="stick">
+		<attribute key="weight" value="70" />
+		<attribute key="defense" value="18" />
+		<attribute key="attack" value="25" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="11317" article="a" name="halabard">
+		<attribute key="weight" value="70" />
+		<attribute key="defense" value="17" />
+		<attribute key="attack" value="23" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+		<item id="11615" article="a" name="thief sword">
+		<attribute key="weight" value="70" />
+		<attribute key="defense" value="8" />
+		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11680" article="a" name="katana">
@@ -18087,6 +18134,18 @@
 		<attribute key="attack" value="22" />
 		<attribute key="weaponType" value="sword" />
 	</item>
+	<item id="11611" article="a" name="shadow scythe">
+		<attribute key="weight" value="100" />
+		<attribute key="defense" value="10" />
+		<attribute key="attack" value="18" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="11614" article="a" name="death scythe">
+		<attribute key="weight" value="100" />
+		<attribute key="defense" value="14" />
+		<attribute key="attack" value="21" />
+		<attribute key="weaponType" value="sword" />
+	</item>
 	<item id="11623" article="a" name="second scythe">
 		<attribute key="weight" value="2600" />
 		<attribute key="defense" value="17" />
@@ -18100,11 +18159,11 @@
 		<attribute key="attack" value="25" />
 		<attribute key="weaponType" value="sword" />
 	</item>
-	<item id="11642" article="a" name="shark absorb sword">
-		<attribute key="weight" value="3000" />
-		<attribute key="defense" value="26" />
-		<attribute key="attack" value="42" />
-		<attribute key="weaponType" value="sword" />
+	<item id="11642" article="a" name="magma glover">
+		<attribute key="weight" value="130" />
+		<attribute key="defense" value="23" />
+		<attribute key="attack" value="30" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11666" article="a" name="chakra eletric katana">
 		<attribute key="weight" value="2800" />
@@ -18112,10 +18171,16 @@
 		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="sword" />
 	</item>
-	<item id="11655" article="a" name="hiramekarei">
-		<attribute key="weight" value="5000" />
-		<attribute key="defense" value="30" />
-		<attribute key="attack" value="40" />
+	<item id="11655" article="a" name="samurai swords">
+		<attribute key="weight" value="160" />
+		<attribute key="defense" value="28" />
+		<attribute key="attack" value="36" />
+		<attribute key="weaponType" value="sword" />
+	</item>
+	<item id="11624" article="a" name="samurai sword">
+		<attribute key="weight" value="160" />
+		<attribute key="defense" value="22" />
+		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11681" article="a" name="electric bracelet">
@@ -18145,16 +18210,10 @@
 		<attribute key="weight" value="49" />
 		<attribute key="extradef" value="2" />
 	</item>
-	<item id="11624" name="samurai sword">
-		<attribute key="defense" value="25" />
-		<attribute key="attack" value="42" />
-		<attribute key="weaponType" value="sword" />
-		<attribute key="weight" value="49" />
-		
-	</item>
+	
 	<item id="11607" name="drachaku">
-		<attribute key="defense" value="8" />
-		<attribute key="attack" value="12" />
+		<attribute key="defense" value="7" />
+		<attribute key="attack" value="11" />
 		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="weight" value="60" />
@@ -18168,10 +18227,24 @@
 	</item>
 	
 	
-	<item id="11677" name="zaoan halberd">
-		<attribute key="defense" value="15" />
-		<attribute key="attack" value="37" />
-		<attribute key="weaponType" value="axe" />
+	<item id="11677" name="light halberd">
+		<attribute key="defense" value="25" />
+		<attribute key="attack" value="30" />
+		<attribute key="weaponType" value="sword" />
+		<attribute key="slotType" value="two-handed" />
+		<attribute key="weight" value="87" />
+	</item>
+	<item id="11637" name="magma sword">
+		<attribute key="defense" value="23" />
+		<attribute key="attack" value="30" />
+		<attribute key="weaponType" value="sword" />
+		<attribute key="slotType" value="two-handed" />
+		<attribute key="weight" value="87" />
+	</item>
+	<item id="7763" name="water sword">
+		<attribute key="defense" value="20" />
+		<attribute key="attack" value="30" />
+		<attribute key="weaponType" value="sword" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="weight" value="87" />
 	</item>
@@ -18539,10 +18612,10 @@
 		<attribute key="slotType" value="feet" />
 		<attribute key="weight" value="700" />
 	</item>
-	<item id="11823" name="Speed boots">
-		<attribute key="armor" value="1" />
+	<item id="11823" name="great boots">
+		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="weight" value="700" />
+		<attribute key="weight" value="70" />
 	</item>
 	<item id="11824" name="Skeleton boots">
 		<attribute key="armor" value="1" />
@@ -18720,9 +18793,11 @@
 		<attribute key="slotType" value="ring" />
 		<attribute key="weight" value="6600" />
 	</item>
-	<item id="11811" name="Ninjutsu scroll">
-		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="6600" />
+	<item id="11811" name="Blue shoes">
+		<attribute key="weight" value="75" />
+		<attribute key="armor" value="9" />
+		<attribute key="slotType" value="feet" />
+		
 	</item>
 	<item id="11812" name="Cos scroll">
 		<attribute key="slotType" value="ring" />

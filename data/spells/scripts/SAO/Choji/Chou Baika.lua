@@ -13,8 +13,8 @@ chakra = 65
 
 local buff = createConditionObject(CONDITION_ATTRIBUTES)
 setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
-setConditionParam(buff, CONDITION_PARAM_SKILL_SHIELD, 25)
-setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 5)-- evaluation
+setConditionParam(buff, CONDITION_PARAM_SKILL_SHIELD, 15)
+setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 5)-- evaluation
 
 
 function onCastSpell(cid, var)

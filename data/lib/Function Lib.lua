@@ -91,8 +91,8 @@ function removeChakra(cid, percent, time, storage, type)
     doCreatureAddMana(cid, -remove)
    else
     doCreatureAddMana(cid, -remove)
-    doCreatureAddHealth(cid, -remove)
-    doSendAnimatedText(getCreaturePosition(cid), remove, COLOR_RED)
+    --doCreatureAddHealth(cid, -remove)
+   -- doSendAnimatedText(getCreaturePosition(cid), remove, COLOR_RED)
    end
   else
    doCreatureAddMana(cid, remove)

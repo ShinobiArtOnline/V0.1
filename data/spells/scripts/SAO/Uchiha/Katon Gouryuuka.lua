@@ -36,15 +36,14 @@ local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.30))
 	
 ------------------------
 	if isPlayer(cid) then
-		removeChakraLife(cid, - confg.chakra)
-		addEvent(doCreatureSay, 10, cid, "Katon:", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 30, cid, "Gouryuuka no Jutsu!!!", TALKTYPE_MONSTER)
+		
+		
 		
 		local target = getCreatureTarget(cid)
 		local pos = getCreaturePosition(target)
-		for i = 1,6 do
-			addEvent(doSendDistanceShoot, 30+(200*i), getCreaturePosition(cid), pos, 11)
-				addEvent(doAreaCombatHealth, 30+(200*i), cid, COMBAT_FIREDAMAGE, pos, 0, mdmg, dmg, 5)
+		for i = 1,2 do
+			addEvent(doSendDistanceShoot, 3+(2*i), getCreaturePosition(cid), pos, 11)
+				addEvent(doAreaCombatHealth, 3+(2*i), cid, COMBAT_FIREDAMAGE, pos, 0, mdmg, dmg, 5)
 			end
 		
 	end

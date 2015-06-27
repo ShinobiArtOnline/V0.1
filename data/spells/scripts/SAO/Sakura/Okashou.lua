@@ -20,8 +20,7 @@ function onCastSpell(cid, var)
 		}
 	
 		
-		addEvent(doCreatureSay, 10, cid, "CHOUDAN", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 20, cid, "BAKUGEKI..", TALKTYPE_MONSTER)
+		
 		
 		local level = getPlayerLevel(cid) 
 		local jutsuDmg = 16
