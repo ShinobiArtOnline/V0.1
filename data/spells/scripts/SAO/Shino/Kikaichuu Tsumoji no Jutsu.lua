@@ -43,22 +43,20 @@ end
 
    if isPlayer(cid) then
         removeChakraLife(cid, - confg.chakra)
-		addEvent(doCreatureSay, 0, cid, "Kikkaichu", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 0, cid, "Tsumoji !", TALKTYPE_MONSTER)
+		
 		
 		
 local level = getPlayerLevel(cid)
 local mlevel = getPlayerMagLevel(cid) 
-local jutsuDmg = 26
-
+local jutsuDmg = 65
 local pos = pos or getCreaturePosition(cid)
 local target = getCreatureTarget(cid)
 local dir = (target ~= 0) and getDirectionTo(pos, getCreaturePosition(target)) or getCreatureLookDirection(cid)
 local tpos = (target ~= 0) and getCreaturePosition(target)
 local newPos = getPosByDir(pos, dir)
 local skill_factor = math.ceil((mlevel + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.20))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.45) * jutsuDmg)*0.70))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.70))
 		addEvent(doAreaCombatHealth, 0, cid, COMBAT_PHYSICALDAMAGE, newPos, NARASHI, mdmg, dmg, 31)
 		--addEvent(doAreaCombatHealth, 0, cid, COMBAT_PHYSICALDAMAGE, tpos, 1, dmg, dmg, 35)
 		addEvent(doAreaCombatMana, 0, cid, newPos, 1, mdmg, dmg, 255)

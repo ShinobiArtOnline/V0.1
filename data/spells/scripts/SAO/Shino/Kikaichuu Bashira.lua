@@ -17,10 +17,10 @@ if checkCmd(cid, "mold") then
 		end
 local level = getPlayerLevel(cid)
 local mlevel = getPlayerMagLevel(cid) 
-local jutsuDmg = 26
+local jutsuDmg = 20
 local skill_factor = math.ceil((mlevel + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.20))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
 	
 	addEvent(doCreatureSay, 50, cid, "Kikkaichu", TALKTYPE_MONSTER)
 	addEvent(doCreatureSay, 200, cid, "Bashira!", TALKTYPE_MONSTER)

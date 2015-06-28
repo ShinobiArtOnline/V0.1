@@ -3,14 +3,14 @@ local waittime = 1.5 -- czas
 local storage = 115818
 
  local config = {
-                jumps = 8,
-                walktime = 210
+                jumps = 6,
+                walktime = 150
 }
 
 combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, 87)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1, -10, -1, -15, 5, 5, 1.8, 3, -20, -40)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1, -9, -1, -8, 3, 3, 1.8, 2, -1.9, -1.5)
 
 
 function onCastSpell(cid)

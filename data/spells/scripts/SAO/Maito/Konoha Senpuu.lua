@@ -27,10 +27,10 @@ iniSenpuu(cid)
 		addEvent(doCreatureSay, 1, cid, "KONOHA!", TALKTYPE_MONSTER)
 		addEvent(doCreatureSay, 4, cid, "SENPUU!", TALKTYPE_MONSTER)
 	local level = getPlayerLevel(cid) 
-	local jutsuDmg = 12
-	local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
-	local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
-	local mdmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
+	local jutsuDmg = 37
+	local skill_factor = math.ceil((jutsuSkill_factor(cid,0) + level)/2)
+	local dmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.55))
+	local mdmg = - math.max(1, math.ceil(((skill_factor*0.35) * jutsuDmg)*0.55))
 		local pos = getCreaturePosition(cid)
 		pos = getPosfromArea(cid,area)
 		n = 0

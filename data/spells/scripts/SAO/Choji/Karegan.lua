@@ -37,7 +37,7 @@ if exhaustion.check(cid, storage) then
         doCreatureSay(cid, "Karegan!", TALKTYPE_MONSTER)
 		setPlayerStorageValue(cid, sto_sensha[3], 0)
 		doAddCondition(cid, buff)
-		removeChakra(cid, 2, 2, sto_sensha[3], "sharingan")	
+		removeChakra(cid, 40, 2, sto_sensha[3], "sharingan")	
 		exhaustion.set(cid, storage, waittime)
 	else
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)

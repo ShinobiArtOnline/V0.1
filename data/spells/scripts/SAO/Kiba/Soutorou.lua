@@ -71,7 +71,7 @@ if exhaustion.check(cid, storage) then
 		setPlayerStorageValue(cid, storage2, 1)
 		setPlayerStorageValue(cid, storage, 1)
 		setPlayerStorageValue(cid, sto_inuzuka[3], 0)
-		removeChakra(cid, 4, 2, sto_inuzuka[3], "sharingan")
+		removeChakra(cid, 45, 2, sto_inuzuka[3], "sharingan")
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 		else
 		doPlayerSendCancel(cid, "You don't have enough level.")

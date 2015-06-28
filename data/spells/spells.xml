@@ -4,7 +4,7 @@
    <!--- Wszystkie postaci, podstawowe spelle -->
    
    
-   <instant name="Heal" words="Chiyute" lvl="1" mana="15" aggressive="0" selftarget="1" exhaustion="1500" needlearn="0" event="script" value="Dla wszystkich postaci/chiyute.lua">
+   <instant name="Heal" words="Chiyute" lvl="8" mana="95" aggressive="0" selftarget="1" exhaustion="1500" needlearn="0" event="script" value="Dla wszystkich postaci/chiyute.lua">
 	</instant>
 	<instant name="Chakra Rest" words="chakra rest" lvl="1" mana="25" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="Dla wszystkich postaci/chakra rest.lua">
 	</instant>
@@ -12,11 +12,11 @@
 	</instant>
 	<instant name="Full Light" words="ranpu" lvl="1" mana="1" prem="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/full light.lua">
 	</instant>
-	<instant name="Chakra Impulse" words="chakra impulse" lvl="15" mana="25" prem="0" aggressive="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/haste.lua">
+	<instant name="Chakra Impulse" words="chakra impulse" lvl="15" mana="100" prem="0" aggressive="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/haste.lua">
 	</instant>
    <instant name="Kai!" words="kai" lvl="30" mana="100" prem="0" aggressive="0" exhaustion="1000" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/kai.lua">
 	</instant>
-	<instant name="Throw Big Shuriken" words="throw big shuriken" lvl="25" mana="1000" prem="0" needtarget="1" range="6" exhaustion="1200" blockwalls="1" needlearn="0" script="Dla wszystkich postaci/big.lua">
+	<instant name="Throw Big Shuriken" words="throw big shuriken" lvl="5" mana="1000" prem="0" needtarget="1" range="6" exhaustion="1200" blockwalls="1" needlearn="0" script="Dla wszystkich postaci/big.lua">
 	</instant>
    
    
@@ -112,7 +112,7 @@
 		<vocation id="38"/>
 		<vocation id="39"/>
 	</instant>
-	<instant name="Tsuga no Jutsu" words="Tsu" lvl="25" mana="205" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Kiba/Tsuuga.lua">
+	<instant name="Tsuga no Jutsu" words="Tsuuga" lvl="25" mana="205" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" event="script" value="SAO/Kiba/Tsuuga.lua">
 		<vocation id="1"/>
 		<vocation id="37"/>
 		<vocation id="38"/>
@@ -124,25 +124,20 @@
 		<vocation id="38"/>
 		<vocation id="39"/>
 	</instant>
-	<instant name="Kizu" words="Kizu" lvl="50" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"  event="script" value="SAO/Kiba/Kizu.lua">
+	<instant name="Kizu" words="Kizu" lvl="50" mana="150" aggressive="0" selftarget="0" exhaustion="1000" range="5" needlearn="0" needtarget="1"  event="script" value="SAO/Kiba/Kizu.lua">
 		<vocation id="1"/>
 		<vocation id="37"/>
 		<vocation id="38"/>
 		<vocation id="39"/>
 	</instant>
-	<instant name="Dinamyc Marking" words="Dinamyc Marking" lvl="50" mana="550" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"  event="script" value="SAO/Kiba/Dinamyc Marking.lua">
+	
+	<instant name="Moko Taiko" words="Moko Taiko" lvl="120" mana="1850" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"  event="script" value="SAO/Kiba/Moko Taiko.lua">
 		<vocation id="1"/>
 		<vocation id="37"/>
 		<vocation id="38"/>
 		<vocation id="39"/>
 	</instant>
-	<instant name="Moko Taiko" words="Moko Taiko" lvl="150" mana="2800" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"  event="script" value="SAO/Kiba/Moko Taiko.lua">
-		<vocation id="1"/>
-		<vocation id="37"/>
-		<vocation id="38"/>
-		<vocation id="39"/>
-	</instant>
-	<instant name="Bite" words="Bite" lvl="70" mana="650" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="0"  event="script" value="SAO/Kiba/Bite.lua">
+	<instant name="Bite" words="Bite" lvl="75" mana="650" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="0"  event="script" value="SAO/Kiba/Bite.lua">
 		<vocation id="1"/>
 		<vocation id="37"/>
 		<vocation id="38"/>
@@ -160,7 +155,7 @@
 		<vocation id="11"/>
 		<vocation id="12"/>
 	</instant>
-	<instant name="Bubun" words="Bubun Baika" lvl="35" mana="145" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Bubun Baika.lua">
+	<instant name="Bubun" words="Bubun Baika" lvl="25" mana="145" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Bubun Baika.lua">
 		<vocation id="3"/>
 		<vocation id="10"/>
 		<vocation id="11"/>
@@ -172,13 +167,13 @@
 		<vocation id="11"/>
 		<vocation id="12"/>
 	</instant>
-	<instant name="Choudan" words="Choudan Bakugeki" lvl="95" mana="650" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Choudan Bakugeki.lua">
+	<instant name="Choudan" words="Choudan Bakugeki" lvl="75" mana="550" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Choudan Bakugeki.lua">
 		<vocation id="3"/>
 		<vocation id="10"/>
 		<vocation id="11"/>
 		<vocation id="12"/>
 	</instant>
-	<instant name="Harite" words="Harite Chou" lvl="65" mana="400" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Harite Chou.lua">
+	<instant name="Harite" words="Harite Chou" lvl="120" mana="1850" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Choji/Harite Chou.lua">
 		<vocation id="3"/>
 		<vocation id="10"/>
 		<vocation id="11"/>
@@ -247,7 +242,7 @@
 		<vocation id="34"/>
 		<vocation id="35"/>
 	</instant>
-	<instant name="Katon Gouryuuka" words="Gouryuuka" lvl="120" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Katon Gouryuuka.lua">
+	<instant name="Katon Gouryuuka" words="Gouryuuka" lvl="120" mana="150" aggressive="0" selftarget="0" exhaustion="1000" needtarget="1" needlearn="0"  event="script" value="SAO/Uchiha/Katon Gouryuuka.lua">
 		<vocation id="7"/>
 		<vocation id="30"/>
 		<vocation id="31"/>
@@ -256,7 +251,7 @@
 		<vocation id="34"/>
 		<vocation id="35"/>
 	</instant>
-	<instant name="Katon Housenka no Jutsu" words="Housenka no Jutsu" lvl="100" mana="1750" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"   event="script" value="SAO/Uchiha/Katon Housenka no Jutsu.lua">
+	<instant name="Katon Housenka no Jutsu" words="Housenka no Jutsu" lvl="100" mana="1750" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1" range="5"  event="script" value="SAO/Uchiha/Katon Housenka no Jutsu.lua">
 		<vocation id="7"/>
 		<vocation id="30"/>
 		<vocation id="31"/>
@@ -266,7 +261,7 @@
 		<vocation id="35"/>
 	</instant>
 	
-	<instant name="Katon Karyuudan" words="Karyuudan" lvl="50" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"   event="script" value="SAO/Uchiha/Katon Karyuudan.lua">
+	<instant name="Katon Karyuudan" words="Katon Karyuudan" lvl="50" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="1"   event="script" value="SAO/Uchiha/Katon Karyuudan.lua">
 		<vocation id="7"/>
 		<vocation id="30"/>
 		<vocation id="31"/>
@@ -292,6 +287,8 @@
 		<vocation id="33"/>
 		<vocation id="34"/>
 		<vocation id="35"/>
+	</instant>
+	<instant name="Amaterasu" words="Amaterasu" lvl="150" mana="2100" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0"  event="script" value="SAO/Uchiha/Amaterasu.lua">
 	</instant>
 	<instant name="Sharingan Level 1" words="Sharingan Level 1" lvl="10" mana="150" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Uchiha/Sharingan Level 1.lua">
 		<vocation id="7"/>
@@ -329,8 +326,7 @@
 		<vocation id="34"/>
 		<vocation id="35"/>
 	</instant>
-	<instant name="Amaterasu" words="Amaterasu" lvl="150" mana="2100" aggressive="0" selftarget="0" exhaustion="1000" direction="0" needtarget="1" needlearn="0"  event="script" value="SAO/Uchiha/Amaterasu.lua">
-	</instant>
+	
 	
 	<!--- Neji -->
 	
@@ -372,8 +368,7 @@
 		<vocation id="26"/>
 		<vocation id="27"/>
 	</instant>
-	<instant name="Hakkeshou Kaiten no Jutsu" words="Hakkeshou Kaiten" lvl="50" mana="650" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakkeshou Kaiten.lua">
-		
+	<instant name="Hakkeshou Kaiten no Jutsu" words="Hakkeshou Kaiten" lvl="50" mana="650" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakkeshou Kaiten.lua">	
 	</instant>
 	
 	<instant name="Byakugan" words="Byakugan" lvl="10" mana="0" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" needtarget="0"  event="script" value="SAO/Neji/Byakugan.lua">
@@ -422,7 +417,7 @@
 		<vocation id="22"/>
 	</instant>
 	
-	<instant name="Kage Kubishibari no Jutsu" words="Kage Kubishibari no Jutsu" lvl="75" mana="750" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="0"  event="script" value="SAO/Nara Shikamaru/Kage Kubishibari no Jutsu.lua">
+	<instant name="Kage Kubishibari no Jutsu" words="Kage Kubishibari no Jutsu" lvl="120" mana="750" aggressive="0" selftarget="0" exhaustion="1000" direction="1" needlearn="0" needtarget="0"  event="script" value="SAO/Nara Shikamaru/Kage Kubishibari no Jutsu.lua">
 		<vocation id="5"/>
 		<vocation id="20"/>
 		<vocation id="21"/>
@@ -526,7 +521,7 @@
 		<vocation id="51"/>
 		<vocation id="52"/>
 	</instant>
-	<instant name="Ninpo Soza Size" words="Ninpo Soza Size" lvl="100" mana="1250" prem="0" aggressive="0" needtarget="0"  exhaustion="800"  needlearn="0" event="script" value="SAO/Sakura/Ninpo Soza Size.lua">
+	<instant name="Ninpo Soza Size" words="Ninpo Soza Size" lvl="100" mana="1250" prem="0" aggressive="0" needtarget="0"  exhaustion="800"  needlearn="0" event="script" value="Dla wszystkich postaci/saisei.lua">
 		<vocation id="8"/>
 		<vocation id="48"/>
 		<vocation id="49"/>
@@ -550,16 +545,17 @@
 		<vocation id="51"/>
 		<vocation id="52"/>
 	</instant> 
-	<instant name="Okashou" words="Okashou" lvl="50" mana="550" prem="0" aggressive="0" needtarget="0"  exhaustion="800"  needlearn="0" event="script" value="SAO/Sakura/Okashou.lua">
+	<instant name="Okashou" words="Okashou" lvl="50" mana="500" prem="0" needtarget="0" exhaustion="1000" needlearn="0" event="script" value="SAO/Sakura/Okashou.lua">
 		<vocation id="8"/>
 		<vocation id="48"/>
 		<vocation id="49"/>
 		<vocation id="50"/>
 		<vocation id="51"/>
 		<vocation id="52"/>
-	</instant>
+	</instant> 
 	
-	<instant name="Chakra no mesu" words="Chakra no mesu" lvl="75" mana="20" prem="0" aggressive="0" needtarget="1"  exhaustion="1000"  needlearn="0" event="script" value="SAO/Sakura/Chakra no mesu.lua">
+	
+	<instant name="Chakra no mesu" words="Chakra no mesu" lvl="25" mana="205" prem="0" aggressive="0" needtarget="1"  exhaustion="1000"  needlearn="0" event="script" value="SAO/Sakura/Chakra no mesu.lua">
 		<vocation id="8"/>
 		<vocation id="48"/>
 		<vocation id="49"/>

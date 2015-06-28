@@ -1,8 +1,8 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_HEALING)
-setCombatParam(combat, COMBAT_PARAM_EFFECT, 7)
-
-setHealingFormula(combat, COMBAT_FORMULA_LEVELMAGIC, 5, 5, 3, 2)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
+setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
+setHealingFormula(combat, COMBAT_FORMULA_LEVELMAGIC, 3, 5, 3, 2)
 
 function onCastSpell(cid, var)
 local waittime = 0.8 -- Tempo de exhaustion

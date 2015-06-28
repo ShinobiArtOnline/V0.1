@@ -180,8 +180,8 @@
 	confirmOutdatedVersion = false
 
 	-- Spells
-	formulaLevel = 2.0
-	formulaMagic = 1.5
+	formulaLevel = 1.0
+	formulaMagic = 1.0
 	bufferMutedOnSpellFailure = false
 	spellNameInsteadOfWords = true
 	emoteSpells = true
@@ -244,10 +244,10 @@
 	-- NOTE: experienceStages configuration is located in data/XML/stages.xml.
 	-- rateExperienceFromPlayers 0 to disable.
 	experienceStages = false
-	rateExperience = 5.0
+	rateExperience = 1.0
 	rateExperienceFromPlayers = 0
-	rateSkill = 10
-	rateMagic = 5
+	rateSkill = 5
+	rateMagic = 2
 	rateLoot = 5
 	rateSpawn = 1
 

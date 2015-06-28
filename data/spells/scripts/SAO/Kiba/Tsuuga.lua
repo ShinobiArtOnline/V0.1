@@ -12,10 +12,10 @@ local function onDash(cid)
 		return true
 	end
 local level = getPlayerLevel(cid) 
-local jutsuDmg = 16
+local jutsuDmg = 37
 local skill_factor = math.ceil((jutsuSkill_factor(cid,0) + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.4))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.2) * jutsuDmg)*0.4))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.55))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.35) * jutsuDmg)*0.55))
 	local poslook = getCreatureLookPosition(cid)
 	poslook.stackpos = STACKPOS_TOP_MOVEABLE_ITEM_OR_CREATURE
      if isWalkable(poslook, false, false, true) then

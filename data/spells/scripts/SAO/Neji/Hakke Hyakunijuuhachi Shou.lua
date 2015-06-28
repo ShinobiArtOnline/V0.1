@@ -64,17 +64,17 @@ function onCastSpell(cid, var)
    }
    addEvent(playerSay, 0, cid, "Hakke..")
   
-   addEvent(playerSay, 1400, cid, "Ni Shou")
-   addEvent(playerSay, 1600, cid, "Yon Shou")
+   addEvent(playerSay, 120, cid, "Ni Shou")
+   addEvent(playerSay, 550, cid, "Yon Shou")
  
-   addEvent(playerSay, 1800, cid, "Hachi Shou")
-   addEvent(playerSay, 2100, cid, "Juuroku Shou")
+   addEvent(playerSay, 800, cid, "Hachi Shou")
+   addEvent(playerSay, 900, cid, "Juuroku Shou")
  
-   addEvent(playerSay, 2200, cid, "SANJUUNI SHOU!!!")
+   addEvent(playerSay, 1000, cid, "SANJUUNI SHOU!!!")
   
-   addEvent(playerSay, 3300, cid, "ROKUJUUYON SHOU!!!!")
+   addEvent(playerSay, 1200, cid, "ROKUJUUYON SHOU!!!!")
 
-   addEvent(playerSay, 3700, cid, "HYAKUNIJUUHACHI SHOU!!!!")
+   addEvent(playerSay, 2000, cid, "HYAKUNIJUUHACHI SHOU!!!!")
  
  
    
@@ -87,10 +87,10 @@ function onCastSpell(cid, var)
    end  
 
 local level = getPlayerMagLevel(cid)
-local jutsuDmg = 5
+local jutsuDmg = 23
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.6) * jutsuDmg)*0.10))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.10))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.6) * jutsuDmg)*0.4))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.4))
 local min = -mdmg
 local max = -dmg
    local find_area = getCreaturePosition(cid)
@@ -101,17 +101,11 @@ local max = -dmg
 addEvent(playerCombat, 300, cid, (min), (max))	 
 addEvent(playerCombat, 500, cid, (min), (max))
 addEvent(playerCombat, 900, cid, (min), (max))
+addEvent(playerCombat, 1100, cid, (min), (max))
 addEvent(playerCombat, 1300, cid, (min), (max))
-addEvent(playerCombat, 1600, cid, (min), (max))
-addEvent(playerCombat, 1900, cid, (min), (max))
-addEvent(playerCombat, 2100, cid, (min), (max))
-addEvent(playerCombat, 2300, cid, (min), (max))
-addEvent(playerCombat, 2500, cid, (min), (max))
-addEvent(playerCombat, 2700, cid, (min), (max))	
-addEvent(playerCombat, 2900, cid, (min), (max))
-addEvent(playerCombat, 2100, cid, (min), (max))
-addEvent(playerCombat, 3300, cid, (min), (max))
-addEvent(playerCombat, 3500, cid, (min), (max))
+addEvent(playerCombat, 1500, cid, (min), (max))
+addEvent(playerCombat, 1700, cid, (min), (max))
+addEvent(playerCombat, 2000, cid, (min), (max))
 exhaustion.set(cid, storage, waittime)
 return doCombat(cid,combat, var)
    end

@@ -42,7 +42,7 @@ if exhaustion.check(cid, storage) then
         doCreatureSay(cid, "Horengan!", TALKTYPE_MONSTER)
 		setPlayerStorageValue(cid, sto_sensha[2], 0)
 		doAddCondition(cid, buff)
-		removeChakra(cid, 1, 2, sto_sensha[2], "sharingan")
+		removeChakra(cid, 5, 2, sto_sensha[2], "sharingan")
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	else
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)

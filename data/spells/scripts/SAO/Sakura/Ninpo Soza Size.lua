@@ -1,7 +1,7 @@
 local config = {
 cooldown = 10, -- ehaustion
-time = 5, -- czas
-percent = 5, --- procent hp 
+time = 1, -- czas
+percent = 50, --- procent hp 
 storage = 19330,
 effect = 7, --- efekt
 mana = 40 -- mana

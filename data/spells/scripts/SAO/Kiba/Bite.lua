@@ -13,15 +13,16 @@ function onCastSpell(cid, var)
 		doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
-		local pet = getPlayerPet(cid)
+		
 		local find_area = getFirstCreaturePosOnDirection(cid, 1)
 local level = getPlayerLevel(cid) 
-local jutsuDmg = 8
+local jutsuDmg = 45
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.3))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.45) * jutsuDmg)*0.3))
 		
-		doAreaCombatHealth(cid, 1, getCreaturePosition(cid),BITE, BITE, dmg, 77)
-		doAreaCombatHealth(cid, 1, getThingPos(cid), BITE, dmg, dmg, 255)
+		doAreaCombatHealth(cid, 1, getCreaturePosition(cid),BITE, mdmg, dmg, 77)
+		doAreaCombatHealth(cid, 1, getThingPos(cid), BITE, mdmg, dmg, 255)
 		doCreatureSay(cid, "Bite!!", TALKTYPE_MONSTER)
 		exhaustion.set(cid, storage, waittime)
 		 return doCombat(cid,combat, var)

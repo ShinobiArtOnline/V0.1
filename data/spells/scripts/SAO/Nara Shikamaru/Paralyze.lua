@@ -5,7 +5,6 @@ local storage = 115818
 
 local condition = createConditionObject(CONDITION_PARALYZE)
 setConditionParam(condition, CONDITION_PARAM_TICKS, 5000)
-setConditionFormula(condition, -0.8, 0, -0.8, 0)
 setCombatCondition(combat, condition)
 
 function onCastSpell(cid, var)
@@ -18,17 +17,16 @@ function onCastSpell(cid, var)
 		end
 local level = getPlayerLevel(cid)
 local mlevel = getPlayerMagLevel(cid) 
-local jutsuDmg = 10
+local jutsuDmg = 60
 local skill_factor = math.ceil((mlevel + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.54))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.54))
 local find_area = getFirstCreaturePosOnDirection(cid, 1)
 local pos = getCreaturePosition(cid)
 
 
 	
-	addEvent(doCreatureSay, 20, cid, "Kage:", TALKTYPE_MONSTER)
-	addEvent(doCreatureSay, 30, cid, "Kubishibari no Jutsu!", TALKTYPE_MONSTER)
+	
 
 	if getCreatureLookDir(cid) == 0 then
 		addEvent(doAreaCombatHealth, 30, cid, COMBAT_PHYSICALDAMAGE, find_area, KAGE1, mdmg, dmg, 255)

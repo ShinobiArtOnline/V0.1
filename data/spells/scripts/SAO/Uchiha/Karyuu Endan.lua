@@ -1,5 +1,5 @@
 local combat = createCombatObject()
-local waittime = 1.5 -- czas
+local waittime = 1.2 -- czas
 local storage = 115818
 function onCastSpell(cid, var)
 if not isCreature(cid) then
@@ -7,7 +7,7 @@ return true
 end
 local level = getPlayerLevel(cid)
 local mlevel = getPlayerMagLevel(cid) 
-local jutsuDmg = 26
+local jutsuDmg = 35
 local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
@@ -16,8 +16,7 @@ if exhaustion.check(cid, storage) then
 		return false
 		end
 
-addEvent(doCreatureSay, 20, cid, "Katon:", TALKTYPE_MONSTER)
-addEvent(doCreatureSay, 60, cid, "KARYUU ENDAN!", TALKTYPE_MONSTER)
+
 local find_area = getFirstCreaturePosOnDirection(cid,1)
 local pos = getCreaturePosition(cid)
 if getCreatureLookDir(cid) == 0 then

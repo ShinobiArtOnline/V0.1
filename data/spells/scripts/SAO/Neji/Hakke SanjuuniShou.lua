@@ -62,13 +62,13 @@ if exhaustion.check(cid, storage) then
    }
    addEvent(playerSay, 0, cid, "Hakke..")
   
-   addEvent(playerSay, 1400, cid, "Ni Shou")
-   addEvent(playerSay, 2100, cid, "Yon Shou")
+   addEvent(playerSay, 140, cid, "Ni Shou")
+   addEvent(playerSay, 210, cid, "Yon Shou")
    
-   addEvent(playerSay, 2800, cid, "Hachi Shou")
-   addEvent(playerSay, 3600, cid, "Juuroku Shou")
+   addEvent(playerSay, 280, cid, "Hachi Shou")
+   addEvent(playerSay, 360, cid, "Juuroku Shou")
 
-   addEvent(playerSay, 4900, cid, "SANJUUNI SHOU!!!")
+   addEvent(playerSay, 490, cid, "SANJUUNI SHOU!!!")
 
 
    for i = 1,21 do
@@ -81,44 +81,27 @@ if exhaustion.check(cid, storage) then
    
 	local level = getPlayerMagLevel(cid)
 		local mlevel = getPlayerMagLevel(cid) 
-		local jutsuDmg = 3
+		local jutsuDmg = 23
 		local skill_factor = math.ceil((mlevel + level)/3)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.10))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.10))
-local min = -dmg
-local max = -mdmg
+local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.3))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.45) * jutsuDmg)*0.3))
+local min = -mdmg
+local max = -dmg
 
    local find_area = getFirstCreaturePosOnDirection(cid,1)
-   for i = 1,10 do
+   for i = 1,9 do
    if isPlayer(getThingfromPos(find_area).uid) then
          addEvent(doPlayerAddMana, 700 + (700*i), getThingfromPos(find_area).uid, -(min*i))
    end
 addEvent(playerCombat, 70, cid, (min), (max))	 
-addEvent(playerCombat, 110, cid,(min), (max))
-addEvent(playerCombat, 130, cid, (min), (max))
-addEvent(playerCombat, 150, cid, (min), (max))
-addEvent(playerCombat, 170, cid, (min), (max))
-addEvent(playerCombat, 190, cid, (min), (max))
-addEvent(playerCombat, 210, cid, (min), (max))
-addEvent(playerCombat, 230, cid, (min), (max))
 addEvent(playerCombat, 250, cid, (min), (max))
-addEvent(playerCombat, 270, cid, (min), (max))	
-addEvent(playerCombat, 290, cid, (min), (max))
-addEvent(playerCombat, 310, cid, (min), (max))
-addEvent(playerCombat, 330, cid, (min), (max))
-addEvent(playerCombat, 350, cid, (min), (max))
-addEvent(playerCombat, 370, cid, (min), (max))	
-addEvent(playerCombat, 390, cid, (min), (max))
-addEvent(playerCombat, 410, cid, (min), (max))
+addEvent(playerCombat, 340, cid, (min), (max))
 addEvent(playerCombat, 430, cid, (min), (max))
-addEvent(playerCombat, 450, cid, (min), (max))
-addEvent(playerCombat, 470, cid, (min), (max))	
-addEvent(playerCombat, 490, cid, (min), (max))
-addEvent(playerCombat, 510, cid, (min), (max))
-addEvent(playerCombat, 530, cid, (min), (max))
-addEvent(playerCombat, 550, cid, (min), (max))	
-addEvent(playerCombat, 590, cid, (min), (max))
-addEvent(lastHit, 600, cid, (min), (max))
+addEvent(playerCombat, 520, cid, (min), (max))
+addEvent(playerCombat, 600, cid, (min), (max))
+addEvent(playerCombat, 650, cid, (min), (max))	
+addEvent(playerCombat, 700, cid, (min), (max))
+addEvent(lastHit, 710, cid, (min), (max))
 exhaustion.set(cid, storage, waittime)
 	return doCombat(cid,combat, var)
    end

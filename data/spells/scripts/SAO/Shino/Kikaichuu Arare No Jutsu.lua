@@ -51,28 +51,27 @@ function onCastSpell(cid, var)
 
 	if isPlayer(cid) then
 		removeChakraLife(cid, - confg.chakra)
-		addEvent(doCreatureSay, 1, cid, "Kikkaichu !!", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 4, cid, "ARARE !!", TALKTYPE_MONSTER)
+		
 		
 local level = getPlayerLevel(cid)
 local mlevel = getPlayerMagLevel(cid) 
-local jutsuDmg = 27
+local jutsuDmg = 12
 local skill_factor = math.ceil((mlevel + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.3) * jutsuDmg)*0.20))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
 		addEvent(doSendDistanceShoot, 3, basePos, fromPos, 12)
-		for i = 2,6 do
+		for i = 2,4 do
 	local random = randomPos(cid, poss)
-			addEvent(doSendDistanceShoot, 8+(1*i), newpos, random, 41)
+			addEvent(doSendDistanceShoot, 8+(1*i), newpos, poss, 41)
 			addEvent(doSendDistanceShoot, 14+(1*i), newpos, random, 41)
-			addEvent(doAreaCombatHealth, 8+(1*i), cid, COMBAT_PHYSICALDAMAGE, random, 0, mdmg, dmg, 31)
+			addEvent(doAreaCombatHealth, 8+(1*i), cid, COMBAT_PHYSICALDAMAGE, poss, 0, mdmg, dmg, 31)
 			addEvent(doAreaCombatHealth, 14+(1*i), cid, COMBAT_PHYSICALDAMAGE, random, 0, mdmg, dmg, 31)
 		end
 			for k = 2,6 do
 	local random2 = randomPos(cid, poss)
-				addEvent(doSendDistanceShoot, 12+(1*k), newpos, random2, 41)
+				addEvent(doSendDistanceShoot, 12+(1*k), newpos, poss, 41)
 				addEvent(doSendDistanceShoot, 18+(1*k), newpos, random2, 41)
-				addEvent(doAreaCombatHealth, 12+(1*k), cid, COMBAT_PHYSICALDAMAGE, random2, 0, mdmg, mdmg, 31)
+				addEvent(doAreaCombatHealth, 12+(1*k), cid, COMBAT_PHYSICALDAMAGE, poss, 0, mdmg, mdmg, 31)
 				addEvent(doAreaCombatHealth, 18+(1*k), cid, COMBAT_PHYSICALDAMAGE, random2, 0, mdmg, dmg, 31)
 			end
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)

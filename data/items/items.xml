@@ -18566,7 +18566,7 @@
 	<item id="11818" name="Sandals">
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="weight" value="700" />
+		<attribute key="weight" value="70" />
 	</item>
 	<item id="11819" name="Ninja shoes">
 		<attribute key="armor" value="1" />

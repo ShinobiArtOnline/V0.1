@@ -10,7 +10,7 @@ local buff = createConditionObject(CONDITION_ATTRIBUTES)
 setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
 setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 3)
 setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 3)
-setConditionParam(buff, CONDITION_PARAM_SKILL_DISTANCE, 3)
+setConditionParam(buff, CONDITION_PARAM_SKILL_SHIELD, 5)
 
 function onCastSpell(cid)
     if not isCreature(cid) then
@@ -21,10 +21,7 @@ function onCastSpell(cid)
 		return false
 		end
 -----[Restrições]-----
-	if(getPlayerStorageValue(cid, sto_byakugan[2]) > os.time() and getPlayerStorageValue(cid, sto_byakugan[2]) < 100+os.time()) then
-       			doPlayerSendTextMessage(cid, 24, "Voce ja esta fazendo um jutsu")
-	return true
-	end
+	
 	if checkCmd(cid, "rest") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu while you are resting.")
 	end

@@ -8,7 +8,7 @@ local temp = {
 
 
 local config = {
-     sqms = 10,
+     sqms = 3,
 	 chakra = 50,
      effects = {
          [0] = 83,
@@ -22,10 +22,10 @@ local config = {
 local function direcao(cid, pos, n)
 local level = getPlayerLevel(cid)
 local mlevel = getPlayerMagLevel(cid) 
-local jutsuDmg = 26
+local jutsuDmg = 60
 local skill_factor = math.ceil((mlevel + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.20))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.40))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.40))
         local n = n or 0
 
         if (n < config.sqms) then
@@ -77,7 +77,7 @@ function onCastSpell(cid, var)
 		direcao(cid)
 		
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
-		noMove(cid, 3000)
+		noMove(cid, 1000)
 		exhaustion.set(cid, storage, waittime)
 		 return doCombat(cid,combat, var)
 	end

@@ -5,7 +5,7 @@ exhausted = 5,
 local buff = createConditionObject(CONDITION_ATTRIBUTES)
 setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
 setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 9)
-setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 9)
+setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 25)
 setConditionParam(buff, CONDITION_PARAM_SKILL_SWORD, 9)
 setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 9)
 setConditionParam(buff, CONDITION_PARAM_SKILL_DISTANCE, 9)

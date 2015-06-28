@@ -94,8 +94,8 @@ function nikudanSensha(cid, chakra, oldLook)
                 return false
         end
  
-        local minDmg = -(getPlayerLevel(cid)*0.4 + getPlayerSkill(cid, 0) * 0.5)
-        local maxDmg = -(getPlayerLevel(cid)*0.6 + getPlayerSkill(cid, 0) * 0.7)
+        local minDmg = -(getPlayerLevel(cid)*1.5 + getPlayerSkill(cid, 0) * 1.6)
+        local maxDmg = -(getPlayerLevel(cid)*1.4 + getPlayerSkill(cid, 0) * 1.5)
         local efeito = CONST_ME_NONE
         local poslook = getCreatureLookPosition(cid)
         poslook.stackpos = STACKPOS_TOP_MOVEABLE_ITEM_OR_CREATURE
@@ -116,35 +116,35 @@ function nikudanSensha(cid, chakra, oldLook)
 		end
 		else
 	        --setPlayerStorageValue(cid, 676767, 1)
-			 if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+			 if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 				mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 21, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
 				doCreatureAddHealth(cid, -5)
 				--setPlayerStorageValue(cid, 676767, 1)
 				setPlayerStorageValue(cid, sto_sensha[1], 0)
-			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
 			 mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 19, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
 				doCreatureAddHealth(cid, -15)
 				setPlayerStorageValue(cid, sto_sensha[1], 0)
 				 
-			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+			 elseif getPlayerLevel(cid) >= 100 and getPlayerLevel(cid) < 150 then
 			 mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 20, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
 				doCreatureAddHealth(cid, -25)
 				setPlayerStorageValue(cid, sto_sensha[1], 0)
 				
-			   elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+			   elseif getPlayerLevel(cid) >= 150 and getPlayerLevel(cid) < 200 then
 			   mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 22, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
 				doCreatureAddHealth(cid, -25)
 				setPlayerStorageValue(cid, sto_sensha[1], 0)
 				  
-				elseif getPlayerLevel(cid) >= 100 and getPlayerLevel(cid) < 500 then
+				elseif getPlayerLevel(cid) >= 200 and getPlayerLevel(cid) < 500 then
 				mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 22, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
@@ -228,8 +228,8 @@ function harinikudanSensha(cid, chakra, oldLook)
                 return false
         end
  
-        local minDmg = -(getPlayerLevel(cid)*0.4 + getPlayerSkill(cid, 0) * 0.5)
-        local maxDmg = -(getPlayerLevel(cid)*0.6 + getPlayerSkill(cid, 0) * 0.7)
+        local minDmg = -(getPlayerLevel(cid)*2.5 + getPlayerSkill(cid, 0) * 1.7)
+        local maxDmg = -(getPlayerLevel(cid)*2.6 + getPlayerSkill(cid, 0) * 1.8)
         local efeito = CONST_ME_NONE
         local poslook = getCreatureLookPosition(cid)
         poslook.stackpos = STACKPOS_TOP_MOVEABLE_ITEM_OR_CREATURE
@@ -250,7 +250,7 @@ function harinikudanSensha(cid, chakra, oldLook)
 		end
 		else
 	       
-			 if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
+			 if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 			  mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 21, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
@@ -258,7 +258,7 @@ function harinikudanSensha(cid, chakra, oldLook)
 				 setPlayerStorageValue(cid, 676767, 1)
 				 stopEvent(removemana)
 				setPlayerStorageValue(cid, sto_sensha[5], 0)
-			 elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
 			  mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 19, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
@@ -266,7 +266,7 @@ function harinikudanSensha(cid, chakra, oldLook)
 				 setPlayerStorageValue(cid, 676767, 1)
 				stopEvent(removemana)
 				setPlayerStorageValue(cid, sto_sensha[5], 0)
-			 elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 80 then
+			 elseif getPlayerLevel(cid) >= 100 and getPlayerLevel(cid) < 150 then
 			  mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 20, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
@@ -274,7 +274,7 @@ function harinikudanSensha(cid, chakra, oldLook)
 				 stopEvent(removemana)
 				doCreatureAddHealth(cid, -25)
 				setPlayerStorageValue(cid, sto_sensha[5], 0)
-			   elseif getPlayerLevel(cid) >= 80 and getPlayerLevel(cid) < 100 then
+			   elseif getPlayerLevel(cid) >= 150 and getPlayerLevel(cid) < 200 then
 			    mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 22, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)
@@ -282,7 +282,7 @@ function harinikudanSensha(cid, chakra, oldLook)
 				 stopEvent(removemana)
 				 setPlayerStorageValue(cid, 676767, 1)
 				setPlayerStorageValue(cid, sto_sensha[5], 0)
-				elseif getPlayerLevel(cid) >= 100 and getPlayerLevel(cid) < 500 then
+				elseif getPlayerLevel(cid) >= 200 and getPlayerLevel(cid) < 500 then
 				 mayNotMove(cid, false)
 				addEvent(changeMove, 0, cid, 22, -1)
 				addEvent(doCreatureSay, 10, cid, "OUCH!", TALKTYPE_MONSTER)

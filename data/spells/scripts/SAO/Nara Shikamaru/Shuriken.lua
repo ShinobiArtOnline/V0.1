@@ -6,7 +6,7 @@ local combat1 = createCombatObject()
 setCombatParam(combat1, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat1, COMBAT_PARAM_EFFECT, 4)
 setCombatParam(combat1, COMBAT_PARAM_DISTANCEEFFECT, 2)
-setCombatFormula(combat1, COMBAT_FORMULA_LEVELMAGIC, -1, -10, -1, -20, 5, 5, 1.4, 2.1)
+setCombatFormula(combat1, COMBAT_FORMULA_LEVELMAGIC, -1, -10, -1, -20, 5, 5, 2.4, 2.1)
 
 local poison = createConditionObject(CONDITION_PARALYZE)
 setConditionParam(poison, CONDITION_PARAM_TICKS, 1000)

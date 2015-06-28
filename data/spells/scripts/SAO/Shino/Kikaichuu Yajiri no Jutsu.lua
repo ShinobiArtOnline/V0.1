@@ -65,13 +65,13 @@ if exhaustion.check(cid, storage) then
 		
 		local level = getPlayerLevel(cid)
 		local mlevel = getPlayerMagLevel(cid) 
-		local jutsuDmg = 16
+		local jutsuDmg = 50
 		local skill_factor = math.ceil((mlevel + level)/2)
-		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
-		local mdmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.20))
+		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.50))
+		local mdmg = - math.max(1, math.ceil(((skill_factor*0.45) * jutsuDmg)*0.50))
 		local target = getCreatureTarget(cid)
 		local pos = getCreaturePosition(target)
-		for n = 1,4 do
+		for n = 1,3 do
 			addEvent(doAreaCombatHealth, 300*n, cid, COMBAT_PHYSICALDAMAGE, pos, 1, mdmg, dmg, 30)
 			addEvent(doAreaCombatMana, 300*n, cid, pos, 1, dmg, dmg, 255)
 		end

@@ -23,10 +23,10 @@ function onCastSpell(cid, var)
 		
 		
 		local level = getPlayerLevel(cid) 
-		local jutsuDmg = 16
+		local jutsuDmg = 100
 		local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
-		local dmg = math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
-		local mini = math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
+		local dmg = math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.8))
+		local mini = math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.8))
 		local pos = getCreaturePosition(cid)
 		addEvent(doSendMagicEffect, 30, {x = pos.x+1, y = pos.y+1, z = pos.z}, 255)
 		

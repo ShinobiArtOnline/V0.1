@@ -1,5 +1,5 @@
 local temp = {
-exhausted = 2,
+exhausted = 1.5,
 }
 
 local confg = {
@@ -20,19 +20,18 @@ function onCastSpell(cid,var)
  	
 local level = getPlayerLevel(cid)
 local mlevel = getPlayerMagLevel(cid) 
-local jutsuDmg = 18
+local jutsuDmg = 32
 local skill_factor = math.ceil((mlevel + level)/2)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.3))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.3))
 
 	if isPlayer(cid) then
 		removeChakraLife(cid, - confg.chakra)
 		local target = getCreatureTarget(cid)
 		local pos = getCreaturePosition(target)
-		addEvent(doCreatureSay, 20, cid, "Katon:", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 60, cid, "Housenka no Jutsu!", TALKTYPE_MONSTER)
-		addEvent(doAreaCombatHealth, 60, cid, COMBAT_FIREDAMAGE, pos, UCHI, mdmg, dmg, 4)
-		for i = 1,5 do
+		
+		--addEvent(doAreaCombatHealth, 60, cid, COMBAT_FIREDAMAGE, pos, UCHI, mdmg, dmg, 4)
+		for i = 1,2 do
 		local target = getCreatureTarget(cid)
 		local pos = getCreaturePosition(target)
 		addEvent(doSendDistanceShoot, 50+(10*i), getCreaturePosition(cid), pos, 8)
@@ -40,7 +39,7 @@ local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
 		addEvent(doAreaCombatCondition, 50+(10*i), cid, pos, UCHI, condition, 4)
 	end
 
-	for k = 1,5 do
+	for k = 1,2 do
 		local target = getCreatureTarget(cid)
 		local pos2 = getCreaturePosition(target)
 		addEvent(doSendDistanceShoot, 90+(10*k), getCreaturePosition(cid), pos2, 8)

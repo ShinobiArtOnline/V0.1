@@ -61,7 +61,7 @@ function onCastSpell(cid,var)
 				doChangeSpeed(cid, getCreatureBaseSpeed(cid) + 280)
 			  end
 		setPlayerStorageValue(cid, sto_inuzuka[1], 0)
-		removeChakra(cid, 1, 2, sto_inuzuka[1], "sharingan")
+		removeChakra(cid, 20, 2, sto_inuzuka[1], "sharingan")
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 	elseif getPlayerStorageValue(cid, sto_inuzuka[1]) < 1 then
 				if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then

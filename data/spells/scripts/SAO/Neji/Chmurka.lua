@@ -18,10 +18,10 @@ function onCastSpell(cid, var)
 		local find_area = getFirstCreaturePosOnDirection(cid, 1)
 		local level = getPlayerMagLevel(cid)
 		local mlevel = getPlayerMagLevel(cid) 
-		local jutsuDmg = 12
+		local jutsuDmg = 80
 		local skill_factor = math.ceil((mlevel + level)/2)
-		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
-		local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))
+		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.65))
+		local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.65))
 		addEvent(doAreaCombatHealth, 0, cid, 1, pos, CHMURA, 0, 0, 106)
 		addEvent(doAreaCombatHealth, 60, cid, 1, pos, CHMURA, 0, 0, 2)
 		doAreaCombatHealth(cid, 0, pos, CHMURA, mdmg, dmg, 255)

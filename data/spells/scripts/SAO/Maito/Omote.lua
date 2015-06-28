@@ -19,14 +19,18 @@ local name = getCreatureName(getCreatureTarget(cid))
 if not isInArray(exception, name) then
 	if getPlayerStorageValue(cid, config.storage) <= 0 then
 		doPlayerSetStorageValue(cid, config.storage, 1)
-		
+		local level = getPlayerLevel(cid) 
+		local jutsuDmg = 80
+		local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
+		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.9))
+		local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.9))
 		addEvent(function()
 		doPlayerSetStorageValue(cid, config.storage, 0)
 			if isCreature(cid) and isCreature(variantToNumber(var)) then
 				if isWalkable(getCreaturePosition(variantToNumber(var)), false, true, true) then
 					doTeleportThing(cid, getThingPos(variantToNumber(var)), true)
 					arr = {3}
-					doAreaCombatHealth(cid, 1, getThingPos(variantToNumber(var)), arr, -getPlayerLevel(cid), -2*(getPlayerLevel(cid)), 125)
+					doAreaCombatHealth(cid, 1, getThingPos(variantToNumber(var)), arr, mdmg, dmg, 125)
 				elseif isCreature(cid) and not isWalkable(getCreaturePosition(variantToNumber(var)), false, true, true) then
 					doPlayerSendCancel(cid, "You can't reach your target")
 				end

@@ -31,10 +31,10 @@ if exhaustion.check(cid, storage) then
 addEvent(doCreatureSay, 0, cid, "Bubun..", TALKTYPE_MONSTER)
 addEvent(doCreatureSay, 30, cid, "BAIKA!!!", TALKTYPE_MONSTER)
   local level = getPlayerLevel(cid) 
-  local jutsuDmg = 33
+  local jutsuDmg = 37
   local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
-  local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
-   local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
+local dmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.55))
+local mdmg = - math.max(1, math.ceil(((skill_factor*0.35) * jutsuDmg)*0.55))
 local find_area = getFirstCreaturePosOnDirection(cid, 1)
 local pos = getThingPos(cid)
 if getCreatureLookDir(cid) == 0 then
@@ -50,9 +50,7 @@ elseif getCreatureLookDir(cid) == 3 then
 addEvent(doAreaCombatHealth, 20, cid, 1, find_area, AREA_HARITE2, mdmg, dmg, 255)--Lewo
 addEvent(doSendMagicEffect, 20, {x = pos.x-1, y = pos.y+1, z = pos.z}, 27)
 end
-for i = 0,1 do
-addEvent(doMoveCreature2, 250+(200*i), getThingfromPos(find_area).uid, getPlayerLookDir(cid), effectdir(cid, 255, 255))
-end
+
 exhaustion.set(cid, storage, waittime)
 return doCombat(cid,combat, var)
 end

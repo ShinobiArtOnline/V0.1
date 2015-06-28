@@ -8,7 +8,7 @@ local function onDash(cid)
 		return true
 	end
 local level = getPlayerLevel(cid) 
-local jutsuDmg = 15
+local jutsuDmg = 40
 local skill_factor = math.ceil((jutsuSkill_factor(cid, 0) + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.25))
 local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.25))
