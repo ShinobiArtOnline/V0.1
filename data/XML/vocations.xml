@@ -213,7 +213,7 @@
 		<formula meleeDamage="2.4" distDamage="1.0" wandDamage="1.0" magDamage="1.2" magHealingDamage="1.8" defense="1.5" magDefense="1.0" armor="1.1"/>
 		<skill fist="1.0" club="2.1" sword="2.1" axe="1.1" distance="2.1" shielding="1.7" fishing="2.1" experience="1.0"/>
 	</vocation>
-	<vocation id="53" name="Sakura50" description="Sakura" needpremium="0" gaincap="10" gainhp="25" gainmana="20" gainhpticks="3" gainhpamount="5" gainmanaticks="3" gainmanaamount="5" manamultiplier="1.1" attackspeed="2000" soulmax="800" gainsoulticks="0" fromvoc="53" lessloss="30" manager="1">
+	<vocation id="53" name="Sakura550" description="Sakura" needpremium="0" gaincap="10" gainhp="25" gainmana="20" gainhpticks="3" gainhpamount="5" gainmanaticks="3" gainmanaamount="5" manamultiplier="1.1" attackspeed="2000" soulmax="800" gainsoulticks="0" fromvoc="53" lessloss="30" manager="1">
 		<formula meleeDamage="2.0" distDamage="1.0" wandDamage="1.0" magDamage="1.0" magHealingDamage="1.0" defense="1.5" magDefense="1.0" armor="2.0"/>
 		<skill fist="1.0" club="2.1" sword="2.1" axe="1.1" distance="2.1" shielding="1.7" fishing="2.1" experience="1.0"/>
 	</vocation>

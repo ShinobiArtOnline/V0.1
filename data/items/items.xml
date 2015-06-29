@@ -17572,7 +17572,7 @@
 	</item>
 	<item id="11401" article="a" name="black armor">
         <attribute key="weight" value="90" />
-        <attribute key="armor" value="" />
+        <attribute key="armor" value="7" />
         <attribute key="slotType" value="body" />
       
 	</item>
@@ -17976,7 +17976,7 @@
 	<item id="11613" article="a" name=" big shuriken">
 		<attribute key="weight" value="1400" />
 		<attribute key="defense" value="7" />
-		<attribute key="attack" value="10" />
+		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="burstarrow" />
 		<attribute key="range" value="5" />
@@ -17985,7 +17985,7 @@
 	</item>
 	<item id="11622" article="a" name=" small shuriken">
 		<attribute key="weight" value="1400" />
-		<attribute key="defense" value="7" />
+		<attribute key="defense" value="4" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="powerbolt" />
@@ -18329,22 +18329,22 @@
 	<item id="11719" name="Forestry hood">
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11769" name="Sandy cap">
 		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11790" name="Shaolin hat">
 		<attribute key="armor" value="7" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11797" name="Sarutobi helmet">
 		<attribute key="armor" value="7" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	
 	
@@ -18561,6 +18561,7 @@
 		<attribute key="slotType" value="body" />
 		<attribute key="weight" value="9550" />
 	</item>
+	
 	<!--BUTY -->
 	<item id="11297" name="zaoan shoes">
 		<attribute key="armor" value="1" />
