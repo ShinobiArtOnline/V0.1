@@ -571,7 +571,7 @@
 		<!--- Genjutsu-->
 		<instant name="Kaen no Jutsu" words="kaen" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1500" direction="1" needlearn="0"  event="script" value="SAO/genjutsu/kaen.lua">
 	    </instant>
-		<instant name="paral" words="paral" lvl="1" mana="15" aggressive="0" needtarget="1" exhaustion="1500" direction="1" needlearn="0"  event="script" value="SAO/genjutsu/Nehan Shoja.lua">
+		<instant name="paral" words="paral" lvl="1" mana="15" aggressive="0" needtarget="1" exhaustion="1500" direction="1" needlearn="0"  event="script" value="SAO/genjutsu/nehan shoja.lua">
 	    </instant>
 		<instant name="Kanashibari no Jutsu" words="kanashibari" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1500" direction="0" needlearn="0"  event="script" value="SAO/genjutsu/kanashibari.lua">
 	    </instant>

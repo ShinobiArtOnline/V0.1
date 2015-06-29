@@ -6,7 +6,7 @@
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
 	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
-	<!--<event type="combat" name="sagoweMonstery" event="script" value="SAGAMonstery.lua"/>  	<!-- uniemożliwienie graczom ataku sagowego monstera bez odpowiedniego storage -->
+	<!--<event type="combat" name="sagoweMonstery" event="script" value="SAGAMonstery.lua"/> uniemożliwienie graczom ataku sagowego monstera bez odpowiedniego storage -->
 	
 	<!-- Saga 
 	<event type="death" name="mizuki" event="script" value="Saga/mizuki.lua"/> 				 
