@@ -1,5 +1,5 @@
 local combat = createCombatObject()
-local waittime = 1.2 -- czas
+local waittime = 2.0 -- czas
 local storage = 115818
 function onCastSpell(cid, var)
 if not isCreature(cid) then
@@ -7,7 +7,7 @@ return true
 end
 local level = getPlayerLevel(cid)
 local mlevel = getPlayerMagLevel(cid) 
-local jutsuDmg = 35
+local jutsuDmg = 31
 local skill_factor = math.ceil((mlevel + level)/2)
 local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.30))
 local mdmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.30))

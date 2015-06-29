@@ -4,19 +4,12 @@ exhausted = 5,
 
 local buff = createConditionObject(CONDITION_ATTRIBUTES)
 setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
-setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 6)
-setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 15)
-setConditionParam(buff, CONDITION_PARAM_SKILL_SWORD, 6)
-setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 6)
-setConditionParam(buff, CONDITION_PARAM_SKILL_DISTANCE, 6)
+setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 30)
+setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 30)
+
 
 function onCastSpell(cid, var)
-	if checkCmd(cid, "rest") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu while you are resting.")
-	end
-	if checkCmd(cid, "mold") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu while you are mold chakra")
-	end
+	
 	if checkJutsu(cid, "Kagemane") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end

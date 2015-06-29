@@ -14,15 +14,12 @@ local skill_factor = math.ceil((jutsuSkill_factor(cid,0) + level)/2)
 local hp = math.max(1, math.ceil(((skill_factor*0.3) * hp)*0.4))
 
 
-
-
-
 if(table.maxn(summons) < MaximoSummon) then -- no summons
  
 
 				if getPlayerLevel(cid) >= 10 and getPlayerLevel(cid) < 50 then
 				local aka = doCreateMonster("Akamaru", getCreaturePosition(cid))
-				setPlayerStorageValue(cid, 10011, 1)
+				
 				doConvinceCreature(cid, aka)
 				setCreatureMaxHealth(aka, maxhealth * (percent/100))
 				doCreatureAddHealth(aka, maxhealth * (percent/100))

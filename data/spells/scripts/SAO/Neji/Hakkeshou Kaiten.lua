@@ -29,7 +29,7 @@ function onCastSpell(cid, var)
 		local mdmg = - math.max(1, math.ceil(((skill_factor*0.45) * jutsuDmg)*0.55))
 		local pos = getCreaturePosition(cid)
 		removeChakraLife(cid, - confg.chakra)
-		addEvent(doSendMagicEffect, 90, {x = pos.x+1, y = pos.y+1, z = pos.z}, 38)
+		addEvent(doSendMagicEffect, 90, {x = pos.x+1, y = pos.y+1, z = pos.z}, 105)
 		
 		addEvent(Defense, 400, cid, 160)
 		pos = getPosfromArea(cid,area)

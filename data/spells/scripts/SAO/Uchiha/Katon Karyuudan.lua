@@ -47,13 +47,7 @@ end
 	end
 -----[Restrições]-----
 
-	if	impossibleUse(cid) then
-		return true
-	end
-
-	if checkDoing(cid) then
-		return true
-	end	
+	
 -----[Restrições]-----
 
 	if isPlayer(cid) then

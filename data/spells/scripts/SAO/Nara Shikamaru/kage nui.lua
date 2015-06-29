@@ -52,17 +52,13 @@ if getCreatureLookDir(cid) == 0 then
     end
 
 function onCastSpell(cid, var)	
-	if	impossibleUse(cid) then
-		return true
-	end
+	
 		if exhaustion.check(cid, storage) then
 		doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
 		
-	if checkDoing(cid) then
-		return true
-	end	
+
 	if getPlayerStorageValue(cid, sto_gen[1]) == 0 then
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end

@@ -64,10 +64,10 @@ elseif getCreatureLookDir(cid) == 3 then
 doSendMagicEffect({x=pos.x-1, y=pos.y, z=pos.z}, 65)
 end
 
- local distance = 3
+ local distance = 2
 
       for i = 0, distance do
-      addEvent(onDash,160*i,cid)
+      addEvent(onDash,100*i,cid)
 end
 end
 
@@ -95,11 +95,11 @@ end
 		 addEvent(function()
 		 if not isCreature(cid) then return true end
 		 setPlayerStorageValue(cid, STORAGE_DIRECTION, 0)
-		 end, 1000)
+		 end, 500)
          addEvent(function()
 		  if not isCreature(cid) then return true end
 		 finalizarTsuuga(cid)
-		 end, 1000)
+		 end, 500)
          doCreatureSay(cid, "TSUUU", TALKTYPE_MONSTER)
 		 addEvent(doCreatureSay, 500, cid, "GGAAA!!!", TALKTYPE_MONSTER)
 		 exhaustion.set(cid, storage, waittime)

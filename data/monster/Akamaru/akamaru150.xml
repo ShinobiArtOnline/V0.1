@@ -19,7 +19,7 @@
 	</flags>
   <attacks>
 	<attack name="melee" interval="1500" min="-200" max="-250"/>
-	<attack name="Kizu" interval="5000" min="-120" max="-160"/>
+	<attack name="Kizu" interval="5000" min="-150" max="-180"/>
   </attacks>
   <defenses armor="0" defense="0"/>
 	<elements>

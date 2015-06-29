@@ -34,6 +34,8 @@ local target= getCreatureTarget(cid)
 			doCreatureSay(cid, "Kanashibari no Genjutsu!", TALKTYPE_MONSTER)
 			if isPlayer(cid) then
 				doPlayerSendTextMessage(cid,22,"You are under influence of a '"..getPlayerName(cid).."' Genjutsu! (Kanashibari)")
+			end if isPlayer(cid) then
+				doPlayerSendTextMessage(cid,22,"You are under influence of a '"..getPlayerName(cid).."' Genjutsu! (Kanashibari)")
 			end
 			doPlayerSendTextMessage(cid,22,"You have caught '"..getPlayerName(target).."' on your Genjutsu! (Kanashibari)")	 
 			doSendMagicEffect(getThingPos(cid), 3)

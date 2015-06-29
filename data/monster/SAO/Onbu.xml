@@ -26,7 +26,8 @@
 	</elements>
 	<loot>
 		<item id="2148" countmax="10" chance="100000"/><!-- gold coin -->
-		<item id="2671" countmax="4" chance="99999"/><!-- ham -->
+		<item id="2671" countmax="4" chance="2000"/><!-- ham -->
+		<item id="2666" countmax="5" chance="2000"/>
 		
 	</loot>
 </monster>

@@ -39,7 +39,7 @@ function onLogin(cid)
     setPlayerStorageValue(cid, 8877, 0)
 
 	Outfit(cid)
-	registerCreatureEvent(cid, "petKill")
+	
 	registerCreatureEvent(cid, "direction")
     registerCreatureEvent(cid, "petDeath")
 	registerCreatureEvent(cid, "petStats")

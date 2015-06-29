@@ -18,7 +18,7 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="1000" min="-3" max="-5"/>
+		<attack name="melee" interval="1000" min="-25" max="-50"/>
 	</attacks>
 	<defenses armor="0" defense="0"/>
 	<elements>

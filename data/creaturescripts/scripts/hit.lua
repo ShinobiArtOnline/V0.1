@@ -86,7 +86,7 @@ end
 ------ Sharingan ------ 
  if isPlayer(cid) and getPlayerVocation(cid) == 34 then
       ----[Sharingan level 1]----      
-      if math.random(1,5) <= getPlayerLevel(cid) and getPlayerStorageValue(cid, 9999) <= 0 then
+      if math.random(1,15) <= getPlayerLevel(cid) and getPlayerStorageValue(cid, 9999) <= 0 then
 	  doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Congratulations! You released the Sharingan Level 1!")
 	   doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Congratulations! You released the Sharingan Level 1!. Write Sharingan Level 1")
 	  setPlayerStorageValue(cid, 9999, 1)
@@ -105,7 +105,7 @@ if getPlayerStorageValue(cid, 9998) >= 5 and getPlayerLevel(cid) >= 45 and getPl
     
 end
       ----[Sharingan level 3]----    
-if getPlayerStorageValue(cid, 9998) >= 200 and getPlayerLevel(cid) >= 20 and getPlayerVocation(cid) == 5 and getPlayerStorageValue(cid, 9999) == 2 
+if getPlayerStorageValue(cid, 9998) >= 200 and getPlayerLevel(cid) >= 20 and getPlayerVocation(cid) == 5
        and getPlayerStorageValue(cid, 9999) == 2 and math.random(1,300) == 1 then 
       doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_ORANGE, "Congratulations! You released the Sharingan Level 3!")
 	  doPlayerSendTextMessage(cid, MESSAGE_EVENT_ADVANCE, "Congratulations! You released the Sharingan Level 3!. Write Sharingan Level 3")

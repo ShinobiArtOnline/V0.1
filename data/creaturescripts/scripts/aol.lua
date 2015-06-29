@@ -1,4 +1,4 @@
-function onDeath(cid, corpse, killer)
+function onDeath(cid, corpse)
 	local aol = getPlayerSlotItem(cid, 2)
 	if (aol.itemid == 2173) then
 		doRemoveItem(aol.uid, 1)

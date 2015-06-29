@@ -1,5 +1,5 @@
 local condition = createConditionObject(CONDITION_MUTED)
-setConditionParam(condition, CONDITION_PARAM_TICKS, 2000)
+setConditionParam(condition, CONDITION_PARAM_TICKS, 1500)
 
 
 local chance = 60

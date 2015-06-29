@@ -44,11 +44,11 @@ end
     setPlayerStorageValue(cid, 8877, 0)
     setPlayerStorageValue(cid, 14755, -1)
 	Outfit(cid)
-	registerCreatureEvent(cid, "Sakura")
+	--registerCreatureEvent(cid, "Sakura")
 	registerCreatureEvent(cid, "Petdeath")
 	--setPlayerStorageValue(cid, 1234899, 1) 
-	registerCreatureEvent(cid, "Aol")
-	registerCreatureEvent(cid, "dead")
+	--registerCreatureEvent(cid, "Aol")
+	--registerCreatureEvent(cid, "dead")
 	registerCreatureEvent(cid, "fullhp")
 	registerCreatureEvent(cid, "sru")
 	registerCreatureEvent(cid, "Outfitek") 
@@ -58,9 +58,9 @@ end
 	registerCreatureEvent(cid, "GuildMotd")
 	registerCreatureEvent(cid, "Idle")
 	registerCreatureEvent(cid, "Hit")
-	registerCreatureEvent(cid, "pointsup")
+	--registerCreatureEvent(cid, "pointsup")
 	registerCreatureEvent(cid, "noMove")
-	registerCreatureEvent(cid, "skillAdvanced")
+	--registerCreatureEvent(cid, "skillAdvanced")
 	registerCreatureEvent(cid, "CapKikkais")
 	registerCreatureEvent(cid, "hachimonAdvance")
 	registerCreatureEvent(cid, "Death")
@@ -68,10 +68,9 @@ end
 --	registerCreatureEvent(cid, "partyAndGuildProtection")
 	registerCreatureEvent(cid, "Rest")
 	registerCreatureEvent(cid, "creatureMove")
-	registerCreatureEvent(cid, "kagemaneDeath")
+	--registerCreatureEvent(cid, "kagemaneDeath")
 	registerCreatureEvent(cid, "Osiagniecia")
-	registerCreatureEvent(cid, "mizuki")
-	registerCreatureEvent(cid, "mizuki think")
+
 	registerCreatureEvent(cid, "sagoweMonstery")
 setPlayerStorageValue(cid, 1234998, 0)
 	if(config.useFragHandler) then
@@ -96,7 +95,26 @@ function onLogout(cid)
 	if getPlayerStorageValue(cid, 10003) == 1 then
 	doPlayerCastSpell(cid, "Hppet")
 	end
-	
+	if getPlayerStorageValue(cid, 676767) == 1 then
+doPlayerCastSpell(cid, "Hari Sensha")
+doRemoveCondition(cid, CONDITION_ATTRIBUTES)
+end
+if getCreatureStorage(cid, sto_hachimon[8])==0 then
+doPlayerCastSpell(cid, "Shimon")
+doRemoveCondition(cid, CONDITION_ATTRIBUTES)
+end
+if getCreatureStorage(cid, sto_hachimon[1])==0 then
+doPlayerCastSpell(cid, "Kaimon")
+doRemoveCondition(cid, CONDITION_ATTRIBUTES)
+end
+if getCreatureStorage(cid, sto_hachimon[6])==0 then
+doPlayerCastSpell(cid, "Keimon")
+doRemoveCondition(cid, CONDITION_ATTRIBUTES)
+end
+if getCreatureStorage(cid, sto_hachimon[7])==0 then
+doPlayerCastSpell(cid, "Kyomon")
+doRemoveCondition(cid, CONDITION_ATTRIBUTES)
+end
 	for i = 9000, 9063 do 
    		 setPlayerStorageValue(cid, i, 0)
 	end

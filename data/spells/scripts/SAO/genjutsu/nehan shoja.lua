@@ -1,10 +1,23 @@
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
+
+
 function onCastSpell(cid, var)
   if not isCreature(cid) then
     return true
   end
 
-  noMove(cid, 700)
-  local find_area = getFirstCreaturePosOnDirection(cid, 2)
-  local pos = getCreaturePosition(cid)
-  doAreaCombatHealth(cid, COMBAT_NEHAN, pos, NEHAN, -55, -55, 1)
+pos=getCreaturePosition(cid)
+target=getCreatureTarget(cid)
+pos=getCreaturePosition(target)
+if isPlayer(target) then
+				doPlayerSendTextMessage(cid,22,"You are under influence of a '"..getPlayerName(cid).."' paralyze")
+			end
+			doPlayerSendTextMessage(cid,22,"You have caught '"..getPlayerName(target).."' on your paralyze!")	 
+addEvent(doSendMagicEffect, 1, {x = pos.x, y = pos.y, z = pos.z}, 15)
+stopNow(getCreaturePosition(target), 2500)
+stopNow(target, 2500)
+doSendMagicEffect(getCreaturePosition(target), CONST_ME_SMALLCLOUDS)
+addEvent(doPlayerSendTextMessage, 2500, target, 22, "'"..getPlayerName(target).."' escaped his genjutsu")
+return doCombat(cid, combat, var)
 end

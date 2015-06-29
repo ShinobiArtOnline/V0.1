@@ -55,9 +55,9 @@ end
 		--doAddCondition(cid, buff)
 	elseif getPlayerStorageValue(cid, 10003) == 1 then
 		stopEvent(hpling)
-		setPlayerStorageValue(cid, 10004, 1)
 		setPlayerStorageValue(cid, 10003, 0)
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
+		setPlayerStorageValue(cid, 10004, 1)
 	   summons = getCreatureSummons(cid)
 		for _, summon in pairs(summons) do
 		doSendMagicEffect(getThingPos(summon), 1)

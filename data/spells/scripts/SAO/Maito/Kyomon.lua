@@ -15,13 +15,6 @@ local info = {
 
 	local manaPercent = getCreatureMaxMana(cid) * (info.mana / 100)
 	
-	if checkCmd(cid, "rest") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu while you are resting.")
-	end
-	
-	if checkCmd(cid, "mold") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu while you are mold chakra")
-	end
 	
 	if checkJutsu(cid, "Kagemane") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")

@@ -21,7 +21,7 @@ local find_area = getFirstCreaturePosOnDirection(cid,1)
 local pos = getCreaturePosition(cid)
 
 if isPlayer(getThingfromPos(find_area).uid) then
-doPlayerAddMana(getThingfromPos(find_area).uid, -(max/2))
+doPlayerAddMana(getThingfromPos(find_area).uid, -(level/2))
 end
 addEvent(doCreatureSay, 100, cid, "Hasengeki!", TALKTYPE_MONSTER)
 if getCreatureLookDir(cid) == 0 then
@@ -37,9 +37,7 @@ elseif getCreatureLookDir(cid) == 3 then
 doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, find_area, KAGE1, mdmg, dmg, 255)
 doSendMagicEffect({x = pos.x-1, y = pos.y, z = pos.z}, 60)
 end
-for i = 1,3 do
-addEvent(doMoveCreature2, 100*i, getThingfromPos(find_area).uid, getPlayerLookDir(cid), effectdir(cid, 54, 55))
-	end
+
 	exhaustion.set(cid, storage, waittime)
 	return doCombat(cid,combat, var)
 end

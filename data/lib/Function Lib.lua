@@ -43,22 +43,7 @@ function isLooking(cid, target)
         return false
 end
 
-function checkCmd(cid, cmd)
-	if cmd == "rest" then
-		if getPlayerStorageValue(cid, 2136) == 0 then
-			return true
-		end
-	elseif cmd == "mold" then
-		if getPlayerStorageValue(cid, 2137) == 0 then
-			return true
-		end
-	elseif cmd == "run" then
-		if getPlayerStorageValue(cid, 2135) == 0 then
-			return true
-		end
-	end
-	return false
-end
+
 
 function removeHealth(cid, percent, time, storage)
 	if not isCreature(cid) then
@@ -146,33 +131,7 @@ function stopNows(cid, time)
    end               
 end
 
-function petRest(cid, health, outfit, time, storage)
-	if not isCreature(cid) then
-		return true
-	end
-	
-	if getPlayerStorageValue(cid, storage) < 1 then
-		return true
-	end
- 
-	local pet = getPlayerPet(cid)
-	if not pet then
-		return true
-	end
-	doCreatureAddHealth(pet, health)
-	doCreatureAddMana(pet, health)
- 
-	doChangeSpeed(pet, -getCreatureSpeed(pet))
 
-	local petOutfit = getCreatureOutfit(pet)
-	petOutfit.lookType = outfit
-	
-	doSetCreatureOutfit(pet, petOutfit, -1)
-
-	local dogInfo = "HP = ".. getCreatureHealth(pet) .."  MHP = ".. getCreatureMaxHealth(pet).." HPe-LV = 1 LVe-CL = ".. getCreatureMana(pet) .."  MCL = "..getCreatureMaxMana(pet).." CLe-HPe-LVPET = "..getPetLevel(pet).." LVPETe-XP = ".. getPetExperience(pet) .." XPe-SP = "..getCreatureSpeed(pet).." SPe-SCL = "..getPetChakraLevel(cid).." SCLe-SRT = "..getPetResistenceLevel(cid).." SRTe-DS = "..getPetSkill(cid).." DSe-PSS = "..getPetSpeed(cid).." PSSe-"	
-	doSendPlayerExtendedOpcode(cid, 102, dogInfo)
-	addEvent(petRest, time*1000, cid, health, outfit, time, storage)
-end
 
 function hasTile(pos)    --Verifica se tem TILE na pos
 pos.stackpos = 0

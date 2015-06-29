@@ -4,19 +4,12 @@ exhausted = 5,
 
 local buff = createConditionObject(CONDITION_ATTRIBUTES)
 setConditionParam(buff, CONDITION_PARAM_TICKS, -1)
-setConditionParam(buff, CONDITION_PARAM_SKILL_FIST, 3)
-setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 10)
-setConditionParam(buff, CONDITION_PARAM_SKILL_SWORD, 3)
-setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 3)
-setConditionParam(buff, CONDITION_PARAM_SKILL_DISTANCE, 3)
+setConditionParam(buff, CONDITION_PARAM_SKILL_CLUB, 15)
+setConditionParam(buff, CONDITION_PARAM_SKILL_AXE, 15)
+
 
 function onCastSpell(cid, var) 
-	if checkCmd(cid, "rest") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu while you are resting.")
-	end
-	if checkCmd(cid, "mold") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu while you are mold chakra")
-	end
+	
 	if checkJutsu(cid, "Kagemane") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
@@ -40,7 +33,6 @@ function onCastSpell(cid, var)
 		return true
 	end	
 	
-
 	if getPlayerStorageValue(cid, sto_sharingan[1]) > 0 then
         addEvent(stopNows, 0, cid, -1)
 		addEvent(stopNows, 500, cid, 0)
@@ -58,5 +50,7 @@ function onCastSpell(cid, var)
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 		setPlayerStorageValue(cid, sto_sharingan_reflect[1], 0)
 	setPlayerStorageValue(cid, sto_sharingan_exhausted[1], os.time() + temp.exhausted)
+	
   end
+ 
 end

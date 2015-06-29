@@ -1,5 +1,5 @@
 local combat = createCombatObject()
-local waittime = 1.5 -- czas
+local waittime = 3.5 -- czas
 local storage = 115818
 
 
@@ -31,7 +31,7 @@ function iniciarEntry(cid)
 		return true
 	end
          
-         addEvent(actionMove, 100, cid, 198, 500)-- wjazd
+         addEvent(actionMove, 200, cid, 198, 500)-- wjazd
 end
 
 function finalizarEntry(cid)
@@ -46,10 +46,10 @@ local function dash(cid)
 	if not isCreature(cid) then
 		return true
 	end
- local distance = 3
+ local distance = 2
 
       for i = 0, distance do
-      addEvent(onDash,160*i,cid)
+      addEvent(onDash,100*i,cid)
        end
 end
 
@@ -57,10 +57,11 @@ function onCastSpell(cid, var)
 	if not isCreature(cid) then
 		return true
 	end
-		 	if exhaustion.check(cid, storage) then
+		 if exhaustion.check(cid, storage) then
 		doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
+		removeChakraLife(cid , - 135)
          iniciarEntry(cid)
 		 setPlayerStorageValue(cid, STORAGE_DIRECTION, 1)
          addEvent(dash, 320, cid)

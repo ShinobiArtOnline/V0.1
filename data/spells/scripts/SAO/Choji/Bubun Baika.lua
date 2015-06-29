@@ -3,9 +3,7 @@ local waittime = 1.5 -- czas
 local storage = 115818
 
 function onCastSpell(cid, var)
-if checkDoing(cid) then
-		return true
-	end	
+
 	if checkJutsu(cid, "Nikudan") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end

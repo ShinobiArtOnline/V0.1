@@ -1,5 +1,5 @@
 local combat = createCombatObject()
-local waittime = 1.5 -- czas
+local waittime = 2.5 -- czas
 local storage = 115818
 
 local confg = {
@@ -14,13 +14,9 @@ function onCastSpell(cid,var)
 		return true
 	end
 	
-	if	impossibleUse(cid) then
-		return true
-	end
+	
 
-	if checkDoing(cid) then
-		return true
-	end	
+	
 		if exhaustion.check(cid, storage) then
 		doPlayerSendCancel(cid, "You are exhausted")
 		return false

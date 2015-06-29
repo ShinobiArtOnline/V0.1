@@ -34,9 +34,7 @@ function onCastSpell(cid, var)
 	if checkJutsu(cid, "Tongarashigan") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
-	if checkCmd(cid, "mold") then
-		return doPlayerSendCancel(cid, "you cannot use jutsu while you are mold chakra")
-	end
+	
 	if getPlayerStorageValue(cid, sto_gen[1]) == 0 then
 		return doPlayerSendCancel(cid, "Sorry this is not possible.")		
 	end	

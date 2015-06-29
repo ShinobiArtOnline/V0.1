@@ -21,6 +21,7 @@
     
 	<attacks>
 	<attack name="melee" interval="1500" min="-65" max="-95"/>
+	<attack name="Throw big shuriken" interval="3000" min="-65" max="-95"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 

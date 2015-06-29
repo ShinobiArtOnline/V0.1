@@ -23,8 +23,8 @@
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
 	<event type="think" name="Sakura" event="script" value="Sakura.lua"/>
-	<event type="death" name="Aol" event="script" value="aol.lua"/>
-	<event type="death" name="HeartDrop" event="script" value="heart.lua"/>
+	
+	
 	
 	<event type="login" name="StaffLogin" event="script" value="login/adm.lua"/>
 
@@ -36,25 +36,25 @@
 	<event type="statschange" name="Hit" event="script" value="hit.lua"/>
 
 	<event type="preparedeath" name="death" event="script" value="death.lua"/>
-	<event type="PrepareDeath" name="dead" event="script" value="dead.lua"/>
+	
 	<event type="death" name="petdeath" event="script" value="petdeath.lua"/>
 	<event type="advance" name="CapKikkais" event="script" value="CapKikais.lua"/>
 	<event type="advance" name="hachimonAdvance" event="script" value="hachimonAdvance.lua"/>
 	<event type="direction" name="direction" event="script" value="Direction.lua"/>
 	<event type="kill" name="task" event="script" value="task.lua"/>
 	
-	<event type="preparedeath" name="kagemaneDeath" event="script" value="kagemaneDeath.lua"/>
-	<event type="login" name="Vocation_Outfit" event="script" value="Vocation_Outfit.lua"/>
+	
+	
 	<event type="advance" name="skillAdvanced" event="script" value="skillAdvanced.lua"/>
 	<event type="login" name="Outfitek" event="script" value="Outfitek.lua"/>
 	<event type="login" name="Outfits" event="script" value="outfits.lua"/> 
 	
-	<event type="login" name="Stamina" event="script" value="stamina.lua"/>
+	<event type="login" name="stamina" event="script" value="stamina.lua"/>
 	
 	
 	
 <!--Bounty System-->
-	<event type="kill" name="Bounty" script="bounty.lua"/>
+	
 	
 	<event type="advance" name="fullhp" event="script" value="fullhp.lua"/>
 	<event type="advance" name="sru" event="script" value="Advance/Sru.lua"/>

@@ -42,13 +42,7 @@ function onCastSpell(cid,var)
 	
 -----[Restrições]-----
 
-	if	impossibleUse(cid) then
-		return true
-	end
-
-	if checkDoing(cid) then
-		return true
-	end	
+	
 	
 	if checkJutsu(cid, "Hari") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")

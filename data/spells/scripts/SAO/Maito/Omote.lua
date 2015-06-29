@@ -1,5 +1,5 @@
 local combat = createCombatObject()
-local waittime = 1.5 -- czas
+local waittime = 2.5 -- czas
 local storage = 115818
 
 local config = {

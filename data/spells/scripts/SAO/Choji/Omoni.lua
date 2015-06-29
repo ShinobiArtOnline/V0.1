@@ -45,13 +45,7 @@ local function dash(cid)
 end
 
 function onCastSpell(cid, var)
-if	impossibleUse(cid) then
-		return true
-	end
 
-	if checkDoing(cid) then
-		return true
-	end	
 	if checkJutsu(cid, "Nikudan") then
 		return doPlayerSendCancel(cid, "you cannot use jutsu")
 	end
