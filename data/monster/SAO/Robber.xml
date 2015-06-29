@@ -34,9 +34,9 @@
     </immunities>
     <loot>
 <item id="2148" countmax="2000" chance1="50000" chancemax="0"/>
-<item id="11720" chance="50000"/>
-<item id="11734" chance="2000"/>
-<item id="11822" chance="50000">
+<item id="11720" chance="50000"/> <!--Robber cap-->
+<item id="11734" chance="2000"/> <!-- Robber robe -->
+<!--<item id="11822" chance="50000"> <!-- Robber boots --> 
 
 </item>
     </loot>
