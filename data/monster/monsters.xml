@@ -53,7 +53,6 @@
 	<monster name="Disable soldier" file="SAO/Disable soldier.xml"/>
 	<monster name="Star Ninja" file="SAO/Star Ninja.xml"/>
 	<monster name="Strong Star Ninja" file="SAO/Strong Star Ninja.xml"/>
-	<monster name="Wolf" file="SAO/wolf.xml"/>
 	<monster name="Akamaru" file="Akamaru/akamaru.xml"/>
 	<monster name="Akamaruu" file="Akamaru/akamaru50.xml"/>
 	<monster name="Red Akamaru" file="Akamaru/akamaru100.xml"/>

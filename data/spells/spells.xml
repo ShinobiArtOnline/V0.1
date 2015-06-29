@@ -383,7 +383,7 @@
 	
 	
 		<!--- Shikamaru -->
-	<instant name="Kage Kubi Shibari no Jutsu" words="Kage Kubi Shibari" lvl="75" mana="950" aggressive="0" selftarget="0" exhaustion="1500" needtarget="1" needlearn="0"  event="script" value="SAO/genjutsu/Nehan Shoja.lua">
+	<instant name="Kage Kubi Shibari no Jutsu" words="Kage Kubi Shibari" lvl="75" mana="950" aggressive="0" selftarget="0" exhaustion="1500" needtarget="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/Kage Kubi Shibari.lua">
 		<vocation id="5"/>
 		<vocation id="20"/>
 		<vocation id="21"/>

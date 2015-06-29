@@ -205,11 +205,11 @@
   <spawn centerx="674" centery="811" centerz="5" radius="11">
     <monster name="Thief" x="1" y="-3" z="5" spawntime="60"/>
     <monster name="Villager" x="2" y="-1" z="5" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="0" z="5" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="0" z="5" spawntime="60"/>
     <monster name="Villager" x="-3" y="1" z="5" spawntime="60"/>
     <monster name="Thief" x="-2" y="2" z="5" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="4" z="5" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="6" z="5" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="4" z="5" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="6" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="673" centery="813" centerz="5" radius="11"/>
   <spawn centerx="676" centery="813" centerz="5" radius="11"/>
@@ -702,26 +702,26 @@
   </spawn>
   <spawn centerx="610" centery="814" centerz="6" radius="11">
     <monster name="Villager" x="-1" y="-8" z="6" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-7" z="6" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="-6" z="6" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-7" z="6" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-6" z="6" spawntime="60"/>
     <monster name="Villager" x="-4" y="-5" z="6" spawntime="60"/>
     <monster name="Villager" x="-3" y="-1" z="6" spawntime="60"/>
     <monster name="Villager" x="4" y="0" z="6" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="2" z="6" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="2" z="6" spawntime="60"/>
     <monster name="Villager" x="-4" y="3" z="6" spawntime="60"/>
     <monster name="Villager" x="1" y="3" z="6" spawntime="60"/>
     <monster name="Villager" x="1" y="7" z="6" spawntime="60"/>
-    <monster name="Onbu" x="3" y="9" z="6" spawntime="60"/>
+    <monster name="Wolf" x="3" y="9" z="6" spawntime="60"/>
     <monster name="Villager" x="5" y="10" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="611" centery="814" centerz="6" radius="11"/>
   <spawn centerx="659" centery="814" centerz="6" radius="11">
-    <monster name="Onbu" x="-4" y="-2" z="6" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-2" z="6" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-2" z="6" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-2" z="6" spawntime="60"/>
     <monster name="Villager" x="3" y="-1" z="6" spawntime="60"/>
     <monster name="Villager" x="-4" y="3" z="6" spawntime="60"/>
-    <monster name="Onbu" x="0" y="3" z="6" spawntime="60"/>
-    <monster name="Onbu" x="5" y="4" z="6" spawntime="60"/>
+    <monster name="Wolf" x="0" y="3" z="6" spawntime="60"/>
+    <monster name="Wolf" x="5" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="660" centery="814" centerz="6" radius="11"/>
   <spawn centerx="536" centery="816" centerz="6" radius="11">
@@ -1291,11 +1291,11 @@
     <monster name="Grassman" x="-14" y="7" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="557" centery="615" centerz="7" radius="8">
-    <monster name="Onbu" x="7" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="998" centery="657" centerz="7" radius="20">
     <monster name="Pirate" x="-7" y="-5" z="7" spawntime="60"/>
@@ -1403,16 +1403,16 @@
     <monster name="Resurgent" x="-9" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="903" centery="713" centerz="7" radius="14">
-    <monster name="Onbu" x="-2" y="-14" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="-11" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-13" y="10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-13" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-14" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-13" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-13" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1163" centery="718" centerz="7" radius="8">
     <monster name="Sand beast" x="-4" y="-4" z="7" spawntime="60"/>
@@ -1494,8 +1494,8 @@
     <monster name="Thief" x="3" y="1" z="7" spawntime="60"/>
     <monster name="Thief" x="2" y="5" z="7" spawntime="60"/>
     <monster name="Villager" x="-7" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="10" z="7" spawntime="60"/>
     <monster name="Villager" x="7" y="10" z="7" spawntime="60"/>
   </spawn>
@@ -1543,10 +1543,10 @@
     <monster name="Robber" x="2" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="568" centery="750" centerz="7" radius="11">
-    <monster name="Onbu" x="-4" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="6" z="7" spawntime="60"/>
     <monster name="Villager" x="9" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="571" centery="752" centerz="7" radius="11"/>
   <spawn centerx="599" centery="752" centerz="7" radius="11">
@@ -1575,7 +1575,7 @@
   </spawn>
   <spawn centerx="585" centery="757" centerz="7" radius="11">
     <monster name="Villager" x="2" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="10" z="7" spawntime="60"/>
     <monster name="Villager" x="-4" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="605" centery="760" centerz="7" radius="11">
@@ -1586,7 +1586,7 @@
     <monster name="Villager" x="-4" y="4" z="7" spawntime="60"/>
     <monster name="Thief" x="11" y="4" z="7" spawntime="60"/>
     <monster name="Villager" x="5" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="829" centery="760" centerz="7" radius="12">
     <monster name="Swordman" x="9" y="-9" z="7" spawntime="60"/>
@@ -1636,9 +1636,9 @@
     <monster name="Robber" x="6" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="585" centery="763" centerz="7" radius="11">
-    <monster name="Onbu" x="-3" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="586" centery="763" centerz="7" radius="11"/>
   <spawn centerx="1129" centery="763" centerz="7" radius="8">
@@ -1725,9 +1725,9 @@
     <monster name="Villager" x="8" y="3" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="8" z="7" spawntime="60"/>
     <monster name="Black wolf" x="11" y="9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="11" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="11" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="12" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="12" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1037" centery="771" centerz="7" radius="17">
     <monster name="Swordman" x="6" y="-17" z="7" spawntime="60"/>
@@ -1798,15 +1798,15 @@
     <monster name="Robber" x="7" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="721" centery="777" centerz="7" radius="11">
-    <monster name="Onbu" x="-3" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="-4" z="7" spawntime="768"/>
-    <monster name="Onbu" x="2" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="-4" z="7" spawntime="768"/>
+    <monster name="Wolf" x="2" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="743" centery="777" centerz="7" radius="11">
-    <monster name="Onbu" x="-2" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1125" centery="777" centerz="7" radius="8">
     <monster name="Swordman" x="-2" y="-1" z="7" spawntime="60"/>
@@ -1830,11 +1830,11 @@
     <monster name="Robber" x="12" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="782" centery="779" centerz="7" radius="11">
-    <monster name="Onbu" x="-9" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1063" centery="779" centerz="7" radius="8">
     <monster name="Sand beast" x="8" y="5" z="7" spawntime="60"/>
@@ -1850,46 +1850,46 @@
     <monster name="Sand beast" x="-5" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="642" centery="780" centerz="7" radius="11">
-    <monster name="Onbu" x="1" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="765" centery="780" centerz="7" radius="11"/>
   <spawn centerx="618" centery="781" centerz="7" radius="11">
-    <monster name="Onbu" x="8" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="4" z="7" spawntime="60"/>
     <monster name="Villager" x="-1" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="2" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="665" centery="781" centerz="7" radius="11">
-    <monster name="Onbu" x="6" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="688" centery="781" centerz="7" radius="11">
-    <monster name="Onbu" x="3" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="8" z="7" spawntime="768"/>
-    <monster name="Onbu" x="9" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="8" z="7" spawntime="768"/>
+    <monster name="Wolf" x="9" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1206" centery="784" centerz="7" radius="8">
     <monster name="Guardian" x="-5" y="-3" z="7" spawntime="60"/>
@@ -1922,10 +1922,10 @@
     <monster name="Assasin" x="9" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="878" centery="786" centerz="7" radius="12">
-    <monster name="Onbu" x="-5" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="3" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1132" centery="789" centerz="7" radius="8">
     <monster name="Swordman" x="4" y="-5" z="7" spawntime="60"/>
@@ -1948,9 +1948,9 @@
   <spawn centerx="610" centery="792" centerz="7" radius="11">
     <monster name="Villager" x="-4" y="-4" z="7" spawntime="60"/>
     <monster name="Villager" x="3" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="3" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="9" z="7" spawntime="60"/>
     <monster name="Villager" x="8" y="9" z="7" spawntime="60"/>
     <monster name="Villager" x="9" y="9" z="7" spawntime="768"/>
   </spawn>
@@ -2003,17 +2003,17 @@
     <monster name="Waterman" x="-4" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="721" centery="795" centerz="7" radius="11">
-    <monster name="Onbu" x="4" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="2" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-6" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="2" z="7" spawntime="768"/>
+    <monster name="Wolf" x="-6" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="741" centery="795" centerz="7" radius="11">
-    <monster name="Onbu" x="-6" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-1" z="7" spawntime="60"/>
     <monster name="Villager" x="-2" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="5" z="7" spawntime="60"/>
     <monster name="Thief" x="2" y="6" z="7" spawntime="60"/>
     <monster name="Thief" x="5" y="8" z="7" spawntime="60"/>
     <monster name="Villager" x="6" y="8" z="7" spawntime="60"/>
@@ -2085,20 +2085,20 @@
     <monster name="Swordman" x="8" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="748" centery="801" centerz="7" radius="11">
-    <monster name="Onbu" x="9" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="4" z="7" spawntime="60"/>
     <monster name="Villager" x="8" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="8" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="775" centery="802" centerz="7" radius="11">
-    <monster name="Onbu" x="-2" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-3" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="3" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="5" z="7" spawntime="60"/>
     <monster name="Villager" x="-2" y="5" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-4" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1032" centery="802" centerz="7" radius="17">
     <monster name="Necromancer" x="6" y="-11" z="7" spawntime="60"/>
@@ -2118,53 +2118,53 @@
     <monster name="Sand warrior" x="2" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="620" centery="803" centerz="7" radius="11">
-    <monster name="Onbu" x="4" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="6" z="7" spawntime="60"/>
     <monster name="Villager" x="0" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="643" centery="803" centerz="7" radius="11">
-    <monster name="Onbu" x="-8" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="8" z="7" spawntime="60"/>
     <monster name="Villager" x="-4" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="793" centery="803" centerz="7" radius="11">
     <monster name="Villager" x="1" y="-5" z="7" spawntime="60"/>
     <monster name="Villager" x="2" y="-5" z="7" spawntime="60"/>
     <monster name="Villager" x="0" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="4" z="7" spawntime="60"/>
     <monster name="Villager" x="3" y="10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="903" centery="803" centerz="7" radius="12">
     <monster name="Black wolf" x="-10" y="-2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="666" centery="804" centerz="7" radius="11">
-    <monster name="Onbu" x="-5" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="689" centery="804" centerz="7" radius="11">
-    <monster name="Onbu" x="-8" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="752" centery="804" centerz="7" radius="11"/>
   <spawn centerx="755" centery="805" centerz="7" radius="11"/>
@@ -2179,28 +2179,28 @@
   </spawn>
   <spawn centerx="562" centery="806" centerz="7" radius="11">
     <monster name="Villager" x="2" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="4" z="7" spawntime="60"/>
     <monster name="Villager" x="9" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="878" centery="807" centerz="7" radius="12">
     <monster name="Villager" x="-8" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="1" z="7" spawntime="60"/>
     <monster name="Villager" x="-11" y="3" z="7" spawntime="60"/>
     <monster name="Villager" x="8" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1209" centery="807" centerz="7" radius="8">
     <monster name="Guardian" x="-3" y="-2" z="7" spawntime="60"/>
     <monster name="Guardian" x="-1" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="776" centery="809" centerz="7" radius="11">
-    <monster name="Onbu" x="-5" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="5" z="7" spawntime="60"/>
     <monster name="Villager" x="3" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="978" centery="810" centerz="7" radius="14">
     <monster name="Robber" x="-8" y="-6" z="7" spawntime="60"/>
@@ -2218,13 +2218,13 @@
     <monster name="Robber" x="8" y="13" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="825" centery="812" centerz="7" radius="11">
-    <monster name="Onbu" x="-7" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-4" z="7" spawntime="60"/>
     <monster name="Assasin" x="1" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1157" centery="812" centerz="7" radius="8">
     <monster name="Sand warrior" x="3" y="-5" z="7" spawntime="60"/>
@@ -2235,27 +2235,27 @@
     <monster name="Sand beast" x="4" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="508" centery="814" centerz="7" radius="11">
-    <monster name="Onbu" x="11" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="-6" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-2" y="-5" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-6" y="-3" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-2" y="-2" z="7" spawntime="60"/>
     <monster name="Shinobi" x="5" y="-2" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-3" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="3" z="7" spawntime="60"/>
     <monster name="Shinobi" x="7" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="520" centery="814" centerz="7" radius="11">
-    <monster name="Onbu" x="10" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="809" centery="815" centerz="7" radius="11">
-    <monster name="Onbu" x="2" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="549" centery="816" centerz="7" radius="11">
     <monster name="Villager" x="4" y="2" z="7" spawntime="60"/>
@@ -2267,13 +2267,13 @@
     <monster name="Villager" x="4" y="-3" z="7" spawntime="60"/>
     <monster name="Villager" x="8" y="-3" z="7" spawntime="60"/>
     <monster name="Villager" x="9" y="-3" z="7" spawntime="768"/>
-    <monster name="Onbu" x="7" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-2" z="7" spawntime="60"/>
     <monster name="Villager" x="5" y="1" z="7" spawntime="60"/>
     <monster name="Villager" x="-8" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="3" z="7" spawntime="60"/>
     <monster name="Villager" x="-7" y="4" z="7" spawntime="60"/>
     <monster name="Villager" x="-2" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="5" z="7" spawntime="60"/>
     <monster name="Villager" x="-8" y="8" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="9" z="7" spawntime="60"/>
     <monster name="Villager" x="2" y="11" z="7" spawntime="60"/>
@@ -2286,7 +2286,7 @@
     <monster name="Villager" x="-3" y="-6" z="7" spawntime="60"/>
     <monster name="Villager" x="0" y="2" z="7" spawntime="60"/>
     <monster name="Villager" x="6" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="5" z="7" spawntime="60"/>
     <monster name="Villager" x="2" y="6" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="-7" y="8" z="7" spawntime="60"/>
@@ -2297,10 +2297,10 @@
   <spawn centerx="924" centery="818" centerz="7" radius="12">
     <monster name="Black wolf" x="3" y="-9" z="7" spawntime="60"/>
     <monster name="Black wolf" x="6" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1119" centery="819" centerz="7" radius="8">
     <monster name="Sand beast" x="-2" y="-6" z="7" spawntime="60"/>
@@ -2323,24 +2323,24 @@
     <monster name="Sand beast" x="7" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="630" centery="820" centerz="7" radius="11">
-    <monster name="Onbu" x="0" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-1" z="7" spawntime="60"/>
     <monster name="Villager" x="-2" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="6" z="7" spawntime="60"/>
     <monster name="Villager" x="8" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="-6" y="10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="501" centery="822" centerz="7" radius="11">
-    <monster name="Onbu" x="6" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="865" centery="822" centerz="7" radius="11">
-    <monster name="Onbu" x="-6" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1009" centery="822" centerz="7" radius="17">
     <monster name="Elder assassin" x="1" y="-5" z="7" spawntime="60"/>
@@ -2361,7 +2361,7 @@
     <monster name="Villager" x="-5" y="1" z="7" spawntime="60"/>
     <monster name="Villager" x="-7" y="2" z="7" spawntime="60"/>
     <monster name="Villager" x="7" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="947" centery="823" centerz="7" radius="20">
     <monster name="Robber" x="2" y="-8" z="7" spawntime="60"/>
@@ -2375,7 +2375,7 @@
     <monster name="Robber" x="-6" y="11" z="7" spawntime="60"/>
     <monster name="Waterman" x="0" y="11" z="7" spawntime="60"/>
     <monster name="Robber" x="-4" y="12" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-20" y="18" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-20" y="18" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1085" centery="823" centerz="7" radius="8">
     <monster name="Sand beast" x="-5" y="-6" z="7" spawntime="60"/>
@@ -2387,28 +2387,28 @@
     <monster name="Sand warrior" x="6" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="775" centery="825" centerz="7" radius="11">
-    <monster name="Onbu" x="6" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="520" centery="826" centerz="7" radius="11">
-    <monster name="Onbu" x="1" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="619" centery="826" centerz="7" radius="11">
-    <monster name="Onbu" x="-1" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="642" centery="826" centerz="7" radius="11">
-    <monster name="Onbu" x="11" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="11" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="665" centery="826" centerz="7" radius="11">
-    <monster name="Onbu" x="7" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="798" centery="826" centerz="7" radius="11">
     <monster name="Villager" x="-9" y="-10" z="7" spawntime="60"/>
@@ -2418,14 +2418,14 @@
     <monster name="Villager" x="2" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="689" centery="827" centerz="7" radius="11">
-    <monster name="Onbu" x="-6" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="842" centery="827" centerz="7" radius="11">
     <monster name="Assasin" x="-4" y="-8" z="7" spawntime="60"/>
@@ -2439,23 +2439,23 @@
     <monster name="Assasin" x="-10" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="906" centery="827" centerz="7" radius="12">
-    <monster name="Onbu" x="-3" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="-1" z="7" spawntime="60"/>
     <monster name="Black wolf" x="-12" y="0" z="7" spawntime="60"/>
     <monster name="Black wolf" x="2" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="12" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="12" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="712" centery="828" centerz="7" radius="11">
-    <monster name="Onbu" x="2" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1171" centery="830" centerz="7" radius="8">
     <monster name="Sand warrior" x="0" y="-7" z="7" spawntime="60"/>
@@ -2468,21 +2468,21 @@
     <monster name="Sand beast" x="4" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="882" centery="831" centerz="7" radius="11">
-    <monster name="Onbu" x="8" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-4" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-5" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-4" z="7" spawntime="768"/>
+    <monster name="Wolf" x="-5" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="733" centery="832" centerz="7" radius="11">
-    <monster name="Onbu" x="6" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1202" centery="832" centerz="7" radius="8">
     <monster name="Sand beast" x="-1" y="-4" z="7" spawntime="60"/>
@@ -2504,8 +2504,8 @@
     <monster name="Villager" x="1" y="-6" z="7" spawntime="60"/>
     <monster name="Assasin" x="5" y="-6" z="7" spawntime="60"/>
     <monster name="Villager" x="-2" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="862" centery="836" centerz="7" radius="11">
     <monster name="White shinobi" x="-2" y="-2" z="7" spawntime="60"/>
@@ -2556,8 +2556,8 @@
     <monster name="Villager" x="4" y="2" z="7" spawntime="60"/>
     <monster name="Villager" x="5" y="4" z="7" spawntime="60"/>
     <monster name="Villager" x="5" y="5" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-7" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="570" centery="839" centerz="7" radius="11">
     <monster name="Villager" x="-2" y="-11" z="7" spawntime="60"/>
@@ -2566,45 +2566,45 @@
     <monster name="Villager" x="-6" y="-5" z="7" spawntime="60"/>
     <monster name="Villager" x="-8" y="-4" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-2" z="7" spawntime="60"/>
     <monster name="Villager" x="3" y="2" z="7" spawntime="60"/>
     <monster name="Villager" x="8" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="5" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-6" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="5" z="7" spawntime="768"/>
+    <monster name="Wolf" x="-6" y="9" z="7" spawntime="60"/>
     <monster name="Villager" x="4" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="593" centery="839" centerz="7" radius="11">
     <monster name="Villager" x="-10" y="-9" z="7" spawntime="60"/>
     <monster name="Villager" x="-6" y="-9" z="7" spawntime="60"/>
     <monster name="Villager" x="-4" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="-1" z="7" spawntime="60"/>
     <monster name="Villager" x="-10" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="4" z="7" spawntime="60"/>
     <monster name="Villager" x="-5" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="5" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="9" z="7" spawntime="60"/>
     <monster name="Villager" x="9" y="9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="566" centery="840" centerz="7" radius="11"/>
   <spawn centerx="753" centery="842" centerz="7" radius="11">
-    <monster name="Onbu" x="-5" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="917" centery="842" centerz="7" radius="12">
-    <monster name="Onbu" x="2" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="536" centery="843" centerz="7" radius="11">
-    <monster name="Onbu" x="-4" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="490" centery="844" centerz="7" radius="11">
     <monster name="Thief" x="5" y="-9" z="7" spawntime="60"/>
@@ -2617,17 +2617,17 @@
     <monster name="Thief" x="-3" y="5" z="7" spawntime="60"/>
     <monster name="Thief" x="8" y="5" z="7" spawntime="60"/>
     <monster name="Thief" x="-3" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="481" centery="847" centerz="7" radius="11"/>
   <spawn centerx="499" centery="847" centerz="7" radius="11">
     <monster name="Robber" x="3" y="-3" z="7" spawntime="60"/>
     <monster name="Robber" x="4" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="0" z="7" spawntime="60"/>
     <monster name="Thief" x="3" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="594" centery="847" centerz="7" radius="11">
-    <monster name="Onbu" x="3" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="858" centery="847" centerz="7" radius="11">
     <monster name="Lightingman" x="-8" y="-3" z="7" spawntime="60"/>
@@ -2638,67 +2638,67 @@
   <spawn centerx="703" centery="849" centerz="7" radius="11">
     <monster name="Villager" x="-5" y="-7" z="7" spawntime="60"/>
     <monster name="Villager" x="10" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-3" z="7" spawntime="60"/>
     <monster name="Villager" x="-6" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="836" centery="850" centerz="7" radius="11">
-    <monster name="Onbu" x="7" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-6" z="7" spawntime="60"/>
     <monster name="Villager" x="-1" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="6" z="7" spawntime="60"/>
     <monster name="Villager" x="7" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="-6" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="510" centery="851" centerz="7" radius="11">
-    <monster name="Onbu" x="2" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="0" z="7" spawntime="60"/>
     <monster name="Thief" x="5" y="2" z="7" spawntime="60"/>
     <monster name="Thief" x="0" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="624" centery="852" centerz="7" radius="11">
     <monster name="Villager" x="7" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="-5" z="7" spawntime="60"/>
     <monster name="Villager" x="-2" y="0" z="7" spawntime="60"/>
     <monster name="Villager" x="7" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-9" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="4" z="7" spawntime="768"/>
-    <monster name="Onbu" x="11" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="4" z="7" spawntime="768"/>
+    <monster name="Wolf" x="11" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="638" centery="852" centerz="7" radius="11">
-    <monster name="Onbu" x="0" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="707" centery="852" centerz="7" radius="11">
-    <monster name="Onbu" x="10" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="730" centery="852" centerz="7" radius="11">
-    <monster name="Onbu" x="-1" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="615" centery="853" centerz="7" radius="11">
-    <monster name="Onbu" x="-6" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="661" centery="853" centerz="7" radius="11">
-    <monster name="Onbu" x="-10" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="684" centery="853" centerz="7" radius="11">
-    <monster name="Onbu" x="7" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="878" centery="853" centerz="7" radius="11">
     <monster name="Lightingman" x="-6" y="-5" z="7" spawntime="60"/>
@@ -2713,22 +2713,22 @@
     <monster name="Dark priest" x="-3" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="941" centery="854" centerz="7" radius="12">
-    <monster name="Onbu" x="-2" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-5" z="7" spawntime="60"/>
     <monster name="Villager" x="2" y="-5" z="7" spawntime="60"/>
     <monster name="Villager" x="-10" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="517" centery="856" centerz="7" radius="11">
-    <monster name="Onbu" x="5" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="776" centery="859" centerz="7" radius="11">
-    <monster name="Onbu" x="1" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="-8" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="1" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="3" z="7" spawntime="60"/>
     <monster name="Villager" x="10" y="7" z="7" spawntime="60"/>
   </spawn>
@@ -2758,24 +2758,24 @@
     <monster name="Lightingman" x="-4" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="490" centery="863" centerz="7" radius="11">
-    <monster name="Onbu" x="-1" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-3" z="7" spawntime="60"/>
     <monster name="Thief" x="-6" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="4" z="7" spawntime="60"/>
     <monster name="Thief" x="7" y="5" z="7" spawntime="60"/>
     <monster name="Thief" x="-1" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="8" z="7" spawntime="60"/>
     <monster name="Thief" x="10" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="552" centery="863" centerz="7" radius="11"/>
   <spawn centerx="573" centery="863" centerz="7" radius="11">
-    <monster name="Onbu" x="-5" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="2" z="7" spawntime="60"/>
     <monster name="Villager" x="5" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="10" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-3" y="11" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1073" centery="863" centerz="7" radius="20">
     <monster name="Dark priest" x="0" y="-14" z="7" spawntime="60"/>
@@ -2812,15 +2812,15 @@
     <monster name="Black wolf" x="-5" y="18" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="799" centery="864" centerz="7" radius="11">
-    <monster name="Onbu" x="-2" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-9" z="7" spawntime="60"/>
     <monster name="Thief" x="-4" y="-2" z="7" spawntime="60"/>
     <monster name="Thief" x="10" y="-2" z="7" spawntime="60"/>
     <monster name="Thief" x="1" y="-1" z="7" spawntime="60"/>
     <monster name="Thief" x="-4" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="1" z="7" spawntime="60"/>
     <monster name="Thief" x="11" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1120" centery="864" centerz="7" radius="8">
     <monster name="Magmaman" x="-2" y="-7" z="7" spawntime="60"/>
@@ -2838,7 +2838,7 @@
     <monster name="Magmaman" x="7" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="494" centery="866" centerz="7" radius="11">
-    <monster name="Onbu" x="10" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1133" centery="866" centerz="7" radius="8">
     <monster name="Dark priest" x="5" y="-4" z="7" spawntime="60"/>
@@ -2862,26 +2862,26 @@
   </spawn>
   <spawn centerx="856" centery="868" centerz="7" radius="11">
     <monster name="Villager" x="-3" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="754" centery="869" centerz="7" radius="11">
-    <monster name="Onbu" x="-7" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="-9" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="0" z="7" spawntime="60"/>
     <monster name="Villager" x="-4" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="812" centery="871" centerz="7" radius="11">
-    <monster name="Onbu" x="8" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="0" z="7" spawntime="60"/>
     <monster name="Thief" x="-1" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="717" centery="875" centerz="7" radius="11">
-    <monster name="Onbu" x="6" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="529" centery="876" centerz="7" radius="11">
     <monster name="Shinobi" x="-2" y="-4" z="7" spawntime="60"/>
@@ -2892,49 +2892,49 @@
     <monster name="Shinobi" x="-1" y="5" z="7" spawntime="60"/>
     <monster name="Robber" x="3" y="8" z="7" spawntime="60"/>
     <monster name="Robber" x="9" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="569" centery="876" centerz="7" radius="11">
     <monster name="Villager" x="-1" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="0" z="7" spawntime="60"/>
     <monster name="Villager" x="8" y="0" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="2" z="7" spawntime="60"/>
     <monster name="Villager" x="-1" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="575" centery="876" centerz="7" radius="11"/>
   <spawn centerx="660" centery="876" centerz="7" radius="11">
-    <monster name="Onbu" x="-6" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="674" centery="876" centerz="7" radius="11">
-    <monster name="Onbu" x="3" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="-9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="694" centery="876" centerz="7" radius="11">
-    <monster name="Onbu" x="-3" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="515" centery="877" centerz="7" radius="11">
-    <monster name="Onbu" x="2" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="553" centery="878" centerz="7" radius="11">
-    <monster name="Onbu" x="-9" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="575" centery="880" centerz="7" radius="11">
     <monster name="Shinobi" x="-7" y="8" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-4" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="9" z="7" spawntime="60"/>
     <monster name="Shinobi" x="0" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1057" centery="882" centerz="7" radius="20">
@@ -2958,11 +2958,11 @@
     <monster name="Dark priest" x="-16" y="18" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="535" centery="883" centerz="7" radius="11">
-    <monster name="Onbu" x="-7" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="836" centery="885" centerz="7" radius="11">
-    <monster name="Onbu" x="4" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="885" centery="885" centerz="7" radius="11">
     <monster name="Lightingman" x="9" y="-10" z="7" spawntime="60"/>
@@ -3002,12 +3002,12 @@
     <monster name="Lightingman" x="1" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="869" centery="888" centerz="7" radius="11">
-    <monster name="Onbu" x="2" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-7" z="7" spawntime="60"/>
     <monster name="Villager" x="-4" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1025" centery="888" centerz="7" radius="20">
     <monster name="Black wolf" x="1" y="-6" z="7" spawntime="60"/>
@@ -3023,14 +3023,14 @@
     <monster name="Black wolf" x="6" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="805" centery="889" centerz="7" radius="12">
-    <monster name="Onbu" x="-8" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="3" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-5" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="12" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="3" z="7" spawntime="768"/>
+    <monster name="Wolf" x="-5" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="12" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="487" centery="891" centerz="7" radius="11">
     <monster name="Robber" x="-6" y="-8" z="7" spawntime="60"/>
@@ -3059,53 +3059,53 @@
   <spawn centerx="977" centery="894" centerz="7" radius="12">
     <monster name="Villager" x="5" y="-10" z="7" spawntime="60"/>
     <monster name="Villager" x="7" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="1" z="7" spawntime="60"/>
     <monster name="Villager" x="7" y="5" z="7" spawntime="60"/>
     <monster name="Villager" x="-7" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="6" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="-6" y="8" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="530" centery="899" centerz="7" radius="11">
-    <monster name="Onbu" x="-10" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="-2" z="7" spawntime="60"/>
     <monster name="Shinobi" x="0" y="-2" z="7" spawntime="60"/>
     <monster name="Shinobi" x="3" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="0" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-6" y="2" z="7" spawntime="60"/>
     <monster name="Shinobi" x="6" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="553" centery="902" centerz="7" radius="11">
-    <monster name="Onbu" x="-1" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-5" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-1" y="0" z="7" spawntime="60"/>
     <monster name="Shinobi" x="2" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="7" z="7" spawntime="60"/>
     <monster name="Shinobi" x="0" y="8" z="7" spawntime="60"/>
     <monster name="Shinobi" x="7" y="8" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-7" y="9" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-6" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="704" centery="902" centerz="7" radius="14">
-    <monster name="Onbu" x="4" y="-13" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="-12" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-13" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="-12" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="813" centery="902" centerz="7" radius="11">
-    <monster name="Onbu" x="10" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="517" centery="903" centerz="7" radius="11">
-    <monster name="Onbu" x="-6" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1098" centery="904" centerz="7" radius="20">
     <monster name="Dark priest" x="-17" y="-13" z="7" spawntime="60"/>
@@ -3146,18 +3146,18 @@
     <monster name="Black wolf" x="-18" y="18" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="543" centery="905" centerz="7" radius="11">
-    <monster name="Onbu" x="-3" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="7" z="7" spawntime="60"/>
     <monster name="Shinobi" x="2" y="10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1120" centery="905" centerz="7" radius="20">
     <monster name="Dark priest" x="3" y="0" z="7" spawntime="60"/>
     <monster name="Dark priest" x="5" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="855" centery="907" centerz="7" radius="11">
-    <monster name="Onbu" x="1" y="-7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="497" centery="908" centerz="7" radius="11">
     <monster name="Thief" x="7" y="-1" z="7" spawntime="60"/>
@@ -3177,25 +3177,25 @@
   </spawn>
   <spawn centerx="558" centery="914" centerz="7" radius="11">
     <monster name="Shinobi" x="-2" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="5" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-6" y="6" z="7" spawntime="60"/>
     <monster name="Shinobi" x="0" y="6" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-3" y="7" z="7" spawntime="60"/>
     <monster name="Shinobi" x="-3" y="8" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-11" y="9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="555" centery="916" centerz="7" radius="11"/>
   <spawn centerx="1065" centery="916" centerz="7" radius="20"/>
   <spawn centerx="878" centery="919" centerz="7" radius="11">
-    <monster name="Onbu" x="7" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="551" centery="921" centerz="7" radius="11"/>
   <spawn centerx="803" centery="921" centerz="7" radius="11">
-    <monster name="Onbu" x="-9" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-9" y="-5" z="7" spawntime="60"/>
     <monster name="Villager" x="-7" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-1" z="7" spawntime="60"/>
     <monster name="Villager" x="2" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="575" centery="923" centerz="7" radius="19">
@@ -3210,23 +3210,23 @@
     <monster name="Shinobi" x="-2" y="13" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="826" centery="929" centerz="7" radius="11">
-    <monster name="Onbu" x="-11" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-2" z="7" spawntime="60"/>
     <monster name="Villager" x="-4" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="704" centery="931" centerz="7" radius="14">
-    <monster name="Onbu" x="9" y="-13" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="-13" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-7" z="7" spawntime="60"/>
     <monster name="Thief" x="13" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-3" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="5" z="7" spawntime="60"/>
     <monster name="Thief" x="-6" y="7" z="7" spawntime="60"/>
     <monster name="Thief" x="-5" y="8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="11" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="11" z="7" spawntime="60"/>
     <monster name="Thief" x="0" y="12" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="12" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="12" z="7" spawntime="60"/>
     <monster name="Thief" x="3" y="14" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="733" centery="934" centerz="7" radius="14">
@@ -3234,35 +3234,35 @@
     <monster name="Thief" x="3" y="-6" z="7" spawntime="60"/>
     <monster name="Thief" x="7" y="-6" z="7" spawntime="60"/>
     <monster name="Thief" x="4" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="-4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-5" y="-4" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-8" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-4" z="7" spawntime="768"/>
+    <monster name="Wolf" x="-8" y="-3" z="7" spawntime="60"/>
     <monster name="Villager" x="14" y="-2" z="7" spawntime="60"/>
     <monster name="Thief" x="14" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="8" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="5" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="8" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="5" y="7" z="7" spawntime="60"/>
     <monster name="Thief" x="-14" y="8" z="7" spawntime="60"/>
     <monster name="Thief" x="-12" y="8" z="7" spawntime="60"/>
     <monster name="Thief" x="0" y="9" z="7" spawntime="60"/>
     <monster name="Thief" x="-2" y="10" z="7" spawntime="60"/>
     <monster name="Thief" x="-12" y="11" z="7" spawntime="60"/>
-    <monster name="Onbu" x="2" y="14" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="14" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="874" centery="935" centerz="7" radius="11">
-    <monster name="Onbu" x="-5" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-5" y="-2" z="7" spawntime="60"/>
     <monster name="Villager" x="-11" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="6" z="7" spawntime="768"/>
+    <monster name="Wolf" x="9" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="6" z="7" spawntime="768"/>
   </spawn>
   <spawn centerx="851" centery="938" centerz="7" radius="11">
-    <monster name="Onbu" x="-6" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-4" z="7" spawntime="60"/>
     <monster name="Villager" x="7" y="-4" z="7" spawntime="60"/>
     <monster name="Villager" x="-6" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="762" centery="939" centerz="7" radius="14">
     <monster name="Thief" x="1" y="-10" z="7" spawntime="60"/>
@@ -3271,10 +3271,10 @@
     <monster name="Villager" x="-13" y="-7" z="7" spawntime="60"/>
     <monster name="Villager" x="12" y="-7" z="7" spawntime="60"/>
     <monster name="Thief" x="-13" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-6" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-6" z="7" spawntime="60"/>
     <monster name="Villager" x="12" y="-6" z="7" spawntime="60"/>
-    <monster name="Onbu" x="13" y="-5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="13" y="-5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="-3" z="7" spawntime="60"/>
     <monster name="Thief" x="-12" y="-2" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="2" y="3" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="6" y="3" z="7" spawntime="60"/>
@@ -3299,7 +3299,7 @@
     <monster name="Thief" x="-9" y="-9" z="7" spawntime="60"/>
     <monster name="Thief" x="-12" y="-8" z="7" spawntime="60"/>
     <monster name="Thief" x="-9" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-7" z="7" spawntime="60"/>
     <monster name="Thief" x="2" y="-1" z="7" spawntime="60"/>
     <monster name="Thief" x="1" y="1" z="7" spawntime="60"/>
     <monster name="Thief" x="0" y="3" z="7" spawntime="60"/>
@@ -3308,7 +3308,7 @@
     <monster name="Villager" x="0" y="5" z="7" spawntime="60"/>
     <monster name="Thief" x="-10" y="7" z="7" spawntime="60"/>
     <monster name="Villager" x="-7" y="7" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-10" y="8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-10" y="8" z="7" spawntime="60"/>
     <monster name="Thief" x="3" y="8" z="7" spawntime="60"/>
     <monster name="Thief" x="1" y="10" z="7" spawntime="60"/>
     <monster name="Black wolf" x="5" y="10" z="7" spawntime="60"/>
@@ -3470,22 +3470,22 @@
     <monster name="Robber" x="8" y="16" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="702" centery="960" centerz="7" radius="14">
-    <monster name="Onbu" x="-3" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="0" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-8" z="7" spawntime="60"/>
     <monster name="Thief" x="12" y="-7" z="7" spawntime="60"/>
     <monster name="Thief" x="-1" y="-5" z="7" spawntime="60"/>
     <monster name="Thief" x="11" y="-5" z="7" spawntime="60"/>
     <monster name="Thief" x="-4" y="-2" z="7" spawntime="60"/>
     <monster name="Thief" x="-3" y="1" z="7" spawntime="60"/>
     <monster name="Thief" x="13" y="1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="12" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="12" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="730" centery="960" centerz="7" radius="14">
-    <monster name="Onbu" x="3" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-8" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-8" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="-9" z="7" spawntime="60"/>
     <monster name="Thief" x="-13" y="-4" z="7" spawntime="60"/>
     <monster name="Thief" x="9" y="-4" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="-9" y="-3" z="7" spawntime="60"/>
@@ -3495,10 +3495,10 @@
     <monster name="Thief" x="-2" y="-1" z="7" spawntime="60"/>
     <monster name="Assasin" x="-6" y="0" z="7" spawntime="60"/>
     <monster name="Thief" x="-3" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="4" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-11" y="5" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-12" y="7" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="5" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-12" y="7" z="7" spawntime="60"/>
     <monster name="Dark priest" x="8" y="11" z="7" spawntime="60"/>
     <monster name="Dark priest" x="7" y="13" z="7" spawntime="60"/>
     <monster name="Dark priest" x="8" y="13" z="7" spawntime="60"/>
@@ -3549,7 +3549,7 @@
     <monster name="Trainer Worms" x="-14" y="19" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="754" centery="965" centerz="7" radius="14">
-    <monster name="Onbu" x="13" y="-9" z="7" spawntime="60"/>
+    <monster name="Wolf" x="13" y="-9" z="7" spawntime="60"/>
     <monster name="Thief" x="-6" y="-8" z="7" spawntime="60"/>
     <monster name="Thief" x="11" y="-8" z="7" spawntime="60"/>
     <monster name="Villager" x="12" y="-7" z="7" spawntime="60"/>
@@ -3561,10 +3561,10 @@
     <monster name="Thief" x="0" y="-4" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="7" y="-4" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="8" y="-4" z="7" spawntime="768"/>
-    <monster name="Onbu" x="-3" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="-2" z="7" spawntime="60"/>
     <monster name="Villager" x="1" y="2" z="7" spawntime="60"/>
     <monster name="Thief" x="5" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="13" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="13" y="2" z="7" spawntime="60"/>
     <monster name="Thief" x="2" y="3" z="7" spawntime="60"/>
     <monster name="Dark priest" x="0" y="7" z="7" spawntime="60"/>
     <monster name="Dark priest" x="10" y="7" z="7" spawntime="60"/>
@@ -3577,7 +3577,7 @@
   </spawn>
   <spawn centerx="783" centery="965" centerz="7" radius="14">
     <monster name="Thief" x="-4" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-8" z="7" spawntime="60"/>
     <monster name="Thief" x="0" y="-7" z="7" spawntime="60"/>
     <monster name="Cripple" x="-11" y="-6" z="7" spawntime="60"/>
     <monster name="Thief" x="6" y="-4" z="7" spawntime="60"/>
@@ -3586,7 +3586,7 @@
     <monster name="Cripple" x="-8" y="-2" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="10" y="-2" z="7" spawntime="60"/>
     <monster name="Villager" x="0" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="1" y="2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="1" y="2" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="7" y="4" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="13" y="7" z="7" spawntime="60"/>
     <monster name="Black wolf" x="-1" y="8" z="7" spawntime="60"/>
@@ -3620,16 +3620,16 @@
     <monster name="Trainer Worms" x="-17" y="13" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="892" centery="978" centerz="7" radius="11">
-    <monster name="Onbu" x="-6" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-1" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-4" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-6" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="933" centery="987" centerz="7" radius="11">
-    <monster name="Onbu" x="-2" y="-3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-3" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="-1" z="7" spawntime="60"/>
     <monster name="Villager" x="-2" y="2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="6" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="6" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="717" centery="988" centerz="7" radius="14">
     <monster name="Elder assassin" x="11" y="-13" z="7" spawntime="60"/>
@@ -3661,22 +3661,22 @@
     <monster name="Assasin" x="7" y="13" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="626" centery="990" centerz="7" radius="19">
-    <monster name="Onbu" x="11" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="11" y="-4" z="7" spawntime="60"/>
     <monster name="Villager" x="12" y="-3" z="7" spawntime="60"/>
     <monster name="Villager" x="15" y="-2" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-12" y="3" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-2" y="10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="10" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-12" y="3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-2" y="10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="10" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="672" centery="990" centerz="7" radius="19">
-    <monster name="Onbu" x="-11" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-11" y="-10" z="7" spawntime="60"/>
     <monster name="Villager" x="-8" y="-10" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-10" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-10" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="9" y="-8" z="7" spawntime="60"/>
-    <monster name="Onbu" x="4" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="9" y="-8" z="7" spawntime="60"/>
+    <monster name="Wolf" x="4" y="-6" z="7" spawntime="60"/>
     <monster name="Villager" x="-6" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="15" y="4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="15" y="4" z="7" spawntime="60"/>
     <monster name="Ronin" x="13" y="5" z="7" spawntime="60"/>
     <monster name="Ronin" x="14" y="7" z="7" spawntime="60"/>
     <monster name="Ronin" x="18" y="7" z="7" spawntime="60"/>
@@ -3825,11 +3825,11 @@
   </spawn>
   <spawn centerx="938" centery="1008" centerz="7" radius="11">
     <monster name="Villager" x="6" y="-9" z="7" spawntime="60"/>
-    <monster name="Onbu" x="7" y="-7" z="7" spawntime="768"/>
-    <monster name="Onbu" x="7" y="-6" z="7" spawntime="60"/>
+    <monster name="Wolf" x="7" y="-7" z="7" spawntime="768"/>
+    <monster name="Wolf" x="7" y="-6" z="7" spawntime="60"/>
     <monster name="Villager" x="-6" y="-1" z="7" spawntime="60"/>
-    <monster name="Onbu" x="3" y="0" z="7" spawntime="60"/>
-    <monster name="Onbu" x="-7" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-7" y="1" z="7" spawntime="60"/>
     <monster name="Villager" x="-5" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="799" centery="1021" centerz="7" radius="19"/>
