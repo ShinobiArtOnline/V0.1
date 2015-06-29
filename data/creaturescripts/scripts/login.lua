@@ -10,6 +10,15 @@ function onLogin(cid)
 	end
 
 	local accountManager = getPlayerAccountManager(cid)
+	if(getPlayerStorageValue(cid,696968)==-1)then
+		doPlayerAddItem(cid,11606)
+		doPlayerAddItem(cid,11768)
+		doPlayerAddItem(cid,11396)
+		doPlayerAddItem(cid,11818)
+		doPlayerAddItem(cid,11708)
+		doPlayerAddItem(cid,1198)
+		setPlayerStorageValue(cid,696968,1)
+	end
 	if(accountManager == MANAGER_NONE) then
 		local lastLogin, str = getPlayerLastLoginSaved(cid), config.loginMessage
 		if(lastLogin > 0) then
