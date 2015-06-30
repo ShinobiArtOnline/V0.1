@@ -7,7 +7,7 @@ exhausted = 2,
 }
 
 local info = {
-speed = 200,	
+speed = 160,	
 	}
 	
 	
@@ -45,12 +45,17 @@ function onCastSpell(cid,var)
 		
 	if getPlayerStorageValue(cid, sto_inuzuka[1]) > 0 then
 		doAddCondition(cid, buff)
+		if getCreatureMana(cid) > 550 then
+		removeChakraLife(cid , - 550)
+		else
+		doPlayerSendCancel(cid, "You don't have mana")
+		end
         addEvent(changeMove, 0, cid, 362, -1)
 		doCreatureSay(cid, "Shikyaku no Jutsu!!!", TALKTYPE_MONSTER)
 		if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 25 then
 		doChangeSpeed(cid, -getCreatureSpeed(cid))
 		doChangeSpeed(cid, getCreatureBaseSpeed(cid) + info.speed)
-		elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
+			elseif getPlayerLevel(cid) >= 25 and getPlayerLevel(cid) < 50 then
 				doChangeSpeed(cid, -getCreatureSpeed(cid))
 				doChangeSpeed(cid, getCreatureBaseSpeed(cid) + 220)
 				elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
@@ -61,9 +66,9 @@ function onCastSpell(cid,var)
 				doChangeSpeed(cid, getCreatureBaseSpeed(cid) + 280)
 			  end
 		setPlayerStorageValue(cid, sto_inuzuka[1], 0)
-		removeChakra(cid, 20, 2, sto_inuzuka[1], "sharingan")
+		removeChakra(cid, 65, 2, sto_inuzuka[1], "sharingan")
 		setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
-	elseif getPlayerStorageValue(cid, sto_inuzuka[1]) < 1 then
+	elseif getPlayerStorageValue(cid, sto_inuzuka[1]) < 1 or getCreatureMana(cid) < 10  then
 				if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) < 50 then
 				addEvent(changeMove, 0, cid, 4, -1)
 				elseif getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
@@ -72,6 +77,8 @@ function onCastSpell(cid,var)
 				addEvent(changeMove, 0, cid, 1, -1)
 				elseif getPlayerLevel(cid) > 150 and getPlayerLevel(cid) < 500 then
 				addEvent(changeMove, 0, cid, 3, -1)
+				elseif getCreatureMana(cid) <= 10 then
+				doPlayerCastSpell(cid, "Shikyaku")
 			  end
 		--addEvent(changeMove, 0, cid, 1, -1)
 		doRemoveCondition(cid, CONDITION_ATTRIBUTES)

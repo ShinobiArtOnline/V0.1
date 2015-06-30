@@ -10,6 +10,8 @@
 	</instant>
 	<instant name="Max Heal" words="Chiyute max" lvl="15" mana="30" aggressive="0" selftarget="1" exhaustion="1500" needlearn="0" event="script" value="Dla wszystkich postaci/saisei.lua">
 	</instant>
+	<instant name="saisei" words="saisei" lvl="15" mana="30" aggressive="0" selftarget="1" exhaustion="1500" needlearn="0" event="script" value="Dla wszystkich postaci/saisei.lua">
+	</instant>
 	<instant name="Full Light" words="ranpu" lvl="1" mana="1" prem="0" exhaustion="1500" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/full light.lua">
 	</instant>
 	<instant name="Chakra Impulse" words="chakra impulse" lvl="15" mana="100" prem="0" aggressive="0" exhaustion="1500" needlearn="0" blockwalls="1" enabled="1" event="script" value="Dla wszystkich postaci/haste.lua">
@@ -105,7 +107,7 @@
 		<vocation id="38"/>
 		<vocation id="39"/>
 	</instant>
-	<instant name="Shikyaku no Jutsu" words="Shikyaku" lvl="50" mana="500" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Shikyaku no Jutsu.lua">
+	<instant name="Shikyaku no Jutsu" words="Shikyaku" lvl="50" mana="0" prem="0" exhaustion="3000" needlearn="0" blockwalls="0" enabled="1" direction="1"  event="script" value="SAO/Kiba/Shikyaku no Jutsu.lua">
 		<vocation id="1"/>
 		<vocation id="37"/>
 		<vocation id="38"/>
@@ -383,7 +385,7 @@
 	
 	
 		<!--- Shikamaru -->
-	<instant name="Kage Kubi Shibari no Jutsu" words="Kage Kubi Shibari" lvl="75" mana="950" aggressive="0" selftarget="0" exhaustion="1500" needtarget="1" needlearn="0"  event="script" value="SAO/genjutsu/Nehan Shoja.lua">
+	<instant name="Kage Kubi Shibari no Jutsu" words="Kage Kubi Shibari" lvl="75" mana="950" aggressive="0" selftarget="0" exhaustion="1500" needtarget="1" needlearn="0"  event="script" value="SAO/Nara Shikamaru/Kage Kubi Shibari.lua">
 		<vocation id="5"/>
 		<vocation id="20"/>
 		<vocation id="21"/>
@@ -413,7 +415,7 @@
 		<vocation id="21"/>
 		<vocation id="22"/>
 	</instant>
-	<instant name="Kagemane target" words="Kagemane target" lvl="120" mana="1950" aggressive="0" selftarget="0" exhaustion="1500" direction="1" needlearn="0" needtarget="1"  event="script" value="SAO/Nara Shikamaru/Kagemane target.lua">
+	<instant name="Kagemane target" words="Kagemane target" lvl="120" mana="1950" aggressive="0" selftarget="0" exhaustion="1500" direction="1" blockwalls="1" needlearn="0" needtarget="1"  event="script" value="SAO/Nara Shikamaru/Kagemane target.lua">
 		<vocation id="5"/>
 		<vocation id="20"/>
 		<vocation id="21"/>
@@ -524,7 +526,7 @@
 		<vocation id="51"/>
 		<vocation id="52"/>
 	</instant>
-	<instant name="Ninpo Soza Size" words="Ninpo Soza Size" lvl="100" mana="1250" prem="0" aggressive="0" needtarget="0"  exhaustion="800"  needlearn="0" event="script" value="Dla wszystkich postaci/saisei.lua">
+	<instant name="Ninpo Soza Size" words="Ninpo Soza Size" lvl="100" mana="1450" prem="0" aggressive="0" needtarget="0"  exhaustion="4000"  needlearn="0" event="script" value="SAO/Sakura/Ninpo Soza Size.lua">
 		<vocation id="8"/>
 		<vocation id="48"/>
 		<vocation id="49"/>
@@ -548,7 +550,7 @@
 		<vocation id="51"/>
 		<vocation id="52"/>
 	</instant> 
-	<instant name="Okashou" words="Okashou" lvl="50" mana="500" prem="0" needtarget="0" exhaustion="1500" needlearn="0" event="script" value="SAO/Sakura/Okashou.lua">
+	<instant name="Okashou" words="Okashou" lvl="50" mana="580" prem="0" needtarget="0" exhaustion="1500" needlearn="0" event="script" value="SAO/Sakura/Okashou.lua">
 		<vocation id="8"/>
 		<vocation id="48"/>
 		<vocation id="49"/>
@@ -558,7 +560,7 @@
 	</instant> 
 	
 	
-	<instant name="Chakra no mesu" words="Chakra no mesu" lvl="25" mana="205" prem="0" aggressive="0" needtarget="1" range="3" exhaustion="1500"  needlearn="0" event="script" value="SAO/Sakura/Chakra no mesu.lua">
+	<instant name="Chakra no mesu" words="Chakra no mesu" lvl="25" mana="205" prem="0" aggressive="0" needtarget="1" range="3" blockwalls="1" exhaustion="1500"  needlearn="0" event="script" value="SAO/Sakura/Chakra no mesu.lua">
 		<vocation id="8"/>
 		<vocation id="48"/>
 		<vocation id="49"/>
@@ -571,8 +573,7 @@
 		<!--- Genjutsu-->
 		<instant name="Kaen no Jutsu" words="kaen" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1500" direction="1" needlearn="0"  event="script" value="SAO/genjutsu/kaen.lua">
 	    </instant>
-		<instant name="paral" words="paral" lvl="1" mana="15" aggressive="0" needtarget="1" exhaustion="1500" direction="1" needlearn="0"  event="script" value="SAO/genjutsu/Nehan Shoja.lua">
-	    </instant>
+		
 		<instant name="Kanashibari no Jutsu" words="kanashibari" lvl="1" mana="15" aggressive="0" selftarget="0" exhaustion="1500" direction="0" needlearn="0"  event="script" value="SAO/genjutsu/kanashibari.lua">
 	    </instant>
 		
@@ -607,9 +608,9 @@
 	</instant>
 	<instant name="shot" words="shot" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="Moby spell/shot.lua">
 	</instant>
-	<instant name="sand bomb" words="sand bomb" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="Moby spell/sand bomb.lua">
+	<instant name="sand bomb" words="sand bomb" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/sand bomb.lua">
 	</instant>
-	<instant name="sand bomb2" words="sand bomb2" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="Moby spell/sand bomb2.lua">
+	<instant name="sand bomb2" words="sand bomb2" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/sand bomb2.lua">
 	</instant>
 	
 	

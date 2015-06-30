@@ -23,7 +23,7 @@ function onCastSpell(cid, var)
 		local level = getPlayerMagLevel(cid)
 		local mlevel = getPlayerMagLevel(cid) 
 
-		local jutsuDmg = 65
+		local jutsuDmg = 60
 		local skill_factor = math.ceil((mlevel + level)/3)
 		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.55))
 		local mdmg = - math.max(1, math.ceil(((skill_factor*0.45) * jutsuDmg)*0.55))
@@ -31,7 +31,7 @@ function onCastSpell(cid, var)
 		removeChakraLife(cid, - confg.chakra)
 		addEvent(doSendMagicEffect, 90, {x = pos.x+1, y = pos.y+1, z = pos.z}, 105)
 		
-		addEvent(Defense, 400, cid, 160)
+		addEvent(Defense, 150, cid, 150)
 		pos = getPosfromArea(cid,area)
 		n = 0
 		while n < #pos do

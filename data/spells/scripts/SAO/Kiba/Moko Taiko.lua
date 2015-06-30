@@ -1,19 +1,24 @@
 local combat = createCombatObject()
 local waittime = 1.5 -- czas
 local storage = 115818
+local CONDICAO_DRUNK = createConditionObject(CONDITION_DRUNK)
+  setConditionParam(CONDICAO_DRUNK, CONDITION_PARAM_TICKINVERVAL, 100)  
+
+
 function onCastSpell(cid, var)
 	if not isCreature(cid) then
 		return true
 	end
-	if exhaustion.check(cid, storage) then
+	
+	
+		if exhaustion.check(cid, storage) then
 		doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
 		
 		local target=getCreatureTarget(cid)
 		local pos =getCreaturePosition(target)
-		local find_area = getFirstCreaturePosOnDirection(cid, 1)
-		
+
 		local find_area = getFirstCreaturePosOnDirection(cid, 1)
 		local level = getPlayerLevel(cid) 
 		local jutsuDmg = 59

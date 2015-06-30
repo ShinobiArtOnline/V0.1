@@ -3201,7 +3201,7 @@
 		<attribute key="extradef" value="1" />
 	</item>
 	<item id="2422" article="an" name="iron hammer">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="18" />
 		<attribute key="weaponType" value="club" />
@@ -3827,7 +3827,7 @@
 		<attribute key="weaponType" value="shield" />
 	</item>
 	<item id="2531" article="a" name="viking shield">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 		<attribute key="defense" value="22" />
 		<attribute key="weaponType" value="shield" />
 	</item>
@@ -7861,7 +7861,7 @@
 		<attribute key="weight" value="100" />
 	</item>
 	<item id="4846" article="an" name="iron hammer">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="18" />
 		<attribute key="weaponType" value="club" />
@@ -17779,13 +17779,13 @@
 	
 	
 	<item id="11472" article="a" name="gumbai sword">
-		<attribute key="weight" value="5000" />
+		<attribute key="weight" value="50" />
 		<attribute key="defense" value="35" />
 		<attribute key="attack" value="60" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11473" article="a" name="susanoo gloves">
-		<attribute key="weight" value="3500" />
+		<attribute key="weight" value="35" />
 		<attribute key="defense" value="50" />
 		<attribute key="attack" value="50" />
 		<attribute key="weaponType" value="club" />
@@ -17813,14 +17813,14 @@
 	
 	
 	<item id="11645" article="a" name="bandit glove">
-		<attribute key="weight" value="1800" />
+		<attribute key="weight" value="120" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 		
 	<item id="11664" article="a" name="Asassin glove">
-		<attribute key="weight" value="1800" />
+		<attribute key="weight" value="120" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="fist" />
@@ -17873,14 +17873,14 @@
 	</item>
 	
 	<item id="11647" article="a" name="Ninja glove">
-		<attribute key="weight" value="1800" />
+		<attribute key="weight" value="180" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	
 	<item id="11649" article="a" name="speed band">
-		<attribute key="weight" value="1800" />
+		<attribute key="weight" value="180" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="axe" />
@@ -17888,7 +17888,7 @@
 		
 
 	<item id="11650" article="a" name="death glove">
-		<attribute key="weight" value="2000" />
+		<attribute key="weight" value="120" />
 		<attribute key="defense" value="12" />
 		<attribute key="attack" value="27" />
 		<attribute key="weaponType" value="fist" />
@@ -17900,25 +17900,25 @@
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11663" article="a" name="jounin glove">
-		<attribute key="weight" value="2200" />
+		<attribute key="weight" value="120" />
 		<attribute key="defense" value="14" />
 		<attribute key="attack" value="14" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11652" article="a" name="ronin glove">
-		<attribute key="weight" value="2500" />
+		<attribute key="weight" value="110" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="26" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11651" article="a" name="grass glove">
-		<attribute key="weight" value="2500" />
+		<attribute key="weight" value="130" />
 		<attribute key="defense" value="19" />
 		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11653" article="a" name="sound glove">
-		<attribute key="weight" value="2800" />
+		<attribute key="weight" value="120" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="20" />
 		<attribute key="weaponType" value="fist" />
@@ -17942,20 +17942,20 @@
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11673" article="a" name="water glover">
-		<attribute key="weight" value="3500" />
+		<attribute key="weight" value="125" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="fist" />
 	</item>
 	
 	<item id="11440" article="a" name="wand">
-		<attribute key="weight" value="2900" />
+		<attribute key="weight" value="150" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="cake" />
 		<attribute key="range" value="3" />
 	</item>
 	<item id="11748" article="a" name="temari wand">
-		<attribute key="weight" value="1400" />
+		<attribute key="weight" value="80" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="distance" />
@@ -17964,7 +17964,7 @@
 		
 	</item>
 	<item id="11609" article="a" name=" kunai">
-		<attribute key="weight" value="1400" />
+		<attribute key="weight" value="14" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="distance" />
@@ -17974,7 +17974,7 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="11613" article="a" name=" big shuriken">
-		<attribute key="weight" value="1400" />
+		<attribute key="weight" value="14" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="distance" />
@@ -17984,7 +17984,7 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="11622" article="a" name=" small shuriken">
-		<attribute key="weight" value="1400" />
+		<attribute key="weight" value="10" />
 		<attribute key="defense" value="4" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="distance" />
@@ -17994,7 +17994,7 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="11619" article="a" name="training kunai">
-		<attribute key="weight" value="1400" />
+		<attribute key="weight" value="10" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="1" />
 		<attribute key="weaponType" value="distance" />
@@ -18004,7 +18004,7 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="11612" article="a" name="shuriken">
-		<attribute key="weight" value="1400" />
+		<attribute key="weight" value="10" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="10" />
 		<attribute key="weaponType" value="distance" />
@@ -18014,7 +18014,7 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="11618" article="a" name="senbon">
-		<attribute key="weight" value="1400" />
+		<attribute key="weight" value="10" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="13" />
 		<attribute key="weaponType" value="distance" />
@@ -18024,7 +18024,7 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="11656" article="a" name="explosive kunai">
-		<attribute key="weight" value="1400" />
+		<attribute key="weight" value="10" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="13" />
 		<attribute key="weaponType" value="distance" />
@@ -18064,37 +18064,37 @@
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11680" article="a" name="katana">
-		<attribute key="weight" value="2000" />
+		<attribute key="weight" value="120" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="20" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11669" article="a" name="sharp bone">
-		<attribute key="weight" value="2000" />
+		<attribute key="weight" value="200" />
 		<attribute key="defense" value="12" />
 		<attribute key="attack" value="22" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11446" article="a" name="kunai staff">
-		<attribute key="weight" value="2100" />
+		<attribute key="weight" value="210" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="18" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11632" article="a" name="chakra sword">
-		<attribute key="weight" value="2400" />
+		<attribute key="weight" value="125" />
 		<attribute key="defense" value="22" />
 		<attribute key="attack" value="22" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11634" article="a" name="zabuza sword">
-		<attribute key="weight" value="2400" />
+		<attribute key="weight" value="120" />
 		<attribute key="defense" value="22" />
 		<attribute key="attack" value="22" />
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11636" article="a" name="gumbai">
-		<attribute key="weight" value="2400" />
+		<attribute key="weight" value="240" />
 		<attribute key="defense" value="22" />
 		<attribute key="attack" value="22" />
 		<attribute key="weaponType" value="sword" />
@@ -18119,7 +18119,7 @@
 	</item>
 	
 	<item id="11627" article="a" name="third scythe">
-		<attribute key="weight" value="2600" />
+		<attribute key="weight" value="210" />
 		<attribute key="defense" value="17" />
 		<attribute key="attack" value="25" />
 		<attribute key="weaponType" value="sword" />
@@ -18131,7 +18131,7 @@
 		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11666" article="a" name="chakra eletric katana">
-		<attribute key="weight" value="2800" />
+		<attribute key="weight" value="200" />
 		<attribute key="defense" value="25" />
 		<attribute key="attack" value="30" />
 		<attribute key="weaponType" value="sword" />
@@ -18149,7 +18149,7 @@
 		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11681" article="a" name="electric bracelet">
-		<attribute key="weight" value="5000" />
+		<attribute key="weight" value="120" />
 		<attribute key="defense" value="35" />
 		<attribute key="attack" value="35" />
 		<attribute key="weaponType" value="club" />
@@ -18254,12 +18254,12 @@
 	<item id="11715" name="Konohamaru hat">
 		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11711" name="Kankuro hat">
 		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11708" name="hat">
 		<attribute key="armor" value="1" />
@@ -18279,42 +18279,42 @@
 	<item id="11706" name="Konoha helmet">
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11704" name="Forestry helmet">
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11701" name="Shinobi konoha helmet">
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11700" name="Hokage helmet">
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11691" name="Anbu mask">
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11690" name="Root mask">
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11693" name="Defense mask">
 		<attribute key="armor" value="2" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11684" name="Madara mask">
 		<attribute key="armor" value="25" />
 		<attribute key="slotType" value="head" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11685" name="Konoha belt">
 		<attribute key="armor" value="3" />
@@ -18353,25 +18353,25 @@
 		<attribute key="armor" value="13" />
 		<attribute key="slotType" value="body" />
 		<attribute key="speed" value="20" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11741" name="Sakura tunic">
 		<attribute key="armor" value="6" />
 		<attribute key="slotType" value="body" />
 		<attribute key="speed" value="20" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11712" name="Kankuro armor">
 		<attribute key="armor" value="7" />
 		<attribute key="slotType" value="body" />
 		<attribute key="speed" value="20" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	
 	<item id="11754" name="Konohomaru shirt">
 		<attribute key="armor" value="13" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11739" name="Assasin armor">
 		<attribute key="armor" value="10" />
@@ -18382,22 +18382,22 @@
 		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="body" />
 		<attribute key="absorbPercentPhysical" value="5" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11732" name="Samurai armor">
 		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11734" name="Robber robe">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11735" name="Coat">
 		<attribute key="armor" value="10" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11730" name="Hyuuga armor">
 		<attribute key="armor" value="5" />
@@ -18432,7 +18432,7 @@
 	<item id="11756" name="Inuzuka coat">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11757" name="Ninja Cape">
 		<attribute key="armor" value="5" />
@@ -18467,33 +18467,33 @@
 	<item id="11767" name="Cape">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11770" name="Shinobi armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11772" name="Master armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	
 	<item id="11774" name="Pink tunic">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11776" name="Doton armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>	
 	<item id="11777" name="Fire Armor">
 		<attribute key="armor" value="25" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11778" name="Water Armor">
 		<attribute key="armor" value="25" />
@@ -18503,63 +18503,63 @@
 	<item id="11781" name="Clan Armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11783" name="Suna Armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11786" name="Choji coat">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11789" name="Orochimaru blouse">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11792" name="Shaolin armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	
 	<item id="11795" name="Akatsuki armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11798" name="Sarutobi armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11815" name="Ninja coat">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11816" name="Chakra armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11817" name="Health armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11827" name="Bandit armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	<item id="11828" name="Sasuke aka armor">
 		<attribute key="armor" value="5" />
 		<attribute key="slotType" value="body" />
-		<attribute key="weight" value="9550" />
+		<attribute key="weight" value="90" />
 	</item>
 	
 	<!--BUTY -->
@@ -18577,22 +18577,22 @@
 	<item id="11819" name="Ninja shoes">
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="weight" value="700" />
+		<attribute key="weight" value="70" />
 	</item>
 	<item id="11820" name="Dark shoes">
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="weight" value="700" />
+		<attribute key="weight" value="70" />
 	</item>
 	<item id="11821" name="Jounin shoes">
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="weight" value="700" />
+		<attribute key="weight" value="70" />
 	</item>
 	<item id="11822" name="Robber boots">
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="weight" value="700" />
+		<attribute key="weight" value="70" />
 	</item>
 	<item id="11823" name="great boots">
 		<attribute key="armor" value="10" />
@@ -18602,7 +18602,7 @@
 	<item id="11824" name="Skeleton boots">
 		<attribute key="armor" value="1" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="weight" value="700" />
+		<attribute key="weight" value="70" />
 	</item>
 	
 	
@@ -18611,12 +18611,12 @@
 	<item id="11750" name="Naruto legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="60" />
 	</item>
 	<item id="11825" name="Sasuke aka legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11799" name="black legs">
 		<attribute key="armor" value="4" />
@@ -18653,33 +18653,33 @@
 	<item id="11785" name="Sasuke legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11784" name="Suna legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	
 	<item id="11782" name="dark legs">
 		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11779" name="Water Legs">
 		<attribute key="armor" value="12" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11775" name="Pink legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11773" name="Stron Assasin Legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11771" name="Master legs">
 		<attribute key="armor" value="8" />
@@ -18709,12 +18709,12 @@
 	<item id="11759" name="Guy legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11713" name="Kankuro legs">
 		<attribute key="armor" value="8" />
 		<attribute key="slotType" value="legs" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11753" name="Prisoner legs">
 		<attribute key="armor" value="8" />
@@ -18732,54 +18732,54 @@
 	<item id="11726" name="green bandage">
 		<attribute key="armor" value="8" />
 		<attribute key="weaponType" value="axe" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11763" name="Grey scroll">
 		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11788" name="Tsunade amulet">
-		<attribute key="weight" value="420" />
+		<attribute key="weight" value="40" />
 		<attribute key="slotType" value="necklace" />
 		<attribute key="charges" value="1" />
 		<attribute key="preventDrop" value="1" />
 	</item>
 	<item id="11764" name="Dark scroll">
 		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11800" name="Ninja scroll">
 		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11801" name="Pet box">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11802" name="20% exp box">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11804" name="Speed box">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11805" name="Katana box">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11806" name="Unknown box">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11807" name="Cash box">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11808" name="Fist box">
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11809" name="Yellow scroll">
 		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11810" name="Mana scroll">
 		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 	<item id="11811" name="Blue shoes">
 		<attribute key="weight" value="75" />
@@ -18789,7 +18789,7 @@
 	</item>
 	<item id="11812" name="Cos scroll">
 		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="6600" />
+		<attribute key="weight" value="66" />
 	</item>
 		
 	<item id="11657" name="Actived Explosive Tag">
@@ -18802,12 +18802,12 @@
   
  
 	<item id="11829" article="a" name="Gamakichi pet">
-		<attribute key="weight" value="100" />
+		<attribute key="weight" value="0" />
 	</item>
 	
 	
 	<item id="11830" article="a" name="Katsuya pet">
-		<attribute key="weight" value="100" />
+		<attribute key="weight" value="0" />
 	</item>
 	
 	

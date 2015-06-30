@@ -66,7 +66,7 @@ end
 	registerCreatureEvent(cid, "Death")
 	registerCreatureEvent(cid, "task")
 --	registerCreatureEvent(cid, "partyAndGuildProtection")
-	registerCreatureEvent(cid, "Rest")
+	--registerCreatureEvent(cid, "Rest")
 	registerCreatureEvent(cid, "creatureMove")
 	--registerCreatureEvent(cid, "kagemaneDeath")
 	registerCreatureEvent(cid, "Osiagniecia")

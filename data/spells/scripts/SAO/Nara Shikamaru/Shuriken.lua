@@ -47,7 +47,9 @@ local msg = {
 [3] = "",
 
 }
-
+if math.random(1,50) <= 25 then
+setCombatCondition(combat1, poison)
+end
 
 function canEffect(pos, pz, proj) -- Night Wolf based on Nord
 if getTileThingByPos({x = pos.x, y = pos.y, z = pos.z, stackpos = 0}).itemid == 0 then return false end

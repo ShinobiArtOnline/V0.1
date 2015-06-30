@@ -25,7 +25,7 @@ if(table.maxn(summons) < MaximoSummon) then -- no summons
 				doCreatureAddHealth(aka, maxhealth * (percent/100))
 				end
 				if getPlayerLevel(cid) >= 50 and getPlayerLevel(cid) < 100 then
-				local aka = doCreateMonster("Akamaruu", getCreaturePosition(cid))
+				local aka50 = doCreateMonster("Akamaruu", getCreaturePosition(cid))
 				doConvinceCreature(cid, aka50)
 				setCreatureMaxHealth(aka50, maxhealth * (percent/100))
 				doCreatureAddHealth(aka50, maxhealth * (percent/100))
