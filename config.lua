@@ -56,7 +56,7 @@
 	-- loginProtectionPeriod is the famous Tibia anti-magebomb system.
 	-- deathLostPercent set to nil enables manual mode.
 	worldType = "pvp"
-	protectionLevel = 1
+	protectionLevel = 25
 	pvpTileIgnoreLevelAndVocationProtection = true
 	pzLocked = 60 * 1000
 	huntingDuration = 60 * 1000
@@ -74,7 +74,7 @@
 	stopAttackingAtExit = false
 	oldConditionAccuracy = false
 	loginProtectionPeriod = 10 * 1000
-	deathLostPercent = 5
+	deathLostPercent = 10
 	stairhopDelay = 2 * 1000
 	pushCreatureDelay = 2 * 1000
 	deathContainerId = 1987
@@ -85,7 +85,7 @@
 
 	-- Connection config
 	worldId = 0
-	ip = "127.0.0.1"
+	ip = "91.230.202.74"
 	bindOnlyConfiguredIpAddress = false
 	loginPort = 7171
 	gamePort = 7172
@@ -94,13 +94,13 @@
 	loginTries = 10
 	retryTimeout = 5 * 1000
 	loginTimeout = 60 * 1000
-	maxPlayers = 1000
-	motd = "Shinaobi art ONLINE!"
+	maxPlayers = 50
+	motd = "Welcome to Shinobi Art Online!"
 	displayOnOrOffAtCharlist = false
 	onePlayerOnlinePerAccount = true
 	allowClones = false
-	serverName = "White"
-	loginMessage = "Shinaobi art ONLINE!"
+	serverName = "SAO"
+	loginMessage = "Welcome to Shinobi Art Online!"
 	statusTimeout = 5 * 60 * 1000
 	replaceKickOnLogin = true
 	forceSlowConnectionsToDisconnect = false
@@ -111,11 +111,11 @@
 	-- NOTE: sqlFile is used only by sqlite database, and sqlKeepAlive by mysql database.
 	-- To disable sqlKeepAlive such as mysqlReadTimeout use 0 value.
 	sqlType = "mysql"
-	sqlHost = "127.0.0.1"
+	sqlHost = "localhost"
 	sqlPort = 3306
-	sqlUser = "kamil3"
-	sqlPass = "FU2YEDb9FbEGt9Hd"
-	sqlDatabase = "kamil3"
+	sqlUser = "root"
+	sqlPass = "292a56a4"
+	sqlDatabase = "ots"
 	sqlFile = "forgottenserver.s3db"
 	sqlKeepAlive = 0
 	mysqlReadTimeout = 10
@@ -160,7 +160,7 @@
 	-- Map
 	-- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.
 	mapName = "nowo"
-	mapAuthor = "b33ny"
+	mapAuthor = "BandzoDave"
 	randomizeTiles = true
 	storeTrash = true
 	cleanProtectedZones = true
@@ -180,8 +180,8 @@
 	confirmOutdatedVersion = false
 
 	-- Spells
-	formulaLevel = 1.0
-	formulaMagic = 1.0
+	formulaLevel = 2.0
+	formulaMagic = 5.0
 	bufferMutedOnSpellFailure = false
 	spellNameInsteadOfWords = true
 	emoteSpells = true
@@ -244,18 +244,18 @@
 	-- NOTE: experienceStages configuration is located in data/XML/stages.xml.
 	-- rateExperienceFromPlayers 0 to disable.
 	experienceStages = false
-	rateExperience = 1.0
+	rateExperience = 50.0
 	rateExperienceFromPlayers = 0
-	rateSkill = 5
-	rateMagic = 2
-	rateLoot = 5
+	rateSkill = 6
+	rateMagic = 10
+	rateLoot = 3
 	rateSpawn = 1
 
 	-- Monster rates
-	rateMonsterHealth = 1.0
+	rateMonsterHealth = 2.0
 	rateMonsterMana = 1.0
-	rateMonsterAttack = 1.0
-	rateMonsterDefense = 1.0
+	rateMonsterAttack = 1.3
+	rateMonsterDefense = 1.3
 
 	-- Experience from players
 	-- NOTE: min~Threshold* set to 0 will disable the minimum threshold:
@@ -311,10 +311,10 @@
 	teleportPlayerSummons = true
 
 	-- Status
-	ownerName = "b33ny"
-	ownerEmail = "b33ny@gmail.com"
-	url = "tibiaking.com"
-	location = "Brazil"
+	ownerName = "SAO Team"
+	ownerEmail = "sao_support@shinobiartonline.eu"
+	url = "shinobiartonline.eu"
+	location = "Poland"
 	displayGamemastersWithOnlineCommand = false
 
 	-- Logs

@@ -6,23 +6,23 @@
 	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
 	<event type="reportbug" name="SaveReportBug" script="reportbug.lua"/>
 	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
-	<event type="combat" name="sagoweMonstery" event="script" value="SAGAMonstery.lua"/>  	<!-- uniemożliwienie graczom ataku sagowego monstera bez odpowiedniego storage -->
+	<!--<event type="combat" name="sagoweMonstery" event="script" value="SAGAMonstery.lua"/> uniemożliwienie graczom ataku sagowego monstera bez odpowiedniego storage -->
 	
-	<!-- Saga -->
-	<event type="death" name="mizuki" event="script" value="Saga/mizuki.lua"/> 				<!-- sagowy mizuki -->
+	<!-- Saga 
+	<event type="death" name="mizuki" event="script" value="Saga/mizuki.lua"/> 				 
 	<event type="combat" name="mizuki combat" event="script" value="Saga/mizuki.lua"/> 		
 	<event type="think" name="mizuki think" event="script" value="Saga/mizuki.lua"/> 		
-	<event type="death" name="KakashiClone" event="script" value="Saga/kakashiClone.lua"/> 		<!-- sagowy KakashiClone -->
+	<event type="death" name="KakashiClone" event="script" value="Saga/kakashiClone.lua"/> 		
 	<event type="combat" name="KakashiClone combat" event="script" value="Saga/kakashiClone.lua"/>
 	<event type="think" name="KakashiClone think" event="script" value="Saga/kakashiClone.lua"/>
-	<event type="death" name="Masked Ninja" event="script" value="Saga/maskedNinja.lua"/> 		<!-- sagowy Masked Ninja -->
+	<event type="death" name="Masked Ninja" event="script" value="Saga/maskedNinja.lua"/> 		
 	<event type="combat" name="Masked Ninja combat" event="script" value="Saga/maskedNinja.lua"/>
 	<event type="think" name="Masked think" event="script" value="Saga/maskedNinja.lua"/>
 
 	<event type="login" name="AntiMc" event="script" value="antimc.lua"/> 
 	<event type="think" name="Idle" event="script" value="idle.lua"/>
 	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
-	<event type="think" name="Sakura" event="script" value="Sakura.lua"/>
+	<event type="think" name="Sakura" event="script" value="Sakura.lua"/>-->
 	
 	
 	
