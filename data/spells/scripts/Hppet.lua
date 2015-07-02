@@ -6,7 +6,7 @@ local temp = {
 exhausted = 2,
 }
 local times = 5 -- in sec 
-local percent =5
+local percent =10
 
 local info = {
 speed = 200,	

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Waterman" nameDescription="a waterman" race="blood" experience="1200" speed="235" manacost="0">
-    <health now="2100" max="2100"/>
+  <monster name="Waterman" nameDescription="a waterman" race="blood" experience="1900" speed="235" manacost="0">
+    <health now="2150" max="2150"/>
     <look type="120" head="0" body="0" legs="0" feet="0" corpse="2837"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
@@ -20,7 +20,7 @@
     </flags>
     
 	<attacks>
-	<attack name="melee" interval="1500" min="-80" max="-115"/>
+	<attack name="melee" interval="1500" min="-95" max="-165"/>
 	<attack name="Mute" interval="3000" min="-35" max="-55"/>
     </attacks>
 	

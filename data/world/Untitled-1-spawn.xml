@@ -2089,7 +2089,6 @@
     <monster name="Villager" x="8" y="5" z="7" spawntime="60"/>
     <monster name="Wolf" x="-1" y="8" z="7" spawntime="60"/>
     <monster name="Wolf" x="3" y="8" z="7" spawntime="60"/>
-    <monster name="Villager" x="1" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="775" centery="802" centerz="7" radius="11">
     <monster name="Wolf" x="-2" y="-8" z="7" spawntime="60"/>
@@ -2667,7 +2666,6 @@
     <monster name="Wolf" x="11" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="638" centery="852" centerz="7" radius="11">
-    <monster name="Wolf" x="0" y="-6" z="7" spawntime="60"/>
     <monster name="Wolf" x="3" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="707" centery="852" centerz="7" radius="11">
@@ -2683,7 +2681,6 @@
     <monster name="Wolf" x="-6" y="-2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="661" centery="853" centerz="7" radius="11">
-    <monster name="Wolf" x="-10" y="-1" z="7" spawntime="60"/>
     <monster name="Wolf" x="4" y="5" z="7" spawntime="60"/>
     <monster name="Wolf" x="-5" y="6" z="7" spawntime="60"/>
     <monster name="Wolf" x="-10" y="7" z="7" spawntime="60"/>
@@ -2866,6 +2863,18 @@
     <monster name="Wolf" x="-4" y="-2" z="7" spawntime="60"/>
     <monster name="Wolf" x="7" y="7" z="7" spawntime="60"/>
     <monster name="Wolf" x="-2" y="9" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="984" centery="868" centerz="7" radius="5">
+    <monster name="Training Target" x="-4" y="-3" z="7" spawntime="60"/>
+    <monster name="Training Target" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Training Target" x="4" y="-3" z="7" spawntime="60"/>
+    <monster name="Training Target" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Training Target" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Training Target" x="-4" y="1" z="7" spawntime="60"/>
+    <monster name="Training Target" x="0" y="1" z="7" spawntime="60"/>
+    <monster name="Training Target" x="4" y="1" z="7" spawntime="60"/>
+    <monster name="Training Target" x="-2" y="3" z="7" spawntime="60"/>
+    <monster name="Training Target" x="2" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="754" centery="869" centerz="7" radius="11">
     <monster name="Wolf" x="-7" y="-9" z="7" spawntime="60"/>

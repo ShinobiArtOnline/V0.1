@@ -20,7 +20,7 @@
     </flags>
     
 	<attacks>
-	<attack name="melee" interval="1500" min="-40" max="-65"/>
+	<attack name="melee" interval="1500" min="-50" max="-85"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 

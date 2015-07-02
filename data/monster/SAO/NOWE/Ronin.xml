@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Ronin" nameDescription="a ronin" race="blood" experience="900" speed="235" manacost="0">
-    <health now="1400" max="1400"/>
+  <monster name="Ronin" nameDescription="a ronin" race="blood" experience="1600" speed="235" manacost="0">
+    <health now="2200" max="2200"/>
     <look type="80" head="0" body="0" legs="0" feet="0" corpse="2871"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="20" defense="10"/>
@@ -20,7 +20,7 @@
     </flags>
     
 	<attacks>
-	<attack name="melee" interval="1500" min="-70" max="-105"/>
+	<attack name="melee" interval="1500" min="-130" max="-210"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 

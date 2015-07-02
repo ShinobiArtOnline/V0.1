@@ -1,7 +1,4 @@
-function iniSenpuu(cid)
-  addEvent(actionMove, 0, cid, 400, 250)
-  addEvent(doRemoveCondition, 300, cid, CONDITION_OUTFIT)
-  
+
 end
 local combat = createCombatObject()
 local waittime = 1.5 -- czas
@@ -16,7 +13,7 @@ function onCastSpell(cid, var)
 		doPlayerSendCancel(cid, "You are exhausted")
 		return false
 		end
-iniSenpuu(cid)
+
 		local area = {
 				{1, 1, 1},
 				{1, 2, 1},
@@ -24,13 +21,13 @@ iniSenpuu(cid)
 		}
 	
 		
-		addEvent(doCreatureSay, 1, cid, "KONOHA!", TALKTYPE_MONSTER)
-		addEvent(doCreatureSay, 4, cid, "SENPUU!", TALKTYPE_MONSTER)
+		addEvent(doCreatureSay, 1, cid, "Dinamyc!", TALKTYPE_MONSTER)
+		addEvent(doCreatureSay, 4, cid, "MARKING!", TALKTYPE_MONSTER)
 	local level = getPlayerLevel(cid) 
-	local jutsuDmg = 37
-	local skill_factor = math.ceil((jutsuSkill_factor(cid,0) + level)/2)
-	local dmg = - math.max(1, math.ceil(((skill_factor*0.4) * jutsuDmg)*0.55))
-	local mdmg = - math.max(1, math.ceil(((skill_factor*0.35) * jutsuDmg)*0.55))
+		local jutsuDmg = 60
+		local skill_factor = math.ceil((mlevel + level)/3)
+		local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.55))
+		local mdmg = - math.max(1, math.ceil(((skill_factor*0.45) * jutsuDmg)*0.55))
 		local pos = getCreaturePosition(cid)
 		pos = getPosfromArea(cid,area)
 		n = 0

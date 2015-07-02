@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Assasin" nameDescription="an assasin" race="undead" experience="350" speed="295" manacost="0">
-    <health now="850" max="850"/>
+    <health now="900" max="900"/>
     <look type="140" head="0" body="0" legs="0" feet="0" corpse="2868"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
@@ -20,8 +20,8 @@
     </flags>
 	
     <attacks>
-		<attack name="melee" interval="1000" min="-45" max="-70"/>
-		<attack name="Throw big shuriken" interval="3000" min="-35" max="-55"/>
+		<attack name="melee" interval="1000" min="-50" max="-85"/>
+		<attack name="Throw big shuriken" interval="3000" min="-35" max="-60"/>
     </attacks>
 	
     <immunities>

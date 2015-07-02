@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Swordman" nameDescription="a swordman" race="blood" experience="700" speed="235" manacost="0">
-    <health now="1200" max="1200"/>
+  <monster name="Swordman" nameDescription="a swordman" race="blood" experience="1200" speed="235" manacost="0">
+    <health now="1650" max="1650"/>
     <look type="85" head="0" body="0" legs="0" feet="0" corpse="3071"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
@@ -20,7 +20,7 @@
     </flags>
     
 	<attacks>
-	<attack name="melee" interval="1500" min="-70" max="-100"/>
+	<attack name="melee" interval="1500" min="-95" max="-155"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 

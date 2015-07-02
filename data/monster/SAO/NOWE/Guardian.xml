@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Guardian" nameDescription="a guardian" race="blood" experience="400" speed="235" manacost="0">
-    <health now="800" max="800"/>
+  <monster name="Guardian" nameDescription="a guardian" race="blood" experience="550" speed="235" manacost="0">
+    <health now="1250" max="1250"/>
     <look type="83" head="0" body="0" legs="0" feet="0" corpse="3118"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
@@ -20,7 +20,7 @@
     </flags>
     
 	<attacks>
-	<attack name="melee" interval="1500" min="-50" max="-70"/>
+	<attack name="melee" interval="1500" min="-85" max="-100"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 

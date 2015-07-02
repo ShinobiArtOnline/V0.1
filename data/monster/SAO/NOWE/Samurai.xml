@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Samurai" nameDescription="a samurai" race="blood" experience="2000" speed="235" manacost="0">
-    <health now="3800" max="2100"/>
+  <monster name="Samurai" nameDescription="a samurai" race="blood" experience="3350" speed="235" manacost="0">
+    <health now="3800" max="3800"/>
     <look type="158" head="0" body="0" legs="0" feet="0" corpse="2876"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
@@ -20,7 +20,7 @@
     </flags>
     
 	<attacks>
-	<attack name="melee" interval="1500" min="-110" max="-140"/>
+	<attack name="melee" interval="1500" min="-235" max="-435"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 

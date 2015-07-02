@@ -75,7 +75,7 @@
 	<monster name="Wolf" file="/SAO/NOWE/Wolf.xml"/>
 	<monster name="Villager" file="/SAO/NOWE/Villager.xml"/>
 	<monster name="Thief" file="/SAO/NOWE/Thief.xml"/>
-	<monster name="Black wolf" file="/SAO/NOWE/Black Wolf.xml"/>
+	<monster name="Cursed Wolf" file="/SAO/NOWE/Cursed Wolf.xml"/>
 	<monster name="Shinobi" file="/SAO/NOWE/Shinobi.xml"/>
 	<monster name="Robber" file="/SAO/NOWE/Robber.xml"/>
 	<monster name="Assasin" file="/SAO/NOWE/Assasin.xml"/>

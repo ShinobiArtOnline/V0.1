@@ -1947,13 +1947,13 @@
 	<item id="2155" article="a" name="green gem">
 		<attribute key="weight" value="150" />
 	</item>
-	<item id="2156" article="a" name="red gem">
+	<item id="2156" article="a" name="choji pill">
 		<attribute key="weight" value="30" />
 	</item>
-	<item id="2157" article="a" name="gold nugget" plural="gold nuggets">
+	<item id="2157" article="a" name="sldier pills" plural="soldier pills">
 		<attribute key="weight" value="10" />
 	</item>
-	<item id="2158" article="a" name="blue gem">
+	<item id="2158" article="a" name="choji pill">
 		<attribute key="weight" value="100" />
 	</item>
 	<item id="2159" article="a" name="scarab coin" plural="scarab coins">
@@ -3067,12 +3067,7 @@
 		<attribute key="attack" value="8" />
 		<attribute key="weaponType" value="sword" />
 	</item>
-	<item id="2403" article="a" name="knife">
-		<attribute key="weight" value="420" />
-		<attribute key="defense" value="5" />
-		<attribute key="attack" value="7" />
-		<attribute key="weaponType" value="sword" />
-	</item>
+	
 	<item id="2404" article="a" name="combat knife">
 		<attribute key="weight" value="869" />
 		<attribute key="defense" value="6" />
@@ -3993,9 +3988,7 @@
 	<item id="2565" article="a" name="spoon">
 		<attribute key="weight" value="100" />
 	</item>
-	<item id="2566" article="a" name="knife">
-		<attribute key="weight" value="100" />
-	</item>
+	
 	<item id="2567" article="a" name="wooden spoon">
 		<attribute key="weight" value="100" />
 	</item>
@@ -11998,8 +11991,8 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="7368" article="an" name="shuriken" plural="shuriken">
-		<attribute key="weight" value="200" />
-		<attribute key="attack" value="15" />
+		<attribute key="weight" value="4" />
+		<attribute key="attack" value="5" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="death" />
 		<attribute key="range" value="5" />
@@ -12256,9 +12249,8 @@
 	</item>
 	<item id="7417" name="shinobi shoes">
 		<attribute key="weight" value="46" />
-		<attribute key="defense" value="4" />
+		<attribute key="armor" value="4" />
 		<attribute key="slotType" value="feet" />
-		<attribute key="extradef" value="1" />
 	</item>
 	<item id="7418" article="a" name="nightmare blade">
 		<attribute key="weight" value="5900" />
@@ -17984,9 +17976,9 @@
 		<attribute key="ammoAction" value="moveback" />
 	</item>
 	<item id="11622" article="a" name=" small shuriken">
-		<attribute key="weight" value="10" />
+		<attribute key="weight" value="2" />
 		<attribute key="defense" value="4" />
-		<attribute key="attack" value="10" />
+		<attribute key="attack" value="5" />
 		<attribute key="weaponType" value="distance" />
 		<attribute key="shootType" value="powerbolt" />
 		<attribute key="range" value="5" />
@@ -18013,15 +18005,11 @@
 		<attribute key="breakChance" value="10" />
 		<attribute key="ammoAction" value="moveback" />
 	</item>
-	<item id="11618" article="a" name="senbon">
+	<item id="11618" article="a" name="knife">
 		<attribute key="weight" value="10" />
 		<attribute key="defense" value="7" />
-		<attribute key="attack" value="13" />
-		<attribute key="weaponType" value="distance" />
-		<attribute key="shootType" value="throwingstar" />
-		<attribute key="range" value="5" />
-		<attribute key="breakChance" value="10" />
-		<attribute key="ammoAction" value="moveback" />
+		<attribute key="attack" value="5" />
+		<attribute key="weaponType" value="sword" />
 	</item>
 	<item id="11656" article="a" name="explosive kunai">
 		<attribute key="weight" value="10" />
@@ -18730,7 +18718,7 @@
 <!-- BANDY/ScroLle-->
 	
 	<item id="11726" name="green bandage">
-		<attribute key="armor" value="8" />
+		<attribute key="armor" value="1" />
 		<attribute key="weaponType" value="axe" />
 		<attribute key="weight" value="66" />
 	</item>
@@ -18778,8 +18766,21 @@
 		<attribute key="weight" value="66" />
 	</item>
 	<item id="11810" name="Mana scroll">
+		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="66" />
+		<attribute key="decayTo" value="0" />
+		<attribute key="transformDeEquipTo" value="11835" />
+		<attribute key="duration" value="1800" />
+		<attribute key="manaGain" value="95" />
+		<attribute key="manaTicks" value="3000" />
+		<attribute key="showduration" value="1" />
+	</item>
+	<item id="11833" article="a" name="Mana scroll">
+		<attribute key="weight" value="80" />
+		<attribute key="slotType" value="ring" />
+		<attribute key="transformEquipTo" value="11810" />
+		<attribute key="stopduration" value="1" />
+		<attribute key="showduration" value="1" />
 	</item>
 	<item id="11811" name="Blue shoes">
 		<attribute key="weight" value="75" />

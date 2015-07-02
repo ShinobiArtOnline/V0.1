@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="White shinobi" nameDescription="a White shinobi" race="blood" experience="600" speed="235" manacost="0">
-    <health now="1200" max="1200"/>
+  <monster name="White shinobi" nameDescription="a White shinobi" race="blood" experience="950" speed="235" manacost="0">
+    <health now="1400" max="1400"/>
     <look type="139" head="0" body="0" legs="0" feet="0" corpse="2858"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
@@ -20,7 +20,7 @@
     </flags>
     
 	<attacks>
-	<attack name="melee" interval="1500" min="-70" max="-95"/>
+	<attack name="melee" interval="1500" min="-75" max="-105"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 

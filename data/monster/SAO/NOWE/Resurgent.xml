@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <monster name="Resurgent" nameDescription="a resurgent" race="blood" experience="900" speed="235" manacost="0">
-    <health now="1600" max="1600"/>
+  <monster name="Resurgent" nameDescription="a resurgent" race="blood" experience="1750" speed="235" manacost="0">
+    <health now="2300" max="2300"/>
     <look type="116" head="0" body="0" legs="0" feet="0" corpse="3076"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
@@ -20,7 +20,7 @@
     </flags>
     
 	<attacks>
-	<attack name="melee" interval="1500" min="-75" max="-110"/>
+	<attack name="melee" interval="1500" min="-125" max="-190"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 
