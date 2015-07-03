@@ -39,9 +39,9 @@
     </immunities>
     
 	<loot>
-	<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-	<item id="11642" chance="2000"/>
-	<item id="11637" chance="2000"/>
-	<item id="11777" chance="2000"/>
+	<item id="2148" countmax="15" chance1="50000" chancemax="0"/> <!-- gold coin -->
+	<item id="11642" chance="2000"/> <!-- bandit glove -->
+	<item id="11637" chance="2000"/> <!-- magma sword -->
+	<item id="11777" chance="2000"/> <!-- fire armor -->
     </loot>
   </monster>

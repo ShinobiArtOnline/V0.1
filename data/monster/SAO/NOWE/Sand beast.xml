@@ -40,8 +40,8 @@
     </immunities>
     
 	<loot>
-		<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-		<item id="11621" chance="2000"/>
-		<item id="11769" chance="2000"/>
+		<item id="2148" countmax="15" chance1="50000" chancemax="0"/> <!-- gold coin -->
+		<item id="11621" chance="2000"/> <!-- small scythes -->
+		<item id="11769" chance="2000"/> <!-- sandy cap -->
     </loot>
   </monster>

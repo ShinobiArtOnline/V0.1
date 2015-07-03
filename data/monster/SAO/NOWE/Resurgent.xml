@@ -39,9 +39,9 @@
     </immunities>
     
 	<loot>
-		<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-	<item id="11650" chance="2000"/>
-	<item id="11762" chance="2000"/>
-	<item id="11707" chance="2000"/>
+		<item id="2148" countmax="15" chance1="50000" chancemax="0"/> <!-- gold coin -->
+	<item id="11650" chance="2000"/> <!-- death glove -->
+	<item id="11762" chance="2000"/>	<!-- resurgent coat -->
+	<item id="11707" chance="2000"/> <!-- resurgent mask -->
     </loot>
   </monster>

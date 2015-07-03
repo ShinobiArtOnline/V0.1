@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <monster name="Lightingman" nameDescription="a lightingman" race="blood" experience="1950" speed="235" manacost="0">
-    <health now="2150" max="2100"/>
+    <health now="2150" max="2150"/>
     <look type="126" head="0" body="0" legs="0" feet="0" corpse="2839"/>
     <targetchange interval="60000" chance="0"/>
     <strategy attack="10" defense="20"/>
@@ -39,9 +39,9 @@
     </immunities>
     
 	<loot>
-		<item id="2148" countmax="15" chance1="50000" chancemax="0"/>
-	<item id="11641" chance="2000"/>
-	<item id="11677" chance="1000"/>
-	<item id="11811" chance="2000"/>
+		<item id="2148" countmax="15" chance1="50000" chancemax="0"/> <!-- gold coin -->
+	<item id="11641" chance="2000"/> <!-- lighting glover -->
+	<item id="11677" chance="1000"/> <!-- light halberd -->
+	<item id="11811" chance="2000"/> <!-- Blue shoes -->
     </loot>
   </monster>
