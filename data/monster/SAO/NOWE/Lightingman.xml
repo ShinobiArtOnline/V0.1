@@ -21,6 +21,7 @@
     
 	<attacks>
 	<attack name="melee" interval="1500" min="-95" max="-145"/>
+	<attack name="piorun" interval="3000" min="-80" max="-115"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 

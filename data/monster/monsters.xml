@@ -64,6 +64,7 @@
 	<monster name="Training Target" file="trainingtarget.xml"/>
 	<monster name="Katsuya" file="Katsuya.xml"/>
 	<monster name="Gamakichi" file="Gamakichi.xml"/>
+	<monster name="Gamakatsu" file="Gamakatsu.xml"/>
 	
 	<!-- BOSSY -->
 	

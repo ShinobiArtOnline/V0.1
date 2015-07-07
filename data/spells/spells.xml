@@ -4,7 +4,7 @@
    <!--- Wszystkie postaci, podstawowe spelle -->
    
    
-   <instant name="Heal" words="Chiyute" lvl="8" mana="95" aggressive="0" selftarget="1" exhaustion="1200" needlearn="0" event="script" value="Dla wszystkich postaci/chiyute.lua">
+   <instant name="Heal" words="Chiyute" lvl="8" mana="95" aggressive="0" selftarget="1" exhaustion="1000" needlearn="0" event="script" value="Dla wszystkich postaci/chiyute.lua">
 	</instant>
 	<instant name="Chakra Rest" words="chakra rest" lvl="1" mana="25" aggressive="0" selftarget="1" exhaustion="2000" needlearn="0" event="script" value="Dla wszystkich postaci/chakra rest.lua">
 	</instant>
@@ -180,7 +180,7 @@
 		<vocation id="11"/>
 		<vocation id="12"/>
 	</instant>
-	<instant name="Choudan" words="Choudan Bakugeki" lvl="500" mana="450" aggressive="0" selftarget="0" exhaustion="1500" direction="1" needlearn="0"  event="script" value="SAO/Choji/Choudan Bakugeki.lua">
+	<instant name="Choudan" words="Choudan Bakugeki" lvl="50" mana="450" aggressive="0" selftarget="0" exhaustion="1500" direction="1" needlearn="0"  event="script" value="SAO/Choji/Choudan Bakugeki.lua">
 		<vocation id="3"/>
 		<vocation id="10"/>
 		<vocation id="11"/>
@@ -266,7 +266,7 @@
 		<vocation id="35"/>
 	</instant>
 	
-	<instant name="Chidory" words="Chidori" lvl="50" mana="550" aggressive="0" selftarget="0" exhaustion="1500" direction="1" needlearn="0" needtarget="0"   event="script" value="SAO/Uchiha/Chidori.lua">
+	<instant name="Chidori" words="Chidori" lvl="50" mana="550" aggressive="0" selftarget="0" exhaustion="1500" direction="1" needlearn="0" needtarget="0"   event="script" value="SAO/Uchiha/Chidori.lua">
 		<vocation id="7"/>
 		<vocation id="30"/>
 		<vocation id="31"/>
@@ -343,7 +343,7 @@
 		<vocation id="27"/>
 		
 	</instant>
-	<instant name="Hakke Hiasangi no Jutsu" words="Hakke Hiasangi" lvl="100" mana="1550" aggressive="0" needtarget="1" range="4" exhaustion="1500" direction="0" needlearn="0"  event="script" value="SAO/Neji/Hakke Hiasangi.lua">
+	<instant name="Hakke Hiasangi no Jutsu" words="Hakke Hiasangi" lvl="175" mana="2350" aggressive="0" needtarget="1" range="4" exhaustion="1500" direction="0" needlearn="0"  event="script" value="SAO/Neji/Hakke Hiasangi.lua">
 		<vocation id="6"/>
 		<vocation id="25"/>
 		<vocation id="26"/>
@@ -361,7 +361,7 @@
 		<vocation id="26"/>
 		<vocation id="27"/>
 	</instant>
-	<instant name="Hakke Sanjuuni Shou no Jutsu" words="Hakke Sanjuuni Shou" lvl="75" mana="750" aggressive="0" selftarget="0" exhaustion="1500" direction="1" needlearn="0"  event="script" value="SAO/Neji/Hakke SanjuuniShou.lua">
+	<instant name="Hakke Sanjuuni Shou no Jutsu" words="Hakke Sanjuuni Shou" lvl="75" mana="750" aggressive="0" needtarget="1" exhaustion="2000" direction="0" needlearn="0"  event="script" value="SAO/Neji/Hakke SanjuuniShou.lua">
 		<vocation id="6"/>
 		<vocation id="25"/>
 		<vocation id="26"/>
@@ -600,18 +600,31 @@
 	</instant>
 	<instant name="pet" words="pet" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="pet.lua">
 	</instant>
+	<instant name="Gamakatsu" words="Gamakatsu" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="Gamakatsu.lua">
+	</instant>
 	<instant name="Hppet" words="Hppet" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="Hppet.lua">
 	</instant>
 	<instant name="Sakura" words="Sakura" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="Sakura.lua">
 	</instant>
 	<instant name="outfits" words="outfits" lvl="1" mana="0" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="outfit.lua">
 	</instant>
-	<instant name="shot" words="shot" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" exhaustion="1500" needlearn="0" script="Moby spell/shot.lua">
+	<instant name="shot" words="shot" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" exhaustion="1500" needlearn="0" script="Moby spell/shot.lua">
 	</instant>
-	<instant name="sand bomb" words="sand bomb" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/sand bomb.lua">
+	<instant name="sand bomb" words="sand bomb" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/sand bomb.lua">
 	</instant>
-	<instant name="sand bomb2" words="sand bomb2" lvl="2" mana="12" prem="0" aggressive="0" needtarget="0" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/sand bomb2.lua">
+	<instant name="sand bomb2" words="sand bomb2" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/sand bomb2.lua">
 	</instant>
+	<instant name="paral1sqm" words="paral1sqm" lvl="2" mana="12" prem="0" aggressive="1" needtarget="1" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/paral1sqm.lua">
+	</instant>
+	<instant name="paral3sqm" words="paral3sqm" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/paral3sqm.lua">
+	</instant>
+	<instant name="fireball" words="fireball" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/fireball.lua">
+	</instant>
+	<instant name="piorun" words="piorun" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/piorun.lua">
+	</instant>
+	<instant name="poisonn" words="poisonn" lvl="2" mana="12" prem="0" aggressive="0" needtarget="1" blockwalls="1" exhaustion="1500" needlearn="0" script="Moby spell/poisonn.lua">
+	</instant>
+	
 	
 	
 	

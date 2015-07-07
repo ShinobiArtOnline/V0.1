@@ -1,28 +1,24 @@
 TABLE_TASKS = { 
-  ["bat"]         = {id = 0, level = 01, count = 50,  exp = 7000,   coin = 0, point = 1},
-  ["wolf"]          = {id = 1, level = 06, count = 70, exp = 10000,  coin = 0,    point = 1},
-  ["hizoku"]          = {id = 2, level = 08, count = 90, exp = 15000,  coin = 0,    point = 1},
-  ["maka"]          = {id = 3, level = 12, count = 110, exp = 17500,  coin = 0,    point = 1},
-  ["sanzoku"]          = {id = 4, level = 15, count = 130, exp = 22000,  coin = 0,    point = 1},
-  ["touzoku"]          = {id = 5, level = 27, count = 150, exp = 24000,  coin = 0,    point = 1},
-  ["dorobou"]         = {id = 6, level = 28, count = 190, exp = 27000,  coin = 0,    point = 1},
-}
+  ["villager"]         = {id = 0, level = 10, count = 110,  exp = 10000,   coin = 30000, point = 1, reward=11607},
+  ["wolf"]          = {id = 1, level = 01, count = 75, exp = 7000,  coin = 0,    point = 1, reward=11607},
+  ["dark priest"]          = {id = 2, level = 75, count = 150, exp = 95000,  coin = 0,    point = 1, reward=11607},
+  ["shinobi"]          = {id = 3, level = 20, count = 95, exp = 17500,  coin = 0,    point = 1, reward=11607},
+  ["magmaman"]          = {id = 4, level = 100, count = 200, exp = 175000,  coin = 0,    point = 1, reward=11607},
+  }
 
 TABLE_TASKS_MONSTERS = { -- NOME DOS BIXOS MINUSCULO !!!!!!!!!!!!!
-  ["bat"]            = "bat",
+  ["villager"]            = "villager",
   ["wolf"]            = "wolf",
-  ["hizoku"]            = "hizoku", 
-  ["maka"]            = "maka", 
-  ["sanzoku"]            = "sanzoku",  
-  ["touzoku"]            = "touzuko",
-  ["dorobou"]            = "dorobou",      
+  ["dark priest"]            = "dark priest", 
+  ["shinobi"]            = "shinobi", 
+  ["magmaman"]            = "magmaman", 
 }
 --------------- NAO ALTERE A PARTIR DAQUI --------------------------------------
 --------------------------------------------------------------------------------
   local TASK_OFFSETS       = 10 -- existem 10 slots de storages pra cada task 
   local OFFSET_KILLS       = 1  -- offset pra ver a quantidade de bixos que matou
-  local OFFSET_FINISHED    = 2  -- offset pra ver se terminou a task
-  local OFFSET_KILLED_BOSS = 3  -- offset pra ver se matou o boss (caso tenha boss nesta task)   
+  local OFFSET_FINISHED    = 2 -- offset pra ver se terminou a task
+  local OFFSET_KILLED_BOSS = 1  -- offset pra ver se matou o boss (caso tenha boss nesta task)   
   local MAX_TASKS_TOGETHER = 1 -- quantidade maxima de tasks simultaneas 
 -------------------------------------------------------------------------------- 
 
@@ -121,6 +117,9 @@ task = {
       end
       if TABLE_TASKS[taskname].coin then
         doPlayerAddMoney(cid, TABLE_TASKS[taskname].coin)
+      end
+	  if TABLE_TASKS[taskname].reward then
+        doPlayerAddItem(cid, TABLE_TASKS[taskname].reward)
       end
       if TABLE_TASKS[taskname].point then
         setPlayerStorageValue(cid, TASK_STORAGE_POINTS, getPlayerStorageValue(cid, TASK_STORAGE_POINTS) + TABLE_TASKS[taskname].point)

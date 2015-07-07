@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gamakatsu" nameDescription="Gamakatsu" race="undead" experience="0" speed="450" manacost="0">
+	<health now="100" max="100"/>
+	<look type="273" head="0" body="0" legs="0" feet="0" corpse="0"/>
+
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="0"/>
+		<flag hostile="0"/>
+		<flag illusionable="0"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+  <attacks>
+	
+  </attacks>
+  <defenses armor="0" defense="0"/>
+	
+	
+</monster>

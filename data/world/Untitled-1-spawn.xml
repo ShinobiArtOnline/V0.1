@@ -297,13 +297,13 @@
   <spawn centerx="525" centery="917" centerz="5" radius="11">
     <monster name="White shinobi" x="1" y="-2" z="5" spawntime="60"/>
     <monster name="White shinobi" x="-4" y="-1" z="5" spawntime="60"/>
-    <monster name="Black wolf" x="-2" y="1" z="5" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="507" centery="919" centerz="5" radius="11">
     <monster name="White shinobi" x="-2" y="-2" z="5" spawntime="60"/>
     <monster name="White shinobi" x="-1" y="-2" z="5" spawntime="60"/>
     <monster name="White shinobi" x="-1" y="-1" z="5" spawntime="60"/>
-    <monster name="Black wolf" x="3" y="1" z="5" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="515" centery="920" centerz="5" radius="11"/>
   <spawn centerx="447" centery="924" centerz="5" radius="11">
@@ -385,9 +385,9 @@
   <spawn centerx="954" centery="987" centerz="5" radius="11">
     <monster name="Assasin" x="-5" y="-4" z="5" spawntime="60"/>
     <monster name="Guardian" x="3" y="-3" z="5" spawntime="60"/>
-    <monster name="Black wolf" x="-4" y="-2" z="5" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-4" y="-2" z="5" spawntime="60"/>
     <monster name="Guardian" x="6" y="-2" z="5" spawntime="60"/>
-    <monster name="Black wolf" x="-6" y="0" z="5" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-6" y="0" z="5" spawntime="60"/>
     <monster name="Assasin" x="-1" y="0" z="5" spawntime="60"/>
     <monster name="Guardian" x="5" y="0" z="5" spawntime="60"/>
     <monster name="Assasin" x="0" y="3" z="5" spawntime="60"/>
@@ -806,12 +806,12 @@
     <monster name="Ronin" x="7" y="-8" z="6" spawntime="60"/>
     <monster name="Ronin" x="8" y="-8" z="6" spawntime="60"/>
     <monster name="Ronin" x="9" y="-6" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="7" y="-2" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="7" y="-2" z="6" spawntime="60"/>
     <monster name="Ronin" x="-4" y="-1" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="-6" y="0" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="-5" y="0" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="6" y="0" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-11" y="2" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="6" y="0" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-11" y="2" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="894" centery="846" centerz="6" radius="11">
     <monster name="Lightingman" x="-2" y="-3" z="6" spawntime="60"/>
@@ -843,20 +843,20 @@
     <monster name="Elder assassin" x="-1" y="-2" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="-5" y="-1" z="6" spawntime="60"/>
     <monster name="Ronin" x="-2" y="-1" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="6" y="-1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="6" y="-1" z="6" spawntime="60"/>
     <monster name="Ronin" x="12" y="-1" z="6" spawntime="60"/>
     <monster name="Ronin" x="-2" y="0" z="6" spawntime="60"/>
     <monster name="Ronin" x="12" y="0" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="554" centery="861" centerz="6" radius="11">
     <monster name="Thief" x="2" y="-6" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="3" y="-4" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="-3" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="-4" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="-3" z="6" spawntime="60"/>
     <monster name="Thief" x="-6" y="0" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="6" y="4" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="4" y="5" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="6" y="4" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="4" y="5" z="6" spawntime="60"/>
     <monster name="Thief" x="3" y="6" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="6" y="6" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="6" y="6" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="556" centery="862" centerz="6" radius="11"/>
   <spawn centerx="810" centery="862" centerz="6" radius="11">
@@ -949,22 +949,22 @@
     <monster name="Robber" x="1" y="-1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="505" centery="920" centerz="6" radius="11">
-    <monster name="Black wolf" x="7" y="-7" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="8" y="-6" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="7" y="-7" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="8" y="-6" z="6" spawntime="60"/>
     <monster name="Thief" x="-5" y="-2" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-11" y="-1" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-2" y="0" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-11" y="-1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="0" z="6" spawntime="60"/>
     <monster name="Thief" x="0" y="3" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="522" centery="920" centerz="6" radius="11">
     <monster name="Thief" x="1" y="-2" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="8" y="-1" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="3" y="1" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="8" y="2" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="8" y="-1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="8" y="2" z="6" spawntime="60"/>
     <monster name="Thief" x="3" y="3" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="499" centery="921" centerz="6" radius="11">
-    <monster name="Black wolf" x="-8" y="-6" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-8" y="-6" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="527" centery="921" centerz="6" radius="11"/>
   <spawn centerx="448" centery="923" centerz="6" radius="11">
@@ -1104,13 +1104,13 @@
   </spawn>
   <spawn centerx="931" centery="975" centerz="6" radius="11">
     <monster name="Thief" x="-4" y="-1" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-2" y="-1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="-1" z="6" spawntime="60"/>
     <monster name="Thief" x="5" y="-1" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="11" y="-1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="11" y="-1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="950" centery="976" centerz="6" radius="11">
     <monster name="Thief" x="1" y="2" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-6" y="4" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-6" y="4" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="706" centery="979" centerz="6" radius="14">
     <monster name="Necromancer" x="-2" y="-2" z="6" spawntime="60"/>
@@ -1138,12 +1138,12 @@
     <monster name="Trainer Worms" x="-13" y="-7" z="6" spawntime="60"/>
     <monster name="Trainer Worms" x="-11" y="-7" z="6" spawntime="60"/>
     <monster name="Trainer Worms" x="-12" y="-6" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="-2" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="4" y="-2" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="4" y="-2" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="10" y="-2" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="12" y="-2" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="17" y="-2" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="4" y="-1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="17" y="-2" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="4" y="-1" z="6" spawntime="60"/>
     <monster name="Magmaman" x="-14" y="5" z="6" spawntime="60"/>
     <monster name="Dark priest" x="-16" y="6" z="6" spawntime="60"/>
     <monster name="Magmaman" x="-15" y="6" z="6" spawntime="60"/>
@@ -1152,9 +1152,9 @@
     <monster name="Magmaman" x="-14" y="8" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="4" y="8" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="2" y="9" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="6" y="9" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="7" y="10" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="7" y="11" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="6" y="9" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="7" y="10" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="7" y="11" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="839" centery="998" centerz="6" radius="19">
     <monster name="Trainer Worms" x="-15" y="-15" z="6" spawntime="60"/>
@@ -1162,11 +1162,11 @@
     <monster name="Trainer Worms" x="-15" y="-14" z="6" spawntime="60"/>
     <monster name="Trainer Worms" x="-14" y="-13" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="-11" y="-6" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-9" y="-1" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-12" y="0" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-9" y="0" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-12" y="1" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-10" y="1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-9" y="-1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-12" y="0" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-9" y="0" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-12" y="1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-10" y="1" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="1" y="7" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="0" y="8" z="6" spawntime="60"/>
     <monster name="Elder assassin" x="1" y="9" z="6" spawntime="60"/>
@@ -1190,8 +1190,8 @@
     <monster name="Magmaman" x="13" y="17" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="810" centery="1004" centerz="6" radius="19">
-    <monster name="Black wolf" x="5" y="-11" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="4" y="-10" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="5" y="-11" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="4" y="-10" z="6" spawntime="60"/>
     <monster name="Dark priest" x="-11" y="14" z="6" spawntime="60"/>
     <monster name="Shining ninja" x="-10" y="14" z="6" spawntime="60"/>
     <monster name="Shining ninja" x="-9" y="14" z="6" spawntime="60"/>
@@ -1275,19 +1275,19 @@
     <monster name="Grassman" x="11" y="-4" z="6" spawntime="60"/>
     <monster name="Grassman" x="12" y="-4" z="6" spawntime="60"/>
     <monster name="Grassman" x="12" y="-3" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="18" y="0" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="19" y="0" z="6" spawntime="1024"/>
-    <monster name="Black wolf" x="18" y="1" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="18" y="0" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="19" y="0" z="6" spawntime="1024"/>
+    <monster name="Cursed Wolf" x="18" y="1" z="6" spawntime="60"/>
     <monster name="Grassman" x="-15" y="2" z="6" spawntime="60"/>
     <monster name="Grassman" x="-14" y="2" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-1" y="2" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="2" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-1" y="2" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="2" z="6" spawntime="60"/>
     <monster name="Grassman" x="-13" y="3" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="12" y="3" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="13" y="3" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="-8" y="4" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="12" y="5" z="6" spawntime="60"/>
-    <monster name="Black wolf" x="13" y="5" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="12" y="3" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="13" y="3" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-8" y="4" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="12" y="5" z="6" spawntime="60"/>
+    <monster name="Cursed Wolf" x="13" y="5" z="6" spawntime="60"/>
     <monster name="Grassman" x="-14" y="7" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="557" centery="615" centerz="7" radius="8">
@@ -1340,6 +1340,11 @@
     <monster name="Pirate" x="19" y="16" z="7" spawntime="60"/>
     <monster name="Pirate" x="16" y="19" z="7" spawntime="60"/>
     <monster name="Pirate" x="17" y="19" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="614" centery="680" centerz="7" radius="5">
+    <npc name="Ikagura" x="0" y="-3" z="7" spawntime="60"/>
+    <npc name="Armors" x="1" y="0" z="7" spawntime="60"/>
+    <npc name="Anbu" x="5" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="986" centery="697" centerz="7" radius="20">
     <monster name="Pirate" x="3" y="-18" z="7" spawntime="60"/>
@@ -1595,14 +1600,14 @@
     <monster name="Swordman" x="-7" y="-5" z="7" spawntime="60"/>
     <monster name="Swordman" x="10" y="-5" z="7" spawntime="60"/>
     <monster name="Swordman" x="-6" y="-4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="2" y="-3" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="2" y="-3" z="7" spawntime="60"/>
     <monster name="Swordman" x="-7" y="-2" z="7" spawntime="512"/>
     <monster name="Swordman" x="-7" y="-1" z="7" spawntime="60"/>
     <monster name="Swordman" x="10" y="1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-8" y="5" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-8" y="5" z="7" spawntime="60"/>
     <monster name="Swordman" x="-7" y="9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-8" y="12" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-8" y="12" z="7" spawntime="60"/>
     <monster name="Swordman" x="7" y="12" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="620" centery="761" centerz="7" radius="11"/>
@@ -1694,21 +1699,21 @@
   <spawn centerx="915" centery="768" centerz="7" radius="12">
     <monster name="Robber" x="-1" y="-11" z="7" spawntime="60"/>
     <monster name="Robber" x="-7" y="-10" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="5" y="-9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-3" y="-8" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="5" y="-9" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-3" y="-8" z="7" spawntime="60"/>
     <monster name="Robber" x="-2" y="-6" z="7" spawntime="60"/>
     <monster name="Robber" x="9" y="-6" z="7" spawntime="60"/>
     <monster name="Robber" x="0" y="-1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="5" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="5" y="4" z="7" spawntime="60"/>
     <monster name="Robber" x="1" y="6" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="2" y="8" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="2" y="8" z="7" spawntime="60"/>
     <monster name="Robber" x="4" y="12" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="852" centery="769" centerz="7" radius="12">
     <monster name="Swordman" x="2" y="-3" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="11" y="-2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="11" y="-2" z="7" spawntime="60"/>
     <monster name="Swordman" x="-4" y="1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="8" y="1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="8" y="1" z="7" spawntime="60"/>
     <monster name="Swordman" x="0" y="3" z="7" spawntime="60"/>
     <monster name="Swordman" x="2" y="6" z="7" spawntime="60"/>
     <monster name="Swordman" x="3" y="7" z="7" spawntime="60"/>
@@ -1724,7 +1729,7 @@
     <monster name="Swordman" x="-6" y="2" z="7" spawntime="60"/>
     <monster name="Villager" x="8" y="3" z="7" spawntime="60"/>
     <monster name="Villager" x="-3" y="8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="11" y="9" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="11" y="9" z="7" spawntime="60"/>
     <monster name="Wolf" x="-6" y="11" z="7" spawntime="60"/>
     <monster name="Wolf" x="2" y="11" z="7" spawntime="60"/>
     <monster name="Wolf" x="11" y="12" z="7" spawntime="60"/>
@@ -1825,7 +1830,7 @@
     <monster name="Sand warrior" x="-1" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="897" centery="778" centerz="7" radius="12">
-    <monster name="Black wolf" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="0" z="7" spawntime="60"/>
     <monster name="Robber" x="1" y="1" z="7" spawntime="60"/>
     <monster name="Robber" x="12" y="5" z="7" spawntime="60"/>
   </spawn>
@@ -1916,8 +1921,8 @@
   <spawn centerx="804" centery="786" centerz="7" radius="11">
     <monster name="Assasin" x="3" y="-1" z="7" spawntime="60"/>
     <monster name="Assasin" x="10" y="0" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="4" y="2" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="4" y="3" z="7" spawntime="768"/>
+    <monster name="Cursed Wolf" x="4" y="2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="4" y="3" z="7" spawntime="768"/>
     <monster name="Assasin" x="8" y="7" z="7" spawntime="60"/>
     <monster name="Assasin" x="9" y="7" z="7" spawntime="60"/>
   </spawn>
@@ -1936,7 +1941,7 @@
   <spawn centerx="827" centery="790" centerz="7" radius="11">
     <monster name="Assasin" x="-3" y="-4" z="7" spawntime="60"/>
     <monster name="Assasin" x="-2" y="-4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="3" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="3" z="7" spawntime="60"/>
     <monster name="Assasin" x="5" y="5" z="7" spawntime="60"/>
     <monster name="Assasin" x="11" y="6" z="7" spawntime="60"/>
   </spawn>
@@ -1987,8 +1992,8 @@
   </spawn>
   <spawn centerx="916" centery="793" centerz="7" radius="12">
     <monster name="Robber" x="4" y="-12" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-2" y="-4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-8" y="3" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="-4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-8" y="3" z="7" spawntime="60"/>
     <monster name="Robber" x="6" y="5" z="7" spawntime="60"/>
     <monster name="Robber" x="-10" y="8" z="7" spawntime="60"/>
     <monster name="Robber" x="-10" y="9" z="7" spawntime="60"/>
@@ -2023,9 +2028,9 @@
     <monster name="Assasin" x="-8" y="-6" z="7" spawntime="60"/>
     <monster name="Assasin" x="-3" y="-4" z="7" spawntime="60"/>
     <monster name="Assasin" x="3" y="-4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-8" y="0" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-8" y="0" z="7" spawntime="60"/>
     <monster name="Assasin" x="6" y="0" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="4" y="1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="4" y="1" z="7" spawntime="60"/>
     <monster name="Assasin" x="5" y="2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1089" centery="796" centerz="7" radius="8">
@@ -2089,6 +2094,7 @@
     <monster name="Villager" x="8" y="5" z="7" spawntime="60"/>
     <monster name="Wolf" x="-1" y="8" z="7" spawntime="60"/>
     <monster name="Wolf" x="3" y="8" z="7" spawntime="60"/>
+    <monster name="Villager" x="1" y="9" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="775" centery="802" centerz="7" radius="11">
     <monster name="Wolf" x="-2" y="-8" z="7" spawntime="60"/>
@@ -2147,7 +2153,7 @@
     <monster name="Wolf" x="2" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="903" centery="803" centerz="7" radius="12">
-    <monster name="Black wolf" x="-10" y="-2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-10" y="-2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="666" centery="804" centerz="7" radius="11">
     <monster name="Wolf" x="-5" y="-10" z="7" spawntime="60"/>
@@ -2294,8 +2300,8 @@
     <monster name="Villager" x="6" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="924" centery="818" centerz="7" radius="12">
-    <monster name="Black wolf" x="3" y="-9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="6" y="-4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="-9" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="6" y="-4" z="7" spawntime="60"/>
     <monster name="Wolf" x="0" y="4" z="7" spawntime="60"/>
     <monster name="Wolf" x="4" y="5" z="7" spawntime="60"/>
     <monster name="Wolf" x="5" y="5" z="7" spawntime="60"/>
@@ -2441,8 +2447,8 @@
     <monster name="Wolf" x="-3" y="-9" z="7" spawntime="60"/>
     <monster name="Wolf" x="1" y="-8" z="7" spawntime="60"/>
     <monster name="Wolf" x="3" y="-1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-12" y="0" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-12" y="0" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="2" y="0" z="7" spawntime="60"/>
     <monster name="Wolf" x="-2" y="12" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="712" centery="828" centerz="7" radius="11">
@@ -2666,6 +2672,7 @@
     <monster name="Wolf" x="11" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="638" centery="852" centerz="7" radius="11">
+    <monster name="Wolf" x="0" y="-6" z="7" spawntime="60"/>
     <monster name="Wolf" x="3" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="707" centery="852" centerz="7" radius="11">
@@ -2681,6 +2688,7 @@
     <monster name="Wolf" x="-6" y="-2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="661" centery="853" centerz="7" radius="11">
+    <monster name="Wolf" x="-10" y="-1" z="7" spawntime="60"/>
     <monster name="Wolf" x="4" y="5" z="7" spawntime="60"/>
     <monster name="Wolf" x="-5" y="6" z="7" spawntime="60"/>
     <monster name="Wolf" x="-10" y="7" z="7" spawntime="60"/>
@@ -2730,16 +2738,16 @@
     <monster name="Villager" x="10" y="7" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="552" centery="862" centerz="7" radius="11">
-    <monster name="Black wolf" x="5" y="-6" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="5" y="-6" z="7" spawntime="60"/>
     <monster name="White shinobi" x="4" y="-5" z="7" spawntime="60"/>
     <monster name="White shinobi" x="6" y="-5" z="7" spawntime="60"/>
     <monster name="White shinobi" x="-7" y="-3" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-8" y="-2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-8" y="-2" z="7" spawntime="60"/>
     <monster name="White shinobi" x="-7" y="-1" z="7" spawntime="60"/>
     <monster name="White shinobi" x="-9" y="0" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="0" z="7" spawntime="60"/>
     <monster name="White shinobi" x="6" y="4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="8" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="8" y="4" z="7" spawntime="60"/>
     <monster name="White shinobi" x="5" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="873" centery="862" centerz="7" radius="11">
@@ -2783,30 +2791,30 @@
     <monster name="Dark priest" x="-9" y="-8" z="7" spawntime="60"/>
     <monster name="Dark priest" x="3" y="-8" z="7" spawntime="60"/>
     <monster name="Dark priest" x="19" y="-6" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-15" y="-5" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-15" y="-5" z="7" spawntime="60"/>
     <monster name="Dark priest" x="0" y="-4" z="7" spawntime="60"/>
     <monster name="Magmaman" x="2" y="-4" z="7" spawntime="60"/>
     <monster name="Dark priest" x="3" y="-3" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="19" y="-3" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="19" y="-3" z="7" spawntime="60"/>
     <monster name="Dark priest" x="2" y="-1" z="7" spawntime="60"/>
     <monster name="Dark priest" x="4" y="0" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-17" y="1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="19" y="1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="9" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="19" y="1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="9" y="4" z="7" spawntime="60"/>
     <monster name="Dark priest" x="11" y="4" z="7" spawntime="60"/>
     <monster name="Dark priest" x="18" y="4" z="7" spawntime="60"/>
     <monster name="Magmaman" x="3" y="5" z="7" spawntime="60"/>
     <monster name="Magmaman" x="5" y="6" z="7" spawntime="60"/>
     <monster name="Dark priest" x="10" y="7" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-18" y="8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="10" y="10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="10" y="10" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-17" y="11" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-13" y="11" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-13" y="11" z="7" spawntime="60"/>
     <monster name="Dark priest" x="1" y="11" z="7" spawntime="60"/>
     <monster name="Dark priest" x="2" y="12" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-3" y="13" z="7" spawntime="60"/>
     <monster name="Dark priest" x="1" y="13" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-5" y="18" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-5" y="18" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="799" centery="864" centerz="7" radius="11">
     <monster name="Wolf" x="-2" y="-9" z="7" spawntime="60"/>
@@ -2863,18 +2871,6 @@
     <monster name="Wolf" x="-4" y="-2" z="7" spawntime="60"/>
     <monster name="Wolf" x="7" y="7" z="7" spawntime="60"/>
     <monster name="Wolf" x="-2" y="9" z="7" spawntime="60"/>
-  </spawn>
-  <spawn centerx="984" centery="868" centerz="7" radius="5">
-    <monster name="Training Target" x="-4" y="-3" z="7" spawntime="60"/>
-    <monster name="Training Target" x="0" y="-3" z="7" spawntime="60"/>
-    <monster name="Training Target" x="4" y="-3" z="7" spawntime="60"/>
-    <monster name="Training Target" x="-2" y="-1" z="7" spawntime="60"/>
-    <monster name="Training Target" x="2" y="-1" z="7" spawntime="60"/>
-    <monster name="Training Target" x="-4" y="1" z="7" spawntime="60"/>
-    <monster name="Training Target" x="0" y="1" z="7" spawntime="60"/>
-    <monster name="Training Target" x="4" y="1" z="7" spawntime="60"/>
-    <monster name="Training Target" x="-2" y="3" z="7" spawntime="60"/>
-    <monster name="Training Target" x="2" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="754" centery="869" centerz="7" radius="11">
     <monster name="Wolf" x="-7" y="-9" z="7" spawntime="60"/>
@@ -2950,12 +2946,12 @@
     <monster name="Dark priest" x="-19" y="-11" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-16" y="-9" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-15" y="-8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-7" y="-4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-7" y="-4" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-19" y="0" z="7" spawntime="60"/>
     <monster name="Dark priest" x="1" y="3" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-14" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-14" y="4" z="7" spawntime="60"/>
     <monster name="Dark priest" x="19" y="4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-17" y="5" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-17" y="5" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-7" y="6" z="7" spawntime="60"/>
     <monster name="Dark priest" x="3" y="6" z="7" spawntime="60"/>
     <monster name="Dark priest" x="1" y="7" z="7" spawntime="60"/>
@@ -3019,17 +3015,17 @@
     <monster name="Wolf" x="7" y="11" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="1025" centery="888" centerz="7" radius="20">
-    <monster name="Black wolf" x="1" y="-6" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="3" y="-6" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="-6" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="-6" z="7" spawntime="60"/>
     <monster name="Dark priest" x="10" y="-6" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-17" y="-2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-17" y="-2" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-4" y="-1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="6" y="-1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-15" y="0" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="6" y="-1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-15" y="0" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-2" y="0" z="7" spawntime="60"/>
     <monster name="Dark priest" x="9" y="4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="2" y="8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="6" y="10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="2" y="8" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="6" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="805" centery="889" centerz="7" radius="12">
     <monster name="Wolf" x="-8" y="-6" z="7" spawntime="60"/>
@@ -3125,8 +3121,8 @@
     <monster name="Dark priest" x="-11" y="-10" z="7" spawntime="60"/>
     <monster name="Dark priest" x="15" y="-8" z="7" spawntime="60"/>
     <monster name="Dark priest" x="16" y="-8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="9" y="-6" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-10" y="-5" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="9" y="-6" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-10" y="-5" z="7" spawntime="60"/>
     <monster name="Dark priest" x="4" y="-5" z="7" spawntime="60"/>
     <monster name="Dark priest" x="6" y="-4" z="7" spawntime="60"/>
     <monster name="Dark priest" x="15" y="-3" z="7" spawntime="60"/>
@@ -3135,7 +3131,7 @@
     <monster name="Dark priest" x="16" y="-2" z="7" spawntime="60"/>
     <monster name="Magmaman" x="15" y="-1" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-20" y="0" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-1" y="1" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-19" y="2" z="7" spawntime="60"/>
     <monster name="Magmaman" x="-8" y="2" z="7" spawntime="60"/>
     <monster name="Magmaman" x="-7" y="4" z="7" spawntime="60"/>
@@ -3147,12 +3143,12 @@
     <monster name="Dark priest" x="1" y="9" z="7" spawntime="60"/>
     <monster name="Magmaman" x="-1" y="10" z="7" spawntime="60"/>
     <monster name="Dark priest" x="1" y="10" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-19" y="11" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-19" y="11" z="7" spawntime="60"/>
     <monster name="Dark priest" x="0" y="16" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-20" y="17" z="7" spawntime="768"/>
     <monster name="Dark priest" x="-2" y="17" z="7" spawntime="60"/>
     <monster name="Dark priest" x="1" y="17" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-18" y="18" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-18" y="18" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="543" centery="905" centerz="7" radius="11">
     <monster name="Wolf" x="-3" y="7" z="7" spawntime="60"/>
@@ -3320,8 +3316,8 @@
     <monster name="Wolf" x="-10" y="8" z="7" spawntime="60"/>
     <monster name="Thief" x="3" y="8" z="7" spawntime="60"/>
     <monster name="Thief" x="1" y="10" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="5" y="10" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="7" y="11" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="5" y="10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="7" y="11" z="7" spawntime="60"/>
     <monster name="Cripple" x="-13" y="12" z="7" spawntime="60"/>
     <monster name="Cripple" x="-13" y="13" z="7" spawntime="60"/>
   </spawn>
@@ -3367,11 +3363,11 @@
     <monster name="Samurai" x="-18" y="-5" z="7" spawntime="60"/>
     <monster name="Samurai" x="-4" y="-5" z="7" spawntime="60"/>
     <monster name="Samurai" x="-3" y="-5" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="26" y="-5" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="26" y="-5" z="7" spawntime="60"/>
     <monster name="Assasin" x="3" y="-3" z="7" spawntime="60"/>
     <monster name="White shinobi" x="6" y="-2" z="7" spawntime="60"/>
     <monster name="Assasin" x="17" y="-2" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="26" y="-2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="26" y="-2" z="7" spawntime="60"/>
     <monster name="Samurai" x="-14" y="-1" z="7" spawntime="60"/>
     <monster name="Samurai" x="-10" y="-1" z="7" spawntime="60"/>
     <monster name="White shinobi" x="4" y="-1" z="7" spawntime="60"/>
@@ -3421,15 +3417,15 @@
     <monster name="Robber" x="26" y="25" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="458" centery="942" centerz="7" radius="30">
-    <monster name="Black wolf" x="27" y="-9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="28" y="-9" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="27" y="-9" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="28" y="-9" z="7" spawntime="60"/>
     <monster name="White shinobi" x="20" y="-8" z="7" spawntime="60"/>
     <monster name="White shinobi" x="21" y="-7" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="23" y="-4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="23" y="-1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="23" y="-4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="23" y="-1" z="7" spawntime="60"/>
     <monster name="White shinobi" x="25" y="2" z="7" spawntime="60"/>
     <monster name="White shinobi" x="23" y="3" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="26" y="6" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="26" y="6" z="7" spawntime="60"/>
     <monster name="Robber" x="28" y="12" z="7" spawntime="60"/>
     <monster name="Robber" x="24" y="15" z="7" spawntime="60"/>
     <monster name="Robber" x="24" y="18" z="7" spawntime="60"/>
@@ -3524,19 +3520,19 @@
     <monster name="Robber" x="-13" y="10" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="816" centery="962" centerz="7" radius="19">
-    <monster name="Black wolf" x="-6" y="-15" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-5" y="-13" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-6" y="-15" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-5" y="-13" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-4" y="-4" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-1" y="-3" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-10" y="-1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-6" y="-1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-6" y="-1" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="12" y="0" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-17" y="1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-7" y="1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="14" y="2" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-1" y="3" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="14" y="4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="16" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-7" y="1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="14" y="2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-1" y="3" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="14" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="16" y="4" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-7" y="5" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-7" y="6" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="13" y="6" z="7" spawntime="60"/>
@@ -3547,7 +3543,7 @@
     <monster name="Trainer Worms" x="12" y="9" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="13" y="9" z="7" spawntime="768"/>
     <monster name="Elder assassin" x="10" y="10" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-11" y="11" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-11" y="11" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-5" y="12" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-4" y="12" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="11" y="12" z="7" spawntime="60"/>
@@ -3580,8 +3576,8 @@
     <monster name="Dark priest" x="9" y="8" z="7" spawntime="60"/>
     <monster name="Dark priest" x="0" y="9" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-13" y="13" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-11" y="13" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-13" y="14" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-11" y="13" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-13" y="14" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-11" y="14" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="783" centery="965" centerz="7" radius="14">
@@ -3598,21 +3594,21 @@
     <monster name="Wolf" x="1" y="2" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="7" y="4" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="13" y="7" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-1" y="8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="0" y="8" z="7" spawntime="768"/>
+    <monster name="Cursed Wolf" x="-1" y="8" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="0" y="8" z="7" spawntime="768"/>
     <monster name="Trainer Worms" x="6" y="8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-7" y="10" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-8" y="11" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="8" y="11" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="12" y="13" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-7" y="10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-8" y="11" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="8" y="11" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="12" y="13" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="822" centery="975" centerz="7" radius="19">
-    <monster name="Black wolf" x="-12" y="8" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-12" y="8" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-6" y="8" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="0" y="8" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="2" y="8" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="3" y="9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-12" y="10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-12" y="10" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-7" y="10" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="1" y="10" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="4" y="10" z="7" spawntime="60"/>
@@ -3623,8 +3619,8 @@
     <monster name="Trainer Worms" x="-10" y="8" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="3" y="8" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="-16" y="9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-7" y="9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-6" y="9" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-7" y="9" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-6" y="9" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-19" y="13" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-17" y="13" z="7" spawntime="60"/>
   </spawn>
@@ -3649,19 +3645,19 @@
     <monster name="Guardian" x="-5" y="-10" z="7" spawntime="60"/>
     <monster name="Guardian" x="-8" y="-9" z="7" spawntime="60"/>
     <monster name="Assasin" x="-2" y="-1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-3" y="1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-3" y="1" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="12" y="1" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="2" y="2" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="13" y="2" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="-2" y="3" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="0" y="3" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="0" y="3" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="12" y="3" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="-2" y="4" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="13" y="4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="0" y="7" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="0" y="7" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="-12" y="9" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="-11" y="9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="3" y="10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="10" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="13" y="10" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="13" y="11" z="7" spawntime="60"/>
     <monster name="Elder assassin" x="14" y="11" z="7" spawntime="60"/>
@@ -3698,10 +3694,10 @@
     <monster name="Elder assassin" x="1" y="14" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="753" centery="993" centerz="7" radius="19">
-    <monster name="Black wolf" x="14" y="-9" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="14" y="-9" z="7" spawntime="60"/>
     <monster name="Dark priest" x="3" y="-8" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-12" y="-7" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="13" y="-7" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="13" y="-7" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-1" y="-6" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-5" y="-4" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-3" y="-4" z="7" spawntime="60"/>
@@ -3711,11 +3707,11 @@
     <monster name="Dark priest" x="18" y="-2" z="7" spawntime="60"/>
     <monster name="Dark priest" x="15" y="-1" z="7" spawntime="60"/>
     <monster name="Dark priest" x="18" y="-1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="0" z="7" spawntime="60"/>
     <monster name="Dark priest" x="18" y="0" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="4" y="1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="15" y="3" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="14" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="4" y="1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="15" y="3" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="14" y="4" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-4" y="7" z="7" spawntime="60"/>
     <monster name="Dark priest" x="-5" y="8" z="7" spawntime="60"/>
     <monster name="Dark priest" x="15" y="8" z="7" spawntime="60"/>
@@ -3723,10 +3719,10 @@
     <monster name="Dark priest" x="14" y="9" z="7" spawntime="60"/>
     <monster name="Magmaman" x="15" y="9" z="7" spawntime="60"/>
     <monster name="Dark priest" x="15" y="10" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="0" y="12" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-14" y="13" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-12" y="13" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="13" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="0" y="12" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-14" y="13" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-12" y="13" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="13" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="419" centery="996" centerz="7" radius="17">
     <monster name="Dark priest" x="15" y="-11" z="7" spawntime="60"/>
@@ -3790,10 +3786,10 @@
   <spawn centerx="751" centery="1000" centerz="7" radius="19"/>
   <spawn centerx="770" centery="1000" centerz="7" radius="19"/>
   <spawn centerx="812" centery="1004" centerz="7" radius="19">
-    <monster name="Black wolf" x="-2" y="-4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="-4" z="7" spawntime="60"/>
     <monster name="Cripple" x="-5" y="-2" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-2" y="-2" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="0" y="-2" z="7" spawntime="60"/>
     <monster name="Cripple" x="-4" y="-1" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="1" y="2" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="0" y="3" z="7" spawntime="60"/>
@@ -3843,7 +3839,7 @@
   </spawn>
   <spawn centerx="799" centery="1021" centerz="7" radius="19"/>
   <spawn centerx="443" centery="1026" centerz="7" radius="17">
-    <monster name="Black wolf" x="-9" y="-11" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-9" y="-11" z="7" spawntime="60"/>
     <monster name="Shining ninja" x="4" y="-7" z="7" spawntime="60"/>
     <monster name="Shining ninja" x="-8" y="-6" z="7" spawntime="60"/>
     <monster name="Shining ninja" x="1" y="-6" z="7" spawntime="60"/>
@@ -3861,13 +3857,13 @@
     <monster name="Grassman" x="1" y="-10" z="7" spawntime="60"/>
     <monster name="Grassman" x="-12" y="-8" z="7" spawntime="60"/>
     <monster name="Grassman" x="-11" y="-8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="7" y="-7" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="7" y="-7" z="7" spawntime="60"/>
     <monster name="Grassman" x="-2" y="-4" z="7" spawntime="60"/>
     <monster name="Grassman" x="0" y="-4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="7" y="-4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="7" y="-4" z="7" spawntime="60"/>
     <monster name="Grassman" x="0" y="-3" z="7" spawntime="60"/>
     <monster name="Grassman" x="10" y="-1" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-11" y="0" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-11" y="0" z="7" spawntime="60"/>
     <monster name="Grassman" x="12" y="0" z="7" spawntime="60"/>
     <monster name="Grassman" x="11" y="1" z="7" spawntime="60"/>
     <monster name="Grassman" x="-11" y="2" z="7" spawntime="60"/>
@@ -3887,7 +3883,7 @@
     <monster name="Shining ninja" x="-11" y="-8" z="7" spawntime="60"/>
     <monster name="Shining ninja" x="-10" y="-8" z="7" spawntime="60"/>
     <monster name="Shining ninja" x="6" y="-8" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="0" y="-7" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="0" y="-7" z="7" spawntime="60"/>
     <monster name="Shining ninja" x="4" y="-7" z="7" spawntime="60"/>
     <monster name="Shining ninja" x="6" y="-7" z="7" spawntime="60"/>
     <monster name="Trainer Worms" x="-5" y="-2" z="7" spawntime="60"/>
@@ -3895,7 +3891,7 @@
   </spawn>
   <spawn centerx="577" centery="1041" centerz="7" radius="20">
     <monster name="Grassman" x="7" y="-2" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="3" y="-1" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="-1" z="7" spawntime="60"/>
     <monster name="Grassman" x="-11" y="5" z="7" spawntime="60"/>
     <monster name="Grassman" x="-10" y="6" z="7" spawntime="60"/>
     <monster name="Grassman" x="-19" y="15" z="7" spawntime="60"/>
@@ -3903,7 +3899,7 @@
   <spawn centerx="697" centery="1045" centerz="7" radius="19">
     <monster name="Grassman" x="-13" y="-14" z="7" spawntime="60"/>
     <monster name="Grassman" x="-7" y="-14" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-15" y="-13" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-15" y="-13" z="7" spawntime="60"/>
     <monster name="Grassman" x="7" y="-10" z="7" spawntime="60"/>
     <monster name="Grassman" x="-13" y="-9" z="7" spawntime="60"/>
     <monster name="Grassman" x="-8" y="-8" z="7" spawntime="60"/>
@@ -3920,10 +3916,10 @@
     <monster name="Grassman" x="14" y="2" z="7" spawntime="60"/>
     <monster name="Grassman" x="2" y="3" z="7" spawntime="60"/>
     <monster name="Grassman" x="-13" y="4" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-1" y="4" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-1" y="4" z="7" spawntime="60"/>
     <monster name="Grassman" x="7" y="5" z="7" spawntime="60"/>
     <monster name="Grassman" x="13" y="5" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-6" y="6" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-6" y="6" z="7" spawntime="60"/>
     <monster name="Grassman" x="8" y="6" z="7" spawntime="60"/>
     <monster name="Grassman" x="13" y="6" z="7" spawntime="60"/>
     <monster name="Grassman" x="-13" y="8" z="7" spawntime="60"/>
@@ -3960,14 +3956,14 @@
     <monster name="Grassman" x="13" y="1" z="7" spawntime="60"/>
     <monster name="Grassman" x="14" y="1" z="7" spawntime="60"/>
     <monster name="Grassman" x="-11" y="2" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-2" y="2" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="2" z="7" spawntime="60"/>
     <monster name="Grassman" x="-11" y="3" z="7" spawntime="1024"/>
-    <monster name="Black wolf" x="11" y="10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="11" y="10" z="7" spawntime="60"/>
     <monster name="Grassman" x="4" y="13" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="541" centery="1067" centerz="7" radius="20">
     <monster name="Grassman" x="10" y="-12" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="3" y="-10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="3" y="-10" z="7" spawntime="60"/>
     <monster name="Grassman" x="12" y="-7" z="7" spawntime="60"/>
     <monster name="Grassman" x="14" y="-6" z="7" spawntime="60"/>
     <monster name="Grassman" x="13" y="-5" z="7" spawntime="60"/>
@@ -3981,11 +3977,11 @@
     <monster name="Grassman" x="-3" y="8" z="7" spawntime="60"/>
     <monster name="Grassman" x="-5" y="9" z="7" spawntime="60"/>
     <monster name="Grassman" x="-4" y="9" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="10" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="10" z="7" spawntime="60"/>
     <monster name="Grassman" x="-15" y="15" z="7" spawntime="60"/>
     <monster name="Grassman" x="-14" y="15" z="7" spawntime="60"/>
     <monster name="Grassman" x="6" y="15" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-10" y="16" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-10" y="16" z="7" spawntime="60"/>
     <monster name="Grassman" x="-15" y="17" z="7" spawntime="60"/>
     <monster name="Grassman" x="-14" y="17" z="7" spawntime="60"/>
     <monster name="Grassman" x="5" y="17" z="7" spawntime="60"/>
@@ -3995,11 +3991,11 @@
     <monster name="Grassman" x="-16" y="-19" z="7" spawntime="60"/>
     <monster name="Grassman" x="-10" y="-19" z="7" spawntime="60"/>
     <monster name="Grassman" x="7" y="-19" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="12" y="-19" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="-6" y="-13" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="12" y="-19" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-6" y="-13" z="7" spawntime="60"/>
     <monster name="Grassman" x="-11" y="-8" z="7" spawntime="60"/>
     <monster name="Grassman" x="-10" y="-7" z="7" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="-6" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="-6" z="7" spawntime="60"/>
     <monster name="Grassman" x="5" y="-5" z="7" spawntime="60"/>
     <monster name="Grassman" x="15" y="-5" z="7" spawntime="60"/>
     <monster name="Grassman" x="13" y="-4" z="7" spawntime="60"/>
@@ -4027,7 +4023,7 @@
     <monster name="Grassman" x="2" y="3" z="7" spawntime="1024"/>
   </spawn>
   <spawn centerx="667" centery="1103" centerz="7" radius="19">
-    <monster name="Black wolf" x="-2" y="-8" z="7" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-2" y="-8" z="7" spawntime="60"/>
     <monster name="Grassman" x="19" y="3" z="7" spawntime="60"/>
     <monster name="Grassman" x="13" y="4" z="7" spawntime="60"/>
     <monster name="Grassman" x="12" y="6" z="7" spawntime="60"/>
@@ -4059,15 +4055,15 @@
     <monster name="Sand warrior" x="-2" y="2" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="827" centery="797" centerz="8" radius="11">
-    <monster name="Black wolf" x="-1" y="-8" z="8" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-1" y="-8" z="8" spawntime="60"/>
     <monster name="Assasin" x="1" y="-6" z="8" spawntime="60"/>
-    <monster name="Black wolf" x="2" y="-5" z="8" spawntime="60"/>
+    <monster name="Cursed Wolf" x="2" y="-5" z="8" spawntime="60"/>
     <monster name="Assasin" x="-1" y="-4" z="8" spawntime="60"/>
     <monster name="Assasin" x="-2" y="0" z="8" spawntime="60"/>
-    <monster name="Black wolf" x="-7" y="5" z="8" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-7" y="5" z="8" spawntime="60"/>
     <monster name="Assasin" x="-8" y="7" z="8" spawntime="60"/>
     <monster name="Assasin" x="-6" y="7" z="8" spawntime="60"/>
-    <monster name="Black wolf" x="-5" y="8" z="8" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-5" y="8" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="592" centery="810" centerz="8" radius="11">
     <monster name="Thief" x="-3" y="0" z="8" spawntime="60"/>
@@ -4111,10 +4107,10 @@
     <monster name="White shinobi" x="0" y="-6" z="8" spawntime="60"/>
     <monster name="Assasin" x="1" y="-6" z="8" spawntime="60"/>
     <monster name="White shinobi" x="2" y="-5" z="8" spawntime="60"/>
-    <monster name="Black wolf" x="-3" y="0" z="8" spawntime="60"/>
+    <monster name="Cursed Wolf" x="-3" y="0" z="8" spawntime="60"/>
     <monster name="Assasin" x="-1" y="7" z="8" spawntime="60"/>
     <monster name="Assasin" x="0" y="9" z="8" spawntime="60"/>
-    <monster name="Black wolf" x="7" y="11" z="8" spawntime="60"/>
+    <monster name="Cursed Wolf" x="7" y="11" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="591" centery="830" centerz="8" radius="11">
     <monster name="Villager" x="6" y="-4" z="8" spawntime="60"/>
@@ -4527,7 +4523,7 @@
   <spawn centerx="880" centery="844" centerz="9" radius="11">
     <monster name="Swordman" x="11" y="-5" z="9" spawntime="60"/>
     <monster name="Swordman" x="-6" y="-2" z="9" spawntime="60"/>
-    <monster name="Black wolf" x="1" y="-2" z="9" spawntime="60"/>
+    <monster name="Cursed Wolf" x="1" y="-2" z="9" spawntime="60"/>
     <monster name="White shinobi" x="-3" y="1" z="9" spawntime="60"/>
     <monster name="Swordman" x="-3" y="3" z="9" spawntime="60"/>
     <monster name="Swordman" x="8" y="5" z="9" spawntime="60"/>

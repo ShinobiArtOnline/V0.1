@@ -1,109 +1,56 @@
-local combat = createCombatObject()
-local waittime = 1.5 -- czas
-local storage = 115818
+local combat1 = createCombatObject()
+setCombatParam(combat1, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
+setCombatFormula(combat1, COMBAT_FORMULA_LEVELMAGIC, -3.1, 1, -2.2, 1)
 
-local function remove(pos, id)
-local item = getTileItemById(pos, id).uid
-if item > 1 then
-   doRemoveItem(item, 1)
+local combat2 = createCombatObject()
+setCombatParam(combat2, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
+setCombatFormula(combat2, COMBAT_FORMULA_LEVELMAGIC, -4.2, 1, -3.2, 1)
+
+
+
+
+
+
+arr1 = {
+	{3}
+}
+
+arr2 = {
+	{3}
+}
+
+
+
+local area1 = createCombatArea(arr1)
+local area2 = createCombatArea(arr2)
+
+
+setCombatArea(combat1, area1)
+setCombatArea(combat2, area2)
+
+
+ 
+local function onCastSpell1(parameters)
+    return isPlayer(parameters.cid) and doCombat(parameters.cid, combat1, parameters.var)
 end
+ 
+local function onCastSpell2(parameters)
+    return isPlayer(parameters.cid) and doCombat(parameters.cid, combat2, parameters.var)
 end
 
-local function playerSay(cid, text)
-if isCreature(cid) then
-doCreatureSay(cid, text, TALKTYPE_MONSTER)
-end
-end 
 
-local function playerCombat(cid, min, max) 
-if isCreature(cid) then
-local find_area = getFirstCreaturePosOnDirection(cid,1)
-doAreaCombatHealth(cid, COMBAT_PHYSICALDAMAGE, find_area, 0, -min, -max, 255)
-doAreaCombatMana(cid, find_area, 0, -min, -max, 255)	
-end
-end
-
-local function lastHit(cid, min, max) 
-if isCreature(cid) then
-local pos = getCreaturePosition(cid)
-local find_area = getFirstCreaturePosOnDirection(cid,1)
-quakePush(cid, find_area, 1, 0, 0, 255, true)
-end
-end
-	
+ 
 function onCastSpell(cid, var)
-if exhaustion.check(cid, storage) then
-			doPlayerSendCancel(cid, "You are exhausted")
-		return false
-		end
-   local pos = getCreaturePosition(cid)
-   local position = {
-         [1] = {pos = {x = pos.x, y = pos.y, z = pos.z}, item = 11411},
-         [2] = {pos = {x = pos.x, y = pos.y-1, z = pos.z}, item = 11417},
-         [3] = {pos = {x = pos.x+1, y = pos.y-1, z = pos.z}, item = 11420},
-         [4] = {pos = {x = pos.x+1, y = pos.y, z = pos.z}, item = 11415},
-         [5] = {pos = {x = pos.x+1, y = pos.y+1, z = pos.z}, item = 11412},
-         [6] = {pos = {x = pos.x, y = pos.y+1, z = pos.z}, item = 11413},
-         [7] = {pos = {x = pos.x-1, y = pos.y+1, z = pos.z}, item = 11414},
-         [8] = {pos = {x = pos.x-1, y = pos.y, z = pos.z}, item = 11416},
-         [9] = {pos = {x = pos.x-1, y = pos.y-1, z = pos.z}, item = 11418},  
-         [10] = {pos = {x = pos.x, y = pos.y-2, z = pos.z}, item = 11419},
-         [11] = {pos = {x = pos.x-1, y = pos.y-2, z = pos.z}, item = 11433},
-         [12] = {pos = {x = pos.x+1, y = pos.y-2, z = pos.z}, item = 11434},
-         [13] = {pos = {x = pos.x+2, y = pos.y-1, z = pos.z}, item = 11435},
-         [14] = {pos = {x = pos.x+2, y = pos.y, z = pos.z}, item = 11436},
-         [15] = {pos = {x = pos.x+2, y = pos.y+1, z = pos.z}, item = 11437},
-         [16] = {pos = {x = pos.x, y = pos.y+2, z = pos.z}, item = 11438},
-         [17] = {pos = {x = pos.x-1, y = pos.y+2, z = pos.z}, item = 11439},
-         [18] = {pos = {x = pos.x-2, y = pos.y, z = pos.z}, item = 11440},
-         [19] = {pos = {x = pos.x+1, y = pos.y+2, z = pos.z}, item = 11441},
-         [20] = {pos = {x = pos.x-2, y = pos.y+1, z = pos.z}, item = 11442},
-         [21] = {pos = {x = pos.x-2, y = pos.y-1, z = pos.z}, item = 11443}
-   }
-   addEvent(playerSay, 0, cid, "Hakke..")
-  
-   addEvent(playerSay, 140, cid, "Ni Shou")
-   addEvent(playerSay, 210, cid, "Yon Shou")
-   
-   addEvent(playerSay, 280, cid, "Hachi Shou")
-   addEvent(playerSay, 360, cid, "Juuroku Shou")
-
-   addEvent(playerSay, 490, cid, "SANJUUNI SHOU!!!")
+local position127 = {x=getPlayerPosition(cid).x, y=getPlayerPosition(cid).y, z=getPlayerPosition(cid).z}
+local parameters = { cid = cid, var = var}
+local target = getCreatureTarget(cid)
+local pos = getCreaturePosition(target)
+addEvent(doSendMagicEffect, 200, {x = pos.x, y = pos.y, z = pos.z}, 71)
+addEvent(doSendMagicEffect, 300, {x = pos.x, y = pos.y, z = pos.z}, 71)
 
 
-   for i = 1,21 do
-      if hasSqm(position[i].pos) then
-         local item = doCreateItem(position[i].item, 1, position[i].pos)
-         doDecayItem(item)
-         addEvent(remove, 760, position[i].pos, position[i].item)
-      end
-   end 
-   
-	local level = getPlayerMagLevel(cid)
-		local mlevel = getPlayerMagLevel(cid) 
-		local jutsuDmg = 23
-		local skill_factor = math.ceil((mlevel + level)/3)
-local dmg = - math.max(1, math.ceil(((skill_factor*0.5) * jutsuDmg)*0.3))
-local mdmg = - math.max(1, math.ceil(((skill_factor*0.45) * jutsuDmg)*0.3))
-local min = -mdmg
-local max = -dmg
+addEvent(onCastSpell1, 100, parameters)
+addEvent(onCastSpell2, 300, parameters)
 
-   local find_area = getFirstCreaturePosOnDirection(cid,1)
-   for i = 1,9 do
-   if isPlayer(getThingfromPos(find_area).uid) then
-         addEvent(doPlayerAddMana, 700 + (700*i), getThingfromPos(find_area).uid, -(min*i))
-   end
-addEvent(playerCombat, 70, cid, (min), (max))	 
-addEvent(playerCombat, 250, cid, (min), (max))
-addEvent(playerCombat, 340, cid, (min), (max))
-addEvent(playerCombat, 430, cid, (min), (max))
-addEvent(playerCombat, 520, cid, (min), (max))
-addEvent(playerCombat, 600, cid, (min), (max))
-addEvent(playerCombat, 650, cid, (min), (max))	
-addEvent(playerCombat, 700, cid, (min), (max))
-addEvent(lastHit, 710, cid, (min), (max))
-exhaustion.set(cid, storage, waittime)
-	return doCombat(cid,combat, var)
-   end
-return false
-end
+return TRUE
+end 

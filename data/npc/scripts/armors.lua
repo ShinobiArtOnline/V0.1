@@ -17,7 +17,7 @@ local str = ""
 local coin = 11471 -- id do item que eh usado como moeda
     
 local buyable_items = {      -- id dos itens e seus precos  
-    {id = 11461, price = 10}, -- KYUUBI CHAKRA FORHEAD
+    {id = 11834, price = 0}, -- KYUUBI CHAKRA FORHEAD
     {id = 11465, price = 10}, -- KYUUBI CHAKRA COAT
     {id = 11467, price = 10}, -- KYUUBI CHAKRA LEGS
     {id = 11468, price = 10}, -- KYUUBI CHAKRA BOOTS

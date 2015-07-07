@@ -62,20 +62,7 @@ return true
 end
 return false
 end
-local function isShield(uid) -- Function by Mock the bear.
-uid = uid or 0
-if getItemWeaponType(uid) == 4 then
-return true
-end
-return false
-end
-local function isBow(uid) -- Function by Mock the bear.
-uid = uid or 0
-if getItemWeaponType(uid) == 5 then
-return true
-end
-return false
-end
+
 local function getWeaponLevel(uid) -- Function by Mock the bear.
 uid = uid or 0
 local name = getItemName(uid.uid) or getItemInfo(uid.itemid).name or ''
@@ -122,8 +109,6 @@ doSendMagicEffect(toPosition, 12)
 if isArmor(itemEx) then
 local get = doTransform(gain.gainArmor,itemEx)
 setItemArmor(itemEx.uid,get)
-elseif isBow(itemEx.uid) then
-setItemDefense(itemEx.uid, doTransform(gain.gainDefense,itemEx))
 elseif isWeapon(itemEx.uid) then
 setItemAttack(itemEx.uid, doTransform(gain.gainAttack,itemEx))
 setItemDefense(itemEx.uid, doTransform(gain.gainDefense,itemEx))
@@ -139,8 +124,8 @@ local nm = getItemName(itemEx.uid)
 local slot = nm:match('(%[.+%])') or '' ---If you server use slot system dont change it ^^
 slot = slot~='' and ' '..slot or slot
 if level == 1 then
-setItemName(itemEx.uid, getItemNameById(itemEx.itemid)..slot)
-addEvent(doPlayerSendTextMessage,500,cid,22,"Your item back to normal.")
+--setItemName(itemEx.uid, getItemNameById(itemEx.itemid)..slot)
+--addEvent(doPlayerSendTextMessage,500,cid,22,"Your item back to normal.")
 else
 doRemoveItem(itemEx.uid,1)
 addEvent(doPlayerSendTextMessage,500,cid,22,"Ups")
@@ -150,8 +135,6 @@ setItemArmor(itemEx.uid,doTransform(gain.loseArmor ,itemEx))
 elseif isWeapon(itemEx.uid) then
 setItemAttack(itemEx.uid, doTransform(gain.loseAttack,itemEx))
 setItemDefense(itemEx.uid, doTransform(gain.loseDefense,itemEx))
-elseif isBow(itemEx.uid) then
-setItemAttack(itemEx.uid, doTransform(gain.loseAttack,itemEx))
 elseif isShield(itemEx.uid) then
 setItemDefense(itemEx.uid, doTransform(gain.loseShield,itemEx))
 end

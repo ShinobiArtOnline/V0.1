@@ -8,6 +8,10 @@ if getPlayerStorageValue(cid, 10003) == 1 then
 doPlayerCastSpell(cid, "Hppet")
 doRemoveCondition(cid, CONDITION_ATTRIBUTES)
 end
+if getPlayerStorageValue(cid, 10011) == 1 then
+doPlayerCastSpell(cid, "Gamakatsu")
+doRemoveCondition(cid, CONDITION_ATTRIBUTES)
+end
 if getPlayerStorageValue(cid, 676767) == 1 then
 doPlayerCastSpell(cid, "Hari Sensha")
 doRemoveCondition(cid, CONDITION_ATTRIBUTES)

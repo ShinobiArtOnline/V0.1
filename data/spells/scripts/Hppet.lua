@@ -44,6 +44,9 @@ end
 if getPlayerStorageValue(cid, 10005) == 0 then
 return doPlayerSendCancel(cid, "you cannot summon two pets")
 end
+if getPlayerStorageValue(cid, 10012) == 0 then
+return doPlayerSendCancel(cid, "you cannot summon two pets")
+end
 	if getPlayerStorageValue(cid, 10003) == 0 then
 		
 			summons = getCreatureSummons(cid)

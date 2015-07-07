@@ -2279,7 +2279,7 @@
 		<attribute key="stopduration" value="1" />
 		<attribute key="showduration" value="1" />
 	</item>
-	<item id="2209" article="a" name="club ring">
+	<item id="2209" article="a" name="fist ring">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
 		<attribute key="transformEquipTo" value="2212" />
@@ -2304,7 +2304,7 @@
 		<attribute key="duration" value="1800" />
 		<attribute key="showduration" value="1" />
 	</item>
-	<item id="2212" article="a" name="club ring">
+	<item id="2212" article="a" name="fist ring">
 		<attribute key="weight" value="90" />
 		<attribute key="slotType" value="ring" />
 		<attribute key="decayTo" value="0" />
@@ -2665,7 +2665,7 @@
 		<attribute key="weight" value="6800" />
 		<attribute key="defense" value="14" />
 		<attribute key="attack" value="24" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2322" article="a" name="voodoo doll">
 		<attribute key="description" value="It looks like a little king." />
@@ -2917,11 +2917,11 @@
 		<attribute key="weaponType" value="axe" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="2382" article="a" name="club">
+	<item id="2382" article="a" name="fist">
 		<attribute key="weight" value="2500" />
 		<attribute key="defense" value="7" />
 		<attribute key="attack" value="7" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2383" article="a" name="spike sword">
 		<attribute key="weight" value="5000" />
@@ -2984,7 +2984,7 @@
 		<attribute key="weight" value="8500" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="45" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="2392" article="a" name="fire sword">
@@ -3008,7 +3008,7 @@
 		<attribute key="weight" value="5400" />
 		<attribute key="defense" value="11" />
 		<attribute key="attack" value="25" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2395" article="a" name="carlin sword">
 		<attribute key="weight" value="4000" />
@@ -3035,7 +3035,7 @@
 		<attribute key="weight" value="2800" />
 		<attribute key="defense" value="11" />
 		<attribute key="attack" value="16" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2399" article="a" name="throwing star" plural="throwing stars">
 		<attribute key="weight" value="200" />
@@ -3058,7 +3058,7 @@
 		<attribute key="weight" value="3800" />
 		<attribute key="defense" value="25" />
 		<attribute key="attack" value="10" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="2402" article="a" name="silver dagger">
@@ -3160,13 +3160,13 @@
 		<attribute key="weight" value="2100" />
 		<attribute key="defense" value="6" />
 		<attribute key="attack" value="6" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2417" article="a" name="battle hammer">
 		<attribute key="weight" value="6800" />
 		<attribute key="defense" value="14" />
 		<attribute key="attack" value="24" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2418" article="a" name="golden sickle">
 		<attribute key="weight" value="1950" />
@@ -3192,27 +3192,27 @@
 		<attribute key="weight" value="12500" />
 		<attribute key="defense" value="35" />
 		<attribute key="attack" value="49" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="1" />
 	</item>
 	<item id="2422" article="an" name="iron hammer">
 		<attribute key="weight" value="66" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="18" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2423" article="a" name="clerical mace">
 		<attribute key="weight" value="5800" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="28" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2424" article="a" name="silver mace">
 		<attribute key="weight" value="6700" />
 		<attribute key="defense" value="30" />
 		<attribute key="attack" value="41" />
 		<attribute key="extradef" value="2" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2425" article="an" name="obsidian lance">
 		<attribute key="weight" value="8000" />
@@ -3277,7 +3277,7 @@
 		<attribute key="weight" value="3800" />
 		<attribute key="defense" value="45" />
 		<attribute key="attack" value="39" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="decayTo" value="2401" />
 		<attribute key="duration" value="60" />
@@ -3286,7 +3286,7 @@
 		<attribute key="weight" value="9700" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="32" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2435" article="a" name="dwarven axe">
 		<attribute key="weight" value="8200" />
@@ -3300,14 +3300,14 @@
 		<attribute key="weight" value="1700" />
 		<attribute key="defense" value="12" />
 		<attribute key="attack" value="36" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="1" />
 	</item>
 	<item id="2437" article="a" name="light mace">
 		<attribute key="weight" value="5000" />
 		<attribute key="defense" value="24" />
 		<attribute key="attack" value="47" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2438" article="an" name="epee">
 		<attribute key="weight" value="1500" />
@@ -3319,7 +3319,7 @@
 		<attribute key="weight" value="6800" />
 		<attribute key="defense" value="12" />
 		<attribute key="attack" value="21" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2440" article="a" name="daramanian waraxe">
 		<attribute key="weight" value="5250" />
@@ -3351,13 +3351,13 @@
 		<attribute key="weight" value="7000" />
 		<attribute key="defense" value="12" />
 		<attribute key="attack" value="48" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2445" article="a" name="crystal mace">
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
 		<attribute key="attack" value="38" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2446" article="a" name="pharaoh sword">
 		<attribute key="weight" value="19000" />
@@ -3373,17 +3373,17 @@
 		<attribute key="weaponType" value="axe" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
-	<item id="2448" article="a" name="studded club">
+	<item id="2448" article="a" name="studded fist">
 		<attribute key="weight" value="3500" />
 		<attribute key="defense" value="8" />
 		<attribute key="attack" value="9" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
-	<item id="2449" article="a" name="bone club">
+	<item id="2449" article="a" name="bone fist">
 		<attribute key="weight" value="3900" />
 		<attribute key="defense" value="8" />
 		<attribute key="attack" value="12" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="2450" article="a" name="bone sword">
 		<attribute key="weight" value="1900" />
@@ -3402,14 +3402,14 @@
 		<attribute key="weight" value="11000" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="49" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="2453" article="an" name="arcane staff">
 		<attribute key="weight" value="4000" />
 		<attribute key="defense" value="30" />
 		<attribute key="attack" value="50" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="2454" article="a" name="war axe">
@@ -7103,7 +7103,7 @@
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="30" />
 		<attribute key="attack" value="40" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="3962" article="a" name="beastslayer axe">
 		<attribute key="weight" value="6150" />
@@ -7138,7 +7138,7 @@
 		<attribute key="weight" value="5000" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="25" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="2" />
 	</item>
 	<item id="3967" article="a" name="tribal mask">
@@ -7857,7 +7857,7 @@
 		<attribute key="weight" value="66" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="18" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="4847" article="a" name="spectral dress">
 		<attribute key="weight" value="1000" />
@@ -12024,7 +12024,7 @@
 		<attribute key="weight" value="3800" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="35" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="description" value="Barbarian women are said to use it for conjuring beasts." />
 	</item>
@@ -12039,7 +12039,7 @@
 		<attribute key="weight" value="4500" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="30" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="description" value="Made from a mammoth's legbones, it is one of the favoured weapons among barbarians." />
 	</item>
 	<item id="7382" article="a" name="demonrage sword">
@@ -12081,7 +12081,7 @@
 		<attribute key="weight" value="1500" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="34" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="description" value="The beautiful jewel on the top of this sceptre is sharp enough to cut through glass." />
 	</item>
 	<item id="7388" article="a" name="vile axe">
@@ -12115,7 +12115,7 @@
 		<attribute key="weight" value="5400" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="42" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7393" article="a" name="demon trophy">
@@ -12196,14 +12196,14 @@
 		<attribute key="weight" value="7500" />
 		<attribute key="defense" value="30" />
 		<attribute key="attack" value="46" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7410" article="a" name="queen's sceptre">
 		<attribute key="weight" value="2300" />
 		<attribute key="defense" value="19" />
 		<attribute key="attack" value="43" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="7411" article="an" name="ornamented axe">
 		<attribute key="weight" value="6150" />
@@ -12230,14 +12230,14 @@
 		<attribute key="weight" value="5500" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="47" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7415" article="a" name="cranial basher">
 		<attribute key="weight" value="7800" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="44" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="-2" />
 	</item>
 	<item id="7416" article="a" name="bloody edge">
@@ -12277,20 +12277,20 @@
 		<attribute key="weight" value="2600" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="45" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="7422" name="jade hammer">
 		<attribute key="weight" value="3200" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="46" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="1" />
 	</item>
 	<item id="7423" article="a" name="skullcrusher">
 		<attribute key="weight" value="12000" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="51" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7424" article="a" name="black shoes">
@@ -12303,21 +12303,21 @@
 		<attribute key="weight" value="5100" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="30" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7426" article="an" name="amber staff">
 		<attribute key="weight" value="3500" />
 		<attribute key="defense" value="25" />
 		<attribute key="attack" value="43" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7427" article="a" name="chaos mace">
 		<attribute key="weight" value="6300" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="44" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="description" value="Only those who have descended to the deepest depths may wield this hammer without it cursing them." />
 	</item>
@@ -12325,21 +12325,21 @@
 		<attribute key="weight" value="12000" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="46" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7429" article="a" name="blessed sceptre">
 		<attribute key="weight" value="3900" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="47" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="3" />
 	</item>
 	<item id="7430" article="a" name="dragonbone staff">
 		<attribute key="weight" value="1800" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="35" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="description" value="Small flames are dancing around this strange weapon." />
 	</item>
 	<item id="7431" article="a" name="demonbone">
@@ -12347,13 +12347,13 @@
 		<attribute key="defense" value="38" />
 		<attribute key="extradef" value="-2" />
 		<attribute key="attack" value="48" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
-	<item id="7432" article="a" name="furry club">
+	<item id="7432" article="a" name="furry fist">
 		<attribute key="weight" value="4200" />
 		<attribute key="defense" value="19" />
 		<attribute key="attack" value="31" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="1" />
 	</item>
 	<item id="7433" article="a" name="ravenwing">
@@ -12388,7 +12388,7 @@
 		<attribute key="weight" value="2100" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="37" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="description" value="A beautiful gem is embedded in this weapon." />
 	</item>
 	<item id="7438" article="a" name="elvish bow">
@@ -12447,13 +12447,13 @@
 		<attribute key="weight" value="4100" />
 		<attribute key="defense" value="17" />
 		<attribute key="attack" value="39" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="7452" article="a" name="spiked squelcher">
 		<attribute key="weight" value="6800" />
 		<attribute key="defense" value="21" />
 		<attribute key="attack" value="41" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="7453" name="executioner">
@@ -13068,7 +13068,7 @@
 		<attribute key="weight" value="5800" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="28" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="elementFire" value="5" />
 		<attribute key="charges" value="1000" />
 		<attribute key="decayTo" value="2423" />
@@ -13078,7 +13078,7 @@
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
 		<attribute key="attack" value="38" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="elementFire" value="7" />
 		<attribute key="charges" value="1000" />
 		<attribute key="decayTo" value="2445" />
@@ -13088,7 +13088,7 @@
 		<attribute key="weight" value="7800" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="44" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="-2" />
 		<attribute key="elementFire" value="8" />
 		<attribute key="charges" value="1000" />
@@ -13099,7 +13099,7 @@
 		<attribute key="weight" value="5400" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="42" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="elementFire" value="6" />
 		<attribute key="charges" value="1000" />
@@ -13110,7 +13110,7 @@
 		<attribute key="weight" value="8500" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="45" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="elementFire" value="9" />
 		<attribute key="charges" value="1000" />
@@ -13233,7 +13233,7 @@
 		<attribute key="weight" value="5800" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="28" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="elementIce" value="5" />
 		<attribute key="charges" value="1000" />
 		<attribute key="decayTo" value="2423" />
@@ -13243,7 +13243,7 @@
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
 		<attribute key="attack" value="38" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="elementIce" value="7" />
 		<attribute key="charges" value="1000" />
 		<attribute key="decayTo" value="2445" />
@@ -13253,7 +13253,7 @@
 		<attribute key="weight" value="7800" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="44" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="-2" />
 		<attribute key="elementIce" value="8" />
 		<attribute key="charges" value="1000" />
@@ -13264,7 +13264,7 @@
 		<attribute key="weight" value="5400" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="42" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="elementIce" value="6" />
 		<attribute key="charges" value="1000" />
@@ -13275,7 +13275,7 @@
 		<attribute key="weight" value="8500" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="45" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="elementIce" value="9" />
 		<attribute key="charges" value="1000" />
@@ -13714,7 +13714,7 @@
 		<attribute key="weight" value="5800" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="28" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="elementEarth" value="5" />
 		<attribute key="charges" value="1000" />
 		<attribute key="decayTo" value="2423" />
@@ -13724,7 +13724,7 @@
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
 		<attribute key="attack" value="38" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="elementEarth" value="7" />
 		<attribute key="charges" value="1000" />
 		<attribute key="decayTo" value="2445" />
@@ -13734,7 +13734,7 @@
 		<attribute key="weight" value="7800" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="44" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="-2" />
 		<attribute key="elementEarth" value="8" />
 		<attribute key="charges" value="1000" />
@@ -13745,7 +13745,7 @@
 		<attribute key="weight" value="5400" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="42" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="elementEarth" value="6" />
 		<attribute key="charges" value="1000" />
@@ -13756,7 +13756,7 @@
 		<attribute key="weight" value="8500" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="45" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="elementEarth" value="9" />
 		<attribute key="charges" value="1000" />
@@ -13877,7 +13877,7 @@
 		<attribute key="weight" value="5800" />
 		<attribute key="defense" value="15" />
 		<attribute key="attack" value="28" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="elementEnergy" value="5" />
 		<attribute key="charges" value="1000" />
 		<attribute key="decayTo" value="2423" />
@@ -13887,7 +13887,7 @@
 		<attribute key="weight" value="8000" />
 		<attribute key="defense" value="16" />
 		<attribute key="attack" value="38" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="elementEnergy" value="7" />
 		<attribute key="charges" value="1000" />
 		<attribute key="decayTo" value="2445" />
@@ -13897,7 +13897,7 @@
 		<attribute key="weight" value="7800" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="44" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="-2" />
 		<attribute key="elementEnergy" value="8" />
 		<attribute key="charges" value="1000" />
@@ -13908,7 +13908,7 @@
 		<attribute key="weight" value="5400" />
 		<attribute key="defense" value="18" />
 		<attribute key="attack" value="42" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="elementEnergy" value="6" />
 		<attribute key="charges" value="1000" />
@@ -13919,7 +13919,7 @@
 		<attribute key="weight" value="8500" />
 		<attribute key="defense" value="10" />
 		<attribute key="attack" value="45" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="elementEnergy" value="9" />
 		<attribute key="charges" value="1000" />
@@ -14182,7 +14182,7 @@
 	</item>
 	<item id="7958" article="a" name="jester staff">
 		<attribute key="weight" value="725" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="7959" article="the" name="fireflanz">
 		<attribute key="weight" value="1000" />
@@ -15301,21 +15301,21 @@
 		<attribute key="weight" value="9900" />
 		<attribute key="defense" value="32" />
 		<attribute key="attack" value="51" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="-1" />
 	</item>
 	<item id="8928" article="an" name="obsidian truncheon">
 		<attribute key="weight" value="6500" />
 		<attribute key="defense" value="30" />
 		<attribute key="attack" value="50" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="extradef" value="2" />
 	</item>
 	<item id="8929" article="the" name="stomper">
 		<attribute key="weight" value="11500" />
 		<attribute key="defense" value="20" />
 		<attribute key="attack" value="51" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 		<attribute key="slotType" value="two-handed" />
 	</item>
 	<item id="8930" article="an" name="emerald sword">
@@ -16638,7 +16638,7 @@
 		<attribute key="weight" value="500" />
 		<attribute key="defense" value="8" />
 		<attribute key="attack" value="18" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="10296" article="a" name="heavy metal t-shirt">
 		<attribute key="description" value="Oddly enough it is not made of metal at all, but years without washing grant it added protection." />
@@ -17780,7 +17780,7 @@
 		<attribute key="weight" value="35" />
 		<attribute key="defense" value="50" />
 		<attribute key="attack" value="50" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	
 	<item id="11605" article="a" name="wall">
@@ -18140,7 +18140,7 @@
 		<attribute key="weight" value="120" />
 		<attribute key="defense" value="35" />
 		<attribute key="attack" value="35" />
-		<attribute key="weaponType" value="club" />
+		<attribute key="weaponType" value="fist" />
 	</item>
 	<item id="11299" name="drakinata">
 		<attribute key="defense" value="20" />
@@ -18736,10 +18736,7 @@
 		<attribute key="slotType" value="ring" />
 		<attribute key="weight" value="66" />
 	</item>
-	<item id="11800" name="Ninja scroll">
-		<attribute key="slotType" value="ring" />
-		<attribute key="weight" value="66" />
-	</item>
+	
 	<item id="11801" name="Pet box">
 		<attribute key="weight" value="66" />
 	</item>
@@ -18769,12 +18766,13 @@
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ring" />
 		<attribute key="decayTo" value="0" />
-		<attribute key="transformDeEquipTo" value="11835" />
+		<attribute key="transformDeEquipTo" value="11833" />
 		<attribute key="duration" value="1800" />
 		<attribute key="manaGain" value="95" />
 		<attribute key="manaTicks" value="3000" />
 		<attribute key="showduration" value="1" />
 	</item>
+	
 	<item id="11833" article="a" name="Mana scroll">
 		<attribute key="weight" value="80" />
 		<attribute key="slotType" value="ring" />
@@ -18798,6 +18796,19 @@
     value="Actived Explosive Tag." />
     <attribute key="weight" value="0" />
   </item>
+  
+  <item id="11834" article="an" name="Akatsuki ring">
+		<attribute key="weight" value="42" />
+		<attribute key="slotType" value="necklace" />
+		<attribute key="charges" value="1" />
+		<attribute key="preventDrop" value="1" />
+	</item>
+	 <item id="11835" article="an" name="Empty ring">
+		<attribute key="weight" value="42" />
+		<attribute key="slotType" value="necklace" />
+		<attribute key="charges" value="0" />
+		<attribute key="preventDrop" value="0" />
+	</item>
   <!-- PETY-->
   
   
@@ -18810,6 +18821,7 @@
 	<item id="11830" article="a" name="Katsuya pet">
 		<attribute key="weight" value="0" />
 	</item>
+	
 	
 	
 	

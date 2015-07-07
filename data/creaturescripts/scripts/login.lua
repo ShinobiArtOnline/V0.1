@@ -45,8 +45,9 @@ function onLogin(cid)
 end
 	--setPlayerStorageValue(cid, 123987, 0)--Susano
 	setPlayerStorageValue(cid, 676767, 0)--
-	setPlayerStorageValue(cid, 10002, 0)--pet
-	setPlayerStorageValue(cid, 10003, 0)--pet
+	setPlayerStorageValue(cid, 10002, 0)--Gamakichi pet
+	setPlayerStorageValue(cid, 10003, 0)--Katsuya pet
+	setPlayerStorageValue(cid, 10011, 0)--Gamakatsu pet
 	for i = 9000, 9063 do setPlayerStorageValue(cid, i, 0)
 	end
 	registerCreatureEvent(cid, "Bounty")
@@ -56,9 +57,10 @@ end
 	--registerCreatureEvent(cid, "Sakura")
 	registerCreatureEvent(cid, "Petdeath")
 	--setPlayerStorageValue(cid, 1234899, 1) 
-	--registerCreatureEvent(cid, "Aol")
+	registerCreatureEvent(cid, "Aol")
 	--registerCreatureEvent(cid, "dead")
 	registerCreatureEvent(cid, "fullhp")
+	registerCreatureEvent(cid, "Summonatak")
 	registerCreatureEvent(cid, "sru")
 	registerCreatureEvent(cid, "Outfitek") 
 	registerCreatureEvent(cid, "direction")
@@ -103,6 +105,9 @@ function onLogout(cid)
 	end
 	if getPlayerStorageValue(cid, 10003) == 1 then
 	doPlayerCastSpell(cid, "Hppet")
+	end
+	if getPlayerStorageValue(cid, 10011) == 1 then
+	doPlayerCastSpell(cid, "Gamakatsu")
 	end
 	if getPlayerStorageValue(cid, 676767) == 1 then
 doPlayerCastSpell(cid, "Hari Sensha")

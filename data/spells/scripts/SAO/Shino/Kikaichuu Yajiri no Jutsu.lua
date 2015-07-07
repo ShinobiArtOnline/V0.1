@@ -27,9 +27,6 @@ local position = {
 end
 
 
-slow = createConditionObject(CONDITION_PARALYZE)
-setConditionParam(slow, CONDITION_PARAM_TICKS, 4000)
-setConditionFormula(slow, -0.63, -0.63, -0.63, -0.63)
 
 function onCastSpell(cid, var)
 
@@ -68,7 +65,7 @@ if exhaustion.check(cid, storage) then
 		local pos = getCreaturePosition(target)
 		for n = 1,3 do
 			addEvent(doAreaCombatHealth, 300*n, cid, COMBAT_PHYSICALDAMAGE, pos, 1, mdmg, dmg, 30)
-			addEvent(doAreaCombatMana, 300*n, cid, pos, 1, dmg, dmg, 255)
+			addEvent(doAreaCombatMana, 300*n, cid, pos, 1, mdmg, dmg, 255)
 		end
 			setPlayerStorageValue(cid, sto_jutsu[1], os.time() + temp.exhausted)
 		return true

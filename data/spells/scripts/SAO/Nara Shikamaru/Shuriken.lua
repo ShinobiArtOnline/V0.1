@@ -12,6 +12,9 @@ local poison = createConditionObject(CONDITION_PARALYZE)
 setConditionParam(poison, CONDITION_PARAM_TICKS, 1000)
 setConditionFormula(poison, -0.8, -1, -0.9, -1)
 setCombatCondition(combat1, poison)
+if math.random(1,50) <= 25 then
+setCombatCondition(combat1, poison)
+end
 
 local function onCastSpell1(parameters)
 doCombat(parameters.cid, parameters.combat1, parameters.var)
@@ -47,9 +50,7 @@ local msg = {
 [3] = "",
 
 }
-if math.random(1,50) <= 25 then
-setCombatCondition(combat1, poison)
-end
+
 
 function canEffect(pos, pz, proj) -- Night Wolf based on Nord
 if getTileThingByPos({x = pos.x, y = pos.y, z = pos.z, stackpos = 0}).itemid == 0 then return false end

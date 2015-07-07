@@ -1,13 +1,13 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-
+setCombatParam(combat, COMBAT_PARAM_EFFECT, 15)
 
 function onCastSpell(cid, var)
   if not isCreature(cid) then
     return true
   end
 
-pos=getCreaturePosition(cid)
+
 target=getCreatureTarget(cid)
 pos=getCreaturePosition(target)
 if isPlayer(target) then

@@ -21,6 +21,7 @@
     
 	<attacks>
 	<attack name="melee" interval="1500" min="-100" max="-175"/>
+	<attack name="fireball" interval="1500" min="-80" max="-115"/>
     </attacks>
 	
 	<defenses armor="0" defense="0"> 
